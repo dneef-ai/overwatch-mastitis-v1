@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# run-program.sh — Run the full 5-phase drug discovery workflow for a program
+# run-program.sh — Run the full 6-agent, 5-phase drug discovery workflow for a program
 #
 # Usage: ./run-program.sh <program-name> [--phase N] [--skip-external]
 #
@@ -182,6 +182,29 @@ check_70_percent() {
   fi
 }
 
+check_af3_requests() {
+  local af3_dir="$PROGRAM_DIR/bioinfo/af3_requests"
+  if [[ -d "$af3_dir" ]] && [[ -n "$(ls -A "$af3_dir" 2>/dev/null)" ]]; then
+    echo ""
+    echo "╔══════════════════════════════════════════════════════════════╗"
+    echo "║  AF3 SUBMISSION CHECKPOINT                                   ║"
+    echo "╠══════════════════════════════════════════════════════════════╣"
+    echo "║  Surveyor has requested AlphaFold3 structure predictions.    ║"
+    echo "║                                                              ║"
+    echo "║  Submission requests in: bioinfo/af3_requests/               ║"
+    echo "║  Download results to:    bioinfo/structures/                 ║"
+    echo "║                                                              ║"
+    echo "║  For each request file:                                      ║"
+    echo "║  1. Go to alphafoldserver.com                                ║"
+    echo "║  2. Submit the sequence with specified co-factors            ║"
+    echo "║  3. Download results                                         ║"
+    echo "║                                                              ║"
+    echo "║  Press ENTER when done (or to skip for now)...               ║"
+    echo "╚══════════════════════════════════════════════════════════════╝"
+    read -r
+  fi
+}
+
 # ─── Main Workflow ────────────────────────────────────────────────────────────
 
 echo ""
@@ -203,9 +226,11 @@ if (( START_PHASE <= 2 )); then
   run_agent "sapper" 2
 fi
 
-# Phase 3: Propose Solutions (Forge)
+# Phase 3: Propose Solutions (Forge) + Computational Validation (Surveyor)
 if (( START_PHASE <= 3 )); then
   run_agent "forge" 3
+  run_agent "surveyor" "3b"
+  check_af3_requests
   run_external_review 3 "phase-3-candidates.md"
 fi
 
@@ -229,6 +254,8 @@ if (( START_PHASE <= 5 )); then
     fi
     echo "Loop $LOOP: Sending back to Forge for uncovered stages..."
     run_agent "forge" "5-revision-$LOOP"
+    run_agent "surveyor" "5-revision-$LOOP"
+    check_af3_requests
     run_agent "reaper" "5-revision-$LOOP"
     run_agent "anvil" "5-revision-$LOOP"
   done
