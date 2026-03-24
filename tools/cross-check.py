@@ -14,6 +14,7 @@ import json
 import os
 import re
 import sys
+import time
 import urllib.request
 import urllib.error
 import textwrap
@@ -33,8 +34,8 @@ MODEL_TIERS = {
         "models": ["openrouter_gemini_pro", "openrouter_gpt54", "groq_llama"],
     },
     "premium": {
-        "description": "Top 2 models only (Gemini 3.1 Pro Preview, GPT-5.4)",
-        "models": ["openrouter_gemini_pro", "openrouter_gpt54"],
+        "description": "Top 3: Gemini 3.1 Pro, GPT-5.4, Edison (PaperQA3)",
+        "models": ["openrouter_gemini_pro", "openrouter_gpt54", "edison"],
     },
 }
 
@@ -99,7 +100,7 @@ Structure your response as:
 
 def load_keys():
     """Load API keys from .zshrc and environment."""
-    keys = {"gemini": "", "groq": "", "openrouter": ""}
+    keys = {"gemini": "", "groq": "", "openrouter": "", "edison": ""}
     try:
         with open(os.path.expanduser("~/.zshrc")) as f:
             for line in f:
@@ -110,11 +111,14 @@ def load_keys():
                     keys["groq"] = line.split("=", 1)[1].strip('"').strip("'")
                 elif line.startswith("export OPENROUTER_API_KEY="):
                     keys["openrouter"] = line.split("=", 1)[1].strip('"').strip("'")
+                elif line.startswith("export EDISON_API_KEY="):
+                    keys["edison"] = line.split("=", 1)[1].strip('"').strip("'")
     except FileNotFoundError:
         pass
     keys["gemini"] = keys["gemini"] or os.environ.get("GOOGLE_API_KEY", "")
     keys["groq"] = keys["groq"] or os.environ.get("GROQ_API_KEY", "")
     keys["openrouter"] = keys["openrouter"] or os.environ.get("OPENROUTER_API_KEY", "")
+    keys["edison"] = keys["edison"] or os.environ.get("EDISON_API_KEY", "")
     return keys
 
 
@@ -204,6 +208,38 @@ def query_openrouter(text, api_key, model="openrouter/free", system_prompt=None,
         return f"OpenRouter ({model.split('/')[-1]})", f"ERROR: {e}"
 
 
+def query_edison(text, api_key, system_prompt=None, max_tokens=1000):
+    """Query Edison Scientific platform (Future House PaperQA3) via edison-client.
+
+    Edison is a specialized scientific research agent that retrieves and reads
+    papers. It uses LITERATURE_HIGH job for adversarial reviews (high reasoning
+    mode with SOTA performance). Unlike chat models, Edison actually searches
+    and reads primary literature, producing cited responses.
+
+    Note: Edison tasks can take 2-10 minutes. The client polls automatically.
+    The max_tokens parameter is ignored — Edison controls its own output length.
+    """
+    try:
+        from edison_client import EdisonClient, JobNames
+    except ImportError:
+        return "Edison (PaperQA3)", "ERROR: edison-client not installed. Run: pip install edison-client"
+
+    query = f"{system_prompt}\n\n{text}" if system_prompt else text
+
+    try:
+        client = EdisonClient(api_key=api_key)
+        task_response = client.run_tasks_until_done({
+            "name": JobNames.LITERATURE_HIGH,
+            "query": query,
+        })
+        answer = getattr(task_response, "formatted_answer", None) or getattr(task_response, "answer", "")
+        if not answer:
+            return "Edison (PaperQA3)", "ERROR: Empty response from Edison"
+        return "Edison (PaperQA3)", answer
+    except Exception as e:
+        return "Edison (PaperQA3)", f"ERROR: {e}"
+
+
 # ---------------------------------------------------------------------------
 # Model dispatcher — maps model ID to query function + args
 # ---------------------------------------------------------------------------
@@ -230,6 +266,10 @@ def get_model_runner(model_id, keys):
         if not keys["openrouter"]:
             return None
         return lambda text, sp=None, mt=1000: query_openrouter(text, keys["openrouter"], "openai/gpt-5.4", sp, mt)
+    elif model_id == "edison":
+        if not keys["edison"]:
+            return None
+        return lambda text, sp=None, mt=1000: query_edison(text, keys["edison"], sp, mt)
     else:
         return None
 
@@ -420,7 +460,7 @@ def main():
             Model tiers:
               free      Gemini Flash + Llama 70B (Groq) + OpenRouter free
               standard  Gemini 3.1 Pro (OR) + GPT-5.4 (OR) + Llama 70B (Groq)
-              premium   Gemini 3.1 Pro (OR) + GPT-5.4 (OR) only
+              premium   Gemini 3.1 Pro (OR) + GPT-5.4 (OR) + Edison (PaperQA3)
         """),
     )
     group = parser.add_mutually_exclusive_group(required=True)
