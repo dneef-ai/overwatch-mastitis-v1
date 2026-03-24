@@ -19,7 +19,7 @@ Agent prompts: `agents/pathfinder.md`, `agents/sapper.md`, `agents/forge.md`, `a
 
 ## External Validation Panel
 
-Two-step process after key phases (after Forge and after Anvil):
+Two-step process after key phases (after Pathfinder, after Forge+Surveyor, and after Anvil):
 
 **Step 1: API review** (automated)
 ```bash
@@ -81,7 +81,7 @@ You are NOT a passive observer. You are the moderator for agents who will natura
 ### After Each Agent
 - Read the output before passing it to the next agent
 - Check: did the agent follow its instructions? Did it cut corners?
-- For Pathfinder: is the disease map complete? Any stages missing?
+- For Pathfinder: is the disease map complete? Any stages missing? Run external review — if external models identify missing mechanisms or disease stages, SEND PATHFINDER BACK with specific gaps to fill before proceeding to Sapper.
 - For Sapper: does EVERY treatment have a specific failure mechanism (not just "didn't work")?
 - For Forge: does EVERY disease stage have at least one candidate? If not, SEND IT BACK.
 - For Surveyor: did every candidate get a verdict? Did it actually run BLAST or just describe what BLAST would show? Are BLAST parameters reported (database, e-value threshold)? If a Category C target has no structure prediction, is there a valid reason (e.g., AF3 submission pending)? Are there AF3 submissions pending that need Daniel's action?

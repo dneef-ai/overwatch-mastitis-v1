@@ -219,6 +219,7 @@ echo "╚═══════════════════════�
 # Phase 1: Disease Map (Pathfinder)
 if (( START_PHASE <= 1 )); then
   run_agent "pathfinder" 1
+  run_external_review 1 "phase-1-disease-map.md"
 fi
 
 # Phase 2: Treatment Failure Analysis (Sapper)
