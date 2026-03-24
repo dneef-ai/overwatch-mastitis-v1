@@ -11,6 +11,7 @@ Write `phase-4-kill-report.md` in the program directory. Read the candidates doc
 Also read:
 - `phase-1-disease-map.md` — to check if candidates actually address what they claim
 - `phase-2-failure-analysis.md` — to check if candidates repeat known failure modes
+- `phase-3b-survey-report.md` — Surveyor's computational validation of targets (conservation across field isolates, host homology, protein annotation, structure predictions). Use this data to ground your kill tests — especially Kill Test 2 (species), Kill Test 4 (strain), Kill Test 5 (resistance), and host selectivity. If Surveyor flagged a target, that's your starting point.
 
 ## How to Attack Each Candidate
 

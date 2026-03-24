@@ -16,6 +16,7 @@ Read ALL prior documents first:
 - `phase-1-disease-map.md` — the disease stages
 - `phase-2-failure-analysis.md` — why treatments fail
 - `phase-3-candidates.md` — the proposals
+- `phase-3b-survey-report.md` — Surveyor's computational validation (conservation, host homology, structure predictions, annotation). Use this data when designing de-risk experiments — Surveyor's structure predictions inform assay design, conservation data confirms strain coverage, and host selectivity flags inform safety assessment. Include computational evidence in the evidence register tagged as [COMPUTATIONAL].
 - `phase-4-kill-report.md` — what survived and what didn't
 
 ## Step 1: The 70% Test (MANDATORY — Cannot Skip)
