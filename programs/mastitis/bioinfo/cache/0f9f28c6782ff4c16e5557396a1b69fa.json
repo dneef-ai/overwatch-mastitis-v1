@@ -1,0 +1,186 @@
+[
+  {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q2KHU4",
+    "organism": {
+      "scientificName": "Bos taurus",
+      "commonName": "Bovine",
+      "taxonId": 9913,
+      "lineage": [
+        "Eukaryota",
+        "Metazoa",
+        "Chordata",
+        "Craniata",
+        "Vertebrata",
+        "Euteleostomi",
+        "Mammalia",
+        "Eutheria",
+        "Laurasiatheria",
+        "Artiodactyla",
+        "Ruminantia",
+        "Pecora",
+        "Bovidae",
+        "Bovinae",
+        "Bos"
+      ]
+    },
+    "proteinDescription": {
+      "recommendedName": {
+        "fullName": {
+          "value": "ATP-dependent Clp protease proteolytic subunit, mitochondrial"
+        },
+        "ecNumbers": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "Q16740"
+              }
+            ],
+            "value": "3.4.21.92"
+          }
+        ]
+      },
+      "alternativeNames": [
+        {
+          "fullName": {
+            "value": "Endopeptidase Clp"
+          }
+        }
+      ],
+      "flag": "Precursor"
+    },
+    "genes": [
+      {
+        "geneName": {
+          "value": "CLPP"
+        }
+      }
+    ],
+    "comments": [
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "Q16740"
+              }
+            ],
+            "value": "Protease component of the ClpXP complex that cleaves peptides and various proteins in an ATP-dependent process. Has low peptidase activity in the absence of CLPX. The ClpXP complex can degrade CSN1S1, CSN2 and CSN3, as well as synthetic peptides (in vitro) and may be responsible for a fairly general and central housekeeping function rather than for the degradation of specific substrates. Cleaves PINK1 in the mitochondrion"
+          }
+        ],
+        "commentType": "FUNCTION"
+      }
+    ],
+    "sequence": {
+      "length": 272
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000695E86"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0AAF6Z0I0",
+    "organism": {
+      "scientificName": "Bos taurus",
+      "commonName": "Bovine",
+      "taxonId": 9913,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "Ensembl",
+          "id": "ENSBTAP00000019577.4"
+        },
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "Proteomes",
+          "id": "UP000009136"
+        }
+      ],
+      "lineage": [
+        "Eukaryota",
+        "Metazoa",
+        "Chordata",
+        "Craniata",
+        "Vertebrata",
+        "Euteleostomi",
+        "Mammalia",
+        "Eutheria",
+        "Laurasiatheria",
+        "Artiodactyla",
+        "Ruminantia",
+        "Pecora",
+        "Bovidae",
+        "Bovinae",
+        "Bos"
+      ]
+    },
+    "proteinDescription": {
+      "recommendedName": {
+        "fullName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "source": "RuleBase",
+              "id": "RU003567"
+            }
+          ],
+          "value": "ATP-dependent Clp protease proteolytic subunit"
+        },
+        "ecNumbers": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000256",
+                "source": "RuleBase",
+                "id": "RU000549"
+              }
+            ],
+            "value": "3.4.21.92"
+          }
+        ]
+      }
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "Ensembl",
+              "id": "ENSBTAP00000019577.4"
+            }
+          ],
+          "value": "CLPP"
+        }
+      }
+    ],
+    "comments": [
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000256",
+                "source": "ARBA",
+                "id": "ARBA00059469"
+              }
+            ],
+            "value": "Protease component of the ClpXP complex that cleaves peptides and various proteins in an ATP-dependent process. Has low peptidase activity in the absence of CLPX. The ClpXP complex can degrade CSN1S1, CSN2 and CSN3, as well as synthetic peptides (in vitro) and may be responsible for a fairly general and central housekeeping function rather than for the degradation of specific substrates. Cleaves PINK1 in the mitochondrion"
+          }
+        ],
+        "commentType": "FUNCTION"
+      }
+    ],
+    "sequence": {
+      "length": 247
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI00114BE9D6"
+    }
+  }
+]

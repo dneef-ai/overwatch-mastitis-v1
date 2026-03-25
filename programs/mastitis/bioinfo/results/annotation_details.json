@@ -1,0 +1,221 @@
+{
+  "2A": {
+    "localization": [
+      "Cell membrane"
+    ],
+    "function": "Transpeptidase that anchors surface proteins to the cell wall (PubMed:10427003, PubMed:10446208, PubMed:10535938, PubMed:11714722, PubMed:14769030, PubMed:15247224). Recognizes and modifies its substrate by proteolytic cleavage of a C-terminal sorting signal. Following cleavage, a covalent intermediate is formed via a thioester bond between the sortase and its substrate, which is then transferred and covalently attached to the cell wall (PubMed:10446208, PubMed:10535938, PubMed:11714722, PubMed:",
+    "signal_peptide": false,
+    "tm_count": 1,
+    "tm_details": [
+      "7-24"
+    ],
+    "active_sites": [
+      "120: Proton donor/acceptor",
+      "184: Acyl-thioester intermediate"
+    ],
+    "metal_binding": [],
+    "domains": [],
+    "keywords": [
+      "3D-structure",
+      "Cell membrane",
+      "Hydrolase",
+      "Membrane",
+      "Metal-binding",
+      "Protease",
+      "Reference proteome",
+      "Thiol protease",
+      "Transmembrane",
+      "Transmembrane helix"
+    ],
+    "pdb_ids": [
+      "1IJA",
+      "1T2O",
+      "1T2P",
+      "1T2W",
+      "2KID",
+      "6R1V",
+      "7S54"
+    ]
+  },
+  "2B": {
+    "localization": [
+      "Secreted, cell wall"
+    ],
+    "function": "Possesses multiple, substituting fibronectin (Fn) binding regions, each capable of conferring adherence to both soluble and immobilized forms of Fn. This confers to S.aureus the ability to invade endothelial cells both in vivo and in vitro, without requiring additional factors, although in a slow and inefficient way through actin rearrangements in host cells. This invasion process is mediated by integrin alpha-5/beta-1. Promotes bacterial attachment to both soluble and immobilized forms of fibri",
+    "signal_peptide": true,
+    "tm_count": 0,
+    "tm_details": [],
+    "active_sites": [],
+    "metal_binding": [],
+    "domains": [],
+    "keywords": [
+      "3D-structure",
+      "Cell adhesion",
+      "Cell wall",
+      "Peptidoglycan-anchor",
+      "Reference proteome",
+      "Repeat",
+      "Secreted",
+      "Signal",
+      "Virulence"
+    ],
+    "pdb_ids": [
+      "2RKY",
+      "2RKZ",
+      "2RL0",
+      "3CAL",
+      "4B5Z",
+      "4B60"
+    ]
+  },
+  "3A": {
+    "localization": [
+      "Secreted, cell wall",
+      "Secreted"
+    ],
+    "function": "Plays a role in the inhibition of the host innate and adaptive immune responses. Possesses five immunoglobulin-binding domains that capture both the fragment crystallizable region (Fc region) and the Fab region (part of Ig that identifies antigen) of immunoglobulins (By similarity). In turn, Staphylococcus aureus is protected from phagocytic killing via inhibition of Ig Fc region. In addition, the host elicited B-cell response is prevented due to a decrease of antibody-secreting cell proliferati",
+    "signal_peptide": true,
+    "tm_count": 0,
+    "tm_details": [],
+    "active_sites": [],
+    "metal_binding": [],
+    "domains": [
+      "LysM (413-457)"
+    ],
+    "keywords": [
+      "Cell wall",
+      "Direct protein sequencing",
+      "Peptidoglycan-anchor",
+      "Repeat",
+      "Secreted",
+      "Signal",
+      "Virulence"
+    ],
+    "pdb_ids": []
+  },
+  "3B": {
+    "localization": [],
+    "function": "",
+    "signal_peptide": true,
+    "tm_count": 0,
+    "tm_details": [],
+    "active_sites": [],
+    "metal_binding": [],
+    "domains": [
+      "Leukocidin/Hemolysin toxin (57-299)"
+    ],
+    "keywords": [
+      "Signal"
+    ],
+    "pdb_ids": []
+  },
+  "3D": {
+    "localization": [
+      "Secreted, cell wall"
+    ],
+    "function": "",
+    "signal_peptide": true,
+    "tm_count": 0,
+    "tm_details": [],
+    "active_sites": [],
+    "metal_binding": [],
+    "domains": [
+      "Gram-positive cocci surface proteins LPxTG (735-768)"
+    ],
+    "keywords": [
+      "Cell wall",
+      "Hydrolase",
+      "Nucleotide-binding",
+      "Peptidoglycan-anchor",
+      "Secreted",
+      "Signal"
+    ],
+    "pdb_ids": []
+  },
+  "4A": {
+    "localization": [
+      "Secreted"
+    ],
+    "function": "Alpha-toxin binds to the membrane of eukaryotic cells (particularly red blood cells, RBC) forming pores, resulting in hemolysis, with the release of low-molecular weight molecules leading to eventual osmotic RBC lysis (PubMed:1587866, PubMed:20624979). Human RBCs bind much less alpha-toxin than do rabbit RBCs (PubMed:1587866, PubMed:20624979). Heptamer oligomerization and pore formation is required for lytic activity (PubMed:1587866, PubMed:20624979)",
+    "signal_peptide": true,
+    "tm_count": 0,
+    "tm_details": [],
+    "active_sites": [],
+    "metal_binding": [],
+    "domains": [],
+    "keywords": [
+      "3D-structure",
+      "Cytolysis",
+      "Direct protein sequencing",
+      "Hemolysis",
+      "Secreted",
+      "Signal",
+      "Toxin",
+      "Virulence"
+    ],
+    "pdb_ids": [
+      "3M2L",
+      "3M3R",
+      "3M4D",
+      "3M4E",
+      "4IDJ",
+      "4YHD",
+      "6U3T",
+      "6U49",
+      "6U4P",
+      "7AHL",
+      "7O1Q",
+      "8JX2",
+      "8JX3"
+    ]
+  },
+  "5B": {
+    "localization": [
+      "Cytoplasm"
+    ],
+    "function": "Cleaves peptides in various proteins in a process that requires ATP hydrolysis. Has a chymotrypsin-like activity. Plays a major role in the degradation of misfolded proteins",
+    "signal_peptide": false,
+    "tm_count": 0,
+    "tm_details": [],
+    "active_sites": [
+      "98: Nucleophile",
+      "123: "
+    ],
+    "metal_binding": [],
+    "domains": [],
+    "keywords": [
+      "Cytoplasm",
+      "Hydrolase",
+      "Protease",
+      "Serine protease"
+    ],
+    "pdb_ids": []
+  },
+  "5F": {
+    "localization": [
+      "Cell membrane"
+    ],
+    "function": "N-acetylglucosaminyltransferase that catalyzes the polymerization of single monomer units of UDP-N-acetylglucosamine to produce the linear homomer poly-beta-1,6-N-acetyl-D-glucosamine (PNAG, also referred to as PIA), a biofilm adhesin polysaccharide. Requires IcaD for full activity (By similarity)",
+    "signal_peptide": false,
+    "tm_count": 4,
+    "tm_details": [
+      "6-26",
+      "298-318",
+      "332-352",
+      "366-386"
+    ],
+    "active_sites": [],
+    "metal_binding": [],
+    "domains": [],
+    "keywords": [
+      "Cell membrane",
+      "Glycosyltransferase",
+      "Membrane",
+      "Reference proteome",
+      "Transferase",
+      "Transmembrane",
+      "Transmembrane helix"
+    ],
+    "pdb_ids": []
+  }
+}

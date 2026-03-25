@@ -1,0 +1,19 @@
+{
+  "accession": "Q6GDD5",
+  "entry_name": "ICAC_STAAR",
+  "protein_name": "Probable poly-beta-1,6-N-acetyl-D-glucosamine export protein",
+  "gene_names": [
+    "icaC"
+  ],
+  "organism": "Staphylococcus aureus (strain MRSA252)",
+  "organism_id": 282458,
+  "length": 350,
+  "sequence": "MKKIRLELVYLRAIICAIIIVTHLLTQITLKHENMEGGSLVLQFYIRNIVIFGTPCFIILSQLLTTLNYQKVTYRYLTTRVKYILIPYILMGLFYSYSESLLTDTSFQKQFIENVLLGQWYGYFIVVIMQFFILSYIIFKINYNLFNSKILLLLSFILQQSFLYYFTNNTAFHDTVLHYYPLSENTIIFGWIFYFFLGAYMGYNYERVLNFLERYLVIMIVLAVATYFVFIALANGDYWNVTSFSYSLTPYNSIMFIVILGICTHFKTMLFNTIQMISAFSFFIYLLHPIILDSLFAYTNIFEDNTMVFLAISLLFILGLCIGVGMILREFYIFRFIIGKQPYKLNINAY",
+  "subcellular_location": [
+    "Cell membrane"
+  ],
+  "function": "Presumably involved in the export of the biofilm adhesin polysaccharide poly-beta-1,6-N-acetyl-D-glucosamine (PNAG, also referred to as PIA) across the cell membrane",
+  "signal_peptide": false,
+  "transmembrane_domains": 10,
+  "alphafold_id": "Q6GDD5"
+}

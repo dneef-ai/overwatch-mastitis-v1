@@ -1,0 +1,4405 @@
+[
+  {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P38507",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 508
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000135D8D"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0A2Z6FKF3",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "BBE28337.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "BBE28337.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 426
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI000DBB4327"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A1KE03",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAL51159.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAL51159.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 392
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000ECF4EF"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A1KE97",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAL51253.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAL51253.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 458
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000ECF530"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q2UW09",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAJ28194.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAJ28194.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 435
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000675A6B"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q2UW15",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAJ28187.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAJ28187.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 467
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000675A6D"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q2UW32",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAJ28170.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAJ28170.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 369
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000675A5F"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q2UW39",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAJ28163.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAJ28163.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 459
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000675A5D"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q2UW42",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAJ28160.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAJ28160.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 451
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000675A5C"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q2UW54",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAJ28148.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAJ28148.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 467
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000675A55"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0A2Z6FJG4",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "BBE28339.2"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "BBE28339.2"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 261
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI000DBB03D4"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A1KDX6",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAL51132.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAL51132.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 425
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000ECF4CB"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A1KE58",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAL51214.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAL51214.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 450
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000ECF51C"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A1KE60",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAL51216.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAL51216.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 384
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000ECF51E"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A1KE61",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAL51217.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAL51217.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 466
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000ECF51F"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A1KE63",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAL51219.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAL51219.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 442
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000ECF520"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A1KE65",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAL51221.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAL51221.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 360
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000ECF526"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A1KE68",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAL51224.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAL51224.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 442
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000ECF527"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A1KE73",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAL51229.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAL51229.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 458
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000ECF529"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A1KE85",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAL51241.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAL51241.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 450
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000ECF52F"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A7XW82",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "ABS84876.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "ABS84876.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 391
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI00015C197D"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A7XW86",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "ABS84878.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "ABS84878.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 439
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI00015C197F"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A7XW87",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "ABS84879.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "ABS84879.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 473
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI00015C1980"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "B8Y6N0",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "ACL54841.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "ACL54841.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 310
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0001921C4F"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "C0STU4",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "BAH56724.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "BAH56724.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 410
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI00019B263C"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q2UW25",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAJ28177.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAJ28177.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 467
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000675A67"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q2UW48",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAJ28154.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAJ28154.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 507
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000675A57"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q2UW56",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAJ28146.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAJ28146.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 434
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000675A54"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q53779",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "AAB05743.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "AAB05743.1"
+            }
+          ],
+          "value": "SpA"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 472
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI00000B4752"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A1KE17",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAL51173.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAL51173.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 426
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000ECF4F9"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A1KE57",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAL51213.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAL51213.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 474
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000ECF51B"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A1KE74",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAL51230.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAL51230.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 474
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000ECF52A"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A1KE76",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAL51232.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAL51232.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 409
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000ECF52B"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A1KE98",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAL51254.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAL51254.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 393
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000ECF531"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A1KEA2",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAL51258.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAL51258.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 426
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000ECF532"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A7XW80",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "ABS84875.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "ABS84875.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 465
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI00015C197C"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "B8Y6M9",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "ACL54840.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "ACL54840.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 281
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0001921C4E"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "H9BRN9",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "AFD54305.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "AFD54305.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 454
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0002571E9F"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "M4M880",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "AGG56588.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "AGG56588.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 373
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0002C0F7A9"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "M4MB12",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "AGG56586.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "AGG56586.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 476
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0002C0B967"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "M4MB15",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "AGG56591.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "AGG56591.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 558
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0002C1247D"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "M4MFJ7",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "AGG56584.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "AGG56584.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 389
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0002C0778B"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q2UW16",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAJ28186.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAJ28186.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 459
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000675A66"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q2UW24",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAJ28178.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAJ28178.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 483
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000675A68"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q2UW30",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAJ28172.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAJ28172.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 475
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000675A64"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q2UW31",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAJ28171.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAJ28171.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 459
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000675A63"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q2UW34",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAJ28168.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAJ28168.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 435
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000675A61"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q2UW45",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAJ28157.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAJ28157.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 409
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000675A5A"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q2UW51",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAJ28151.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAJ28151.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 377
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000675A56"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q2UW58",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAJ28144.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAJ28144.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 401
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000675A53"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q2UW59",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAJ28143.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAJ28143.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 459
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000675A52"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q53759",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAA43604.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAA43604.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 454
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI00000B19FE"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0A0A7LVG6",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "AIZ66653.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "AIZ66653.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 163
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI000549E6CF"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0A2D1LVN0",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "ATO58970.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "ATO58970.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 411
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI000C128EFD"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0A2Z6FJG3",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "BBE28338.2"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "BBE28338.2"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 394
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI000DBBA67A"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0A2Z6FJX2",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "BBE28341.2"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "BBE28341.2"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 532
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI000DBBA822"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A1KDX7",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAL51133.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAL51133.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 450
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000ECF4DB"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A1KDY8",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAL51144.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAL51144.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 442
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000ECF4DE"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A1KE08",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAL51164.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAL51164.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 368
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000ECF4F8"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A1KE27",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAL51183.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAL51183.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 400
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000ECF502"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A1KE28",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAL51184.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAL51184.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 442
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000ECF503"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A1KE35",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAL51191.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAL51191.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 498
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000ECF50C"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A1KE43",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAL51199.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAL51199.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 450
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000ECF50E"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A1KE59",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAL51215.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAL51215.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 368
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000ECF51D"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A7XW84",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "ABS84877.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "ABS84877.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 383
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI00015C197E"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "B8Y6N2",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "ACL54843.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "ACL54843.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 434
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0001921C51"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "M4M859",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "AGG56587.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "AGG56587.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 462
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0002C1470B"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "M4M9Q8",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "AGG56585.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "AGG56585.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 402
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0002C11313"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "M4M9R1",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "AGG56590.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "AGG56590.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 498
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0002C15C16"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "M4QBE8",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "AGH20711.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "AGH20711.1"
+            }
+          ],
+          "value": "spA"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 512
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0002C0EE00"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q2UW14",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAJ28188.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAJ28188.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 402
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000675A6E"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q2UW18",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAJ28184.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAJ28184.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 393
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000675A6C"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q2UW23",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAJ28179.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAJ28179.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 451
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000675A69"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q2UW33",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAJ28169.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAJ28169.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 435
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000675A62"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q2UW35",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAJ28167.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAJ28167.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 418
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000675A60"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q2UW37",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAJ28165.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAJ28165.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 377
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000675A5E"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q2UW46",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAJ28156.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAJ28156.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 459
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000675A59"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q2UW47",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAJ28155.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAJ28155.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 451
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000675A58"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q683L6",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAH25545.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAH25545.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 343
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI000042B7BC"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q9KWJ1",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "BAB03342.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "BAB03342.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 198
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI00000BB008"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0A2Z6GGC4",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "BBE52951.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "BBE52951.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 264
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI000DC728E1"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0A5A4RH73",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "BBH84955.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "BBH84955.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 458
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0011D2D958"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A1KDX8",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAL51134.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAL51134.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 450
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000ECF4DC"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A1KDY5",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAL51141.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAL51141.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 450
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000ECF4DD"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A1KE04",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAL51160.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAL51160.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 466
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000ECF4F0"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A1KE26",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAL51182.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAL51182.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 450
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000ECF501"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A1KE29",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAL51185.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAL51185.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 458
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000ECF504"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A1KE40",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAL51196.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAL51196.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 442
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000ECF50D"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A1KE71",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAL51227.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAL51227.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 426
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000ECF528"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A7XW76",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "ABS84873.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "ABS84873.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 391
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI00015C197B"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "B8Y6N1",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "ACL54842.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "ACL54842.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 450
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0001921C50"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "B8Y6N3",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "ACL54844.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "ACL54844.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 321
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0001921C52"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "M4MFK0",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "AGG56589.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "AGG56589.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 281
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0002C041B5"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q2UW21",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAJ28181.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAJ28181.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 459
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000675A6A"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q2UW26",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAJ28176.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAJ28176.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 451
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000675A65"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q2UW44",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAJ28158.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAJ28158.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 451
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000675A5B"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q70AB7",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAE54484.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAE54484.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 312
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI000021C54C"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q70AB8",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAE54483.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAE54483.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 252
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI000021C54B"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q70AB9",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAE54482.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAE54482.1"
+            }
+          ],
+          "value": "spa"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 323
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI000021C54A"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0A7I8NLK9",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAC8516528.1"
+        },
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "Proteomes",
+          "id": "UP000507408"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAC8516528.1"
+            }
+          ],
+          "value": "spa"
+        },
+        "orfNames": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "CAC8516528.1"
+              }
+            ],
+            "value": "SAMEA70245418_01534"
+          }
+        ]
+      }
+    ],
+    "sequence": {
+      "length": 476
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI00044E45BC"
+    }
+  }
+]

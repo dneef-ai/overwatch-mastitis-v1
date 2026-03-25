@@ -1,0 +1,1327 @@
+{
+  "2A": {
+    "gene": "srtA",
+    "accession": "Q2FV99",
+    "conservation": {
+      "num_entries": 13,
+      "entries": [
+        {
+          "accession": "J7FPJ3",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 206,
+          "genes": [
+            "srtA"
+          ]
+        },
+        {
+          "accession": "A0A380ENW9",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 135,
+          "genes": [
+            "srtA"
+          ]
+        },
+        {
+          "accession": "A0A8G2I1R4",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 206,
+          "genes": [
+            "srtA"
+          ]
+        },
+        {
+          "accession": "A0AB72YUJ8",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 206,
+          "genes": [
+            "srtA"
+          ]
+        },
+        {
+          "accession": "A0A380DSD0",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 154,
+          "genes": [
+            "srtA_1"
+          ]
+        },
+        {
+          "accession": "A0A380DQ13",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 38,
+          "genes": [
+            "srtA_2"
+          ]
+        },
+        {
+          "accession": "A0A0M0Z384",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 206,
+          "genes": [
+            "srtA"
+          ]
+        },
+        {
+          "accession": "A0A2S6D8R0",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 206,
+          "genes": [
+            "srtA"
+          ]
+        },
+        {
+          "accession": "A0A2S6DV16",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 206,
+          "genes": [
+            "srtA"
+          ]
+        },
+        {
+          "accession": "A0AAE8PBZ9",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 206,
+          "genes": [
+            "srtA"
+          ]
+        },
+        {
+          "accession": "A0A6B1RMY6",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 206,
+          "genes": [
+            "srtA"
+          ]
+        },
+        {
+          "accession": "Q9S446",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 206,
+          "genes": [
+            "srtA"
+          ]
+        },
+        {
+          "accession": "A0A4P7PAF7",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 206,
+          "genes": [
+            "srtA"
+          ]
+        }
+      ],
+      "length_range": "38-206",
+      "reference_length": 206
+    },
+    "host_selectivity": {
+      "num_bovine_hits": 0,
+      "hits": [],
+      "note": "No bovine homolog found by name search"
+    },
+    "annotation": {},
+    "claimed_localization": "membrane-anchored, active site extracellular",
+    "claimed_function": "Transpeptidase that anchors surface proteins (MSCRAMMs) to cell wall",
+    "claimed_essentiality": "Non-essential for growth"
+  },
+  "2B": {
+    "gene": "fnbA",
+    "accession": "P14738",
+    "conservation": {
+      "num_entries": 100,
+      "entries": [
+        {
+          "accession": "A0A0S3CVK3",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 92,
+          "genes": [
+            "fnbA"
+          ]
+        },
+        {
+          "accession": "A0A0S3CVM0",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 556,
+          "genes": [
+            "fnbA"
+          ]
+        },
+        {
+          "accession": "A0A0S3CVM6",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 387,
+          "genes": [
+            "fnbA"
+          ]
+        },
+        {
+          "accession": "A0A0S3CVN3",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 360,
+          "genes": [
+            "fnbA"
+          ]
+        },
+        {
+          "accession": "A0A0S3CVN4",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 538,
+          "genes": [
+            "fnbA"
+          ]
+        },
+        {
+          "accession": "A0A0S3CVP0",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 594,
+          "genes": [
+            "fnbA"
+          ]
+        },
+        {
+          "accession": "A0A0S3CVQ1",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 567,
+          "genes": [
+            "fnbA"
+          ]
+        },
+        {
+          "accession": "A0A0S3CVQ5",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 559,
+          "genes": [
+            "fnbA"
+          ]
+        },
+        {
+          "accession": "A0A0S3CVQ7",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 303,
+          "genes": [
+            "fnbA"
+          ]
+        },
+        {
+          "accession": "A0A0S3CVR3",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 548,
+          "genes": [
+            "fnbA"
+          ]
+        },
+        {
+          "accession": "A0A0S3CVR8",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 526,
+          "genes": [
+            "fnbA"
+          ]
+        },
+        {
+          "accession": "A0A0S3CVS2",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 559,
+          "genes": [
+            "fnbA"
+          ]
+        },
+        {
+          "accession": "A0A0S3CVS3",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 578,
+          "genes": [
+            "fnbA"
+          ]
+        },
+        {
+          "accession": "A0A0S3CVT0",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 289,
+          "genes": [
+            "fnbA"
+          ]
+        },
+        {
+          "accession": "A0A0S3CVT2",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 562,
+          "genes": [
+            "fnbA"
+          ]
+        },
+        {
+          "accession": "A0A0S3CVW8",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 552,
+          "genes": [
+            "fnbA"
+          ]
+        },
+        {
+          "accession": "A0A0S3CVX6",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 419,
+          "genes": [
+            "fnbA"
+          ]
+        },
+        {
+          "accession": "A0A0S3CVZ0",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 432,
+          "genes": [
+            "fnbA"
+          ]
+        },
+        {
+          "accession": "A0A0S3CVZ4",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 469,
+          "genes": [
+            "fnbA"
+          ]
+        },
+        {
+          "accession": "A0A0S3CW06",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 371,
+          "genes": [
+            "fnbA"
+          ]
+        }
+      ],
+      "length_range": "70-606",
+      "reference_length": 1018
+    },
+    "host_selectivity": {
+      "num_bovine_hits": 0,
+      "hits": [],
+      "note": "No bovine homolog found by name search"
+    },
+    "annotation": {},
+    "claimed_localization": "Cell surface (sortase-anchored)",
+    "claimed_function": "Adhesin binding host fibronectin, mediating internalization into epithelial cells",
+    "claimed_essentiality": "Non-essential for growth"
+  },
+  "3A": {
+    "gene": "spa",
+    "accession": "A0A0H3K686",
+    "conservation": {
+      "num_entries": 100,
+      "entries": [
+        {
+          "accession": "P38507",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 508,
+          "genes": [
+            "spa"
+          ]
+        },
+        {
+          "accession": "A0A2Z6FKF3",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 426,
+          "genes": [
+            "spa"
+          ]
+        },
+        {
+          "accession": "A1KE03",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 392,
+          "genes": [
+            "spa"
+          ]
+        },
+        {
+          "accession": "A1KE97",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 458,
+          "genes": [
+            "spa"
+          ]
+        },
+        {
+          "accession": "Q2UW09",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 435,
+          "genes": [
+            "spa"
+          ]
+        },
+        {
+          "accession": "Q2UW15",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 467,
+          "genes": [
+            "spa"
+          ]
+        },
+        {
+          "accession": "Q2UW32",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 369,
+          "genes": [
+            "spa"
+          ]
+        },
+        {
+          "accession": "Q2UW39",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 459,
+          "genes": [
+            "spa"
+          ]
+        },
+        {
+          "accession": "Q2UW42",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 451,
+          "genes": [
+            "spa"
+          ]
+        },
+        {
+          "accession": "Q2UW54",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 467,
+          "genes": [
+            "spa"
+          ]
+        },
+        {
+          "accession": "A0A2Z6FJG4",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 261,
+          "genes": [
+            "spa"
+          ]
+        },
+        {
+          "accession": "A1KDX6",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 425,
+          "genes": [
+            "spa"
+          ]
+        },
+        {
+          "accession": "A1KE58",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 450,
+          "genes": [
+            "spa"
+          ]
+        },
+        {
+          "accession": "A1KE60",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 384,
+          "genes": [
+            "spa"
+          ]
+        },
+        {
+          "accession": "A1KE61",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 466,
+          "genes": [
+            "spa"
+          ]
+        },
+        {
+          "accession": "A1KE63",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 442,
+          "genes": [
+            "spa"
+          ]
+        },
+        {
+          "accession": "A1KE65",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 360,
+          "genes": [
+            "spa"
+          ]
+        },
+        {
+          "accession": "A1KE68",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 442,
+          "genes": [
+            "spa"
+          ]
+        },
+        {
+          "accession": "A1KE73",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 458,
+          "genes": [
+            "spa"
+          ]
+        },
+        {
+          "accession": "A1KE85",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 450,
+          "genes": [
+            "spa"
+          ]
+        }
+      ],
+      "length_range": "163-558",
+      "reference_length": 508
+    },
+    "host_selectivity": {
+      "num_bovine_hits": 0,
+      "hits": [],
+      "note": "No bovine homolog found by name search"
+    },
+    "annotation": {},
+    "claimed_localization": "Cell surface (sortase-anchored)",
+    "claimed_function": "Binds IgG-Fc and VH3-Fab, immune evasion",
+    "claimed_essentiality": "Non-essential for growth"
+  },
+  "3B": {
+    "gene": "lukM",
+    "accession": "Q53703",
+    "conservation": {
+      "num_entries": 2,
+      "entries": [
+        {
+          "accession": "Q53703",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 308,
+          "genes": [
+            "lukM"
+          ]
+        },
+        {
+          "accession": "Q3MUH1",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 308,
+          "genes": [
+            "lukM"
+          ]
+        }
+      ],
+      "length_range": "308-308",
+      "reference_length": 308
+    },
+    "host_selectivity": {
+      "num_bovine_hits": 10,
+      "hits": [
+        {
+          "accession": "A0JN54",
+          "protein_name": "Diacylglycerol kinase alpha",
+          "genes": [
+            "DGKA"
+          ],
+          "length": 734,
+          "function": "Diacylglycerol kinase that converts diacylglycerol/DAG into phosphatidic acid/phosphatidate/PA and regulates the respective levels of these two bioactive lipids. Thereby, acts as a central switch betw"
+        },
+        {
+          "accession": "A0JNH9",
+          "protein_name": "Aprataxin and PNK-like factor",
+          "genes": [
+            "APLF"
+          ],
+          "length": 485,
+          "function": "Histone chaperone involved in single-strand and double-strand DNA break repair. Recruited to sites of DNA damage through interaction with branched poly-ADP-ribose chains, a polymeric post-translationa"
+        },
+        {
+          "accession": "A1A4J1",
+          "protein_name": "ATP-dependent 6-phosphofructokinase, liver type",
+          "genes": [
+            "PFKL"
+          ],
+          "length": 780,
+          "function": "Catalyzes the phosphorylation of D-fructose 6-phosphate to fructose 1,6-bisphosphate by ATP, the first committing step of glycolysis (By similarity). Negatively regulates the phagocyte oxidative burst"
+        },
+        {
+          "accession": "A2VDL6",
+          "protein_name": "Sodium/potassium-transporting ATPase subunit alpha-2",
+          "genes": [
+            "ATP1A2"
+          ],
+          "length": 1020,
+          "function": "This is the catalytic component of the active enzyme, which catalyzes the hydrolysis of ATP coupled with the exchange of sodium and potassium ions across the plasma membrane. This action creates the e"
+        },
+        {
+          "accession": "A2VDN5",
+          "protein_name": "Spastin",
+          "genes": [
+            "SPAST"
+          ],
+          "length": 614,
+          "function": "ATP-dependent microtubule severing protein that specifically recognizes and cuts microtubules that are polyglutamylated. Preferentially recognizes and acts on microtubules decorated with short polyglu"
+        }
+      ],
+      "note": "Name-based search only; BLASTP needed for sequence-level homology"
+    },
+    "annotation": {},
+    "claimed_localization": "Secreted",
+    "claimed_function": "Bicomponent pore-forming leukocidin targeting bovine neutrophils via CCR1",
+    "claimed_essentiality": "Non-essential; lineage-dependent carriage (CC151 high, CC97 ~30%)"
+  },
+  "3D": {
+    "gene": "adsA",
+    "accession": "A0ABD6ZXM2",
+    "conservation": {
+      "num_entries": 7,
+      "entries": [
+        {
+          "accession": "A0ABD6ZXM2",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 768,
+          "genes": [
+            "adsA"
+          ]
+        },
+        {
+          "accession": "A0A6G4IVG2",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 772,
+          "genes": [
+            "adsA"
+          ]
+        },
+        {
+          "accession": "A0AAE8TKC7",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 772,
+          "genes": [
+            "ushA"
+          ]
+        },
+        {
+          "accession": "A0A1S6DAJ0",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 772,
+          "genes": [
+            "adsA"
+          ]
+        },
+        {
+          "accession": "A0A391DK74",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 772,
+          "genes": [
+            "adsA"
+          ]
+        },
+        {
+          "accession": "A0A6B0CZD1",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 380,
+          "genes": [
+            "adsA"
+          ]
+        },
+        {
+          "accession": "A0A0Y9D083",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 772,
+          "genes": [
+            "yfkN_3"
+          ]
+        }
+      ],
+      "length_range": "380-772",
+      "reference_length": 768
+    },
+    "host_selectivity": {
+      "num_bovine_hits": 10,
+      "hits": [
+        {
+          "accession": "A0JN54",
+          "protein_name": "Diacylglycerol kinase alpha",
+          "genes": [
+            "DGKA"
+          ],
+          "length": 734,
+          "function": "Diacylglycerol kinase that converts diacylglycerol/DAG into phosphatidic acid/phosphatidate/PA and regulates the respective levels of these two bioactive lipids. Thereby, acts as a central switch betw"
+        },
+        {
+          "accession": "A0JNH9",
+          "protein_name": "Aprataxin and PNK-like factor",
+          "genes": [
+            "APLF"
+          ],
+          "length": 485,
+          "function": "Histone chaperone involved in single-strand and double-strand DNA break repair. Recruited to sites of DNA damage through interaction with branched poly-ADP-ribose chains, a polymeric post-translationa"
+        },
+        {
+          "accession": "A1A4J1",
+          "protein_name": "ATP-dependent 6-phosphofructokinase, liver type",
+          "genes": [
+            "PFKL"
+          ],
+          "length": 780,
+          "function": "Catalyzes the phosphorylation of D-fructose 6-phosphate to fructose 1,6-bisphosphate by ATP, the first committing step of glycolysis (By similarity). Negatively regulates the phagocyte oxidative burst"
+        },
+        {
+          "accession": "A2VDL6",
+          "protein_name": "Sodium/potassium-transporting ATPase subunit alpha-2",
+          "genes": [
+            "ATP1A2"
+          ],
+          "length": 1020,
+          "function": "This is the catalytic component of the active enzyme, which catalyzes the hydrolysis of ATP coupled with the exchange of sodium and potassium ions across the plasma membrane. This action creates the e"
+        },
+        {
+          "accession": "A2VDN5",
+          "protein_name": "Spastin",
+          "genes": [
+            "SPAST"
+          ],
+          "length": 614,
+          "function": "ATP-dependent microtubule severing protein that specifically recognizes and cuts microtubules that are polyglutamylated. Preferentially recognizes and acts on microtubules decorated with short polyglu"
+        }
+      ],
+      "note": "Name-based search only; BLASTP needed for sequence-level homology"
+    },
+    "annotation": {},
+    "claimed_localization": "Cell surface (sortase-anchored)",
+    "claimed_function": "5'-nucleotidase converting AMP to adenosine, suppressing neutrophil oxidative burst",
+    "claimed_essentiality": "Non-essential for growth; virulence factor"
+  },
+  "4A": {
+    "gene": "hla",
+    "accession": "P09616",
+    "conservation": {
+      "num_entries": 21,
+      "entries": [
+        {
+          "accession": "P09616",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 319,
+          "genes": [
+            "hly"
+          ]
+        },
+        {
+          "accession": "A0A109V996",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 316,
+          "genes": [
+            "hla"
+          ]
+        },
+        {
+          "accession": "A0A8F2PXC4",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 295,
+          "genes": [
+            "hla"
+          ]
+        },
+        {
+          "accession": "A0A0U2WTE8",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 319,
+          "genes": [
+            "hla"
+          ]
+        },
+        {
+          "accession": "Q6SV31",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 319,
+          "genes": [
+            "hly"
+          ]
+        },
+        {
+          "accession": "A0A075T4T8",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 188,
+          "genes": [
+            "hla"
+          ]
+        },
+        {
+          "accession": "A0A075T6B6",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 188,
+          "genes": [
+            "hla"
+          ]
+        },
+        {
+          "accession": "A0A221IW13",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 70,
+          "genes": [
+            "hla"
+          ]
+        },
+        {
+          "accession": "A0A1P8YVW5",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 70,
+          "genes": [
+            "hla"
+          ]
+        },
+        {
+          "accession": "D5LML1",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 70,
+          "genes": [
+            "hla"
+          ]
+        },
+        {
+          "accession": "E9LJ90",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 128,
+          "genes": [
+            "hla"
+          ]
+        },
+        {
+          "accession": "A0A075T164",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 188,
+          "genes": [
+            "hla"
+          ]
+        },
+        {
+          "accession": "A0A075T4D6",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 188,
+          "genes": [
+            "hla"
+          ]
+        },
+        {
+          "accession": "A0A075T4Y8",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 188,
+          "genes": [
+            "hla"
+          ]
+        },
+        {
+          "accession": "A0A075T4Z3",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 188,
+          "genes": [
+            "hla"
+          ]
+        },
+        {
+          "accession": "A0A075TBM5",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 188,
+          "genes": [
+            "hla"
+          ]
+        },
+        {
+          "accession": "A0A075T4E3",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 188,
+          "genes": [
+            "hla"
+          ]
+        },
+        {
+          "accession": "A0A075TBM9",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 188,
+          "genes": [
+            "hla"
+          ]
+        },
+        {
+          "accession": "A0A0D3Q6S7",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 319,
+          "genes": [
+            "hla"
+          ]
+        },
+        {
+          "accession": "A0A0D6WII1",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 319,
+          "genes": [
+            "hla"
+          ]
+        }
+      ],
+      "length_range": "70-319",
+      "reference_length": 319
+    },
+    "host_selectivity": {
+      "num_bovine_hits": 7,
+      "hits": [
+        {
+          "accession": "Q58DW7",
+          "protein_name": "",
+          "genes": [
+            "HLA-DMB"
+          ],
+          "length": 262,
+          "function": ""
+        },
+        {
+          "accession": "Q30308",
+          "protein_name": "",
+          "genes": [
+            "HLA-DQA1"
+          ],
+          "length": 255,
+          "function": ""
+        },
+        {
+          "accession": "Q5E9C9",
+          "protein_name": "",
+          "genes": [
+            "HLA-A"
+          ],
+          "length": 362,
+          "function": "Involved in the presentation of foreign antigens to the immune system"
+        },
+        {
+          "accession": "Q95394",
+          "protein_name": "",
+          "genes": [
+            "D18.2"
+          ],
+          "length": 363,
+          "function": "Involved in the presentation of foreign antigens to the immune system"
+        },
+        {
+          "accession": "Q30309",
+          "protein_name": "",
+          "genes": [
+            "BoLA-DRA"
+          ],
+          "length": 253,
+          "function": ""
+        }
+      ],
+      "note": "Name-based search only; BLASTP needed for sequence-level homology"
+    },
+    "annotation": {},
+    "claimed_localization": "Secreted",
+    "claimed_function": "Pore-forming toxin targeting epithelial cells, forms heptameric pores",
+    "claimed_essentiality": "Non-essential for growth; major virulence factor"
+  },
+  "5B": {
+    "gene": "clpP",
+    "accession": "P99089",
+    "conservation": {
+      "num_entries": 10,
+      "entries": [
+        {
+          "accession": "A0A7X3JWZ1",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 192,
+          "genes": [
+            "clpP"
+          ]
+        },
+        {
+          "accession": "A0A380DNS7",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 184,
+          "genes": [
+            "clpP"
+          ]
+        },
+        {
+          "accession": "A0A173M2D6",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 245,
+          "genes": [
+            "clpP_2"
+          ]
+        },
+        {
+          "accession": "A0A2X2MCT3",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 171,
+          "genes": [
+            "clpP_1"
+          ]
+        },
+        {
+          "accession": "A0A8G2I2H8",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 245,
+          "genes": [
+            "clpP_2"
+          ]
+        },
+        {
+          "accession": "A0A9N8IJL2",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 245,
+          "genes": [
+            "clpP_1"
+          ]
+        },
+        {
+          "accession": "A0A5F2KCG1",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 245,
+          "genes": [
+            "clpP_2"
+          ]
+        },
+        {
+          "accession": "A0A0D1I3W4",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 195,
+          "genes": [
+            "clpP_1"
+          ]
+        },
+        {
+          "accession": "A0A0C5HDX0",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 245,
+          "genes": [
+            "clpP_2"
+          ]
+        },
+        {
+          "accession": "A0A0K7AB29",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 245,
+          "genes": [
+            "clpP_2"
+          ]
+        }
+      ],
+      "length_range": "171-245",
+      "reference_length": 195
+    },
+    "host_selectivity": {
+      "num_bovine_hits": 2,
+      "hits": [
+        {
+          "accession": "Q2KHU4",
+          "protein_name": "ATP-dependent Clp protease proteolytic subunit, mitochondrial",
+          "genes": [
+            "CLPP"
+          ],
+          "length": 272,
+          "function": "Protease component of the ClpXP complex that cleaves peptides and various proteins in an ATP-dependent process. Has low peptidase activity in the absence of CLPX. The ClpXP complex can degrade CSN1S1,"
+        },
+        {
+          "accession": "A0AAF6Z0I0",
+          "protein_name": "ATP-dependent Clp protease proteolytic subunit",
+          "genes": [
+            "CLPP"
+          ],
+          "length": 247,
+          "function": "Protease component of the ClpXP complex that cleaves peptides and various proteins in an ATP-dependent process. Has low peptidase activity in the absence of CLPX. The ClpXP complex can degrade CSN1S1,"
+        }
+      ],
+      "note": "Name-based search only; BLASTP needed for sequence-level homology"
+    },
+    "annotation": {},
+    "claimed_localization": "Cytoplasmic",
+    "claimed_function": "Protease involved in protein quality control; ADEP activation causes unregulated proteolysis",
+    "claimed_essentiality": "Essential in S. aureus"
+  },
+  "5F": {
+    "gene": "icaA",
+    "accession": "Q9RQP9",
+    "conservation": {
+      "num_entries": 30,
+      "entries": [
+        {
+          "accession": "A0A2R3ZEK1",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 412,
+          "genes": [
+            "icaA"
+          ]
+        },
+        {
+          "accession": "A0A0K0PR21",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 299,
+          "genes": [
+            "icaA"
+          ]
+        },
+        {
+          "accession": "A0A0U2ND55",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 292,
+          "genes": [
+            "icaA"
+          ]
+        },
+        {
+          "accession": "J7K1Z2",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 386,
+          "genes": [
+            "icaA"
+          ]
+        },
+        {
+          "accession": "J7K802",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 385,
+          "genes": [
+            "icaA"
+          ]
+        },
+        {
+          "accession": "A0A0K0PQM7",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 285,
+          "genes": [
+            "icaA"
+          ]
+        },
+        {
+          "accession": "A0A0K0PQP1",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 310,
+          "genes": [
+            "icaA"
+          ]
+        },
+        {
+          "accession": "A0A0K0PRU6",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 295,
+          "genes": [
+            "icaA"
+          ]
+        },
+        {
+          "accession": "A0A2R3ZEK6",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 412,
+          "genes": [
+            "icaA"
+          ]
+        },
+        {
+          "accession": "A0A1D0C161",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 410,
+          "genes": [
+            "icaA-like"
+          ]
+        },
+        {
+          "accession": "A0A2X2JU83",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 412,
+          "genes": [
+            "icaA"
+          ]
+        },
+        {
+          "accession": "A0A133Q3E9",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 399,
+          "genes": [
+            "icaA"
+          ]
+        },
+        {
+          "accession": "A0A640NWF5",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 370,
+          "genes": [
+            "icaA"
+          ]
+        },
+        {
+          "accession": "A0A2S6DQT8",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 412,
+          "genes": [
+            "icaA"
+          ]
+        },
+        {
+          "accession": "A0A8G2I0P2",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 412,
+          "genes": [
+            "icaA"
+          ]
+        },
+        {
+          "accession": "A0A380DXP5",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 282,
+          "genes": [
+            "icaA_2"
+          ]
+        },
+        {
+          "accession": "A0A193CKA0",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 131,
+          "genes": [
+            "icaA"
+          ]
+        },
+        {
+          "accession": "A0A6G7K426",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 67,
+          "genes": [
+            "icaA"
+          ]
+        },
+        {
+          "accession": "A0A7D9N3N0",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 134,
+          "genes": [
+            "icaA"
+          ]
+        },
+        {
+          "accession": "A0A1B1AAM4",
+          "organism": "Staphylococcus aureus",
+          "strain": "",
+          "length": 119,
+          "genes": [
+            "icaA"
+          ]
+        }
+      ],
+      "length_range": "50-412",
+      "reference_length": 412
+    },
+    "host_selectivity": {
+      "num_bovine_hits": 0,
+      "hits": [],
+      "note": "No bovine homolog found by name search"
+    },
+    "annotation": {},
+    "claimed_localization": "Membrane (IcaA, IcaD, IcaC) / surface (IcaB)",
+    "claimed_function": "PNAG/PIA biosynthesis for biofilm matrix",
+    "claimed_essentiality": "Non-essential for growth; biofilm-associated"
+  }
+}

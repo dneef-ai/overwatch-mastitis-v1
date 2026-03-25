@@ -1,0 +1,459 @@
+{
+  "label": "sa_spa",
+  "query_length": 508,
+  "entrez_query": "Staphylococcus aureus[Organism]",
+  "num_hits": 50,
+  "hits": [
+    {
+      "title": "ref|WP_000728763.1| MULTISPECIES: staphylococcal protein A [Staphylococcus] >sp|A0A0H3K686.2| RecName: Full=Immunoglobulin G-binding protein A; Short=IgG-binding protein A; AltName: Full=Staphylococca",
+      "accession": "WP_000728763",
+      "length": 508,
+      "identity_pct": 100.0,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "gb|EGQ1352024.1| staphylococcal protein A [Staphylococcus aureus] >gb|EGQ1375412.1| staphylococcal protein A [Staphylococcus aureus]",
+      "accession": "EGQ1352024",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HDH5463961.1| staphylococcal protein A [Staphylococcus aureus]",
+      "accession": "HDH5463961",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HEK6361470.1| staphylococcal protein A [Staphylococcus aureus]",
+      "accession": "HEK6361470",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HIM2145151.1| staphylococcal protein A [Staphylococcus aureus]",
+      "accession": "HIM2145151",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HGX0877958.1| staphylococcal protein A [Staphylococcus aureus] >tpg|HGX1013824.1| staphylococcal protein A [Staphylococcus aureus] >tpg|HGX1026804.1| staphylococcal protein A [Staphylococcus aureu",
+      "accession": "HGX0877958",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HII1013520.1| staphylococcal protein A [Staphylococcus aureus]",
+      "accession": "HII1013520",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "ref|WP_103254377.1| staphylococcal protein A [Staphylococcus aureus]",
+      "accession": "WP_103254377",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "ref|WP_176295366.1| staphylococcal protein A [Staphylococcus aureus]",
+      "accession": "WP_176295366",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HDD0000551.1| staphylococcal protein A [Staphylococcus aureus] >tpg|HDF1638295.1| staphylococcal protein A [Staphylococcus aureus]",
+      "accession": "HDD0000551",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HIE5445626.1| staphylococcal protein A [Staphylococcus aureus]",
+      "accession": "HIE5445626",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HDC9280974.1| staphylococcal protein A [Staphylococcus aureus]",
+      "accession": "HDC9280974",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "gb|EJP4334714.1| staphylococcal protein A [Staphylococcus aureus] >gb|MBU7721052.1| staphylococcal protein A [Staphylococcus aureus] >gb|MBU7723713.1| staphylococcal protein A [Staphylococcus aureus]",
+      "accession": "EJP4334714",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HHM3399439.1| staphylococcal protein A [Staphylococcus aureus]",
+      "accession": "HHM3399439",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HIE1967207.1| staphylococcal protein A [Staphylococcus aureus]",
+      "accession": "HIE1967207",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HDH4325578.1| staphylococcal protein A [Staphylococcus aureus] >tpg|HEH0622650.1| staphylococcal protein A [Staphylococcus aureus] >tpg|HEH3294385.1| staphylococcal protein A [Staphylococcus aureu",
+      "accession": "HDH4325578",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "ref|WP_331369784.1| staphylococcal protein A [Staphylococcus aureus] >gb|MDM6680889.1| staphylococcal protein A [Staphylococcus aureus] >tpg|HFQ2708078.1| staphylococcal protein A [Staphylococcus aure",
+      "accession": "WP_331369784",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HHB2638611.1| staphylococcal protein A [Staphylococcus aureus]",
+      "accession": "HHB2638611",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "ref|WP_053862494.1| staphylococcal protein A [Staphylococcus aureus] >emb|CUC41080.1| Immunoglobulin G binding protein A precursor [Staphylococcus aureus]",
+      "accession": "WP_053862494",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HDZ5677146.1| staphylococcal protein A [Staphylococcus aureus] >tpg|HGZ3028923.1| staphylococcal protein A [Staphylococcus aureus] >tpg|HHB2266674.1| staphylococcal protein A [Staphylococcus aureu",
+      "accession": "HDZ5677146",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HHB5534734.1| staphylococcal protein A [Staphylococcus aureus]",
+      "accession": "HHB5534734",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "ref|WP_088608009.1| staphylococcal protein A [Staphylococcus aureus] >gb|OWU37665.1| peptigoglycan-binding protein LysM [Staphylococcus aureus]",
+      "accession": "WP_088608009",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "gb|EOA9416372.1| staphylococcal protein A [Staphylococcus aureus] >tpg|HCV6372737.1| staphylococcal protein A [Staphylococcus aureus]",
+      "accession": "EOA9416372",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HCZ3261341.1| staphylococcal protein A [Staphylococcus aureus] >tpg|HDB3666937.1| staphylococcal protein A [Staphylococcus aureus] >tpg|HDB3751459.1| staphylococcal protein A [Staphylococcus aureu",
+      "accession": "HCZ3261341",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "gb|EOB0483886.1| staphylococcal protein A [Staphylococcus aureus] >tpg|HCY0391981.1| staphylococcal protein A [Staphylococcus aureus] >tpg|HDG6312256.1| staphylococcal protein A [Staphylococcus aureus",
+      "accession": "EOB0483886",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HDB2885112.1| staphylococcal protein A [Staphylococcus aureus]",
+      "accession": "HDB2885112",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HFQ6581599.1| staphylococcal protein A [Staphylococcus aureus]",
+      "accession": "HFQ6581599",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HDB1174517.1| staphylococcal protein A [Staphylococcus aureus] >tpg|HDB2430776.1| staphylococcal protein A [Staphylococcus aureus]",
+      "accession": "HDB1174517",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HHZ7094945.1| staphylococcal protein A [Staphylococcus aureus]",
+      "accession": "HHZ7094945",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HDD6933513.1| staphylococcal protein A [Staphylococcus aureus]",
+      "accession": "HDD6933513",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HFZ5506144.1| staphylococcal protein A [Staphylococcus aureus]",
+      "accession": "HFZ5506144",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HEI5233057.1| staphylococcal protein A [Staphylococcus aureus]",
+      "accession": "HEI5233057",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "gb|EOB0632155.1| staphylococcal protein A [Staphylococcus aureus]",
+      "accession": "EOB0632155",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HGZ5376029.1| staphylococcal protein A [Staphylococcus aureus] >tpg|HHB3865849.1| staphylococcal protein A [Staphylococcus aureus] >tpg|HHC9954809.1| staphylococcal protein A [Staphylococcus aureu",
+      "accession": "HGZ5376029",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HDJ3450734.1| staphylococcal protein A [Staphylococcus aureus]",
+      "accession": "HDJ3450734",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HCW8527902.1| staphylococcal protein A [Staphylococcus aureus] >tpg|HGZ4122049.1| staphylococcal protein A [Staphylococcus aureus] >tpg|HGZ4461966.1| staphylococcal protein A [Staphylococcus aureu",
+      "accession": "HCW8527902",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "ref|WP_058351037.1| staphylococcal protein A [Staphylococcus aureus] >gb|KSA72883.1| peptigoglycan-binding protein LysM [Staphylococcus aureus]",
+      "accession": "WP_058351037",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "emb|CUC76233.1| Immunoglobulin G binding protein A precursor [Staphylococcus aureus]",
+      "accession": "CUC76233",
+      "length": 520,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "ref|WP_237268096.1| staphylococcal protein A [Staphylococcus aureus] >gb|MCF8767988.1| staphylococcal protein A [Staphylococcus aureus]",
+      "accession": "WP_237268096",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "ref|WP_249996650.1| staphylococcal protein A [Staphylococcus aureus] >gb|MCL7514446.1| staphylococcal protein A [Staphylococcus aureus] >tpg|HDG7284739.1| staphylococcal protein A [Staphylococcus aure",
+      "accession": "WP_249996650",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "ref|WP_331384865.1| staphylococcal protein A [Staphylococcus aureus] >tpg|HFQ1753333.1| staphylococcal protein A [Staphylococcus aureus] >tpg|HFQ2239285.1| staphylococcal protein A [Staphylococcus aur",
+      "accession": "WP_331384865",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HCX1727157.1| staphylococcal protein A [Staphylococcus aureus]",
+      "accession": "HCX1727157",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HDH5255835.1| staphylococcal protein A [Staphylococcus aureus]",
+      "accession": "HDH5255835",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HDJ4105754.1| staphylococcal protein A [Staphylococcus aureus] >tpg|HGZ6082318.1| staphylococcal protein A [Staphylococcus aureus] >tpg|HHC0062918.1| staphylococcal protein A [Staphylococcus aureu",
+      "accession": "HDJ4105754",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "gb|EOA9101712.1| staphylococcal protein A [Staphylococcus aureus] >gb|EOB8421667.1| staphylococcal protein A [Staphylococcus aureus] >gb|XAL17133.1| staphylococcal protein A [Staphylococcus aureus]",
+      "accession": "EOA9101712",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "gb|MCC1073995.1| staphylococcal protein A [Staphylococcus aureus] >gb|MCC1092797.1| staphylococcal protein A [Staphylococcus aureus]",
+      "accession": "MCC1073995",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HDP6348727.1| staphylococcal protein A [Staphylococcus aureus]",
+      "accession": "HDP6348727",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HCY0407348.1| staphylococcal protein A [Staphylococcus aureus] >tpg|HCY0445974.1| staphylococcal protein A [Staphylococcus aureus] >tpg|HCY0449235.1| staphylococcal protein A [Staphylococcus aureu",
+      "accession": "HCY0407348",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HHM2343397.1| staphylococcal protein A [Staphylococcus aureus]",
+      "accession": "HHM2343397",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HGZ5922841.1| staphylococcal protein A [Staphylococcus aureus] >tpg|HGZ6130098.1| staphylococcal protein A [Staphylococcus aureus] >tpg|HHB9341839.1| staphylococcal protein A [Staphylococcus aureu",
+      "accession": "HGZ5922841",
+      "length": 508,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    }
+  ],
+  "date": "2026-03-25"
+}

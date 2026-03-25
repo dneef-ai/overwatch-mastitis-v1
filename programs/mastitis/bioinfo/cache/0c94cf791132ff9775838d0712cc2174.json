@@ -1,0 +1,22 @@
+{
+  "accession": "Q5FBD2",
+  "entry_name": "Q5FBD2_STAAU",
+  "protein_name": "",
+  "gene_names": [
+    "lukF-PV",
+    "hlgB_1",
+    "lukF- PV",
+    "LukPV-F",
+    "lukPV-F",
+    "lukPVF"
+  ],
+  "organism": "Staphylococcus aureus",
+  "organism_id": 1280,
+  "length": 325,
+  "sequence": "MKKIVKSSVVTSIALLLLSNTVDAAQHITPVSEKKVDDKITLYKTTATSDSDKLKISQILTFNFIKDKSYDKDTLILKAAGNIYSGYTKPNPKDTISSQFYWGSKYNISINSDSNDSVNVVDYAPKNQNEEFQVQQTVGYSYGGDINISNGLSGGGNGSKSFSETINYKQESYRTSLDKRTNFKKIGWDVEAHKIMNNGWGPYGRDSYHSTYGNEMFLGSRQSNLNAGQNFLEYHKMPVLSRGNFNPEFIGVLSRKQNAAKKSKITVTYQREMDRYTNFWNQLHWIGNNYKDENRATHTSIYEVDWENHTVKLIDTQSKEKNPMS",
+  "subcellular_location": [],
+  "function": "",
+  "signal_peptide": true,
+  "transmembrane_domains": 0,
+  "alphafold_id": "Q5FBD2"
+}

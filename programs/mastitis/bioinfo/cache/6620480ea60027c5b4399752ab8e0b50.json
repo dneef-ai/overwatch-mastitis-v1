@@ -1,0 +1,1113 @@
+[
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "J7FPJ3",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "AFP47630.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "AFP47630.1"
+            }
+          ],
+          "value": "srtA"
+        }
+      }
+    ],
+    "sequence": {
+      "length": 206
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI000277ADAA"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0A380ENW9",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "SUL37902.1"
+        },
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "Proteomes",
+          "id": "UP000254116"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "SUL37902.1"
+            }
+          ],
+          "value": "srtA"
+        },
+        "orfNames": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "SUL37902.1"
+              }
+            ],
+            "value": "NCTC10702_03922"
+          }
+        ]
+      }
+    ],
+    "sequence": {
+      "length": 135
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0004B8D4BE"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0A8G2I1R4",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "SUK18568.1"
+        },
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "Proteomes",
+          "id": "UP000254224"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "SUK18568.1"
+            }
+          ],
+          "value": "srtA"
+        },
+        "orfNames": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "SUK18568.1"
+              }
+            ],
+            "value": "NCTC7972_02118"
+          }
+        ]
+      }
+    ],
+    "sequence": {
+      "length": 206
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0001C0BCDB"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0AB72YUJ8",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CZQ63418.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CZQ63418.1"
+            }
+          ],
+          "value": "srtA"
+        },
+        "orfNames": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "CZQ63418.1"
+              }
+            ],
+            "value": "ERS391062_01561"
+          }
+        ]
+      }
+    ],
+    "sequence": {
+      "length": 206
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI00077BC2DF"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0A380DSD0",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "SUK43185.1"
+        },
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "Proteomes",
+          "id": "UP000254502"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "SUK43185.1"
+            }
+          ],
+          "value": "srtA_1"
+        },
+        "orfNames": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "SUK43185.1"
+              }
+            ],
+            "value": "NCTC5664_01251"
+          }
+        ]
+      }
+    ],
+    "sequence": {
+      "length": 154
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI000E04F3A6"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0A380DQ13",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "SUK43191.1"
+        },
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "Proteomes",
+          "id": "UP000254502"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "SUK43191.1"
+            }
+          ],
+          "value": "srtA_2"
+        },
+        "orfNames": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "SUK43191.1"
+              }
+            ],
+            "value": "NCTC5664_01252"
+          }
+        ]
+      }
+    ],
+    "sequence": {
+      "length": 38
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI000DFACD4F"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0A0M0Z384",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CRI18958.1"
+        },
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "Proteomes",
+          "id": "UP000039437"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CRI18958.1"
+            }
+          ],
+          "value": "srtA"
+        },
+        "orfNames": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "CRI18958.1"
+              }
+            ],
+            "value": "BN1321_420029"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "MVI54678.1"
+              }
+            ],
+            "value": "GO793_02240"
+          }
+        ]
+      }
+    ],
+    "sequence": {
+      "length": 206
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI00000D9FF9"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0A2S6D8R0",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "SUK61192.1"
+        },
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "Proteomes",
+          "id": "UP000255091"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "SUK61192.1"
+            }
+          ],
+          "value": "srtA"
+        },
+        "orfNames": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "PPJ76429.1"
+              }
+            ],
+            "value": "CV021_02060"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "SUK61192.1"
+              }
+            ],
+            "value": "NCTC6133_03393"
+          }
+        ]
+      }
+    ],
+    "sequence": {
+      "length": 206
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI00021AD783"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0A2S6DV16",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAC8493238.1"
+        },
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "Proteomes",
+          "id": "UP000507408"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAC8493238.1"
+            }
+          ],
+          "value": "srtA"
+        },
+        "orfNames": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "OWT15404.1"
+              }
+            ],
+            "value": "AS572_08680"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "CAC8493238.1"
+              }
+            ],
+            "value": "SAMEA70245418_00257"
+          }
+        ]
+      }
+    ],
+    "sequence": {
+      "length": 206
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0001C11DFD"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0AAE8PBZ9",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "MBX8594368.1"
+        },
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "Proteomes",
+          "id": "UP000309390"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "MBX8594368.1"
+            }
+          ],
+          "value": "srtA"
+        },
+        "orfNames": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "MBX8594368.1"
+              }
+            ],
+            "value": "E1948_07060"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "QCT58295.1"
+              }
+            ],
+            "value": "E1948_13420"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "SRC29985.1"
+              }
+            ],
+            "value": "SAMEA1466929_02211"
+          }
+        ]
+      }
+    ],
+    "sequence": {
+      "length": 206
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI000175BEFF"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0A6B1RMY6",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "MUG82268.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "MUG82268.1"
+            }
+          ],
+          "value": "srtA"
+        },
+        "orfNames": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "MUG82268.1"
+              }
+            ],
+            "value": "GAY51_01005"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "MUG53218.1"
+              }
+            ],
+            "value": "GAY54_11735"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "QJR08639.1"
+              }
+            ],
+            "value": "HH313_002618"
+          }
+        ]
+      }
+    ],
+    "sequence": {
+      "length": 206
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI00023EDA87"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q9S446",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "AAD48437.1"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "AAD48437.1"
+            }
+          ],
+          "value": "srtA"
+        },
+        "orfNames": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "KSA79385.1"
+              }
+            ],
+            "value": "ACR79_11835"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "ATC72711.1"
+              }
+            ],
+            "value": "CNH36_14170"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "RZI07564.1"
+              }
+            ],
+            "value": "EIH03_05670"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "KMR58640.1"
+              }
+            ],
+            "value": "EP54_00580"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "KMR37796.1"
+              }
+            ],
+            "value": "EQ90_03180"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "MRV46890.1"
+              }
+            ],
+            "value": "GF599_04755"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "MVK35245.1"
+              }
+            ],
+            "value": "GO814_08865"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "MVM11223.1"
+              }
+            ],
+            "value": "GO942_11165"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "NUY13409.1"
+              }
+            ],
+            "value": "GQX37_12930"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "NDP57484.1"
+              }
+            ],
+            "value": "GZ130_12955"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "MCE3362792.1"
+              }
+            ],
+            "value": "LB359_10660"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "CAD7352570.1"
+              }
+            ],
+            "value": "NCTC13131_00030"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "VDY49326.1"
+              }
+            ],
+            "value": "NCTC8317_02466"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "CAA4073882.1"
+              }
+            ],
+            "value": "SAMEA1029512_00033"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "CAA4098595.1"
+              }
+            ],
+            "value": "SAMEA1029528_00893"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "CAA4368165.1"
+              }
+            ],
+            "value": "SAMEA2078260_01136"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "CAA6071387.1"
+              }
+            ],
+            "value": "SAMEA2078588_01162"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "CAA6320315.1"
+              }
+            ],
+            "value": "SAMEA2080344_00650"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "CAA4677845.1"
+              }
+            ],
+            "value": "SAMEA2081063_00930"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "CAC5780946.1"
+              }
+            ],
+            "value": "SAMEA4008575_00757"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "CAC7009725.1"
+              }
+            ],
+            "value": "SAMEA4552975_01907"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "CAC8191385.1"
+              }
+            ],
+            "value": "SAMEA70146418_00206"
+          }
+        ]
+      }
+    ],
+    "sequence": {
+      "length": 206
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI00000B26CB"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0A4P7PAF7",
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "MVL45854.1"
+        },
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "Proteomes",
+          "id": "UP000434412"
+        }
+      ],
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Bacillales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "MVL45854.1"
+            }
+          ],
+          "value": "srtA"
+        },
+        "orfNames": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "NGK20621.1"
+              }
+            ],
+            "value": "G0Z31_03685"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "NGW69058.1"
+              }
+            ],
+            "value": "G6Y24_16575"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "MVL45854.1"
+              }
+            ],
+            "value": "GO941_10190"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "NUY67081.1"
+              }
+            ],
+            "value": "GQX52_00155"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "GBV20950.1"
+              }
+            ],
+            "value": "M1K003_1951"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "SQA00439.1"
+              }
+            ],
+            "value": "NCTC7878_03606"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "SRZ64412.1"
+              }
+            ],
+            "value": "SAMEA1531725_00437"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "CAC8229724.1"
+              }
+            ],
+            "value": "SAMEA70153168_01165"
+          }
+        ]
+      }
+    ],
+    "sequence": {
+      "length": 206
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI00000CAB21"
+    }
+  }
+]

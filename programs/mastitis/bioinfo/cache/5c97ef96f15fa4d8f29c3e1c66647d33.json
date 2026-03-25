@@ -1,0 +1,9 @@
+{
+  "available": true,
+  "model_url": "https://alphafold.ebi.ac.uk/files/AF-P14738-F1-model_v6.pdb",
+  "cif_url": "https://alphafold.ebi.ac.uk/files/AF-P14738-F1-model_v6.cif",
+  "pae_url": "https://alphafold.ebi.ac.uk/files/AF-P14738-F1-predicted_aligned_error_v6.png",
+  "confidence_url": "",
+  "version": 6,
+  "model_created": "2025-08-01T00:00:00Z"
+}

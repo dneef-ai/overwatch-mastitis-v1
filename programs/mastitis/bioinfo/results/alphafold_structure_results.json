@@ -1,0 +1,171 @@
+{
+  "2A": {
+    "gene": "srtA",
+    "accession": "Q2FV99",
+    "available": true,
+    "category_c": false,
+    "pdb_path": "/Users/danielneef/Projects/Agteria/overwatch/programs/mastitis/bioinfo/structures/AF-Q2FV99-srtA.pdb",
+    "confidence": {
+      "num_residues": 206,
+      "mean_plddt": 90.0,
+      "pct_very_high_confidence": 67.5,
+      "pct_confident": 93.2,
+      "pct_low_confidence": 0.5,
+      "min_plddt": 49.3,
+      "max_plddt": 98.6,
+      "disordered_regions": [
+        "None detected"
+      ]
+    },
+    "alphafold_version": 6
+  },
+  "2B": {
+    "gene": "fnbA",
+    "accession": "P14738",
+    "available": true,
+    "category_c": true,
+    "pdb_path": "/Users/danielneef/Projects/Agteria/overwatch/programs/mastitis/bioinfo/structures/AF-P14738-fnbA.pdb",
+    "confidence": {
+      "num_residues": 1018,
+      "mean_plddt": 53.9,
+      "pct_very_high_confidence": 22.2,
+      "pct_confident": 29.7,
+      "pct_low_confidence": 63.0,
+      "min_plddt": 23.0,
+      "max_plddt": 98.7,
+      "disordered_regions": [
+        "1-191",
+        "501-517",
+        "524-881",
+        "949-1018"
+      ]
+    },
+    "alphafold_version": 6
+  },
+  "3A": {
+    "gene": "spa",
+    "accession": "A0A0H3K686",
+    "available": true,
+    "category_c": false,
+    "pdb_path": "/Users/danielneef/Projects/Agteria/overwatch/programs/mastitis/bioinfo/structures/AF-A0A0H3K686-spa.pdb",
+    "confidence": {
+      "num_residues": 508,
+      "mean_plddt": 68.8,
+      "pct_very_high_confidence": 32.1,
+      "pct_confident": 60.2,
+      "pct_low_confidence": 34.4,
+      "min_plddt": 23.7,
+      "max_plddt": 97.4,
+      "disordered_regions": [
+        "1-38",
+        "93-97",
+        "329-411",
+        "460-508"
+      ]
+    },
+    "alphafold_version": 6
+  },
+  "3B": {
+    "gene": "lukM",
+    "accession": "Q53703",
+    "available": true,
+    "category_c": false,
+    "pdb_path": "/Users/danielneef/Projects/Agteria/overwatch/programs/mastitis/bioinfo/structures/AF-Q53703-lukM.pdb",
+    "confidence": {
+      "num_residues": 308,
+      "mean_plddt": 87.1,
+      "pct_very_high_confidence": 74.4,
+      "pct_confident": 87.3,
+      "pct_low_confidence": 9.4,
+      "min_plddt": 26.9,
+      "max_plddt": 98.8,
+      "disordered_regions": [
+        "1-29"
+      ]
+    },
+    "alphafold_version": 6
+  },
+  "3D": {
+    "gene": "adsA",
+    "accession": "A0ABD6ZXM2",
+    "available": true,
+    "category_c": true,
+    "pdb_path": "/Users/danielneef/Projects/Agteria/overwatch/programs/mastitis/bioinfo/structures/AF-A0ABD6ZXM2-adsA.pdb",
+    "confidence": {
+      "num_residues": 768,
+      "mean_plddt": 72.9,
+      "pct_very_high_confidence": 55.3,
+      "pct_confident": 65.1,
+      "pct_low_confidence": 33.3,
+      "min_plddt": 23.7,
+      "max_plddt": 98.9,
+      "disordered_regions": [
+        "1-53",
+        "55-137",
+        "649-768"
+      ]
+    },
+    "alphafold_version": 6
+  },
+  "4A": {
+    "gene": "hla",
+    "accession": "P09616",
+    "available": true,
+    "category_c": false,
+    "pdb_path": "/Users/danielneef/Projects/Agteria/overwatch/programs/mastitis/bioinfo/structures/AF-P09616-hla.pdb",
+    "confidence": {
+      "num_residues": 319,
+      "mean_plddt": 83.7,
+      "pct_very_high_confidence": 64.6,
+      "pct_confident": 82.4,
+      "pct_low_confidence": 12.5,
+      "min_plddt": 23.2,
+      "max_plddt": 98.5,
+      "disordered_regions": [
+        "1-33",
+        "157-163"
+      ]
+    },
+    "alphafold_version": 6
+  },
+  "5B": {
+    "gene": "clpP",
+    "accession": "P99089",
+    "available": true,
+    "category_c": true,
+    "pdb_path": "/Users/danielneef/Projects/Agteria/overwatch/programs/mastitis/bioinfo/structures/AF-P99089-clpP.pdb",
+    "confidence": {
+      "num_residues": 195,
+      "mean_plddt": 96.5,
+      "pct_very_high_confidence": 93.8,
+      "pct_confident": 98.5,
+      "pct_low_confidence": 0.5,
+      "min_plddt": 48.8,
+      "max_plddt": 98.9,
+      "disordered_regions": [
+        "None detected"
+      ]
+    },
+    "alphafold_version": 6
+  },
+  "5F": {
+    "gene": "icaA",
+    "accession": "Q9RQP9",
+    "available": true,
+    "category_c": false,
+    "pdb_path": "/Users/danielneef/Projects/Agteria/overwatch/programs/mastitis/bioinfo/structures/AF-Q9RQP9-icaA.pdb",
+    "confidence": {
+      "num_residues": 412,
+      "mean_plddt": 90.0,
+      "pct_very_high_confidence": 65.5,
+      "pct_confident": 93.0,
+      "pct_low_confidence": 0.2,
+      "min_plddt": 46.4,
+      "max_plddt": 98.8,
+      "disordered_regions": [
+        "None detected"
+      ]
+    },
+    "alphafold_version": 6
+  }
+}

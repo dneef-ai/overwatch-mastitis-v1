@@ -1,0 +1,94 @@
+{
+  "query_length": 412,
+  "database": "nr",
+  "entrez_query": "Bos taurus[Organism]",
+  "expect": 0.01,
+  "num_hits": 7,
+  "hits": [
+    {
+      "title": "ref|NP_001179796.1| hyaluronan synthase 3 [Bos taurus] >ref|XP_005218517.1| hyaluronan synthase 3 isoform X3 [Bos taurus] >ref|XP_010849266.1| PREDICTED: hyaluronan synthase 3 [Bison bison bison] >ref",
+      "accession": "NP_001179796",
+      "length": 553,
+      "identities": 62,
+      "align_length": 288,
+      "identity_pct": 21.5,
+      "coverage_pct": 69.9,
+      "e_value": 1.08082e-08,
+      "score": 140.0,
+      "gaps": 47
+    },
+    {
+      "title": "ref|XP_024833726.1| hyaluronan synthase 3 isoform X2 [Bos taurus] >ref|XP_027371952.1| hyaluronan synthase 3 isoform X2 [Bos indicus x Bos taurus] >ref|XP_061243707.1| hyaluronan synthase 3 isoform X2",
+      "accession": "XP_024833726",
+      "length": 608,
+      "identities": 58,
+      "align_length": 268,
+      "identity_pct": 21.6,
+      "coverage_pct": 65.0,
+      "e_value": 1.19194e-08,
+      "score": 140.0,
+      "gaps": 45
+    },
+    {
+      "title": "ref|XP_015331190.1| hyaluronan synthase 3 isoform X1 [Bos taurus] >ref|XP_027371951.1| hyaluronan synthase 3 isoform X1 [Bos indicus x Bos taurus] >ref|XP_061243706.1| hyaluronan synthase 3 isoform X1",
+      "accession": "XP_015331190",
+      "length": 612,
+      "identities": 58,
+      "align_length": 268,
+      "identity_pct": 21.6,
+      "coverage_pct": 65.0,
+      "e_value": 1.5432e-08,
+      "score": 139.0,
+      "gaps": 45
+    },
+    {
+      "title": "ref|XP_027414063.1| dolichol-phosphate mannosyltransferase subunit 1 [Bos indicus x Bos taurus] >gb|ACT36270.1| mannosylphosphodolichol synthase [Bos taurus] >tpg|DAA23274.1| TPA: dolichyl-phosphate m",
+      "accession": "ACT36270",
+      "length": 260,
+      "identities": 32,
+      "align_length": 107,
+      "identity_pct": 29.9,
+      "coverage_pct": 26.0,
+      "e_value": 0.000203778,
+      "score": 103.0,
+      "gaps": 6
+    },
+    {
+      "title": "ref|NP_001069481.1| dolichol-phosphate mannosyltransferase subunit 1 [Bos taurus] >sp|Q1JQ93.1| RecName: Full=Dolichol-phosphate mannosyltransferase subunit 1; AltName: Full=Dolichol-phosphate mannose",
+      "accession": "NP_001069481",
+      "length": 260,
+      "identities": 32,
+      "align_length": 107,
+      "identity_pct": 29.9,
+      "coverage_pct": 26.0,
+      "e_value": 0.00020938,
+      "score": 103.0,
+      "gaps": 6
+    },
+    {
+      "title": "ref|XP_005213629.1| dolichyl-phosphate beta-glucosyltransferase isoform X1 [Bos taurus] >ref|XP_070236508.1| dolichyl-phosphate beta-glucosyltransferase isoform X3 [Bos mutus]",
+      "accession": "XP_005213629",
+      "length": 322,
+      "identities": 26,
+      "align_length": 117,
+      "identity_pct": 22.2,
+      "coverage_pct": 28.4,
+      "e_value": 0.000223279,
+      "score": 104.0,
+      "gaps": 11
+    },
+    {
+      "title": "ref|NP_001135837.1| dolichyl-phosphate beta-glucosyltransferase isoform 1 [Bos taurus] >ref|XP_005906817.1| dolichyl-phosphate beta-glucosyltransferase isoform X2 [Bos mutus] >ref|XP_019826946.2| doli",
+      "accession": "NP_001135837",
+      "length": 324,
+      "identities": 29,
+      "align_length": 124,
+      "identity_pct": 23.4,
+      "coverage_pct": 30.1,
+      "e_value": 0.000309194,
+      "score": 103.0,
+      "gaps": 14
+    }
+  ],
+  "date": "2026-03-25"
+}

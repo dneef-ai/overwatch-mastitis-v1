@@ -1,0 +1,20 @@
+{
+  "accession": "A0A0H3K686",
+  "entry_name": "SPA_STAAE",
+  "protein_name": "Immunoglobulin G-binding protein A",
+  "gene_names": [
+    "spa"
+  ],
+  "organism": "Staphylococcus aureus (strain Newman)",
+  "organism_id": 426430,
+  "length": 508,
+  "sequence": "MKKKNIYSIRKLGVGIASVTLGTLLISGGVTPAANAAQHDEAQQNAFYQVLNMPNLNADQRNGFIQSLKDDPSQSANVLGEAQKLNDSQAPKADAQQNNFNKDQQSAFYEILNMPNLNEAQRNGFIQSLKDDPSQSTNVLGEAKKLNESQAPKADNNFNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDDPSQSANLLSEAKKLNESQAPKADNKFNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDDPSQSANLLAEAKKLNDAQAPKADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPKEEDNNKPGKEDNNKPGKEDNNKPGKEDNNKPGKEDGNKPGKEDNKKPGKEDGNKPGKEDNKKPGKEDGNKPGKEDGNKPGKEDGNGVHVVKPGDTVNDIAKANGTTADKIAADNKLADKNMIKPGQELVVDKKQPANHADANKAQALPETGEENPFIGTTVFGGLSLALGAALLAGRRREL",
+  "subcellular_location": [
+    "Secreted, cell wall",
+    "Secreted"
+  ],
+  "function": "Plays a role in the inhibition of the host innate and adaptive immune responses. Possesses five immunoglobulin-binding domains that capture both the fragment crystallizable region (Fc region) and the Fab region (part of Ig that identifies antigen) of immunoglobulins (By similarity). In turn, Staphylococcus aureus is protected from phagocytic killing via inhibition of Ig Fc region. In addition, the host elicited B-cell response is prevented due to a decrease of antibody-secreting cell proliferation that enter the bone marrow, thereby decreasing long-term antibody production (PubMed:28031339). Inhibits osteogenesis by preventing osteoblast proliferation and expression of alkaline phosphatase, type I collagen, osteopontin and osteocalcin (PubMed:22792377). Acts directly as a pro-inflammatory factor in the lung through its ability to bind and activate tumor necrosis factor alpha receptor 1/TNFRSF1A (PubMed:15247912, PubMed:16709567)",
+  "signal_peptide": true,
+  "transmembrane_domains": 0,
+  "alphafold_id": "A0A0H3K686"
+}

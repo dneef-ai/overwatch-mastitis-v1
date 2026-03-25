@@ -1,0 +1,58 @@
+{
+  "query_length": 768,
+  "database": "nr",
+  "entrez_query": "Bos taurus[Organism]",
+  "expect": 0.01,
+  "num_hits": 4,
+  "hits": [
+    {
+      "title": "ref|NP_776554.2| 5'-nucleotidase precursor [Bos taurus] >ref|XP_061283892.1| 5'-nucleotidase [Bos javanicus] >sp|Q05927.2| RecName: Full=5'-nucleotidase; Short=5'-NT; AltName: Full=5'-deoxynucleotidas",
+      "accession": "NP_776554",
+      "length": 574,
+      "identities": 148,
+      "align_length": 511,
+      "identity_pct": 29.0,
+      "coverage_pct": 66.5,
+      "e_value": 3.78089e-41,
+      "score": 406.0,
+      "gaps": 82
+    },
+    {
+      "title": "gb|AAB27698.1| 5'-nucleotidase [Bos taurus] >dbj|BAA03408.1| 5'-nucleotidase precursor [Bos taurus]",
+      "accession": "AAB27698",
+      "length": 574,
+      "identities": 143,
+      "align_length": 511,
+      "identity_pct": 28.0,
+      "coverage_pct": 66.5,
+      "e_value": 1.01823e-37,
+      "score": 379.0,
+      "gaps": 82
+    },
+    {
+      "title": "tpg|DAA26188.1| TPA: 5-nucleotidase-like [Bos taurus]",
+      "accession": "DAA26188",
+      "length": 297,
+      "identities": 67,
+      "align_length": 196,
+      "identity_pct": 34.2,
+      "coverage_pct": 25.5,
+      "e_value": 5.77818e-22,
+      "score": 244.0,
+      "gaps": 24
+    },
+    {
+      "title": "tpg|DAA26166.1| TPA: 5'-nucleotidase precursor, partial [Bos taurus]",
+      "accession": "DAA26166",
+      "length": 351,
+      "identities": 67,
+      "align_length": 196,
+      "identity_pct": 34.2,
+      "coverage_pct": 25.5,
+      "e_value": 1.46902e-21,
+      "score": 244.0,
+      "gaps": 24
+    }
+  ],
+  "date": "2026-03-25"
+}

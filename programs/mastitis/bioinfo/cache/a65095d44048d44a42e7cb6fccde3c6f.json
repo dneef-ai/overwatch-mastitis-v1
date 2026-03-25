@@ -1,0 +1,19 @@
+{
+  "accession": "Q9RQP7",
+  "entry_name": "ICAB_STAA8",
+  "protein_name": "Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase",
+  "gene_names": [
+    "icaB"
+  ],
+  "organism": "Staphylococcus aureus (strain NCTC 8325 / PS 47)",
+  "organism_id": 93061,
+  "length": 290,
+  "sequence": "MKYRKFIILVLSILIILPVSTLDGHHIANADDDSPKKLKYKENSALALNYHRVRKANFLNNFIYFFSSSKEIKNYSVSQSQFESQIKWLKSHDAKFLTLKEFLYYKKKGKFPKRSVWINFDDMDETIYENAYPILKKYKIPATGFIITGHVGEENFHNLDMISKKELKEMYKTGLWEFETHTHDLHNLSKNNKSKLMKASEATIIKDLNKSEKYLTKNFKKSQKTIAYPYGLMNDDKLPVIKKAGLKYGFSLEEKAVTPNSNDYYIPRILISDDAFEHLIKRWDGFHEKD",
+  "subcellular_location": [
+    "Secreted, cell wall"
+  ],
+  "function": "Catalyzes the N-deacetylation of poly-beta-1,6-N-acetyl-D-glucosamine (PNAG, also referred to as PIA), a biofilm adhesin polysaccharide. N-deacetylation is crucial for attachment of the polysaccharide to the bacterial cell surface; it leads to the introduction of positive charges in the otherwise neutral PIA polymer, allowing electrostatic interactions (By similarity)",
+  "signal_peptide": true,
+  "transmembrane_domains": 0,
+  "alphafold_id": "Q9RQP7"
+}

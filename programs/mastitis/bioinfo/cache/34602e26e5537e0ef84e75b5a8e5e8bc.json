@@ -1,0 +1,75 @@
+{
+  "hits": [
+    {
+      "title": "ref|WP_000759361.1| MULTISPECIES: class A sortase SrtA [Staphylococcus] >ref|YP_501293.1| sortase [Staphylococcus aureus subsp. aureus NCTC 8325] >sp|",
+      "accession": "WP_000759361",
+      "identity_pct": 100.0,
+      "coverage_pct": 100.0,
+      "e_value": 2.17433e-151
+    },
+    {
+      "title": "tpg|HIE1179359.1| class A sortase SrtA [Staphylococcus aureus]",
+      "accession": "HIE1179359",
+      "identity_pct": 99.5,
+      "coverage_pct": 100.0,
+      "e_value": 3.29932e-151
+    },
+    {
+      "title": "ref|WP_315917105.1| class A sortase SrtA [Staphylococcus aureus]",
+      "accession": "WP_315917105",
+      "identity_pct": 99.5,
+      "coverage_pct": 100.0,
+      "e_value": 3.29932e-151
+    },
+    {
+      "title": "gb|MGO5845077.1| class A sortase SrtA [Staphylococcus aureus] >gb|MHI2252380.1| class A sortase SrtA [Staphylococcus aureus] >tpg|HFZ4811171.1| class ",
+      "accession": "MGO5845077",
+      "identity_pct": 99.5,
+      "coverage_pct": 100.0,
+      "e_value": 3.8472e-151
+    },
+    {
+      "title": "tpg|HDI8086604.1| class A sortase SrtA [Staphylococcus aureus] >tpg|HDI8088432.1| class A sortase SrtA [Staphylococcus aureus]",
+      "accession": "HDI8086604",
+      "identity_pct": 99.5,
+      "coverage_pct": 100.0,
+      "e_value": 3.8472e-151
+    },
+    {
+      "title": "tpg|HGL3553540.1| class A sortase SrtA [Staphylococcus aureus]",
+      "accession": "HGL3553540",
+      "identity_pct": 99.5,
+      "coverage_pct": 100.0,
+      "e_value": 5.0616e-151
+    },
+    {
+      "title": "tpg|HGZ3965425.1| class A sortase SrtA [Staphylococcus aureus] >tpg|HGZ5808487.1| class A sortase SrtA [Staphylococcus aureus] >tpg|HHB2717784.1| clas",
+      "accession": "HGZ3965425",
+      "identity_pct": 99.5,
+      "coverage_pct": 100.0,
+      "e_value": 5.0616e-151
+    },
+    {
+      "title": "tpg|HII1354786.1| class A sortase SrtA [Staphylococcus aureus]",
+      "accession": "HII1354786",
+      "identity_pct": 99.5,
+      "coverage_pct": 100.0,
+      "e_value": 5.17391e-151
+    },
+    {
+      "title": "tpg|HGZ3640663.1| class A sortase SrtA [Staphylococcus aureus]",
+      "accession": "HGZ3640663",
+      "identity_pct": 99.5,
+      "coverage_pct": 100.0,
+      "e_value": 5.64865e-151
+    },
+    {
+      "title": "tpg|HDD0288097.1| class A sortase SrtA [Staphylococcus aureus] >tpg|HDD1034503.1| class A sortase SrtA [Staphylococcus aureus]",
+      "accession": "HDD0288097",
+      "identity_pct": 99.5,
+      "coverage_pct": 100.0,
+      "e_value": 5.64865e-151
+    }
+  ],
+  "total": 50
+}

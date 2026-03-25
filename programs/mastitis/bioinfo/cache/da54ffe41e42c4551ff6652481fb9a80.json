@@ -1,0 +1,20 @@
+{
+  "accession": "P09616",
+  "entry_name": "HLA_STAAU",
+  "protein_name": "Alpha-hemolysin",
+  "gene_names": [
+    "hly",
+    "hla"
+  ],
+  "organism": "Staphylococcus aureus",
+  "organism_id": 1280,
+  "length": 319,
+  "sequence": "MKTRIVSSVTTTLLLGSILMNPVAGAADSDINIKTGTTDIGSNTTVKTGDLVTYDKENGMHKKVFYSFIDDKNHNKKLLVIRTKGTIAGQYRVYSEEGANKSGLAWPSAFKVQLQLPDNEVAQISDYYPRNSIDTKEYMSTLTYGFNGNVTGDDTGKIGGLIGANVSIGHTLKYVQPDFKTILESPTDKKVGWKVIFNNMVNQNWGPYDRDSWNPVYGNQLFMKTRNGSMKAADNFLDPNKASSLLSSGFSPDFATVITMDRKASKQQTNIDVIYERVRDDYQLHWTSTNWKGTNTKDKWTDRSSERYKIDWEKEEMTN",
+  "subcellular_location": [
+    "Secreted"
+  ],
+  "function": "Alpha-toxin binds to the membrane of eukaryotic cells (particularly red blood cells, RBC) forming pores, resulting in hemolysis, with the release of low-molecular weight molecules leading to eventual osmotic RBC lysis (PubMed:1587866, PubMed:20624979). Human RBCs bind much less alpha-toxin than do rabbit RBCs (PubMed:1587866, PubMed:20624979). Heptamer oligomerization and pore formation is required for lytic activity (PubMed:1587866, PubMed:20624979)",
+  "signal_peptide": true,
+  "transmembrane_domains": 0,
+  "alphafold_id": "P09616"
+}

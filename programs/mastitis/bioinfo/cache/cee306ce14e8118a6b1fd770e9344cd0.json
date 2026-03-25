@@ -1,0 +1,19 @@
+{
+  "accession": "Q7A350",
+  "entry_name": "ICAD_STAAN",
+  "protein_name": "Poly-beta-1,6-N-acetyl-D-glucosamine synthesis protein IcaD",
+  "gene_names": [
+    "icaD"
+  ],
+  "organism": "Staphylococcus aureus (strain N315)",
+  "organism_id": 158879,
+  "length": 101,
+  "sequence": "MVKPRQREYPTLKSSLNIVRETALIAISCVFWIYCLVVLLVYIGTIFEIHDESINTIRVALNIENTEILDIFETMGIFAIIIFVFFTISILIQKWQRGRES",
+  "subcellular_location": [
+    "Cell membrane"
+  ],
+  "function": "Necessary for the synthesis of poly-beta-1,6-N-acetyl-D-glucosamine (PNAG, also referred to as PIA), a biofilm adhesin polysaccharide. Is required for full IcaA N-acetylglucosaminyltransferase activity (By similarity)",
+  "signal_peptide": false,
+  "transmembrane_domains": 2,
+  "alphafold_id": "Q7A350"
+}

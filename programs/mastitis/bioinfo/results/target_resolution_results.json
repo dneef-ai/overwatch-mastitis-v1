@@ -1,0 +1,483 @@
+{
+  "2A": {
+    "target": {
+      "candidate": "2A",
+      "name": "SrtA (Sortase A)",
+      "gene": "srtA",
+      "organism": "Staphylococcus aureus",
+      "category": "Known",
+      "claimed_localization": "membrane-anchored, active site extracellular",
+      "claimed_function": "Transpeptidase that anchors surface proteins (MSCRAMMs) to cell wall",
+      "claimed_essentiality": "Non-essential for growth"
+    },
+    "uniprot": {
+      "accession": "Q2FV99",
+      "entry_name": "SRTA_STAA8",
+      "protein_name": "Sortase A",
+      "gene_names": [
+        "srtA"
+      ],
+      "organism": "Staphylococcus aureus (strain NCTC 8325 / PS 47)",
+      "organism_id": 93061,
+      "length": 206,
+      "sequence": "MKKWTNRLMTIAGVVLILVAAYLFAKPHIDNYLHDKDKDEKIEQYDKNVKEQASKDKKQQAKPQIPKDKSKVAGYIEIPDADIKEPVYPGPATPEQLNRGVSFAEENESLDDQNISIAGHTFIDRPNYQFTNLKAAKKGSMVYFKVGNETRKYKMTSIRDVKPTDVGVLDEQKGKDKQLTLITCDDYNEKTGVWEKRKIFVATEVK",
+      "subcellular_location": [
+        "Cell membrane"
+      ],
+      "function": "Transpeptidase that anchors surface proteins to the cell wall (PubMed:10427003, PubMed:10446208, PubMed:10535938, PubMed:11714722, PubMed:14769030, PubMed:15247224). Recognizes and modifies its substrate by proteolytic cleavage of a C-terminal sorting signal. Following cleavage, a covalent intermediate is formed via a thioester bond between the sortase and its substrate, which is then transferred and covalently attached to the cell wall (PubMed:10446208, PubMed:10535938, PubMed:11714722, PubMed:14769030, PubMed:15247224). This sortase recognizes a Leu-Pro-x-Thr-Gly (LPXTG) motif, which is cleaved by the sortase between the threonine and glycine residues (PubMed:10535938, PubMed:11714722, PubMed:14769030, PubMed:15247224). Utilizes lipid II as the peptidoglycan substrate for the sorting reaction (PubMed:10446208, PubMed:11856734). Responsible for the display of important virulence factors (PubMed:14769030). Important for interactions with the host and host colonization during infection (PubMed:10805806, PubMed:14769030)",
+      "signal_peptide": false,
+      "transmembrane_domains": 1,
+      "alphafold_id": "Q2FV99"
+    },
+    "alphafold": {
+      "available": true,
+      "model_url": "https://alphafold.ebi.ac.uk/files/AF-Q2FV99-F1-model_v6.pdb",
+      "cif_url": "https://alphafold.ebi.ac.uk/files/AF-Q2FV99-F1-model_v6.cif",
+      "pae_url": "https://alphafold.ebi.ac.uk/files/AF-Q2FV99-F1-predicted_aligned_error_v6.png",
+      "confidence_url": "",
+      "version": 6,
+      "model_created": "2025-08-01T00:00:00Z"
+    },
+    "ncbi_gene": {
+      "gene_id": "59701356",
+      "raw_data": "srtA class A sortase SrtA[Staphylococcus aureus]\nGene ID: 59701356, discontinued on 24-Jan-2021\nThis record was discontinued.\n\n\nThere is no table for this gene because it has no annotated transcribed products."
+    },
+    "fasta_paths": [
+      "/Users/danielneef/Projects/Agteria/overwatch/programs/mastitis/bioinfo/sequences/srtA_Q2FV99.fasta"
+    ]
+  },
+  "2B": {
+    "target": {
+      "candidate": "2B",
+      "name": "FnBPA/FnBPB (Fibronectin-binding proteins)",
+      "gene": "fnbA",
+      "gene2": "fnbB",
+      "organism": "Staphylococcus aureus",
+      "category": "Novel",
+      "claimed_localization": "Cell surface (sortase-anchored)",
+      "claimed_function": "Adhesin binding host fibronectin, mediating internalization into epithelial cells",
+      "claimed_essentiality": "Non-essential for growth"
+    },
+    "uniprot": {
+      "accession": "P14738",
+      "entry_name": "FNBA_STAA8",
+      "protein_name": "Fibronectin-binding protein A",
+      "gene_names": [
+        "fnbA"
+      ],
+      "organism": "Staphylococcus aureus (strain NCTC 8325 / PS 47)",
+      "organism_id": 93061,
+      "length": 1018,
+      "sequence": "MKNNLRYGIRKHKLGAASVFLGTMIVVGMGQDKEAAASEQKTTTVEENGNSATDNKTSETQTTATNVNHIEETQSYNATVTEQPSNATQVTTEEAPKAVQAPQTAQPANIETVKEEVVKEEAKPQVKETTQSQDNSGDQRQVDLTPKKATQNQVAETQVEVAQPRTASESKPRVTRSADVAEAKEASNAKVETGTDVTSKVTVEIGSIEGHNNTNKVEPHAGQRAVLKYKLKFENGLHQGDYFDFTLSNNVNTHGVSTARKVPEIKNGSVVMATGEVLEGGKIRYTFTNDIEDKVDVTAELEINLFIDPKTVQTNGNQTITSTLNEEQTSKELDVKYKDGIGNYYANLNGSIETFNKANNRFSHVAFIKPNNGKTTSVTVTGTLMKGSNQNGNQPKVRIFEYLGNNEDIAKSVYANTTDTSKFKEVTSNMSGNLNLQNNGSYSLNIENLDKTYVVHYDGEYLNGTDEVDFRTQMVGHPEQLYKYYYDRGYTLTWDNGLVLYSNKANGNEKNGPIIQNNKFEYKEDTIKETLTGQYDKNLVTTVEEEYDSSTLDIDYHTAIDGGGGYVDGYIETIEETDSSAIDIDYHTAVDSEAGHVGGYTESSEESNPIDFEESTHENSKHHADVVEYEEDTNPGGGQVTTESNLVEFDEESTKGIVTGAVSDHTTVEDTKEYTTESNLIELVDELPEEHGQAQGPVEEITKNNHHISHSGLGTENGHGNYDVIEEIEENSHVDIKSELGYEGGQNSGNQSFEEDTEEDKPKYEQGGNIVDIDFDSVPQIHGQNKGNQSFEEDTEKDKPKYEHGGNIIDIDFDSVPHIHGFNKHTEIIEEDTNKDKPSYQFGGHNSVDFEEDTLPKVSGQNEGQQTIEEDTTPPIVPPTPPTPEVPSEPETPTPPTPEVPSEPETPTPPTPEVPSEPETPTPPTPEVPAEPGKPVPPAKEEPKKPSKPVEQGKVVTPVIEINEKVKAVAPTKKPQSKKSELPETGGEESTNKGMLFGGLFSILGLALLRRNKKNHKA",
+      "subcellular_location": [
+        "Secreted, cell wall"
+      ],
+      "function": "Possesses multiple, substituting fibronectin (Fn) binding regions, each capable of conferring adherence to both soluble and immobilized forms of Fn. This confers to S.aureus the ability to invade endothelial cells both in vivo and in vitro, without requiring additional factors, although in a slow and inefficient way through actin rearrangements in host cells. This invasion process is mediated by integrin alpha-5/beta-1. Promotes bacterial attachment to both soluble and immobilized forms of fibrinogen (Fg) by means of a unique binding site localized within the 17 C-terminal residues of the gamma-chain of human Fg. Both plasma proteins (Fn and Fg) function as a bridge between bacterium and host cell. Promotes attachment to immobilized elastin peptides in a dose-dependent and saturable manner. Promotes attachment to both full-length and segments of immobilized human tropoelastin at multiple sites in a dose and pH-dependent manner. Promotes adherence to and aggregation of activated platelets independently of other S.aureus surface molecules. Is a critical mediator implicated in the induction of experimental endocarditis in rats with catheter-induced aortic vegetations, promoting both colonization and persistence of the bacterium into the host",
+      "signal_peptide": true,
+      "transmembrane_domains": 0,
+      "alphafold_id": "P14738"
+    },
+    "alphafold": {
+      "available": true,
+      "model_url": "https://alphafold.ebi.ac.uk/files/AF-P14738-F1-model_v6.pdb",
+      "cif_url": "https://alphafold.ebi.ac.uk/files/AF-P14738-F1-model_v6.cif",
+      "pae_url": "https://alphafold.ebi.ac.uk/files/AF-P14738-F1-predicted_aligned_error_v6.png",
+      "confidence_url": "",
+      "version": 6,
+      "model_created": "2025-08-01T00:00:00Z"
+    },
+    "ncbi_gene": {
+      "gene_id": "59701328",
+      "raw_data": "fnbA fibronectin-binding protein FnbA[Staphylococcus aureus]\nGene ID: 59701328, discontinued on 24-Jan-2021\nThis record was discontinued.\n\n\nThere is no table for this gene because it has no annotated transcribed products."
+    },
+    "fasta_paths": [
+      "/Users/danielneef/Projects/Agteria/overwatch/programs/mastitis/bioinfo/sequences/fnbA_P14738.fasta",
+      "/Users/danielneef/Projects/Agteria/overwatch/programs/mastitis/bioinfo/sequences/fnbB_A0A0H2XKG3.fasta"
+    ],
+    "uniprot_fnbB": {
+      "accession": "A0A0H2XKG3",
+      "entry_name": "FNBB_STAA3",
+      "protein_name": "Fibronectin-binding protein B",
+      "gene_names": [
+        "fnbB"
+      ],
+      "organism": "Staphylococcus aureus (strain USA300)",
+      "organism_id": 367830,
+      "length": 940,
+      "sequence": "MKSNLRYGIRKHKLGAASVFLGTMIVVGMGQEKEAAASEQNNTTVEESGSSATESKASETQTTTNNVNTIDETQSYSATSTEQPSQSTQVTTEEAPKTVQAPKVETSRVDLPSEKVADKETTGTQVDIAQPSNVSEIKPRMKRSTDVTAVAEKEVVEETKATGTDVTNKVEVEEGSEIVGHKQDTNVVNPHNAERVTLKYKWKFGEGIKAGDYFDFTLSDNVETHGISTLRKVPEIKSTDGQVMATGEIIGERKVRYTFKEYVQEKKDLTAELSLNLFIDPTTVTQKGNQNVEVKLGETTVSKIFNIQYLGGVRDNWGVTANGRIDTLNKVDGKFSHFAYMKPNNQSLSSVTVTGQVTKGNKPGVNNPTVKVYKHIGSDDLAESVYAKLDDVSKFEDVTDNMSLDFDTNGGYSLNFNNLDQSKNYVIKYEGYYDSNASNLEFQTHLFGYYNYYYTSNLTWKNGVAFYSNNAQGDGKDKLKEPIIEHSTPIELEFKSEPPVEKHELTGTIEESNDSKPIDFEYHTAVEGAEGHAEGTIETEEDSIHVDFEESTHENSKHHADVVEYEEDTNPGGGQVTTESNLVEFDEDSTKGIVTGAVSDHTTIEDTKEYTTESNLIELVDELPEEHGQAQGPIEEITENNHHISHSGLGTENGHGNYGVIEEIEENSHVDIKSELGYEGGQNSGNQSFEEDTEEDKPKYEQGGNIVDIDFDSVPQIHGQNNGNQSFEEDTEKDKPKYEQGGNIIDIDFDSVPHIHGFNKHTEIIEEDTNKDKPNYQFGGHNSVDFEEDTLPQVSGHNEGQQTIEEDTTPPIVPPTPPTPEVPSEPETPTPPTPEVPSEPETPTPPTPEVPTEPGKPIPPAKEEPKKPSKPVEQGKVVTPVIEINEKVKAVVPTKKAQSKKSELPETGGEESTNNGMLFGGLFSILGLALLRRNKKNHKA",
+      "subcellular_location": [
+        "Secreted, cell wall"
+      ],
+      "function": "Multifunctional protein which promotes bacterial attachment to fibrinogen, elastin and fibronectin (PubMed:15234962, PubMed:21569203, PubMed:27387503). Also promotes the accumulation phase and the primary attachment phase of biofilm formation (PubMed:24628034). In addition, protects against the antimicrobial activity of histones. Mechanistically, captures histones and prevents them from reaching the bacterial membrane and simultaneously binds plasminogen, thereby promoting its conversion to plasmin to destroy the bound histones (PubMed:27387503, PubMed:30622139)",
+      "signal_peptide": true,
+      "transmembrane_domains": 0,
+      "alphafold_id": "A0A0H2XKG3"
+    }
+  },
+  "3A": {
+    "target": {
+      "candidate": "3A",
+      "name": "SpA (Protein A)",
+      "gene": "spa",
+      "organism": "Staphylococcus aureus",
+      "category": "Known",
+      "claimed_localization": "Cell surface (sortase-anchored)",
+      "claimed_function": "Binds IgG-Fc and VH3-Fab, immune evasion",
+      "claimed_essentiality": "Non-essential for growth"
+    },
+    "uniprot": {
+      "accession": "A0A0H3K686",
+      "entry_name": "SPA_STAAE",
+      "protein_name": "Immunoglobulin G-binding protein A",
+      "gene_names": [
+        "spa"
+      ],
+      "organism": "Staphylococcus aureus (strain Newman)",
+      "organism_id": 426430,
+      "length": 508,
+      "sequence": "MKKKNIYSIRKLGVGIASVTLGTLLISGGVTPAANAAQHDEAQQNAFYQVLNMPNLNADQRNGFIQSLKDDPSQSANVLGEAQKLNDSQAPKADAQQNNFNKDQQSAFYEILNMPNLNEAQRNGFIQSLKDDPSQSTNVLGEAKKLNESQAPKADNNFNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDDPSQSANLLSEAKKLNESQAPKADNKFNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDDPSQSANLLAEAKKLNDAQAPKADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPKEEDNNKPGKEDNNKPGKEDNNKPGKEDNNKPGKEDGNKPGKEDNKKPGKEDGNKPGKEDNKKPGKEDGNKPGKEDGNKPGKEDGNGVHVVKPGDTVNDIAKANGTTADKIAADNKLADKNMIKPGQELVVDKKQPANHADANKAQALPETGEENPFIGTTVFGGLSLALGAALLAGRRREL",
+      "subcellular_location": [
+        "Secreted, cell wall",
+        "Secreted"
+      ],
+      "function": "Plays a role in the inhibition of the host innate and adaptive immune responses. Possesses five immunoglobulin-binding domains that capture both the fragment crystallizable region (Fc region) and the Fab region (part of Ig that identifies antigen) of immunoglobulins (By similarity). In turn, Staphylococcus aureus is protected from phagocytic killing via inhibition of Ig Fc region. In addition, the host elicited B-cell response is prevented due to a decrease of antibody-secreting cell proliferation that enter the bone marrow, thereby decreasing long-term antibody production (PubMed:28031339). Inhibits osteogenesis by preventing osteoblast proliferation and expression of alkaline phosphatase, type I collagen, osteopontin and osteocalcin (PubMed:22792377). Acts directly as a pro-inflammatory factor in the lung through its ability to bind and activate tumor necrosis factor alpha receptor 1/TNFRSF1A (PubMed:15247912, PubMed:16709567)",
+      "signal_peptide": true,
+      "transmembrane_domains": 0,
+      "alphafold_id": "A0A0H3K686"
+    },
+    "alphafold": {
+      "available": true,
+      "model_url": "https://alphafold.ebi.ac.uk/files/AF-A0A0H3K686-F1-model_v6.pdb",
+      "cif_url": "https://alphafold.ebi.ac.uk/files/AF-A0A0H3K686-F1-model_v6.cif",
+      "pae_url": "https://alphafold.ebi.ac.uk/files/AF-A0A0H3K686-F1-predicted_aligned_error_v6.png",
+      "confidence_url": "",
+      "version": 6,
+      "model_created": "2025-08-01T00:00:00Z"
+    },
+    "ncbi_gene": {
+      "gene_id": "59698684",
+      "raw_data": "spa staphylococcal protein A[Staphylococcus aureus]\nGene ID: 59698684, discontinued on 24-Jan-2021\nThis record was discontinued.\n\n\nThere is no table for this gene because it has no annotated transcribed products."
+    },
+    "fasta_paths": [
+      "/Users/danielneef/Projects/Agteria/overwatch/programs/mastitis/bioinfo/sequences/spa_A0A0H3K686.fasta"
+    ]
+  },
+  "3B": {
+    "target": {
+      "candidate": "3B",
+      "name": "LukM/LukF' (Bicomponent leukocidin)",
+      "gene": "lukM",
+      "gene2": "lukF-PV",
+      "organism": "Staphylococcus aureus",
+      "category": "Known",
+      "claimed_localization": "Secreted",
+      "claimed_function": "Bicomponent pore-forming leukocidin targeting bovine neutrophils via CCR1",
+      "claimed_essentiality": "Non-essential; lineage-dependent carriage (CC151 high, CC97 ~30%)"
+    },
+    "uniprot": {
+      "accession": "Q53703",
+      "entry_name": "Q53703_STAAU",
+      "protein_name": "",
+      "gene_names": [
+        "lukM"
+      ],
+      "organism": "Staphylococcus aureus",
+      "organism_id": 1280,
+      "length": 308,
+      "sequence": "MFKRKLLVTTLSLGLIVPIATPFQGSKATTNAEDIGDDAEVIKRTEDVSSRKWGVTQNVQFDFVKDKKYNKDALIIKMQGFINSRTTFNDVKQNRANKRMVWPFQYNIGLTSKDQNTSLINYLPKNKIETVDVGQTLGYNIGGKFQSVPSIGGNGSFNYSKSIKYSQKSYVSEVEQQSSKTIKWGVKANSFVIAGHRWSAYDELLFIRNTTRGPNARDYFVDDNELPPLITSGFNPSFIATVSHEKDSGDTSEFEITYGRNMDVTYATYLPKLGLYPERKHNEFVNRNFVVKYEVNWKTYEIKVKGHN",
+      "subcellular_location": [],
+      "function": "",
+      "signal_peptide": true,
+      "transmembrane_domains": 0,
+      "alphafold_id": "Q53703"
+    },
+    "alphafold": {
+      "available": true,
+      "model_url": "https://alphafold.ebi.ac.uk/files/AF-Q53703-F1-model_v6.pdb",
+      "cif_url": "https://alphafold.ebi.ac.uk/files/AF-Q53703-F1-model_v6.cif",
+      "pae_url": "https://alphafold.ebi.ac.uk/files/AF-Q53703-F1-predicted_aligned_error_v6.png",
+      "confidence_url": "",
+      "version": 6,
+      "model_created": "2022-06-01T00:00:00Z"
+    },
+    "ncbi_gene": null,
+    "fasta_paths": [
+      "/Users/danielneef/Projects/Agteria/overwatch/programs/mastitis/bioinfo/sequences/lukM_Q53703.fasta",
+      "/Users/danielneef/Projects/Agteria/overwatch/programs/mastitis/bioinfo/sequences/lukF-PV_Q5FBD2.fasta"
+    ],
+    "uniprot_lukF-PV": {
+      "accession": "Q5FBD2",
+      "entry_name": "Q5FBD2_STAAU",
+      "protein_name": "",
+      "gene_names": [
+        "lukF-PV",
+        "hlgB_1",
+        "lukF- PV",
+        "LukPV-F",
+        "lukPV-F",
+        "lukPVF"
+      ],
+      "organism": "Staphylococcus aureus",
+      "organism_id": 1280,
+      "length": 325,
+      "sequence": "MKKIVKSSVVTSIALLLLSNTVDAAQHITPVSEKKVDDKITLYKTTATSDSDKLKISQILTFNFIKDKSYDKDTLILKAAGNIYSGYTKPNPKDTISSQFYWGSKYNISINSDSNDSVNVVDYAPKNQNEEFQVQQTVGYSYGGDINISNGLSGGGNGSKSFSETINYKQESYRTSLDKRTNFKKIGWDVEAHKIMNNGWGPYGRDSYHSTYGNEMFLGSRQSNLNAGQNFLEYHKMPVLSRGNFNPEFIGVLSRKQNAAKKSKITVTYQREMDRYTNFWNQLHWIGNNYKDENRATHTSIYEVDWENHTVKLIDTQSKEKNPMS",
+      "subcellular_location": [],
+      "function": "",
+      "signal_peptide": true,
+      "transmembrane_domains": 0,
+      "alphafold_id": "Q5FBD2"
+    }
+  },
+  "3D": {
+    "target": {
+      "candidate": "3D",
+      "name": "AdsA (Adenosine synthase A)",
+      "gene": "adsA",
+      "organism": "Staphylococcus aureus",
+      "category": "Novel",
+      "claimed_localization": "Cell surface (sortase-anchored)",
+      "claimed_function": "5'-nucleotidase converting AMP to adenosine, suppressing neutrophil oxidative burst",
+      "claimed_essentiality": "Non-essential for growth; virulence factor"
+    },
+    "uniprot": {
+      "accession": "A0ABD6ZXM2",
+      "entry_name": "A0ABD6ZXM2_STAAU",
+      "protein_name": "",
+      "gene_names": [
+        "adsA"
+      ],
+      "organism": "Staphylococcus aureus",
+      "organism_id": 1280,
+      "length": 768,
+      "sequence": "MKALLLKTSVWLVLLFSVMGLWHVSNAAEQHTPMKAHAVTTIDKAITDKQQVTPTKEAAHHYGEEAATNVSASAQGTADDTNNKVTSNAPSTAASTTVNETRDVDTQQASTQKPTRTATFKLSNAETASLSPRMFATNAPQTTTHKILHTNDIHGRLAEEKGRVIGMAKLKTVKEQEKPDLMLDAGDAFQGLPLSNQSKGEEMAKAMNAVGYDAMAVGNHKFDFGYDQLKKLEGMLDFPMLSTNVYKDGKRAFKPSTIVTKNGIRYGIIGVTTPETKTKTRPEGIKGVEFRDPLQSVTAEMMRIYKDVDTFVVISHLGIDPSTQETWRGDYLVKQLSQNPQLKKRITVIDGHSHTVLQNGQIYNNDALAQTGTALANIGKITFNYRNGAVSNIKPSLINVKDVENVTPNKALAEQINQADQTFRAQTAEVIIPNNTIDFKGERDDVRTRETNLGNAIADAMEAYGVKNFSKKTDFAVTNGGGIRASIAKGKVTRYDLISVLPFGNTIAQIDVKGSDVWTAFEHSLGAPTTQKDGKTVLTANGGLLHISDSIRVYYDMNKPSGKRINAIQILNKEIGKFENIDLKRVYHVTMNDFTASGGDGYSMFGGPREEGISLDQVLASYLKTANLAKYDTTEPQRMLLGKPAVSEQPAKGQQGSKGSESGKDTQPIDKDKVMNPAKQPASGKVVLLPAHRGTVSSGREGSDRALEGNAVSSKSGKQLASMSAPKDSAHEKQLPKTGTNQSSNPATMFVLVAGIGLIATVRRRKAS",
+      "subcellular_location": [
+        "Secreted, cell wall"
+      ],
+      "function": "",
+      "signal_peptide": true,
+      "transmembrane_domains": 0,
+      "alphafold_id": "A0ABD6ZXM2"
+    },
+    "alphafold": {
+      "available": true,
+      "model_url": "https://alphafold.ebi.ac.uk/files/AF-A0ABD6ZXM2-F1-model_v6.pdb",
+      "cif_url": "https://alphafold.ebi.ac.uk/files/AF-A0ABD6ZXM2-F1-model_v6.cif",
+      "pae_url": "https://alphafold.ebi.ac.uk/files/AF-A0ABD6ZXM2-F1-predicted_aligned_error_v6.png",
+      "confidence_url": "",
+      "version": 6,
+      "model_created": "2025-08-01T00:00:00Z"
+    },
+    "ncbi_gene": {
+      "gene_id": "59698588",
+      "raw_data": "adsA LPXTG-anchored adenosine synthase AdsA[Staphylococcus aureus]\nGene ID: 59698588, discontinued on 24-Jan-2021\nThis record was discontinued.\n\n\nThere is no table for this gene because it has no annotated transcribed products."
+    },
+    "fasta_paths": [
+      "/Users/danielneef/Projects/Agteria/overwatch/programs/mastitis/bioinfo/sequences/adsA_A0ABD6ZXM2.fasta"
+    ]
+  },
+  "4A": {
+    "target": {
+      "candidate": "4A",
+      "name": "Hla (Alpha-hemolysin)",
+      "gene": "hla",
+      "organism": "Staphylococcus aureus",
+      "category": "Known",
+      "claimed_localization": "Secreted",
+      "claimed_function": "Pore-forming toxin targeting epithelial cells, forms heptameric pores",
+      "claimed_essentiality": "Non-essential for growth; major virulence factor"
+    },
+    "uniprot": {
+      "accession": "P09616",
+      "entry_name": "HLA_STAAU",
+      "protein_name": "Alpha-hemolysin",
+      "gene_names": [
+        "hly",
+        "hla"
+      ],
+      "organism": "Staphylococcus aureus",
+      "organism_id": 1280,
+      "length": 319,
+      "sequence": "MKTRIVSSVTTTLLLGSILMNPVAGAADSDINIKTGTTDIGSNTTVKTGDLVTYDKENGMHKKVFYSFIDDKNHNKKLLVIRTKGTIAGQYRVYSEEGANKSGLAWPSAFKVQLQLPDNEVAQISDYYPRNSIDTKEYMSTLTYGFNGNVTGDDTGKIGGLIGANVSIGHTLKYVQPDFKTILESPTDKKVGWKVIFNNMVNQNWGPYDRDSWNPVYGNQLFMKTRNGSMKAADNFLDPNKASSLLSSGFSPDFATVITMDRKASKQQTNIDVIYERVRDDYQLHWTSTNWKGTNTKDKWTDRSSERYKIDWEKEEMTN",
+      "subcellular_location": [
+        "Secreted"
+      ],
+      "function": "Alpha-toxin binds to the membrane of eukaryotic cells (particularly red blood cells, RBC) forming pores, resulting in hemolysis, with the release of low-molecular weight molecules leading to eventual osmotic RBC lysis (PubMed:1587866, PubMed:20624979). Human RBCs bind much less alpha-toxin than do rabbit RBCs (PubMed:1587866, PubMed:20624979). Heptamer oligomerization and pore formation is required for lytic activity (PubMed:1587866, PubMed:20624979)",
+      "signal_peptide": true,
+      "transmembrane_domains": 0,
+      "alphafold_id": "P09616"
+    },
+    "alphafold": {
+      "available": true,
+      "model_url": "https://alphafold.ebi.ac.uk/files/AF-P09616-F1-model_v6.pdb",
+      "cif_url": "https://alphafold.ebi.ac.uk/files/AF-P09616-F1-model_v6.cif",
+      "pae_url": "https://alphafold.ebi.ac.uk/files/AF-P09616-F1-predicted_aligned_error_v6.png",
+      "confidence_url": "",
+      "version": 6,
+      "model_created": "2025-08-01T00:00:00Z"
+    },
+    "ncbi_gene": {
+      "gene_id": "17369140",
+      "raw_data": "hla Alpha-hemolysin precursor[Staphylococcus aureus subsp. aureus Z172]\nGene ID: 17369140, discontinued on 2-Mar-2015\nAll Gene records for this genome have been discontinued due to a change in scope for prokaryotic genomes in Gene. At the time this Gene record was discontinued, the RefSeq genome was re-annotated with the following features at this location:\nlocus_tag: SAZ172_RS06185\nprotein: WP_000848124.1\nlocation: NC_022604.1 (1227365..1228324, complement)\nannotation change: identical gene and protein\n\n\nThere is no table for this gene because it has no annotated transcribed products."
+    },
+    "fasta_paths": [
+      "/Users/danielneef/Projects/Agteria/overwatch/programs/mastitis/bioinfo/sequences/hla_P09616.fasta"
+    ]
+  },
+  "5B": {
+    "target": {
+      "candidate": "5B",
+      "name": "ClpP (Caseinolytic protease proteolytic subunit)",
+      "gene": "clpP",
+      "organism": "Staphylococcus aureus",
+      "category": "Non-Obvious",
+      "claimed_localization": "Cytoplasmic",
+      "claimed_function": "Protease involved in protein quality control; ADEP activation causes unregulated proteolysis",
+      "claimed_essentiality": "Essential in S. aureus"
+    },
+    "uniprot": {
+      "accession": "P99089",
+      "entry_name": "CLPP_STAAN",
+      "protein_name": "ATP-dependent Clp protease proteolytic subunit",
+      "gene_names": [
+        "clpP"
+      ],
+      "organism": "Staphylococcus aureus (strain N315)",
+      "organism_id": 158879,
+      "length": 195,
+      "sequence": "MNLIPTVIETTNRGERAYDIYSRLLKDRIIMLGSQIDDNVANSIVSQLLFLQAQDSEKDIYLYINSPGGSVTAGFAIYDTIQHIKPDVQTICIGMAASMGSFLLAAGAKGKRFALPNAEVMIHQPLGGAQGQATEIEIAANHILKTREKLNRILSERTGQSIEKIQKDTDRDNFLTAEEAKEYGLIDEVMVPETK",
+      "subcellular_location": [
+        "Cytoplasm"
+      ],
+      "function": "Cleaves peptides in various proteins in a process that requires ATP hydrolysis. Has a chymotrypsin-like activity. Plays a major role in the degradation of misfolded proteins",
+      "signal_peptide": false,
+      "transmembrane_domains": 0,
+      "alphafold_id": "P99089"
+    },
+    "alphafold": {
+      "available": true,
+      "model_url": "https://alphafold.ebi.ac.uk/files/AF-P99089-F1-model_v6.pdb",
+      "cif_url": "https://alphafold.ebi.ac.uk/files/AF-P99089-F1-model_v6.cif",
+      "pae_url": "https://alphafold.ebi.ac.uk/files/AF-P99089-F1-predicted_aligned_error_v6.png",
+      "confidence_url": "",
+      "version": 6,
+      "model_created": "2025-08-01T00:00:00Z"
+    },
+    "ncbi_gene": {
+      "gene_id": "3919354",
+      "raw_data": "clpP ATP-dependent Clp protease proteolytic subunit[Staphylococcus aureus subsp. aureus NCTC 8325]\nGene ID: 3919354, created on 19-Feb-2006\n\n\nThere is no table for this gene because it has no annotated transcribed products."
+    },
+    "fasta_paths": [
+      "/Users/danielneef/Projects/Agteria/overwatch/programs/mastitis/bioinfo/sequences/clpP_P99089.fasta"
+    ]
+  },
+  "5F": {
+    "target": {
+      "candidate": "5F",
+      "name": "IcaA (Biofilm PIA/PNAG synthesis)",
+      "gene": "icaA",
+      "gene2": "icaD",
+      "gene3": "icaB",
+      "gene4": "icaC",
+      "organism": "Staphylococcus aureus",
+      "category": "Known",
+      "claimed_localization": "Membrane (IcaA, IcaD, IcaC) / surface (IcaB)",
+      "claimed_function": "PNAG/PIA biosynthesis for biofilm matrix",
+      "claimed_essentiality": "Non-essential for growth; biofilm-associated"
+    },
+    "uniprot": {
+      "accession": "Q9RQP9",
+      "entry_name": "ICAA_STAA8",
+      "protein_name": "Poly-beta-1,6-N-acetyl-D-glucosamine synthase",
+      "gene_names": [
+        "icaA"
+      ],
+      "organism": "Staphylococcus aureus (strain NCTC 8325 / PS 47)",
+      "organism_id": 93061,
+      "length": 412,
+      "sequence": "MQFFNFLLFYPVFMSIYWIVGSIYFYFTREIRYSLNKKPDINVDELEGITFLLACYNESETIEDTLSNVLALKYEKKEIIIINDGSSDNTAELIYKIKENNDFIFVDLQENRGKANALNQGIKQASYDYVMCLDADTIVDQDAPYYMIENFKHDPKLGAVTGNPRIRNKSSILGKIQTIEYASLIGCIKRSQTLAGAVNTISGVFTLFKKSAVVDVGYWDTDMITEDIAVSWKLHLRGYRIKYEPLAMCWMLVPETLGGLWKQRVRWAQGGHEVLLRDFFSTMKTKRFPLYILMFEQIISILWVYIVLLYLGYLFITANFLDYTFMTYSFSIFLLSSFTMTFINVIQFTVALFIDSRYEKKNMAGLIFVSWYPTVYWIINAAVVLVAFPKALKRKKGGYATWSSPDRGNTQR",
+      "subcellular_location": [
+        "Cell membrane"
+      ],
+      "function": "N-acetylglucosaminyltransferase that catalyzes the polymerization of single monomer units of UDP-N-acetylglucosamine to produce the linear homomer poly-beta-1,6-N-acetyl-D-glucosamine (PNAG, also referred to as PIA), a biofilm adhesin polysaccharide. Requires IcaD for full activity (By similarity)",
+      "signal_peptide": false,
+      "transmembrane_domains": 4,
+      "alphafold_id": "Q9RQP9"
+    },
+    "alphafold": {
+      "available": true,
+      "model_url": "https://alphafold.ebi.ac.uk/files/AF-Q9RQP9-F1-model_v6.pdb",
+      "cif_url": "https://alphafold.ebi.ac.uk/files/AF-Q9RQP9-F1-model_v6.cif",
+      "pae_url": "https://alphafold.ebi.ac.uk/files/AF-Q9RQP9-F1-predicted_aligned_error_v6.png",
+      "confidence_url": "",
+      "version": 6,
+      "model_created": "2025-08-01T00:00:00Z"
+    },
+    "ncbi_gene": {
+      "gene_id": "17370819",
+      "raw_data": "icaA Polysaccharide intercellular adhesin (PIA) biosynthesis N-glycosyltransferase IcaA[Staphylococcus aureus subsp. aureus Z172]\nGene ID: 17370819, discontinued on 2-Mar-2015\nAll Gene records for this genome have been discontinued due to a change in scope for prokaryotic genomes in Gene. At the time this Gene record was discontinued, the RefSeq genome was re-annotated with the following features at this location:\nlocus_tag: SAZ172_RS15215\nprotein: WP_001159430.1\nlocation: NC_022604.1 (2937794..2939032)\nannotation change: similar gene and protein\n\n\nThere is no table for this gene because it has no annotated transcribed products."
+    },
+    "fasta_paths": [
+      "/Users/danielneef/Projects/Agteria/overwatch/programs/mastitis/bioinfo/sequences/icaA_Q9RQP9.fasta",
+      "/Users/danielneef/Projects/Agteria/overwatch/programs/mastitis/bioinfo/sequences/icaD_Q7A350.fasta",
+      "/Users/danielneef/Projects/Agteria/overwatch/programs/mastitis/bioinfo/sequences/icaB_Q9RQP7.fasta",
+      "/Users/danielneef/Projects/Agteria/overwatch/programs/mastitis/bioinfo/sequences/icaC_Q6GDD5.fasta"
+    ],
+    "uniprot_icaD": {
+      "accession": "Q7A350",
+      "entry_name": "ICAD_STAAN",
+      "protein_name": "Poly-beta-1,6-N-acetyl-D-glucosamine synthesis protein IcaD",
+      "gene_names": [
+        "icaD"
+      ],
+      "organism": "Staphylococcus aureus (strain N315)",
+      "organism_id": 158879,
+      "length": 101,
+      "sequence": "MVKPRQREYPTLKSSLNIVRETALIAISCVFWIYCLVVLLVYIGTIFEIHDESINTIRVALNIENTEILDIFETMGIFAIIIFVFFTISILIQKWQRGRES",
+      "subcellular_location": [
+        "Cell membrane"
+      ],
+      "function": "Necessary for the synthesis of poly-beta-1,6-N-acetyl-D-glucosamine (PNAG, also referred to as PIA), a biofilm adhesin polysaccharide. Is required for full IcaA N-acetylglucosaminyltransferase activity (By similarity)",
+      "signal_peptide": false,
+      "transmembrane_domains": 2,
+      "alphafold_id": "Q7A350"
+    },
+    "uniprot_icaB": {
+      "accession": "Q9RQP7",
+      "entry_name": "ICAB_STAA8",
+      "protein_name": "Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase",
+      "gene_names": [
+        "icaB"
+      ],
+      "organism": "Staphylococcus aureus (strain NCTC 8325 / PS 47)",
+      "organism_id": 93061,
+      "length": 290,
+      "sequence": "MKYRKFIILVLSILIILPVSTLDGHHIANADDDSPKKLKYKENSALALNYHRVRKANFLNNFIYFFSSSKEIKNYSVSQSQFESQIKWLKSHDAKFLTLKEFLYYKKKGKFPKRSVWINFDDMDETIYENAYPILKKYKIPATGFIITGHVGEENFHNLDMISKKELKEMYKTGLWEFETHTHDLHNLSKNNKSKLMKASEATIIKDLNKSEKYLTKNFKKSQKTIAYPYGLMNDDKLPVIKKAGLKYGFSLEEKAVTPNSNDYYIPRILISDDAFEHLIKRWDGFHEKD",
+      "subcellular_location": [
+        "Secreted, cell wall"
+      ],
+      "function": "Catalyzes the N-deacetylation of poly-beta-1,6-N-acetyl-D-glucosamine (PNAG, also referred to as PIA), a biofilm adhesin polysaccharide. N-deacetylation is crucial for attachment of the polysaccharide to the bacterial cell surface; it leads to the introduction of positive charges in the otherwise neutral PIA polymer, allowing electrostatic interactions (By similarity)",
+      "signal_peptide": true,
+      "transmembrane_domains": 0,
+      "alphafold_id": "Q9RQP7"
+    },
+    "uniprot_icaC": {
+      "accession": "Q6GDD5",
+      "entry_name": "ICAC_STAAR",
+      "protein_name": "Probable poly-beta-1,6-N-acetyl-D-glucosamine export protein",
+      "gene_names": [
+        "icaC"
+      ],
+      "organism": "Staphylococcus aureus (strain MRSA252)",
+      "organism_id": 282458,
+      "length": 350,
+      "sequence": "MKKIRLELVYLRAIICAIIIVTHLLTQITLKHENMEGGSLVLQFYIRNIVIFGTPCFIILSQLLTTLNYQKVTYRYLTTRVKYILIPYILMGLFYSYSESLLTDTSFQKQFIENVLLGQWYGYFIVVIMQFFILSYIIFKINYNLFNSKILLLLSFILQQSFLYYFTNNTAFHDTVLHYYPLSENTIIFGWIFYFFLGAYMGYNYERVLNFLERYLVIMIVLAVATYFVFIALANGDYWNVTSFSYSLTPYNSIMFIVILGICTHFKTMLFNTIQMISAFSFFIYLLHPIILDSLFAYTNIFEDNTMVFLAISLLFILGLCIGVGMILREFYIFRFIIGKQPYKLNINAY",
+      "subcellular_location": [
+        "Cell membrane"
+      ],
+      "function": "Presumably involved in the export of the biofilm adhesin polysaccharide poly-beta-1,6-N-acetyl-D-glucosamine (PNAG, also referred to as PIA) across the cell membrane",
+      "signal_peptide": false,
+      "transmembrane_domains": 10,
+      "alphafold_id": "Q6GDD5"
+    }
+  }
+}

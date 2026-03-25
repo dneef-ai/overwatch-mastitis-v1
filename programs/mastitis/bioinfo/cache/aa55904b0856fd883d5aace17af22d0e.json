@@ -1,0 +1,643 @@
+[
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q58DW7",
+    "organism": {
+      "scientificName": "Bos taurus",
+      "commonName": "Bovine",
+      "taxonId": 9913,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "AAX46327.1"
+        }
+      ],
+      "lineage": [
+        "Eukaryota",
+        "Metazoa",
+        "Chordata",
+        "Craniata",
+        "Vertebrata",
+        "Euteleostomi",
+        "Mammalia",
+        "Eutheria",
+        "Laurasiatheria",
+        "Artiodactyla",
+        "Ruminantia",
+        "Pecora",
+        "Bovidae",
+        "Bovinae",
+        "Bos"
+      ]
+    },
+    "proteinDescription": {
+      "submissionNames": [
+        {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "AAY34701.1"
+              }
+            ],
+            "value": "MHC class II antigen"
+          }
+        },
+        {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "AAI18362.1"
+              },
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "AAX46327.1"
+              },
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "Ensembl",
+                "id": "ENSBTAP00000016520.3"
+              }
+            ],
+            "value": "Major histocompatibility complex, class II, DM beta"
+          }
+        }
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "AAX46327.1"
+            }
+          ],
+          "value": "HLA-DMB"
+        },
+        "synonyms": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "AAI18362.1"
+              },
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "Ensembl",
+                "id": "ENSBTAP00000016520.3"
+              }
+            ],
+            "value": "BOLA-DMB"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "AAY34701.1"
+              }
+            ],
+            "value": "DMB"
+          }
+        ]
+      }
+    ],
+    "comments": [],
+    "sequence": {
+      "length": 262
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI00004ECD9E"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q30308",
+    "organism": {
+      "scientificName": "Bos taurus",
+      "commonName": "Bovine",
+      "taxonId": 9913,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "BAA08765.1"
+        }
+      ],
+      "lineage": [
+        "Eukaryota",
+        "Metazoa",
+        "Chordata",
+        "Craniata",
+        "Vertebrata",
+        "Euteleostomi",
+        "Mammalia",
+        "Eutheria",
+        "Laurasiatheria",
+        "Artiodactyla",
+        "Ruminantia",
+        "Pecora",
+        "Bovidae",
+        "Bovinae",
+        "Bos"
+      ]
+    },
+    "proteinDescription": {
+      "submissionNames": [
+        {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "BAA08765.1"
+              }
+            ],
+            "value": "MHC class II DQA2"
+          }
+        },
+        {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "AAX09011.1"
+              }
+            ],
+            "value": "Major histocompatibility complex, class II, DQ alpha 1"
+          }
+        }
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "AAX09011.1"
+            }
+          ],
+          "value": "HLA-DQA1"
+        }
+      }
+    ],
+    "comments": [],
+    "sequence": {
+      "length": 255
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI000008A7F7"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q5E9C9",
+    "organism": {
+      "scientificName": "Bos taurus",
+      "commonName": "Bovine",
+      "taxonId": 9913,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "AAX09008.1"
+        }
+      ],
+      "lineage": [
+        "Eukaryota",
+        "Metazoa",
+        "Chordata",
+        "Craniata",
+        "Vertebrata",
+        "Euteleostomi",
+        "Mammalia",
+        "Eutheria",
+        "Laurasiatheria",
+        "Artiodactyla",
+        "Ruminantia",
+        "Pecora",
+        "Bovidae",
+        "Bovinae",
+        "Bos"
+      ]
+    },
+    "proteinDescription": {
+      "submissionNames": [
+        {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "AAX09008.1"
+              }
+            ],
+            "value": "Major histocompatibility complex, class I, A"
+          }
+        }
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "AAX09008.1"
+            }
+          ],
+          "value": "HLA-A"
+        }
+      }
+    ],
+    "comments": [
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000256",
+                "source": "ARBA",
+                "id": "ARBA00002297"
+              }
+            ],
+            "value": "Involved in the presentation of foreign antigens to the immune system"
+          }
+        ],
+        "commentType": "FUNCTION"
+      }
+    ],
+    "sequence": {
+      "length": 362
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI00004CEBCE"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q95394",
+    "organism": {
+      "scientificName": "Bos taurus",
+      "commonName": "Bovine",
+      "taxonId": 9913,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CAA70405.2"
+        }
+      ],
+      "lineage": [
+        "Eukaryota",
+        "Metazoa",
+        "Chordata",
+        "Craniata",
+        "Vertebrata",
+        "Euteleostomi",
+        "Mammalia",
+        "Eutheria",
+        "Laurasiatheria",
+        "Artiodactyla",
+        "Ruminantia",
+        "Pecora",
+        "Bovidae",
+        "Bovinae",
+        "Bos"
+      ]
+    },
+    "proteinDescription": {
+      "submissionNames": [
+        {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "CAA70405.2"
+              }
+            ],
+            "value": "MHC class I molecule"
+          }
+        },
+        {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "AAX46366.1"
+              }
+            ],
+            "value": "Major histocompatibility complex, class I, B"
+          }
+        }
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CAA70405.2"
+            }
+          ],
+          "value": "D18.2"
+        },
+        "synonyms": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "AAX46366.1"
+              }
+            ],
+            "value": "HLA-B"
+          }
+        ]
+      }
+    ],
+    "comments": [
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000256",
+                "source": "ARBA",
+                "id": "ARBA00002297"
+              }
+            ],
+            "value": "Involved in the presentation of foreign antigens to the immune system"
+          }
+        ],
+        "commentType": "FUNCTION"
+      }
+    ],
+    "sequence": {
+      "length": 363
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI00004ECDBD"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q30309",
+    "organism": {
+      "scientificName": "Bos taurus",
+      "commonName": "Bovine",
+      "taxonId": 9913,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "BAA07173.1"
+        }
+      ],
+      "lineage": [
+        "Eukaryota",
+        "Metazoa",
+        "Chordata",
+        "Craniata",
+        "Vertebrata",
+        "Euteleostomi",
+        "Mammalia",
+        "Eutheria",
+        "Laurasiatheria",
+        "Artiodactyla",
+        "Ruminantia",
+        "Pecora",
+        "Bovidae",
+        "Bovinae",
+        "Bos"
+      ]
+    },
+    "proteinDescription": {
+      "submissionNames": [
+        {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "BAA07173.1"
+              }
+            ],
+            "value": "BoLA-DR-alpha"
+          }
+        },
+        {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "AAI42120.1"
+              }
+            ],
+            "value": "Major histocompatibility complex, class II, DR alpha"
+          }
+        }
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "BAA07173.1"
+            }
+          ],
+          "value": "BoLA-DRA"
+        },
+        "synonyms": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "AAI42120.1"
+              }
+            ],
+            "value": "BOLA-DRA"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "AAX09076.1"
+              }
+            ],
+            "value": "HLA-DRA"
+          }
+        ]
+      }
+    ],
+    "comments": [],
+    "sequence": {
+      "length": 253
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI000008A1AB"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A1L5C7",
+    "organism": {
+      "scientificName": "Bos taurus",
+      "commonName": "Bovine",
+      "taxonId": 9913,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "ABM06160.1"
+        }
+      ],
+      "lineage": [
+        "Eukaryota",
+        "Metazoa",
+        "Chordata",
+        "Craniata",
+        "Vertebrata",
+        "Euteleostomi",
+        "Mammalia",
+        "Eutheria",
+        "Laurasiatheria",
+        "Artiodactyla",
+        "Ruminantia",
+        "Pecora",
+        "Bovidae",
+        "Bovinae",
+        "Bos"
+      ]
+    },
+    "proteinDescription": {
+      "submissionNames": [
+        {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "ABM06160.1"
+              }
+            ],
+            "value": "Major histocompatibility complex, class II, DR beta 3"
+          }
+        }
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "ABM06160.1"
+            }
+          ],
+          "value": "HLA-DRB3"
+        }
+      }
+    ],
+    "comments": [],
+    "sequence": {
+      "length": 266
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000EBF41C"
+    }
+  },
+  {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q1JP81",
+    "organism": {
+      "scientificName": "Bos taurus",
+      "commonName": "Bovine",
+      "taxonId": 9913,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "ABF57429.1"
+        }
+      ],
+      "lineage": [
+        "Eukaryota",
+        "Metazoa",
+        "Chordata",
+        "Craniata",
+        "Vertebrata",
+        "Euteleostomi",
+        "Mammalia",
+        "Eutheria",
+        "Laurasiatheria",
+        "Artiodactyla",
+        "Ruminantia",
+        "Pecora",
+        "Bovidae",
+        "Bovinae",
+        "Bos"
+      ]
+    },
+    "proteinDescription": {
+      "submissionNames": [
+        {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "ABF57429.1"
+              }
+            ],
+            "value": "Major histocompatibility complex, class II, DR beta 4"
+          }
+        }
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "ABF57429.1"
+            }
+          ],
+          "value": "HLA-DRB4"
+        }
+      }
+    ],
+    "comments": [],
+    "sequence": {
+      "length": 266
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000D79EDB"
+    }
+  }
+]

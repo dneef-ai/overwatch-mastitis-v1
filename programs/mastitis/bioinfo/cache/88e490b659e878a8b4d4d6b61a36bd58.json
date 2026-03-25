@@ -1,0 +1,22 @@
+{
+  "query_length": 195,
+  "database": "nr",
+  "entrez_query": "Bos taurus[Organism]",
+  "expect": 0.01,
+  "num_hits": 1,
+  "hits": [
+    {
+      "title": "ref|NP_001039879.1| ATP-dependent Clp protease proteolytic subunit, mitochondrial [Bos taurus] >ref|XP_005901805.2| ATP-dependent Clp protease proteolytic subunit, mitochondrial [Bos mutus] >ref|XP_00",
+      "accession": "NP_001039879",
+      "length": 272,
+      "identities": 102,
+      "align_length": 191,
+      "identity_pct": 53.4,
+      "coverage_pct": 97.9,
+      "e_value": 6.11468e-74,
+      "score": 573.0,
+      "gaps": 0
+    }
+  ],
+  "date": "2026-03-25"
+}

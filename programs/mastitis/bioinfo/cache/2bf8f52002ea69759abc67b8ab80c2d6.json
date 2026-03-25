@@ -1,0 +1,4 @@
+{
+  "gene_id": "17369140",
+  "raw_data": "hla Alpha-hemolysin precursor[Staphylococcus aureus subsp. aureus Z172]\nGene ID: 17369140, discontinued on 2-Mar-2015\nAll Gene records for this genome have been discontinued due to a change in scope for prokaryotic genomes in Gene. At the time this Gene record was discontinued, the RefSeq genome was re-annotated with the following features at this location:\nlocus_tag: SAZ172_RS06185\nprotein: WP_000848124.1\nlocation: NC_022604.1 (1227365..1228324, complement)\nannotation change: identical gene and protein\n\n\nThere is no table for this gene because it has no annotated transcribed products."
+}

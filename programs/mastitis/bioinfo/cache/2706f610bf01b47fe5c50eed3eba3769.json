@@ -1,0 +1,9 @@
+{
+  "query_length": 319,
+  "database": "nr",
+  "entrez_query": "Bos taurus[Organism]",
+  "expect": 0.01,
+  "num_hits": 0,
+  "hits": [],
+  "date": "2026-03-25"
+}

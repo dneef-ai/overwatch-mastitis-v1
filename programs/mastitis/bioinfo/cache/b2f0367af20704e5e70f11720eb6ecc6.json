@@ -1,0 +1,22 @@
+{
+  "query_length": 508,
+  "database": "nr",
+  "entrez_query": "Bos taurus[Organism]",
+  "expect": 0.01,
+  "num_hits": 1,
+  "hits": [
+    {
+      "title": "ref|XP_005215747.1| RNA-binding protein 12B [Bos taurus] >ref|XP_019829340.2| RNA-binding protein 12B [Bos indicus] >ref|XP_019829342.2| RNA-binding protein 12B [Bos indicus] >ref|XP_024857649.1| RNA-",
+      "accession": "XP_005215747",
+      "length": 984,
+      "identities": 36,
+      "align_length": 100,
+      "identity_pct": 36.0,
+      "coverage_pct": 19.7,
+      "e_value": 1.10574e-09,
+      "score": 151.0,
+      "gaps": 8
+    }
+  ],
+  "date": "2026-03-25"
+}

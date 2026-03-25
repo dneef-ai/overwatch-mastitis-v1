@@ -1,0 +1,450 @@
+{
+  "label": "sa_fnbA",
+  "query_length": 1018,
+  "entrez_query": "Staphylococcus aureus[Organism]",
+  "num_hits": 49,
+  "hits": [
+    {
+      "title": "ref|WP_000794582.1| MULTISPECIES: fibronectin-binding protein FnbA [Staphylococcus] >sp|P14738.1| RecName: Full=Fibronectin-binding protein A; Short=FnbpA; Flags: Precursor [Staphylococcus aureus subs",
+      "accession": "WP_000794582",
+      "length": 1018,
+      "identity_pct": 100.0,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HFN8561335.1| fibronectin-binding protein FnbA [Staphylococcus aureus] >tpg|HFN9203833.1| fibronectin-binding protein FnbA [Staphylococcus aureus] >tpg|HFN9512717.1| fibronectin-binding protein Fn",
+      "accession": "HFN8561335",
+      "length": 1018,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "ref|WP_025175368.1| fibronectin-binding protein FnbA [Staphylococcus aureus] >gb|AKJ18347.1| fibronectin-binding protein [Staphylococcus aureus] >gb|AXP44805.1| Fibronectin-binding protein A precursor",
+      "accession": "WP_025175368",
+      "length": 1018,
+      "identity_pct": 99.9,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "ref|WP_048525225.1| fibronectin-binding protein FnbA [Staphylococcus aureus] >gb|KMS18095.1| fibronectin-binding protein [Staphylococcus aureus] >tpg|HCY0035707.1| fibronectin-binding protein FnbA [St",
+      "accession": "WP_048525225",
+      "length": 1018,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HGO3577819.1| fibronectin-binding protein FnbA [Staphylococcus aureus]",
+      "accession": "HGO3577819",
+      "length": 1018,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HHW9857740.1| fibronectin-binding protein FnbA [Staphylococcus aureus]",
+      "accession": "HHW9857740",
+      "length": 1018,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HHX0183969.1| fibronectin-binding protein FnbA [Staphylococcus aureus]",
+      "accession": "HHX0183969",
+      "length": 1018,
+      "identity_pct": 99.7,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HCY0850381.1| fibronectin-binding protein FnbA [Staphylococcus aureus]",
+      "accession": "HCY0850381",
+      "length": 1018,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HGZ9706154.1| fibronectin-binding protein FnbA [Staphylococcus aureus] >tpg|HHC8856914.1| fibronectin-binding protein FnbA [Staphylococcus aureus]",
+      "accession": "HGZ9706154",
+      "length": 1018,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "ref|WP_233233267.1| fibronectin-binding protein FnbA [Staphylococcus aureus] >gb|MCE3347496.1| fibronectin-binding protein FnbA [Staphylococcus aureus] >gb|MET1285303.1| fibronectin-binding protein Fn",
+      "accession": "WP_233233267",
+      "length": 1018,
+      "identity_pct": 99.7,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HHW9865493.1| fibronectin-binding protein FnbA [Staphylococcus aureus]",
+      "accession": "HHW9865493",
+      "length": 1018,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HFF0317568.1| fibronectin-binding protein FnbA [Staphylococcus aureus]",
+      "accession": "HFF0317568",
+      "length": 1018,
+      "identity_pct": 99.7,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HHD1382075.1| fibronectin-binding protein FnbA [Staphylococcus aureus]",
+      "accession": "HHD1382075",
+      "length": 1018,
+      "identity_pct": 99.7,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "ref|WP_048665239.1| fibronectin-binding protein FnbA [Staphylococcus aureus] >gb|MBE7572916.1| fibronectin-binding protein FnbA [Staphylococcus aureus] >gb|MBE7574067.1| fibronectin-binding protein Fn",
+      "accession": "WP_048665239",
+      "length": 1018,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HHC6398187.1| fibronectin-binding protein FnbA [Staphylococcus aureus]",
+      "accession": "HHC6398187",
+      "length": 1018,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "emb|CAC6841802.1| Fibronectin-binding protein A [Staphylococcus aureus]",
+      "accession": "CAC6841802",
+      "length": 1018,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "emb|CAC6924089.1| Fibronectin-binding protein A [Staphylococcus aureus]",
+      "accession": "CAC6924089",
+      "length": 1018,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "ref|WP_000794589.1| fibronectin-binding protein FnbA [Staphylococcus aureus] >sp|Q2FE03.1| RecName: Full=Fibronectin-binding protein A; Flags: Precursor [Staphylococcus aureus subsp. aureus USA300] >s",
+      "accession": "WP_000794589",
+      "length": 1018,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "emb|CAC6845181.1| Fibronectin-binding protein A [Staphylococcus aureus]",
+      "accession": "CAC6845181",
+      "length": 1018,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "ref|WP_303263012.1| fibronectin-binding protein FnbA [Staphylococcus aureus]",
+      "accession": "WP_303263012",
+      "length": 1018,
+      "identity_pct": 99.7,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HGZ8111473.1| fibronectin-binding protein FnbA [Staphylococcus aureus]",
+      "accession": "HGZ8111473",
+      "length": 1018,
+      "identity_pct": 99.7,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "ref|WP_208168326.1| fibronectin-binding protein FnbA [Staphylococcus aureus] >gb|MBO2748402.1| fibronectin-binding protein FnbA [Staphylococcus aureus]",
+      "accession": "WP_208168326",
+      "length": 1018,
+      "identity_pct": 99.7,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "ref|WP_111015679.1| fibronectin-binding protein FnbA [Staphylococcus aureus] >gb|PZH27366.1| fibronectin-binding protein [Staphylococcus aureus]",
+      "accession": "WP_111015679",
+      "length": 1018,
+      "identity_pct": 99.7,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HDB0874132.1| fibronectin-binding protein FnbA [Staphylococcus aureus] >tpg|HDI0190484.1| fibronectin-binding protein FnbA [Staphylococcus aureus] >tpg|HFG2380718.1| fibronectin-binding protein Fn",
+      "accession": "HDB0874132",
+      "length": 1018,
+      "identity_pct": 99.7,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "ref|WP_050956481.1| fibronectin-binding protein FnbA [Staphylococcus aureus] >gb|MCQ1135050.1| fibronectin-binding protein FnbA [Staphylococcus aureus] >gb|UCJ63837.1| fibronectin-binding protein FnbA",
+      "accession": "WP_050956481",
+      "length": 1018,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HCC5643594.1| fibronectin-binding protein FnbA [Staphylococcus aureus]",
+      "accession": "HCC5643594",
+      "length": 1018,
+      "identity_pct": 99.7,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HGZ9076293.1| fibronectin-binding protein FnbA [Staphylococcus aureus]",
+      "accession": "HGZ9076293",
+      "length": 1018,
+      "identity_pct": 99.7,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "ref|WP_050961926.1| fibronectin-binding protein FnbA [Staphylococcus aureus] >gb|QFL13323.1| fibronectin-binding protein [Staphylococcus aureus] >emb|COY45618.1| fibronectin-binding protein A [Staphyl",
+      "accession": "WP_050961926",
+      "length": 1018,
+      "identity_pct": 99.7,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HCV8073240.1| fibronectin-binding protein FnbA [Staphylococcus aureus] >tpg|HDI7133948.1| fibronectin-binding protein FnbA [Staphylococcus aureus] >tpg|HDI7143237.1| fibronectin-binding protein Fn",
+      "accession": "HCV8073240",
+      "length": 1018,
+      "identity_pct": 99.7,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "gb|EOB7084561.1| fibronectin-binding protein FnbA [Staphylococcus aureus]",
+      "accession": "EOB7084561",
+      "length": 1018,
+      "identity_pct": 99.7,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "ref|WP_279520127.1| fibronectin-binding protein FnbA [Staphylococcus aureus]",
+      "accession": "WP_279520127",
+      "length": 1018,
+      "identity_pct": 99.7,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "gb|MEW4825855.1| fibronectin-binding protein FnbA [Staphylococcus aureus] >gb|MEW4954668.1| fibronectin-binding protein FnbA [Staphylococcus aureus] >gb|MEW7671862.1| fibronectin-binding protein FnbA ",
+      "accession": "MEW4825855",
+      "length": 1018,
+      "identity_pct": 99.7,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HDA9504690.1| fibronectin-binding protein FnbA [Staphylococcus aureus]",
+      "accession": "HDA9504690",
+      "length": 1018,
+      "identity_pct": 99.7,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HCC5676893.1| fibronectin-binding protein FnbA [Staphylococcus aureus]",
+      "accession": "HCC5676893",
+      "length": 1018,
+      "identity_pct": 99.7,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HHD0843714.1| fibronectin-binding protein FnbA [Staphylococcus aureus]",
+      "accession": "HHD0843714",
+      "length": 1018,
+      "identity_pct": 99.7,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HHD1508734.1| fibronectin-binding protein FnbA [Staphylococcus aureus]",
+      "accession": "HHD1508734",
+      "length": 1018,
+      "identity_pct": 99.7,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "ref|WP_086045594.1| fibronectin-binding protein FnbA [Staphylococcus aureus]",
+      "accession": "WP_086045594",
+      "length": 1018,
+      "identity_pct": 99.7,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "gb|ELG6467989.1| fibronectin-binding protein FnbA [Staphylococcus aureus]",
+      "accession": "ELG6467989",
+      "length": 1018,
+      "identity_pct": 99.7,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "ref|WP_001550338.1| fibronectin-binding protein FnbA [Staphylococcus aureus] >gb|ENI26780.1| fibronectin-binding protein A [Staphylococcus aureus HI010] >emb|CAA3705074.1| fibronectin-binding protein ",
+      "accession": "WP_001550338",
+      "length": 1018,
+      "identity_pct": 99.7,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HHQ1926076.1| fibronectin-binding protein FnbA [Staphylococcus aureus] >tpg|HHQ2034057.1| fibronectin-binding protein FnbA [Staphylococcus aureus] >tpg|HHQ2255585.1| fibronectin-binding protein Fn",
+      "accession": "HHQ1926076",
+      "length": 1018,
+      "identity_pct": 99.7,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HCY0878048.1| fibronectin-binding protein FnbA [Staphylococcus aureus]",
+      "accession": "HCY0878048",
+      "length": 1018,
+      "identity_pct": 99.8,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "gb|EOB0541961.1| fibronectin-binding protein FnbA [Staphylococcus aureus]",
+      "accession": "EOB0541961",
+      "length": 1018,
+      "identity_pct": 99.7,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HEC4544170.1| fibronectin-binding protein FnbA [Staphylococcus aureus] >tpg|HHC8050919.1| fibronectin-binding protein FnbA [Staphylococcus aureus]",
+      "accession": "HEC4544170",
+      "length": 1018,
+      "identity_pct": 99.7,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HHM2895639.1| fibronectin-binding protein FnbA [Staphylococcus aureus]",
+      "accession": "HHM2895639",
+      "length": 1018,
+      "identity_pct": 99.7,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HEJ8389250.1| fibronectin-binding protein FnbA [Staphylococcus aureus] >tpg|HII0741953.1| fibronectin-binding protein FnbA [Staphylococcus aureus]",
+      "accession": "HEJ8389250",
+      "length": 1018,
+      "identity_pct": 99.7,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HDJ6498488.1| fibronectin-binding protein FnbA [Staphylococcus aureus]",
+      "accession": "HDJ6498488",
+      "length": 1018,
+      "identity_pct": 99.7,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|HFQ6148060.1| fibronectin-binding protein FnbA [Staphylococcus aureus]",
+      "accession": "HFQ6148060",
+      "length": 1018,
+      "identity_pct": 99.7,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "ref|WP_341532405.1| fibronectin-binding protein FnbA [Staphylococcus aureus] >gb|WZF45766.1| fibronectin-binding protein FnbA [Staphylococcus aureus] >gb|WZF51198.1| fibronectin-binding protein FnbA [",
+      "accession": "WP_341532405",
+      "length": 1018,
+      "identity_pct": 99.7,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    },
+    {
+      "title": "ref|WP_086097355.1| fibronectin-binding protein FnbA [Staphylococcus aureus]",
+      "accession": "WP_086097355",
+      "length": 1018,
+      "identity_pct": 99.7,
+      "coverage_pct": 100.0,
+      "e_value": 0.0,
+      "gaps": 0
+    }
+  ],
+  "date": "2026-03-25"
+}

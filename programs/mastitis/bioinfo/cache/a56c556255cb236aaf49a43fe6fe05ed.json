@@ -1,0 +1,19 @@
+{
+  "accession": "Q9RQP9",
+  "entry_name": "ICAA_STAA8",
+  "protein_name": "Poly-beta-1,6-N-acetyl-D-glucosamine synthase",
+  "gene_names": [
+    "icaA"
+  ],
+  "organism": "Staphylococcus aureus (strain NCTC 8325 / PS 47)",
+  "organism_id": 93061,
+  "length": 412,
+  "sequence": "MQFFNFLLFYPVFMSIYWIVGSIYFYFTREIRYSLNKKPDINVDELEGITFLLACYNESETIEDTLSNVLALKYEKKEIIIINDGSSDNTAELIYKIKENNDFIFVDLQENRGKANALNQGIKQASYDYVMCLDADTIVDQDAPYYMIENFKHDPKLGAVTGNPRIRNKSSILGKIQTIEYASLIGCIKRSQTLAGAVNTISGVFTLFKKSAVVDVGYWDTDMITEDIAVSWKLHLRGYRIKYEPLAMCWMLVPETLGGLWKQRVRWAQGGHEVLLRDFFSTMKTKRFPLYILMFEQIISILWVYIVLLYLGYLFITANFLDYTFMTYSFSIFLLSSFTMTFINVIQFTVALFIDSRYEKKNMAGLIFVSWYPTVYWIINAAVVLVAFPKALKRKKGGYATWSSPDRGNTQR",
+  "subcellular_location": [
+    "Cell membrane"
+  ],
+  "function": "N-acetylglucosaminyltransferase that catalyzes the polymerization of single monomer units of UDP-N-acetylglucosamine to produce the linear homomer poly-beta-1,6-N-acetyl-D-glucosamine (PNAG, also referred to as PIA), a biofilm adhesin polysaccharide. Requires IcaD for full activity (By similarity)",
+  "signal_peptide": false,
+  "transmembrane_domains": 4,
+  "alphafold_id": "Q9RQP9"
+}

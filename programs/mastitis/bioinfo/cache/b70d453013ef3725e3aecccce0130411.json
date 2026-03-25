@@ -1,0 +1,36 @@
+{
+  "label": "bt_fnbA",
+  "query_length": 1018,
+  "entrez_query": "Bos taurus[Organism]",
+  "num_hits": 3,
+  "hits": [
+    {
+      "title": "tpg|DAA32835.1| TPA: titin [Bos taurus]",
+      "accession": "DAA32835",
+      "length": 33452,
+      "identity_pct": 36.6,
+      "coverage_pct": 9.9,
+      "e_value": 0.289648,
+      "gaps": 21
+    },
+    {
+      "title": "ref|XP_059736125.1| titin isoform X1 [Bos taurus]",
+      "accession": "XP_059736125",
+      "length": 35421,
+      "identity_pct": 36.6,
+      "coverage_pct": 9.9,
+      "e_value": 0.430206,
+      "gaps": 21
+    },
+    {
+      "title": "ref|XP_024835653.1| titin isoform X2 [Bos taurus]",
+      "accession": "XP_024835653",
+      "length": 33295,
+      "identity_pct": 36.2,
+      "coverage_pct": 9.2,
+      "e_value": 0.492075,
+      "gaps": 15
+    }
+  ],
+  "date": "2026-03-25"
+}

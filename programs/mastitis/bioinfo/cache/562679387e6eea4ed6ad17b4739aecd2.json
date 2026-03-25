@@ -1,0 +1,19 @@
+{
+  "accession": "P99089",
+  "entry_name": "CLPP_STAAN",
+  "protein_name": "ATP-dependent Clp protease proteolytic subunit",
+  "gene_names": [
+    "clpP"
+  ],
+  "organism": "Staphylococcus aureus (strain N315)",
+  "organism_id": 158879,
+  "length": 195,
+  "sequence": "MNLIPTVIETTNRGERAYDIYSRLLKDRIIMLGSQIDDNVANSIVSQLLFLQAQDSEKDIYLYINSPGGSVTAGFAIYDTIQHIKPDVQTICIGMAASMGSFLLAAGAKGKRFALPNAEVMIHQPLGGAQGQATEIEIAANHILKTREKLNRILSERTGQSIEKIQKDTDRDNFLTAEEAKEYGLIDEVMVPETK",
+  "subcellular_location": [
+    "Cytoplasm"
+  ],
+  "function": "Cleaves peptides in various proteins in a process that requires ATP hydrolysis. Has a chymotrypsin-like activity. Plays a major role in the degradation of misfolded proteins",
+  "signal_peptide": false,
+  "transmembrane_domains": 0,
+  "alphafold_id": "P99089"
+}

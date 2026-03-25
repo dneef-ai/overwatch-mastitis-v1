@@ -1,0 +1,961 @@
+[
+  {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "A0JN54",
+    "organism": {
+      "scientificName": "Bos taurus",
+      "commonName": "Bovine",
+      "taxonId": 9913,
+      "lineage": [
+        "Eukaryota",
+        "Metazoa",
+        "Chordata",
+        "Craniata",
+        "Vertebrata",
+        "Euteleostomi",
+        "Mammalia",
+        "Eutheria",
+        "Laurasiatheria",
+        "Artiodactyla",
+        "Ruminantia",
+        "Pecora",
+        "Bovidae",
+        "Bovinae",
+        "Bos"
+      ]
+    },
+    "proteinDescription": {
+      "recommendedName": {
+        "fullName": {
+          "value": "Diacylglycerol kinase alpha"
+        },
+        "shortNames": [
+          {
+            "value": "DAG kinase alpha"
+          }
+        ],
+        "ecNumbers": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "P23743"
+              }
+            ],
+            "value": "2.7.1.107"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "P51556"
+              }
+            ],
+            "value": "2.7.1.93"
+          }
+        ]
+      },
+      "alternativeNames": [
+        {
+          "fullName": {
+            "value": "Diglyceride kinase alpha"
+          },
+          "shortNames": [
+            {
+              "value": "DGK-alpha"
+            }
+          ]
+        }
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "value": "DGKA"
+        }
+      }
+    ],
+    "comments": [
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "P23743"
+              }
+            ],
+            "value": "Diacylglycerol kinase that converts diacylglycerol/DAG into phosphatidic acid/phosphatidate/PA and regulates the respective levels of these two bioactive lipids. Thereby, acts as a central switch between the signaling pathways activated by these second messengers with different cellular targets and opposite effects in numerous biological processes. Also plays an important role in the biosynthesis of complex lipids. Can also phosphorylate 1-alkyl-2-acylglycerol in vitro as efficiently as diacylglycerol provided it contains an arachidonoyl group. Also involved in the production of alkyl-lysophosphatidic acid, another bioactive lipid, through the phosphorylation of 1-alkyl-2-acetyl glycerol"
+          }
+        ],
+        "commentType": "FUNCTION"
+      }
+    ],
+    "sequence": {
+      "length": 734
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI00005BC9A0"
+    }
+  },
+  {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "A0JNH9",
+    "organism": {
+      "scientificName": "Bos taurus",
+      "commonName": "Bovine",
+      "taxonId": 9913,
+      "lineage": [
+        "Eukaryota",
+        "Metazoa",
+        "Chordata",
+        "Craniata",
+        "Vertebrata",
+        "Euteleostomi",
+        "Mammalia",
+        "Eutheria",
+        "Laurasiatheria",
+        "Artiodactyla",
+        "Ruminantia",
+        "Pecora",
+        "Bovidae",
+        "Bovinae",
+        "Bos"
+      ]
+    },
+    "proteinDescription": {
+      "recommendedName": {
+        "fullName": {
+          "value": "Aprataxin and PNK-like factor"
+        },
+        "ecNumbers": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "Q8IW19"
+              }
+            ],
+            "value": "3.1.1.-"
+          }
+        ]
+      },
+      "alternativeNames": [
+        {
+          "fullName": {
+            "value": "Apurinic-apyrimidinic endonuclease APLF"
+          }
+        }
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "value": "APLF"
+        }
+      }
+    ],
+    "comments": [
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "Q8IW19"
+              },
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "Q9D842"
+              }
+            ],
+            "value": "Histone chaperone involved in single-strand and double-strand DNA break repair. Recruited to sites of DNA damage through interaction with branched poly-ADP-ribose chains, a polymeric post-translational modification synthesized transiently at sites of chromosomal damage to accelerate DNA strand break repair reactions (By similarity). Following recruitment to DNA damage sites, acts as a histone chaperone that mediates histone eviction during DNA repair and promotes recruitment of histone variant MACROH2A1 (By similarity). Also has a nuclease activity: displays apurinic-apyrimidinic (AP) endonuclease and 3'-5' exonuclease activities in vitro. Also able to introduce nicks at hydroxyuracil and other types of pyrimidine base damage (By similarity). Together with PARP3, promotes the retention of the LIG4-XRCC4 complex on chromatin and accelerate DNA ligation during non-homologous end-joining (NHEJ). Also acts as a negative regulator of cell pluripotency by promoting histone exchange. Required for the embryo implantation during the epithelial to mesenchymal transition in females (By similarity)"
+          }
+        ],
+        "commentType": "FUNCTION"
+      }
+    ],
+    "sequence": {
+      "length": 485
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000E67479"
+    }
+  },
+  {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "A1A4J1",
+    "organism": {
+      "scientificName": "Bos taurus",
+      "commonName": "Bovine",
+      "taxonId": 9913,
+      "lineage": [
+        "Eukaryota",
+        "Metazoa",
+        "Chordata",
+        "Craniata",
+        "Vertebrata",
+        "Euteleostomi",
+        "Mammalia",
+        "Eutheria",
+        "Laurasiatheria",
+        "Artiodactyla",
+        "Ruminantia",
+        "Pecora",
+        "Bovidae",
+        "Bovinae",
+        "Bos"
+      ]
+    },
+    "proteinDescription": {
+      "recommendedName": {
+        "fullName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "HAMAP-Rule",
+              "id": "MF_03184"
+            }
+          ],
+          "value": "ATP-dependent 6-phosphofructokinase, liver type"
+        },
+        "shortNames": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000255",
+                "source": "HAMAP-Rule",
+                "id": "MF_03184"
+              }
+            ],
+            "value": "ATP-PFK"
+          },
+          {
+            "value": "PFK-L"
+          }
+        ],
+        "ecNumbers": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000255",
+                "source": "HAMAP-Rule",
+                "id": "MF_03184"
+              }
+            ],
+            "value": "2.7.1.11"
+          }
+        ]
+      },
+      "alternativeNames": [
+        {
+          "fullName": {
+            "value": "6-phosphofructokinase type B"
+          }
+        },
+        {
+          "fullName": {
+            "value": "Phosphofructo-1-kinase isozyme B"
+          },
+          "shortNames": [
+            {
+              "value": "PFK-B"
+            }
+          ]
+        },
+        {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000255",
+                "source": "HAMAP-Rule",
+                "id": "MF_03184"
+              }
+            ],
+            "value": "Phosphohexokinase"
+          }
+        }
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "value": "PFKL"
+        }
+      }
+    ],
+    "comments": [
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "P12382"
+              },
+              {
+                "evidenceCode": "ECO:0000255",
+                "source": "HAMAP-Rule",
+                "id": "MF_03184"
+              }
+            ],
+            "value": "Catalyzes the phosphorylation of D-fructose 6-phosphate to fructose 1,6-bisphosphate by ATP, the first committing step of glycolysis (By similarity). Negatively regulates the phagocyte oxidative burst in response to bacterial infection by controlling cellular NADPH biosynthesis and NADPH oxidase-derived reactive oxygen species. Upon macrophage activation, drives the metabolic switch toward glycolysis, thus preventing glucose turnover that produces NADPH via pentose phosphate pathway (By similarity)"
+          }
+        ],
+        "commentType": "FUNCTION"
+      }
+    ],
+    "sequence": {
+      "length": 780
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000EA3BD2"
+    }
+  },
+  {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "A2VDL6",
+    "organism": {
+      "scientificName": "Bos taurus",
+      "commonName": "Bovine",
+      "taxonId": 9913,
+      "lineage": [
+        "Eukaryota",
+        "Metazoa",
+        "Chordata",
+        "Craniata",
+        "Vertebrata",
+        "Euteleostomi",
+        "Mammalia",
+        "Eutheria",
+        "Laurasiatheria",
+        "Artiodactyla",
+        "Ruminantia",
+        "Pecora",
+        "Bovidae",
+        "Bovinae",
+        "Bos"
+      ]
+    },
+    "proteinDescription": {
+      "recommendedName": {
+        "fullName": {
+          "value": "Sodium/potassium-transporting ATPase subunit alpha-2"
+        },
+        "shortNames": [
+          {
+            "value": "Na(+)/K(+) ATPase alpha-2 subunit"
+          }
+        ],
+        "ecNumbers": [
+          {
+            "value": "7.2.2.13"
+          }
+        ]
+      },
+      "alternativeNames": [
+        {
+          "fullName": {
+            "value": "Sodium pump subunit alpha-2"
+          }
+        }
+      ],
+      "flag": "Precursor"
+    },
+    "genes": [
+      {
+        "geneName": {
+          "value": "ATP1A2"
+        }
+      }
+    ],
+    "comments": [
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250"
+              }
+            ],
+            "value": "This is the catalytic component of the active enzyme, which catalyzes the hydrolysis of ATP coupled with the exchange of sodium and potassium ions across the plasma membrane. This action creates the electrochemical gradient of sodium and potassium, providing the energy for active transport of various nutrients (By similarity)"
+          }
+        ],
+        "commentType": "FUNCTION"
+      }
+    ],
+    "sequence": {
+      "length": 1020
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI00005BBF1B"
+    }
+  },
+  {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "A2VDN5",
+    "organism": {
+      "scientificName": "Bos taurus",
+      "commonName": "Bovine",
+      "taxonId": 9913,
+      "lineage": [
+        "Eukaryota",
+        "Metazoa",
+        "Chordata",
+        "Craniata",
+        "Vertebrata",
+        "Euteleostomi",
+        "Mammalia",
+        "Eutheria",
+        "Laurasiatheria",
+        "Artiodactyla",
+        "Ruminantia",
+        "Pecora",
+        "Bovidae",
+        "Bovinae",
+        "Bos"
+      ]
+    },
+    "proteinDescription": {
+      "recommendedName": {
+        "fullName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "HAMAP-Rule",
+              "id": "MF_03021"
+            }
+          ],
+          "value": "Spastin"
+        },
+        "ecNumbers": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000255",
+                "source": "HAMAP-Rule",
+                "id": "MF_03021"
+              }
+            ],
+            "value": "5.6.1.1"
+          }
+        ]
+      }
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "HAMAP-Rule",
+              "id": "MF_03021"
+            }
+          ],
+          "value": "SPAST"
+        },
+        "synonyms": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000255",
+                "source": "HAMAP-Rule",
+                "id": "MF_03021"
+              }
+            ],
+            "value": "SPG4"
+          }
+        ]
+      }
+    ],
+    "comments": [
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000255",
+                "source": "HAMAP-Rule",
+                "id": "MF_03021"
+              }
+            ],
+            "value": "ATP-dependent microtubule severing protein that specifically recognizes and cuts microtubules that are polyglutamylated. Preferentially recognizes and acts on microtubules decorated with short polyglutamate tails: severing activity increases as the number of glutamates per tubulin rises from one to eight, but decreases beyond this glutamylation threshold. Severing activity is not dependent on tubulin acetylation or detyrosination. Microtubule severing promotes reorganization of cellular microtubule arrays and the release of microtubules from the centrosome following nucleation. It is critical for the biogenesis and maintenance of complex microtubule arrays in axons, spindles and cilia. SPAST is involved in abscission step of cytokinesis and nuclear envelope reassembly during anaphase in cooperation with the ESCRT-III complex. Recruited at the midbody, probably by IST1, and participates in membrane fission during abscission together with the ESCRT-III complex. Recruited to the nuclear membrane by IST1 and mediates microtubule severing, promoting nuclear envelope sealing and mitotic spindle disassembly during late anaphase. Required for membrane traffic from the endoplasmic reticulum (ER) to the Golgi and endosome recycling. Recruited by IST1 to endosomes and regulates early endosomal tubulation and recycling by mediating microtubule severing. Probably plays a role in axon growth and the formation of axonal branches"
+          }
+        ],
+        "commentType": "FUNCTION"
+      }
+    ],
+    "sequence": {
+      "length": 614
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000F0E5F3"
+    }
+  },
+  {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "A2VDP1",
+    "organism": {
+      "scientificName": "Bos taurus",
+      "commonName": "Bovine",
+      "taxonId": 9913,
+      "lineage": [
+        "Eukaryota",
+        "Metazoa",
+        "Chordata",
+        "Craniata",
+        "Vertebrata",
+        "Euteleostomi",
+        "Mammalia",
+        "Eutheria",
+        "Laurasiatheria",
+        "Artiodactyla",
+        "Ruminantia",
+        "Pecora",
+        "Bovidae",
+        "Bovinae",
+        "Bos"
+      ]
+    },
+    "proteinDescription": {
+      "recommendedName": {
+        "fullName": {
+          "value": "E3 ubiquitin-protein ligase BRE1A"
+        },
+        "shortNames": [
+          {
+            "value": "BRE1-A"
+          }
+        ],
+        "ecNumbers": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "Q5VTR2"
+              }
+            ],
+            "value": "2.3.2.27"
+          }
+        ]
+      },
+      "alternativeNames": [
+        {
+          "fullName": {
+            "value": "RING finger protein 20"
+          }
+        },
+        {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "RING-type E3 ubiquitin transferase BRE1A"
+          }
+        }
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "value": "RNF20"
+        },
+        "synonyms": [
+          {
+            "value": "BRE1A"
+          }
+        ]
+      }
+    ],
+    "comments": [
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "Q5VTR2"
+              }
+            ],
+            "value": "Component of the RNF20/40 E3 ubiquitin-protein ligase complex that mediates monoubiquitination of 'Lys-120' of histone H2B (H2BK120ub1). H2BK120ub1 gives a specific tag for epigenetic transcriptional activation and is also prerequisite for histone H3 'Lys-4' and 'Lys-79' methylation (H3K4me and H3K79me, respectively). It thereby plays a central role in histone code and gene regulation. The RNF20/40 complex forms a H2B ubiquitin ligase complex in cooperation with the E2 enzyme UBE2A or UBE2B; reports about the cooperation with UBE2E1/UBCH are contradictory. Required for transcriptional activation of Hox genes. Recruited to the MDM2 promoter, probably by being recruited by p53/TP53, and thereby acts as a transcriptional coactivator. Mediates the polyubiquitination of PA2G4 leading to its proteasome-mediated degradation"
+          }
+        ],
+        "commentType": "FUNCTION"
+      }
+    ],
+    "sequence": {
+      "length": 975
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000F0E5F9"
+    }
+  },
+  {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "A2VDZ3",
+    "organism": {
+      "scientificName": "Bos taurus",
+      "commonName": "Bovine",
+      "taxonId": 9913,
+      "lineage": [
+        "Eukaryota",
+        "Metazoa",
+        "Chordata",
+        "Craniata",
+        "Vertebrata",
+        "Euteleostomi",
+        "Mammalia",
+        "Eutheria",
+        "Laurasiatheria",
+        "Artiodactyla",
+        "Ruminantia",
+        "Pecora",
+        "Bovidae",
+        "Bovinae",
+        "Bos"
+      ]
+    },
+    "proteinDescription": {
+      "recommendedName": {
+        "fullName": {
+          "value": "Myocyte-specific enhancer factor 2A"
+        }
+      }
+    },
+    "genes": [
+      {
+        "geneName": {
+          "value": "MEF2A"
+        }
+      }
+    ],
+    "comments": [
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250"
+              }
+            ],
+            "value": "Transcriptional activator which binds specifically to the MEF2 element, 5'-YTA[AT](4)TAR-3', found in numerous muscle-specific genes. Also involved in the activation of numerous growth factor- and stress-induced genes. Mediates cellular functions not only in skeletal and cardiac muscle development, but also in neuronal differentiation and survival. Plays diverse roles in the control of cell growth, survival and apoptosis via p38 MAPK signaling in muscle-specific and/or growth factor-related transcription. In cerebellar granule neurons, phosphorylated and sumoylated MEF2A represses transcription of NUR77 promoting synaptic differentiation. Associates with chromatin to the ZNF16 promoter (By similarity)"
+          }
+        ],
+        "commentType": "FUNCTION"
+      }
+    ],
+    "sequence": {
+      "length": 492
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000F26564"
+    }
+  },
+  {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "A2VE31",
+    "organism": {
+      "scientificName": "Bos taurus",
+      "commonName": "Bovine",
+      "taxonId": 9913,
+      "lineage": [
+        "Eukaryota",
+        "Metazoa",
+        "Chordata",
+        "Craniata",
+        "Vertebrata",
+        "Euteleostomi",
+        "Mammalia",
+        "Eutheria",
+        "Laurasiatheria",
+        "Artiodactyla",
+        "Ruminantia",
+        "Pecora",
+        "Bovidae",
+        "Bovinae",
+        "Bos"
+      ]
+    },
+    "proteinDescription": {
+      "recommendedName": {
+        "fullName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "source": "UniProtKB",
+              "id": "Q96QD8"
+            }
+          ],
+          "value": "Sodium-coupled neutral amino acid symporter 2"
+        }
+      },
+      "alternativeNames": [
+        {
+          "fullName": {
+            "value": "Amino acid transporter A2"
+          }
+        },
+        {
+          "fullName": {
+            "value": "Protein 40-9-1"
+          }
+        },
+        {
+          "fullName": {
+            "value": "Solute carrier family 38 member 2"
+          }
+        },
+        {
+          "fullName": {
+            "value": "System A amino acid transporter 2"
+          }
+        },
+        {
+          "fullName": {
+            "value": "System A transporter 1"
+          }
+        },
+        {
+          "fullName": {
+            "value": "System N amino acid transporter 2"
+          }
+        }
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "source": "UniProtKB",
+              "id": "Q96QD8"
+            }
+          ],
+          "value": "SLC38A2"
+        },
+        "synonyms": [
+          {
+            "value": "SNAT2"
+          }
+        ]
+      }
+    ],
+    "comments": [
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "Q8CFE6"
+              },
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "Q9JHE5"
+              }
+            ],
+            "value": "Symporter that cotransports neutral amino acids and sodium ions from the extracellular to the intracellular side of the cell membrane. The transport is pH-sensitive, Li(+)-intolerant, electrogenic, driven by the Na(+) electrochemical gradient and cotransports of neutral amino acids and sodium ions with a stoichiometry of 1:1. May function in the transport of amino acids at the blood-brain barrier (By similarity). May function in the transport of amino acids in the supply of maternal nutrients to the fetus through the placenta (By similarity). Maintains a key metabolic glutamine/glutamate balance underpinning retrograde signaling by dendritic release of the neurotransmitter glutamate (By similarity). Transports L-proline in differentiating osteoblasts for the efficient synthesis of proline-enriched proteins and provides proline essential for osteoblast differentiation and bone formation during bone development (By similarity)"
+          }
+        ],
+        "commentType": "FUNCTION"
+      }
+    ],
+    "sequence": {
+      "length": 506
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI000061866E"
+    }
+  },
+  {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "A4FUF0",
+    "organism": {
+      "scientificName": "Bos taurus",
+      "commonName": "Bovine",
+      "taxonId": 9913,
+      "lineage": [
+        "Eukaryota",
+        "Metazoa",
+        "Chordata",
+        "Craniata",
+        "Vertebrata",
+        "Euteleostomi",
+        "Mammalia",
+        "Eutheria",
+        "Laurasiatheria",
+        "Artiodactyla",
+        "Ruminantia",
+        "Pecora",
+        "Bovidae",
+        "Bovinae",
+        "Bos"
+      ]
+    },
+    "proteinDescription": {
+      "recommendedName": {
+        "fullName": {
+          "value": "Cytokine-like nuclear factor N-PAC"
+        },
+        "shortNames": [
+          {
+            "value": "NPAC"
+          }
+        ]
+      },
+      "alternativeNames": [
+        {
+          "fullName": {
+            "value": "Glyoxylate reductase 1 homolog"
+          }
+        },
+        {
+          "fullName": {
+            "value": "Nuclear protein NP60"
+          }
+        },
+        {
+          "fullName": {
+            "value": "Putative oxidoreductase GLYR1"
+          }
+        }
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "value": "GLYR1"
+        },
+        "synonyms": [
+          {
+            "value": "NP60"
+          }
+        ]
+      }
+    ],
+    "comments": [
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "Q49A26"
+              }
+            ],
+            "value": "Cytokine-like nuclear factor with chromatin gene reader activity involved in chromatin modification and regulation of gene expression. Acts as a nucleosome-destabilizing factor that is recruited to genes during transcriptional activation. Recognizes and binds histone H3 without a preference for specific epigenetic markers and also binds DNA. Interacts with KDM1B and promotes its histone demethylase activity by facilitating the capture of H3 tails, they form a multifunctional enzyme complex that modifies transcribed chromatin and facilitates Pol II transcription through nucleosomes. Stimulates the acetylation of 'Lys-56' of nucleosomal histone H3 (H3K56ac) by EP300. With GATA4, co-binds a defined set of heart development genes and coregulates their expression during cardiomyocyte differentiation. Regulates p38 MAP kinase activity by mediating stress activation of MAPK14/p38alpha and specifically regulating MAPK14 signaling. Indirectly promotes phosphorylation of MAPK14 and activation of ATF2. The phosphorylation of MAPK14 requires upstream activity of MAP2K4 and MAP2K6"
+          }
+        ],
+        "commentType": "FUNCTION"
+      }
+    ],
+    "sequence": {
+      "length": 553
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000F54C47"
+    }
+  },
+  {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "A4IFH6",
+    "organism": {
+      "scientificName": "Bos taurus",
+      "commonName": "Bovine",
+      "taxonId": 9913,
+      "lineage": [
+        "Eukaryota",
+        "Metazoa",
+        "Chordata",
+        "Craniata",
+        "Vertebrata",
+        "Euteleostomi",
+        "Mammalia",
+        "Eutheria",
+        "Laurasiatheria",
+        "Artiodactyla",
+        "Ruminantia",
+        "Pecora",
+        "Bovidae",
+        "Bovinae",
+        "Bos"
+      ]
+    },
+    "proteinDescription": {
+      "recommendedName": {
+        "fullName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "source": "UniProtKB",
+              "id": "P26678"
+            }
+          ],
+          "value": "Phospholamban"
+        },
+        "shortNames": [
+          {
+            "value": "PLB"
+          }
+        ]
+      }
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "source": "UniProtKB",
+              "id": "P26678"
+            }
+          ],
+          "value": "PLN"
+        }
+      }
+    ],
+    "comments": [
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "P61012"
+              },
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "P61014"
+              }
+            ],
+            "value": "Reversibly inhibits the activity of ATP2A2/SERCA2 in cardiac sarcoplasmic reticulum by decreasing the apparent affinity of the ATPase for Ca(2+). Binds preferentially to the ATP-bound E1 conformational form of ATP2A2 which predominates at low Ca(2+) concentrations during the diastolic phase of the cardiac cycle. Inhibits ATP2A2 Ca(2+) affinity by disrupting its allosteric activation by ATP. Modulates the contractility of the heart muscle in response to physiological stimuli via its effects on ATP2A2. Modulates calcium re-uptake during muscle relaxation and plays an important role in calcium homeostasis in the heart muscle. The degree of ATP2A2 inhibition depends on the oligomeric state of PLN. ATP2A2 inhibition is alleviated by PLN phosphorylation. Also inhibits the activity of ATP2A3/SERCA3. Controls intracellular Ca(2+) levels in elongated spermatids and may play a role in germ cell differentiation. In the thalamic reticular nucleus of the brain, plays a role in the regulation of sleep patterns and executive functioning"
+          }
+        ],
+        "commentType": "FUNCTION"
+      }
+    ],
+    "sequence": {
+      "length": 52
+    },
+    "extraAttributes": {
+      "uniParcId": "UPI0000F6BA00"
+    }
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "label": "bt_spa",
+  "query_length": 508,
+  "entrez_query": "Bos taurus[Organism]",
+  "num_hits": 4,
+  "hits": [
+    {
+      "title": "ref|XP_005215747.1| RNA-binding protein 12B [Bos taurus] >ref|XP_019829340.2| RNA-binding protein 12B [Bos indicus] >ref|XP_019829342.2| RNA-binding protein 12B [Bos indicus] >ref|XP_024857649.1| RNA-",
+      "accession": "XP_005215747",
+      "length": 984,
+      "identity_pct": 36.0,
+      "coverage_pct": 19.7,
+      "e_value": 1.10574e-09,
+      "gaps": 8
+    },
+    {
+      "title": "ref|NP_001010991.1| protein-glutamine gamma-glutamyltransferase K [Bos taurus] >gb|AAR26246.2| tranglutaminase 1 [Bos taurus]",
+      "accession": "NP_001010991",
+      "length": 846,
+      "identity_pct": 37.5,
+      "coverage_pct": 6.3,
+      "e_value": 0.0279672,
+      "gaps": 0
+    },
+    {
+      "title": "tpg|DAA25714.1| TPA: protein-glutamine gamma-glutamyltransferase K [Bos taurus]",
+      "accession": "DAA25714",
+      "length": 846,
+      "identity_pct": 37.5,
+      "coverage_pct": 6.3,
+      "e_value": 0.0279672,
+      "gaps": 0
+    },
+    {
+      "title": "ref|XP_005211321.1| protein-glutamine gamma-glutamyltransferase K isoform X1 [Bos taurus]",
+      "accession": "XP_005211321",
+      "length": 847,
+      "identity_pct": 37.5,
+      "coverage_pct": 6.3,
+      "e_value": 0.0294516,
+      "gaps": 0
+    }
+  ],
+  "date": "2026-03-25"
+}

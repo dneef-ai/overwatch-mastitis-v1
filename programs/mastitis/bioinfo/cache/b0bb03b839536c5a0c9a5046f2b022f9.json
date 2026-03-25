@@ -1,0 +1,19 @@
+{
+  "accession": "P14738",
+  "entry_name": "FNBA_STAA8",
+  "protein_name": "Fibronectin-binding protein A",
+  "gene_names": [
+    "fnbA"
+  ],
+  "organism": "Staphylococcus aureus (strain NCTC 8325 / PS 47)",
+  "organism_id": 93061,
+  "length": 1018,
+  "sequence": "MKNNLRYGIRKHKLGAASVFLGTMIVVGMGQDKEAAASEQKTTTVEENGNSATDNKTSETQTTATNVNHIEETQSYNATVTEQPSNATQVTTEEAPKAVQAPQTAQPANIETVKEEVVKEEAKPQVKETTQSQDNSGDQRQVDLTPKKATQNQVAETQVEVAQPRTASESKPRVTRSADVAEAKEASNAKVETGTDVTSKVTVEIGSIEGHNNTNKVEPHAGQRAVLKYKLKFENGLHQGDYFDFTLSNNVNTHGVSTARKVPEIKNGSVVMATGEVLEGGKIRYTFTNDIEDKVDVTAELEINLFIDPKTVQTNGNQTITSTLNEEQTSKELDVKYKDGIGNYYANLNGSIETFNKANNRFSHVAFIKPNNGKTTSVTVTGTLMKGSNQNGNQPKVRIFEYLGNNEDIAKSVYANTTDTSKFKEVTSNMSGNLNLQNNGSYSLNIENLDKTYVVHYDGEYLNGTDEVDFRTQMVGHPEQLYKYYYDRGYTLTWDNGLVLYSNKANGNEKNGPIIQNNKFEYKEDTIKETLTGQYDKNLVTTVEEEYDSSTLDIDYHTAIDGGGGYVDGYIETIEETDSSAIDIDYHTAVDSEAGHVGGYTESSEESNPIDFEESTHENSKHHADVVEYEEDTNPGGGQVTTESNLVEFDEESTKGIVTGAVSDHTTVEDTKEYTTESNLIELVDELPEEHGQAQGPVEEITKNNHHISHSGLGTENGHGNYDVIEEIEENSHVDIKSELGYEGGQNSGNQSFEEDTEEDKPKYEQGGNIVDIDFDSVPQIHGQNKGNQSFEEDTEKDKPKYEHGGNIIDIDFDSVPHIHGFNKHTEIIEEDTNKDKPSYQFGGHNSVDFEEDTLPKVSGQNEGQQTIEEDTTPPIVPPTPPTPEVPSEPETPTPPTPEVPSEPETPTPPTPEVPSEPETPTPPTPEVPAEPGKPVPPAKEEPKKPSKPVEQGKVVTPVIEINEKVKAVAPTKKPQSKKSELPETGGEESTNKGMLFGGLFSILGLALLRRNKKNHKA",
+  "subcellular_location": [
+    "Secreted, cell wall"
+  ],
+  "function": "Possesses multiple, substituting fibronectin (Fn) binding regions, each capable of conferring adherence to both soluble and immobilized forms of Fn. This confers to S.aureus the ability to invade endothelial cells both in vivo and in vitro, without requiring additional factors, although in a slow and inefficient way through actin rearrangements in host cells. This invasion process is mediated by integrin alpha-5/beta-1. Promotes bacterial attachment to both soluble and immobilized forms of fibrinogen (Fg) by means of a unique binding site localized within the 17 C-terminal residues of the gamma-chain of human Fg. Both plasma proteins (Fn and Fg) function as a bridge between bacterium and host cell. Promotes attachment to immobilized elastin peptides in a dose-dependent and saturable manner. Promotes attachment to both full-length and segments of immobilized human tropoelastin at multiple sites in a dose and pH-dependent manner. Promotes adherence to and aggregation of activated platelets independently of other S.aureus surface molecules. Is a critical mediator implicated in the induction of experimental endocarditis in rats with catheter-induced aortic vegetations, promoting both colonization and persistence of the bacterium into the host",
+  "signal_peptide": true,
+  "transmembrane_domains": 0,
+  "alphafold_id": "P14738"
+}

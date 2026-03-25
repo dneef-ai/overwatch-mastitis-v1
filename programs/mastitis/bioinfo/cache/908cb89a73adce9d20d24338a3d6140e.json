@@ -1,0 +1,19 @@
+{
+  "accession": "Q2FV99",
+  "entry_name": "SRTA_STAA8",
+  "protein_name": "Sortase A",
+  "gene_names": [
+    "srtA"
+  ],
+  "organism": "Staphylococcus aureus (strain NCTC 8325 / PS 47)",
+  "organism_id": 93061,
+  "length": 206,
+  "sequence": "MKKWTNRLMTIAGVVLILVAAYLFAKPHIDNYLHDKDKDEKIEQYDKNVKEQASKDKKQQAKPQIPKDKSKVAGYIEIPDADIKEPVYPGPATPEQLNRGVSFAEENESLDDQNISIAGHTFIDRPNYQFTNLKAAKKGSMVYFKVGNETRKYKMTSIRDVKPTDVGVLDEQKGKDKQLTLITCDDYNEKTGVWEKRKIFVATEVK",
+  "subcellular_location": [
+    "Cell membrane"
+  ],
+  "function": "Transpeptidase that anchors surface proteins to the cell wall (PubMed:10427003, PubMed:10446208, PubMed:10535938, PubMed:11714722, PubMed:14769030, PubMed:15247224). Recognizes and modifies its substrate by proteolytic cleavage of a C-terminal sorting signal. Following cleavage, a covalent intermediate is formed via a thioester bond between the sortase and its substrate, which is then transferred and covalently attached to the cell wall (PubMed:10446208, PubMed:10535938, PubMed:11714722, PubMed:14769030, PubMed:15247224). This sortase recognizes a Leu-Pro-x-Thr-Gly (LPXTG) motif, which is cleaved by the sortase between the threonine and glycine residues (PubMed:10535938, PubMed:11714722, PubMed:14769030, PubMed:15247224). Utilizes lipid II as the peptidoglycan substrate for the sorting reaction (PubMed:10446208, PubMed:11856734). Responsible for the display of important virulence factors (PubMed:14769030). Important for interactions with the host and host colonization during infection (PubMed:10805806, PubMed:14769030)",
+  "signal_peptide": false,
+  "transmembrane_domains": 1,
+  "alphafold_id": "Q2FV99"
+}
