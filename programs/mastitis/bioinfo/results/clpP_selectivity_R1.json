@@ -1,0 +1,45 @@
+{
+  "analysis": "ClpP selectivity analysis v2 for R1-1 ZG-series",
+  "date": "2026-03-26",
+  "method": "Motif-based sequence alignment of mature ClpP forms",
+  "sequences": {
+    "sa_clpP": {
+      "accession": "P99089",
+      "length": 195
+    },
+    "bovine_clpP": {
+      "accession": "Q2KHU4",
+      "length": 272,
+      "mature_length": 220
+    },
+    "human_clpP": {
+      "accession": "Q16740",
+      "length": 277,
+      "mature_length": 221
+    }
+  },
+  "pairwise_identity": {
+    "bovine_vs_human_mature": "103/194 = 53.1%"
+  },
+  "selectivity_determinants": {
+    "W146": {
+      "human": "W (blocks ZG)",
+      "bovine": "W (blocks ZG)",
+      "sa": "I (allows ZG)",
+      "bovine_retains_block": true
+    },
+    "Y61_H83_pair": {
+      "sa": "Y/H (allows ZG297)",
+      "human": "H/Y (blocks ZG297)",
+      "bovine": "H/Y",
+      "bovine_matches_human": true
+    },
+    "c_terminal_lid": {
+      "human": true,
+      "bovine": true,
+      "sa": false
+    }
+  },
+  "overall_verdict": "Bovine ClpP retains all key selectivity mechanisms. ZG-series selectivity expected to hold for cattle.",
+  "evidence_level": "COMPUTATIONAL - sequence alignment"
+}
