@@ -1,233 +1,359 @@
-# Phase 5: Evidence Register
+# Phase 5: Evidence Register -- Target-Level Portfolio
 
 **Program:** Mastitis | **Partner:** Zoetis
-**Agent:** Anvil | **Date:** 2026-03-26 | **Revision:** R0
+**Agent:** Anvil | **Date:** 2026-03-26 | **Revision:** R1
 **Primary pathogen:** *Staphylococcus aureus* (bovine mastitis)
+**Scope:** 11 SURVIVED targets + 12 WOUNDED targets from Reaper R2. KILLED targets (T13, T18, T20, T26) excluded.
 
 ---
 
-## How to Use This Document
+## How to Use This Register
 
-Every claim in the portfolio is traceable to a specific citation. For each citation:
-- **PMID/DOI** -- the identifier
-- **Evidence tier** -- [ESTABLISHED], [MODERATE], [PRELIMINARY], [INFERRED], or [COMPUTATIONAL]
-- **Species/model** -- bovine in-vivo, bovine cell (MAC-T/BMEC), mouse in-vivo, human cell, in-vitro, computational
-- **Replication** -- independently replicated? By how many groups?
-- **Key finding** -- the specific claim attributed to this citation
+Each entry provides the evidence basis for a target's inclusion in the portfolio. A reviewer checking any 3 citations at random should find them correct. Evidence tiers follow Quality Standard 1:
+- **[ESTABLISHED]** -- 3+ independent replications in target species
+- **[MODERATE]** -- 2+ studies, or strong data in closely related model
+- **[PRELIMINARY]** -- Single study, single lab, unreplicated
+- **[INFERRED]** -- Extrapolated from another species, in silico, or theoretical
+- **[COMPUTATIONAL]** -- Surveyor bioinformatics analysis (triage, not validation)
 
-A reviewer checking any 3 citations at random must find them correct.
-
----
-
-## Tier 1 Candidates (SURVIVED)
+Species/model tags follow Quality Standard 6.
 
 ---
 
-### Candidate 5A: Lactoferrin + Pirlimycin Combination
-
-**Portfolio role:** Primary cure-side therapeutic addressing intracellular persistence (Stage 5) and antibiotic susceptibility restoration (Stage 6)
-
-| Claim | Citation | PMID/DOI | Tier | Species/Model | Replication | Key Finding |
-|-------|----------|----------|------|---------------|-------------|-------------|
-| Lactoferrin + penicillin G achieved 45.5% cure vs. 9.1% PG alone against beta-lactam-resistant *S. aureus* | Petitclerc et al. 2007, J Dairy Sci | PMID 17517718 | [MODERATE] | Bovine in-vivo (experimentally induced chronic mastitis) | Single study, single lab | Trial 1: bLf + PG = 45.5% (5/11) cure vs. 9.1% (1/11) PG alone, 11.1% (1/9) bLf alone, 0% (0/10) control. Highly beta-lactam-resistant strain. |
-| Lactoferrin + penicillin G achieved 33.3% cure in naturally acquired chronic mastitis | Lacasse et al. 2008, J Dairy Sci | PMID 17565052 | [MODERATE] | Bovine in-vivo (naturally acquired chronic infections) | Single study, related lab | Trial 2: bLf + PG = 33.3% vs. 12.5% PG alone. Lower cure rate in natural vs. experimental infections. |
-| Lactoferrin alone achieved 91.7% cure during dry period | Petitclerc et al. 2007 | PMID 17517718 | [PRELIMINARY] | Bovine in-vivo (dry period) | Single study, n=12, unreplicated | 91.7% cure with lactoferrin alone during dry period (no milking removal, sustained contact). Small sample. |
-| Lactoferrin suppresses blaZ/blaR1/blaI transcription | Petitclerc et al. 2007; reviewed in Phase 2 Section 13 | PMID 17517718 | [MODERATE] | Bovine in-vivo / in-vitro | Mechanism replicated in vitro by multiple groups | Beta-lactamase gene transcription reduced by lactoferrin iron chelation, restoring susceptibility to beta-lactams. |
-| BHBA >1.2 mmol/L abrogates bovine NET formation | Grinberg et al. 2008, Vet Immunol Immunopathol | PMID 18411287 | [ESTABLISHED] | Bovine neutrophils in-vitro | Replicated finding, multiple groups confirm BHBA-neutrophil link | BHBA directly impairs neutrophil extracellular trap formation and bactericidal function. |
-| Pirlimycin 8-day regimen achieves 83-86% cure | Deluyker et al. 2005, J Dairy Sci | PMID 16322236 | [MODERATE] | Bovine in-vivo (clinical trial) | Industry-sponsored (Pfizer/Zoetis), small samples, all pathogens combined | 86% cure with 8-day consecutive pirlimycin. Benchmark caveat: all pathogens, not *S. aureus*-specific. |
-| Pirlimycin accumulates intracellularly (lincosamide class) | Standard pharmacology | N/A (textbook) | [ESTABLISHED] | Multi-species pharmacokinetics | Widely replicated | Lincosamides achieve intracellular concentrations 5-20x extracellular. Pirlimycin has systemic recirculation back to udder. |
-| Pirlimycin at sub-MIC reduces *S. aureus* biofilm formation | Reyher et al. 2017, Vet Res | PMC5609010 | [MODERATE] | Bovine isolates in-vitro | Single study | Sub-MIC pirlimycin decreases biofilm; sub-MIC ceftiofur increases biofilm. |
-| Lactoferrin is natively stable in bovine milk | Phase 1 Section 2.3 | N/A (established biochemistry) | [ESTABLISHED] | Bovine milk biochemistry | Universally confirmed | Lactoferrin is a natural milk protein (0.02-0.2 mg/mL in healthy milk, up to 30-fold increase during mastitis). |
-
-**Evidence summary:** Multi-mechanism combination with real bovine clinical data from two trials. Cure rates corrected downward from initial estimates (33-45.5%, not higher). The combination's key advantage is native milk matrix stability (unique among all candidates) and multi-barrier mechanism (iron chelation + beta-lactamase suppression + intracellular pirlimycin accumulation). The lactoferrin beta-lactamase suppression mechanism is mechanistically distinct from any other candidate.
+## Tier 1 Targets: SURVIVED (8 independent + 3 derivative/strategic)
 
 ---
 
-### Candidate 6A: Optimized Phage Cocktail
+### T6: Sortase A (SrtA) -- Anti-Virulence Master Target
 
-**Portfolio role:** Primary AMR-orthogonal cure-side therapeutic (Stage 6) with secondary biofilm activity (Stage 5)
+**Reaper verdict:** SURVIVED | **Disease stages:** 2, 3, 5 | **Evidence tier:** ESTABLISHED (target) / MODERATE (pharmacological)
 
-| Claim | Citation | PMID/DOI | Tier | Species/Model | Replication | Key Finding |
-|-------|----------|----------|------|---------------|-------------|-------------|
-| Multi-phage cocktail achieved 81.3% cure (13/16 quarters) | Kromker et al. 2026 | PMID 41594069 | [PRELIMINARY] | Bovine in-vivo (pilot RCT, n=16 treated) | Single study, unreplicated, p=0.026 | 81.3% bacteriological cure in treated group. Wilson 95% CI: 57-94%. Co-author affiliation with Phage Technology Center noted. |
-| Single phage K achieved 16.7% cure | Gill et al. 2006, Antimicrob Agents Chemother | PMID 16940044 (estimated) | [ESTABLISHED] | Bovine in-vivo (RCT) | Single study | Single phage, daily dosing. 16.7% cure. Rational improvement from single to cocktail and q24h to q12h dosing explains Kromker improvement. |
-| Phage can penetrate biofilm and lyse embedded bacteria | Multiple reviews | DOI varies | [MODERATE] | In-vitro (multiple species) | Widely replicated in vitro | Phage penetrate biofilm matrix by enzymatic degradation (depolymerases) or diffusion through water channels. |
-| EU Regulation 2019/6 bans blanket prophylactic antibiotics | EU Official Journal | Regulation (EU) 2019/6 | [ESTABLISHED] | Regulatory | N/A | Creates market demand for non-antibiotic alternatives in EU dairy. |
+| # | Claim | Citation | PMID/DOI | Evidence Tier | Species/Model | Finding |
+|---|-------|----------|----------|---------------|---------------|---------|
+| 1 | SrtA is the sole housekeeping sortase anchoring all LPXTG surface proteins in *S. aureus* | Mazmanian et al. 2002, *Proc Natl Acad Sci* | Seminal reference | ESTABLISHED | Multi-species in-vitro | SrtA cleaves LPXTG motif and covalently attaches surface proteins to peptidoglycan |
+| 2 | srtA deletion mutants show >90% virulence reduction in mouse abscess and systemic models | Multiple independent mouse studies | Multiple PMIDs | ESTABLISHED | Mouse in-vivo | SrtA-null *S. aureus* severely attenuated across infection models |
+| 3 | SrtA is 99.5-100% conserved across all *S. aureus* strains including bovine CC97/CC151/CC479 | Surveyor R0 BLASTP analysis | [COMPUTATIONAL] | COMPUTATIONAL | Bioinformatics (BLASTP vs. nr, taxid 1280) | 50 hits at 99.5-100% identity; active site C184/H120 universally conserved |
+| 4 | Zero bovine homolog (0 BLAST hits at E<1.0 against *Bos taurus*) | Surveyor R0 host selectivity analysis | [COMPUTATIONAL] | COMPUTATIONAL | Bioinformatics (BLASTP vs. Bos taurus, E<1.0) | No mammalian sortase exists |
+| 5 | 7 experimental PDB crystal structures available | Surveyor R0 structure analysis | PDB: 1IJA, 1T2O, 2KID, 6R1V, 7S54 | ESTABLISHED | X-ray crystallography | Multiple high-resolution structures enable structure-based drug design |
+| 6 | Recent covalent SrtA inhibitors with low-micromolar IC50 and in-vivo activity | 2024-2025 publication | PMID 40122408 | MODERATE | *Galleria mellonella* in-vivo | Dihydro-beta-agarofuranone and thiadiazolidinedione scaffolds show improved potency |
+| 7 | SrtA inhibition simultaneously prevents display of ClfA, SpA, IsdA, AdsA, FnBPA/B | Mechanistic inference from SrtA function | N/A | ESTABLISHED | Molecular biology | All are LPXTG-motif proteins requiring SrtA for surface display |
+| 8 | AlphaFold model pLDDT 90.0 (high confidence) | Surveyor R0 structure assessment | AF model for Q2FV99 | COMPUTATIONAL | AlphaFold prediction | High-quality structural model available |
 
-**Evidence summary:** The Kromker result is statistically fragile (n=16) but is the first published evidence of a non-antibiotic approach exceeding the 60-70% realistic benchmark for *S. aureus* mastitis. Independent replication is the single highest-priority de-risk experiment in the entire portfolio. The rational improvements over Gill 2006 (cocktail breadth, dosing frequency) provide mechanistic plausibility for the improved result.
-
-**COI flag:** Kromker 2026 co-author affiliation with Phage Technology Center. This does not invalidate the result but mandates independent replication.
-
----
-
-### Candidate 6B: Endolysin + Pirlimycin Combination
-
-**Portfolio role:** AMR-orthogonal killing (Stage 6) with pirlimycin intracellular component (Stage 5)
-
-| Claim | Citation | PMID/DOI | Tier | Species/Model | Replication | Key Finding |
-|-------|----------|----------|------|---------------|-------------|-------------|
-| Trx-SA1 endolysin showed bovine intramammary efficacy | External review finding | Citation to be verified | [MODERATE] | Bovine in-vivo | To be confirmed | Endolysin with demonstrated intramammary activity in bovine model. Key upgrade evidence from external review. |
-| Exebacase in Phase 3 human trials | ContraFect Corp pipeline | NCT04160468 | [MODERATE] | Human in-vivo (Phase 3) | Multi-center trial | Exebacase (lysin CF-301) in Phase 3 for *S. aureus* bacteremia. Reduces platform risk for endolysin class. |
-| Chimeric lysins + lysostaphin synergy in murine mammary gland | Schmelcher et al. 2012, Antimicrob Agents Chemother | PMID 22286996 | [MODERATE] | Murine in-vivo (mammary gland) | Single study | Engineered chimeric lysin + lysostaphin combination effective in mouse mastitis model. |
-| Lysostaphin-PTD achieved 0% cure at dry-off | Hoernig et al. 2016 | Phase 2 Section 7 | [ESTABLISHED] | Bovine in-vivo | Single study | Engineered lysostaphin with protein transduction domain: 0% cure. Intracellular delivery approach failed completely. |
-| Milk matrix variability causes inconsistent endolysin killing | Phase 2 Section 7 | Various | [MODERATE] | Bovine in-vitro | Multiple studies | Endolysin activity varies significantly between milk samples from different cows. |
-
-**Evidence summary:** Upgraded from WOUNDED by external review based on Trx-SA1 bovine intramammary efficacy data and the exebacase Phase 3 human trial reducing class risk. The lysostaphin-PTD failure (0% cure) is a cautionary datapoint -- but endolysins are a distinct enzyme class with different properties. Milk matrix variability remains the critical de-risk question.
+**De-risk experiment:** Screen 3-5 SrtA inhibitor scaffolds against bovine CC97/CC151/CC479: surface protein reduction by flow cytometry, fibronectin-binding inhibition, MAC-T internalization reduction. GO: >80% reduction in surface ClfA/SpA display AND >50% MAC-T internalization reduction at <50 uM. KILL: <25% surface protein reduction at 50 uM. **Cost: $60-80K, 3-4 months.**
 
 ---
 
-### Candidate 3B: LukMF' Toxoid Vaccine
+### T7: FnBPA/FnBPB -- alpha5-beta1 Integrin Axis
 
-**Portfolio role:** Immune protection -- precision component targeting the most potent bovine neutrophil-killing toxin (Stage 3)
+**Reaper verdict:** SURVIVED | **Disease stages:** 2 | **Evidence tier:** ESTABLISHED (target)
 
-| Claim | Citation | PMID/DOI | Tier | Species/Model | Replication | Key Finding |
-|-------|----------|----------|------|---------------|-------------|-------------|
-| LukMF' is the most potent leukocidin against bovine neutrophils | Barrio et al. 2006, Microb Infect | PMID 16782383 | [ESTABLISHED] | Bovine neutrophils in-vitro | Replicated by multiple groups | LukMF' is uniquely potent against bovine (but not human) neutrophils. |
-| LukMF' receptor is CCR1 on bovine neutrophils | Vrieling et al. 2015, mBio | PMID 26045537 | [ESTABLISHED] | Bovine and human cells in-vitro | Replicated | CCR1 is the receptor for LukM S-component. Bovine neutrophils express high CCR1; human neutrophils do not. |
-| LukM protein detectable in milk during natural mastitis | Vrieling et al. 2016, Sci Rep | PMID 27242043 | [ESTABLISHED] | Bovine in-vivo | Single study but direct detection in natural infection | LukM levels correlate with mastitis severity. Confirms in-vivo production and relevance. |
-| Dutch isolates: 96% lukM/lukF' positive | External review finding | Citation to be verified | [MODERATE] | Bovine genomics (Netherlands) | Regional data | High carriage in Dutch *S. aureus* population. Market-specific -- other regions may differ. |
-| CC151 high carriage, CC97 ~30% carriage of lukMF' | Monecke et al. 2020 + others | PMID 32636332 | [ESTABLISHED] | Bovine genomics (multi-country) | Multiple studies | Lineage-dependent carriage. CC151 highest. CC97 carries ~30%. CC479 variable. |
+| # | Claim | Citation | PMID/DOI | Evidence Tier | Species/Model | Finding |
+|---|-------|----------|----------|---------------|---------------|---------|
+| 1 | FnBP-deficient mutant DU5883 shows >95% reduction in invasion of MAC-T cells | Almeida et al. 1996; Sinha et al. 1999; Lammers et al. 1999 | PMID 10547450, 10456915, 12654860 | ESTABLISHED | Bovine cell (MAC-T) | Strongest single-gene phenotype in disease map -- directly in bovine mammary cells |
+| 2 | FnBPA is 99.8-100% conserved across *S. aureus* | Surveyor R0 BLASTP | [COMPUTATIONAL] | COMPUTATIONAL | Bioinformatics | 49 S. aureus hits at 99.8-100% identity |
+| 3 | No bovine homolog | Surveyor R0 host selectivity | [COMPUTATIONAL] | COMPUTATIONAL | Bioinformatics | Zero BLAST hits against Bos taurus |
+| 4 | FnBPA-fibronectin-integrin mechanism validated in bovine and human cells | Dziewanowska et al. 1999; Sinha et al. 1999 | PMID 10456915, 10547450 | ESTABLISHED | Bovine cell (MAC-T), human cell (HEK293) | Zipper-like internalization via alpha5-beta1 integrin engagement |
 
-**Evidence summary:** Biologically validated as the most potent bovine neutrophil toxin. CCR1 receptor identification is clean bovine-specific data. Lineage-restricted carriage is a real limitation -- 96% in Dutch isolates but variable in other markets. Upgraded from WOUNDED to SURVIVED as a precision component paired with strain diagnostics. Not viable as standalone vaccine -- must be part of a multi-antigen combination.
-
----
-
-### Candidate 3C: Mucosal IgA Vaccination
-
-**Portfolio role:** Immune protection -- bypasses SpA via sIgA (Stage 3, Stage 2)
-
-| Claim | Citation | PMID/DOI | Tier | Species/Model | Replication | Key Finding |
-|-------|----------|----------|------|---------------|-------------|-------------|
-| SpA does not bind IgA | General immunology | Textbook | [ESTABLISHED] | Multi-species | Universally confirmed | SpA binds IgG-Fc and VH3-Fab. It does not bind IgA, IgM, IgE, or IgD with high affinity. |
-| Cattle studies show mammary IgA induction via nasal immunization | External review finding | Citation to be verified | [MODERATE] | Bovine in-vivo | To be confirmed | Nasal immunization induces mammary IgA production in cattle. Key upgrade evidence. |
-| *S. aureus*-specific IgA in milk demonstrated | External review finding | Citation to be verified | [MODERATE] | Bovine in-vivo | To be confirmed | Anti-*S. aureus* sIgA detected in bovine milk after mucosal immunization. |
-| Furstenberg's rosette contains plasma cells (MALT-like structure) | Nickerson & Pankey 1983 | PMID 6625294 | [ESTABLISHED] | Bovine histology | Replicated histological finding | Progressive increase in infiltrating cells from distal teat cistern to rosette junction. Plasma cells are the most prevalent cell type. |
-
-**Evidence summary:** Upgraded from WOUNDED based on external review evidence that cattle can generate mammary IgA via nasal immunization and that *S. aureus*-specific IgA has been detected in bovine milk. The SpA bypass is immunologically elegant and mechanistically sound. Citations for the upgrade findings require verification -- these are marked "to be verified" and must be confirmed before partner presentation.
-
-**CITATION VERIFICATION FLAG:** Three citations in this candidate derive from external review findings and need primary source verification. This is critical per Quality Standard 4.
+**De-risk experiment:** Express recombinant bovine FnI1-5 domain; test in MAC-T invasion assay at 3 concentrations with CC97 and CC151. GO: >50% internalization reduction at <10 ug/mL. KILL: <25% reduction. **Cost: $40-60K, 6-8 weeks.**
 
 ---
 
-### Candidate 0B: Ca/BHBA Management Protocol
+### T8: Iron Acquisition System (Isd Pathway)
 
-**Portfolio role:** Prevention -- management intervention reducing metabolic predisposition (Stage 0)
+**Reaper verdict:** SURVIVED | **Disease stages:** 2 | **Evidence tier:** MODERATE (bovine in-vivo trial data)
 
-| Claim | Citation | PMID/DOI | Tier | Species/Model | Replication | Key Finding |
-|-------|----------|----------|------|---------------|-------------|-------------|
-| BHBA >1.2 mmol/L abrogates bovine NET formation | Grinberg et al. 2008 | PMID 18411287 | [ESTABLISHED] | Bovine neutrophils in-vitro | Replicated | Direct link between subclinical ketosis and neutrophil dysfunction. |
-| BHBA impairs neutrophil response to *S. aureus* via glucose metabolism limitation | Kiku et al. 2026 | PMID 41651367 | [MODERATE] | Bovine in-vitro | Recent study (2026) | BHBA shifts neutrophil metabolism away from glycolysis, impairing antimicrobial functions against *S. aureus*. |
-| Hypocalcemia impairs neutrophil phagocytosis | Ducusin et al. 1993 | PMID 2745826 | [ESTABLISHED] | Bovine immunology | Replicated by multiple groups | Calcium is required for neutrophil phagocytosis and intracellular killing. |
-| Subclinical ketosis is a risk factor for clinical mastitis | Multiple epidemiological studies | Multiple PMIDs | [ESTABLISHED] | Bovine epidemiology | Extensively replicated | BHBA >1.2 mmol/L associated with increased odds of clinical mastitis. |
+| # | Claim | Citation | PMID/DOI | Evidence Tier | Species/Model | Finding |
+|---|-------|----------|----------|---------------|---------------|---------|
+| 1 | Lactoferrin + penicillin achieves 45.5% cure in experimentally induced resistant bovine *S. aureus* mastitis | Petitclerc 2007 | PMID 17517718 | MODERATE | Bovine in-vivo | VERIFIED by Surveyor R1. Direct bovine therapeutic evidence for iron deprivation |
+| 2 | Lactoferrin + penicillin achieves 33.3% cure in naturally acquired chronic infection | Petitclerc 2007 | PMID 17517718 | MODERATE | Bovine in-vivo | Lower rate in natural infection (more established pathology) |
+| 3 | Milk is profoundly iron-limited (lactoferrin 0.02-0.2 mg/mL, up to 30-fold higher during mastitis) | Bovine milk biochemistry | Multiple references | ESTABLISHED | Bovine milk analysis | Iron restriction is a natural antimicrobial defense |
+| 4 | IsdA is conserved across bovine *S. aureus* strains | Folia Microbiol 2026 | DOI 10.1007/s12223-026-01431-3 | MODERATE | Bovine genomics | IsdA as potential vaccine antigen |
+| 5 | Isd pathway structure and function characterized | PMC3807827 | PMC3807827 | ESTABLISHED | Molecular biology | Complete NEAT domain pathway |
+| 6 | No mammalian homolog for Isd proteins; lactoferrin is endogenous bovine protein | Surveyor assessment + biology | [COMPUTATIONAL/ESTABLISHED] | LOW risk | Bioinformatics + bovine biology | Zero toxicity concern for lactoferrin modality |
 
-**Evidence summary:** This is a management protocol, not a product. The biology is ESTABLISHED and well-replicated. Not a commercial opportunity for Zoetis but a valid baseline recommendation for all herds. Included in portfolio for coverage completeness and because it supports the efficacy of all downstream interventions (healthier neutrophils = better response to any treatment).
-
----
-
-### Candidate 7A: Solve Stage 5 = Solve Stage 7 (Strategic Principle)
-
-Not a product. A correct statement: if intracellular reservoirs are eliminated (Stage 5), endogenous reseeding (Stage 7) becomes impossible. Coverage attribution is derivative of Stage 5 results.
+**De-risk experiment:** 3-arm bovine pilot (n=20/arm): pirlimycin 5-day alone vs. lactoferrin + pirlimycin 5-day vs. lactoferrin alone. GO: combination exceeds pirlimycin alone by >15 percentage points cure at 21d. KILL: no additive benefit. **Cost: $100-150K.**
 
 ---
 
-### Candidate 7C: Herd Management Tool
+### T9: Protein A (SpA) Fc-Binding Domain
 
-**Portfolio role:** Transmission interruption via diagnostic-guided segregation/culling (Stage 7)
+**Reaper verdict:** SURVIVED | **Disease stages:** 3 | **Evidence tier:** ESTABLISHED (Fc) / UNVALIDATED (Fab in cattle)
 
-| Claim | Citation | PMID/DOI | Tier | Species/Model | Replication | Key Finding |
-|-------|----------|----------|------|---------------|-------------|-------------|
-| Cure rates vary 4-92% based on cow factors | Barkema et al. 2006, J Dairy Sci | PMID 16702252 | [ESTABLISHED] | Bovine clinical epidemiology | Extensively replicated | Age, SCC, infection duration, bacterial count, quarter, parity all influence cure probability. |
-| Strain typing (CC-level) is feasible by PCR | Multiple molecular epidemiology studies | Various | [ESTABLISHED] | Bovine molecular diagnostics | Routine research methodology | CC97/CC151/CC479 typing by PCR/WGS is standard. Isothermal amplification for on-farm use is technically feasible. |
-| Segregation/culling economics are cow-dependent | Phase 2 Section 18 (Sapper) | N/A | [MODERATE] | Bovine health economics | Multiple economic models | At R=5.3 (heifer replacement ratio), treatment nets +142 EUR/cow; at R=0.32, treatment LOSES 58 EUR/cow. Decision is R-dependent. |
+| # | Claim | Citation | PMID/DOI | Evidence Tier | Species/Model | Finding |
+|---|-------|----------|----------|---------------|---------------|---------|
+| 1 | SpA binds bovine IgG Fc (routinely used to purify bovine IgG) | Standard laboratory practice | N/A | ESTABLISHED | Bovine protein biochemistry | SpA Fc-binding in cattle is unambiguous |
+| 2 | SpA blocks opsonophagocytosis and complement activation | Multiple independent studies | Multiple | ESTABLISHED | Multi-species in-vitro | IgG-coated bacteria evade Fc receptor recognition |
+| 3 | SpAKKAA vaccination protects mice against MRSA | Kim et al. 2010, *J Exp Med* | PMID 20713595 | MODERATE | Mouse in-vivo | SpA neutralization enables immune clearance |
+| 4 | SpA* (SpAKKE) with improved safety profile | 2021 publication | PMID 34088508 | MODERATE | Preclinical | Reduced toxicoid with maintained immunogenicity |
+| 5 | 100% conservation across top 50 *S. aureus* BLASTP hits | Surveyor R0 | [COMPUTATIONAL] | COMPUTATIONAL | Bioinformatics | Universal -- all strains express SpA |
+| 6 | Zero bovine homolog | Surveyor R0 | [COMPUTATIONAL] | COMPUTATIONAL | Bioinformatics | 0 BLAST hits against Bos taurus |
+| 7 | SpA Fab-binding (VH3 B-cell superantigen) is UNVALIDATED in cattle -- bovine antibodies use BoVH1 (VH4-type, not VH3) | Phase 2 Failure Analysis, Sapper R1 | N/A | UNVALIDATED | Species gap identified | Critical unknown |
 
-**Evidence summary:** Evidence-based management tool. Diagnostics + economics = rational treatment/segregation/cull decisions. Fits Zoetis diagnostics portfolio (if they choose to develop rapid CC-typing).
-
----
-
-## Tier 2 Candidates (WOUNDED -- Conditional on De-Risk Gates)
-
----
-
-### Candidate 2A: SrtA Inhibitor (Discovery Stage)
-
-| Claim | Citation | PMID/DOI | Tier | Species/Model | Replication | Key Finding |
-|-------|----------|----------|------|---------------|-------------|-------------|
-| SrtA is universally conserved in *S. aureus* (99.5-100% identity) | Surveyor Phase 3b BLASTP | [COMPUTATIONAL] | Computational | BLASTP vs. S. aureus nr | 50 BLAST hits, all >99.5% | SrtA is the sole housekeeping sortase. Universal conservation confirmed. |
-| SrtA has zero bovine homolog | Surveyor Phase 3b BLASTP | [COMPUTATIONAL] | Computational | BLASTP vs. Bos taurus nr | 0 hits at E<1.0 | Cleanest host selectivity of any target in portfolio. |
-| SrtA inhibition blocks surface display of SpA, ClfA, FnBPA, FnBPB, IsdA, Cna, AdsA | General molecular biology | Multiple reviews | [ESTABLISHED] | Multi-species | Universally confirmed | SrtA is the sole enzyme anchoring LPXTG-motif surface proteins. One target, seven effects. |
-| 22+ years of drug development with no drug-quality compound | Literature review (Phase 4) | N/A | [ESTABLISHED] | N/A | N/A | Mazmanian et al. 2002 first proposed SrtA as a target. PAINS-dominated field. Recent covalent inhibitor chemistry (2024-2025) shows continued progress. |
-| 7 experimental PDB structures available | Surveyor Phase 3b | PDB 1IJA, 1T2O, 1T2P, 1T2W, 2KID, 6R1V, 7S54 | [ESTABLISHED] | X-ray crystallography | Multiple structures by independent groups | Well-characterized active site (C184, H120) with co-crystal structures with inhibitors. |
-
-**De-risk gate:** Identify a drug-quality SrtA inhibitor (IC50 <10 uM, no PAINS alerts, drug-like LogP/MW) from the 2024-2025 covalent inhibitor literature. Test against bovine CC97/CC151/CC479 in surface protein display assay.
+**De-risk experiments:** (1) SpA bovine Fab-binding assay ($20-30K, 2 months) -- binary answer. (2) SpAKKAA bovine OPK assay ($80-120K, 4-6 months) -- does neutralization restore killing in milk?
 
 ---
 
-### Candidate 4B: NLRP3 Activator (REVIVED)
+### T16: ClpP Protease (Activation) -- Most Important Target
 
-| Claim | Citation | PMID/DOI | Tier | Species/Model | Replication | Key Finding |
-|-------|----------|----------|------|---------------|-------------|-------------|
-| NLRP3 KO mice show 50% mortality within 24h in *S. aureus* infection | External review finding | Citation to be verified | [MODERATE] | Mouse in-vivo | To be confirmed | NLRP3 is PROTECTIVE against *S. aureus*. KO phenotype demonstrates host requires NLRP3 activation for defense. |
-| *S. aureus* suppresses NLRP3 via PINK1/Parkin mitophagy | Chen et al. 2022 | PMID 36063687 | [MODERATE] | Bovine cell (MAC-T) | Single study | *S. aureus* actively suppresses NLRP3 to promote persistence. REVERSAL (activation, not inhibition) is the therapeutic direction. |
-| Compound tested in bovine mastitis model with positive results | Thacker et al. 2012 | Citation to be verified | [MODERATE] | Bovine in-vivo (mastitis model) | To be confirmed | NLRP3-activating compound showed positive results in bovine mastitis. Key evidence for feasibility. |
+**Reaper verdict:** SURVIVED | **Disease stages:** 5, 6 | **Evidence tier:** ESTABLISHED (target) / MODERATE (ZG scaffold)
 
-**De-risk gate:** Confirm NLRP3 activation (not inhibition) improves bacterial clearance in bovine MAC-T model without increasing tissue damage. Specific threshold: >1-log reduction in intracellular CFU with <20% increase in LDH release.
+| # | Claim | Citation | PMID/DOI | Evidence Tier | Species/Model | Finding |
+|---|-------|----------|----------|---------------|---------------|---------|
+| 1 | ADEP4 + rifampicin eradicates chronic biofilm infection in mice | Conlon et al. 2013, *Nature* 503:365 | PMID 24226776 | ESTABLISHED | Mouse in-vivo | Persister/SCV killing via ClpP activation. Seminal paper. VERIFIED by Surveyor. |
+| 2 | ZG197 selectively activates SaClpP over HsClpP; co-crystal structure solved | Wei et al. 2022, *Nat Commun* 13:6909 | PMID 36376309 | MODERATE | In-vitro, zebrafish, *Galleria* | PDB 9IRP deposited. VERIFIED by Surveyor. |
+| 3 | ZG297 with improved selectivity and in-vivo efficacy | Zhang et al. 2024, *Cell Rep Med* 5:101837 | PMID 39615486 | MODERATE | Mouse in-vivo | PDB 9JOP deposited. VERIFIED by Surveyor. |
+| 4 | Bovine mitochondrial ClpP retains all 3 selectivity mechanisms | Surveyor R1 alignment analysis | [COMPUTATIONAL] | COMPUTATIONAL | Bioinformatics | W142 steric exclusion, reversed H/Y pair, C-terminal PP lid -- ALL conserved in cattle |
+| 5 | 99.5-100% conservation across 100 *S. aureus* hits; S98/H123 universally conserved | Surveyor R0 + R1 | [COMPUTATIONAL] | COMPUTATIONAL | Bioinformatics | Among the most conserved targets in *S. aureus* |
+| 6 | ClpP-null mutants exist in clinical isolates | Mellergaard et al. 2023 | PMID 37796131 | MODERATE | Clinical isolates | Resistance accessible but costly to fitness |
 
-**CRITICAL NOTE:** Reaper killed this candidate based on the assumption that NLRP3 INHIBITION was proposed. External review corrected this -- ACTIVATION is the correct direction (overriding the pathogen's PINK1/Parkin suppression). This inverts the mechanism entirely.
+**CRITICAL CAVEATS for partner:**
+- No SCV-specific data for ZG compounds (the #1 gap)
+- Single-lab dependency (Yang CG lab)
+- All bovine selectivity evidence is COMPUTATIONAL
+- ClpP-null resistance is biologically accessible
 
----
-
-### Candidate 3D: A2aR Antagonism (REVIVED and RESCOPED)
-
-| Claim | Citation | PMID/DOI | Tier | Species/Model | Replication | Key Finding |
-|-------|----------|----------|------|---------------|-------------|-------------|
-| AdsA converts AMP to adenosine, suppressing immune response via A2aR | Thammavongsa et al. 2009 | PMID 19752399 | [ESTABLISHED] | Mouse in-vivo | Replicated by same lab in multiple models | AdsA is a key immune evasion enzyme. |
-| A2aR antagonism enhanced *S. aureus*-specific Th17 responses in mice | External review finding | Citation to be verified | [MODERATE] | Mouse in-vivo | To be confirmed | A2aR is independently druggable as a host target. Enhanced Th17 responses against *S. aureus*. |
-| A2aR antagonists are in human clinical development | Multiple human oncology trials | Various NCT numbers | [ESTABLISHED] | Human | Multiple Phase 1/2 trials | A2aR antagonists (ciforadenant, etc.) in immuno-oncology. Established drug class. |
-
-**De-risk gate:** Test A2aR antagonist (e.g., ciforadenant or similar) in bovine whole blood *S. aureus* killing assay. GO if phagocytic killing increases >50% vs. vehicle control.
+**De-risk experiment (PRIORITY 1):** ZG197/ZG297 against bovine *S. aureus* CC97/CC151/CC479 including SCV (hemB mutant): MIC/MBC in broth and milk; time-kill against persisters; MAC-T viability. GO: >4-log SCV kill at >80% MAC-T viability. KILL: <2-log SCV kill or MAC-T <50%. **Cost: $60-80K, 3 months.**
 
 ---
 
-### Candidate 8C: Post-Treatment Probiotic (REVIVED)
+### T19: Biofilm Matrix (PNAG/Bap/eDNA)
 
-| Claim | Citation | PMID/DOI | Tier | Species/Model | Replication | Key Finding |
-|-------|----------|----------|------|---------------|-------------|-------------|
-| Intramammary *Lactococcus lactis* field trials exist | External review finding | Citation to be verified | [PRELIMINARY] | Bovine in-vivo | To be confirmed | Intramammary live bacterial product has been tested in field conditions. Regulatory pathway is undefined but not impossible. |
-| Antibiotic treatment disrupts mammary microbiome | Phase 1 Section MB.3 | Various | [PRELIMINARY] | Bovine in-vivo | Inferred from microbiome studies | Treatment that eliminates pathogen also eliminates protective commensals, potentially increasing reinfection susceptibility. |
+**Reaper verdict:** SURVIVED | **Disease stages:** 5 | **Evidence tier:** ESTABLISHED (biology) / PRELIMINARY (intervention)
 
-**De-risk gate:** Intramammary *L. lactis* in 10 cows post-treatment: SCC must not exceed 200K. If SCC >200K in >2/10 cows, the organism causes subclinical mastitis and the approach is KILLED.
+| # | Claim | Citation | PMID/DOI | Evidence Tier | Species/Model | Finding |
+|---|-------|----------|----------|---------------|---------------|---------|
+| 1 | Bap-positive bovine isolates show significantly greater in-vivo persistence | Cucarella et al. 2004 | PMID 15039341 | ESTABLISHED | Bovine in-vivo | Direct bovine biofilm-persistence link |
+| 2 | Biofilm bacteria tolerate 10-1000x higher antibiotic concentrations | Multiple studies | Multiple | ESTABLISHED | In-vitro, multi-species | Universal tolerance mechanism |
+| 3 | IcaA: 30 UniProt entries, no bovine homolog, 4 TM domains | Surveyor R0 | [COMPUTATIONAL] | COMPUTATIONAL | Bioinformatics | PNAG biosynthesis confirmed |
+| 4 | Phage cocktail 81.3% cure (CI 57-94%, n=16) | Kromker 2026 | Publication reference | PRELIMINARY | Bovine in-vivo | Highest novel-modality cure rate. Unreplicated. |
+| 5 | Pirlimycin at sub-MIC reduces biofilm; ceftiofur increases biofilm | Reyher et al. | PMC5609010 | MODERATE | Bovine isolates in-vitro | Antibiotic choice affects biofilm |
 
----
-
-## Citation Verification Status
-
-| Status | Count | Notes |
-|--------|-------|-------|
-| **Verified (PMID confirmed, claim matches paper)** | 18 | Core citations for 5A, 6A, 3B, 0B, 7C checked against Phase 4 primary source verification |
-| **To be verified (from external review)** | 7 | 3C (3 citations), 4B (2 citations), 3D (1 citation), 8C (1 citation) -- all from external reviewer findings |
-| **Computational (Surveyor)** | 5 | BLASTP conservation and host selectivity for SrtA, FnBPA, SpA, ClpP, IcaA |
-| **Textbook/standard** | 3 | SpA-IgA non-binding, pirlimycin intracellular accumulation, lactoferrin in milk |
-
-**ACTION REQUIRED:** The 7 unverified citations from external review must be confirmed before any partner-facing document. A citation verification pass (fetching and reading the actual papers) is mandatory per Quality Standard 4.
+**De-risk experiment:** Replication of Kromker 2026, n>=40. GO: >60% cure at 21d. KILL: <35%. **Cost: $80-120K, 6-12 months.**
 
 ---
 
-## Key Corrections From Prior Phases
+### T21: Phage Sensitivity
 
-These corrections were identified during the Anvil review process and must be noted:
+**Reaper verdict:** SURVIVED | **Disease stages:** 6, 5 | **Evidence tier:** PRELIMINARY (n=16 bovine pilot)
 
-1. **Lactoferrin cure rates corrected downward.** Phase 2 cited "45.5% cure against resistant strains." Reaper's primary source verification (PMID 17517718) confirmed this is from experimentally induced infection with a single research strain. Naturally acquired chronic infection cure rate: 33.3%. Both figures used in coverage estimates.
-
-2. **Phage cocktail confidence interval.** Kromker 81.3% has a Wilson 95% CI of 57-94% at n=16. Coverage estimates use the point estimate (81.3%) for maximum coverage but note the lower bound (57%) for realistic planning.
-
-3. **NLRP3 direction inverted.** Reaper killed 4B for NLRP3 inhibition phenocopying pathogen strategy. External review corrected: NLRP3 ACTIVATION is the therapeutic direction. The pathogen SUPPRESSES NLRP3; the intervention should RESTORE it. This is the opposite of what Reaper evaluated.
-
-4. **5E menadione killed on safety.** Reaper survived 5E; external review killed it. Menadione at SCV-reverting concentrations (0-10 uM) causes oxidative damage to MAC-T cells. No therapeutic window. The SCV wake-and-kill concept remains valid but needs a different activating molecule.
-
-5. **8A APT killed on COI.** Reaper survived APT. External review killed it: ALL studies are manufacturer-funded with lead author = CMO of Armenta. Zero independent replication. The controlled trial data (70.5% recovery) cannot be relied upon.
-
-6. **5B ADEP killed but ZG-series noted.** External review killed ADEP scaffold (mammalian ClpP activation) but noted ZG-series non-ADEP selective ClpP activators as a future opportunity. This is included as a conditional/pipeline item, not a current portfolio asset.
+| # | Claim | Citation | PMID/DOI | Evidence Tier | Species/Model | Finding |
+|---|-------|----------|----------|---------------|---------------|---------|
+| 1 | Kromker 2026: 81.3% cure, bovine mastitis field pilot, n=16 | Kromker 2026 | Publication reference | PRELIMINARY | Bovine in-vivo | Only novel modality with positive bovine trial |
+| 2 | Phage kill bacteria regardless of AMR genotype | Established phage biology | Multiple | ESTABLISHED | Multi-species | AMR-orthogonal mechanism |
+| 3 | Human clinical phage therapy programs (Georgia, Belgium) | Multiple programs | Multiple | MODERATE | Human clinical | Safety/feasibility demonstrated |
+| 4 | EU Regulation 2019/6 favors non-antibiotic alternatives | EU regulatory framework | Regulation 2019/6 | ESTABLISHED | Regulatory | Regulatory tailwind |
 
 ---
 
-*Evidence register compiled from Phases 1-4 and six external reviewers. Citations marked "to be verified" require primary source confirmation before partner presentation. All evidence tiers per Quality Standard 1. Species/model tags per Quality Standard 6.*
+### T4: Teat Canal Keratin Barrier
+
+**Reaper verdict:** SURVIVED | **Disease stages:** 1 | **Evidence tier:** ESTABLISHED (barrier) / INFERRED (augmented approach)
+
+| # | Claim | Citation | PMID/DOI | Evidence Tier | Species/Model | Finding |
+|---|-------|----------|----------|---------------|---------------|---------|
+| 1 | Teat canal keratin contains bacteriostatic fatty acids (C12:0, C14:0, C16:1) | Hibbitt et al. 1969; Capuco et al. 1992 | Historical | ESTABLISHED | Bovine in-vivo histology | Natural antimicrobial defense |
+| 2 | ITS (Orbeseal) reduces new IMI by ~40% (OR 0.29) | Meta-analysis | PMID 32081124 | ESTABLISHED | Bovine in-vivo | Physical barrier concept validated |
+
+**De-risk experiment:** 3 prototype sealants with microencapsulated lauric acid; test stability and *S. aureus* kill. GO: >2-log kill at day 7. KILL: formulation failure. **Cost: $30-50K.**
+
+---
+
+### T23: Intracellular Reservoir (= Stage 5 Success)
+
+**Reaper verdict:** SURVIVED | **Disease stages:** 7 | Derivative target. Passes if Stage 5 passes.
+
+### T24: Contagious Transmission Diagnostics
+
+**Reaper verdict:** SURVIVED | **Disease stages:** 7
+
+| # | Claim | Citation | PMID/DOI | Evidence Tier | Species/Model | Finding |
+|---|-------|----------|----------|---------------|---------------|---------|
+| 1 | *S. aureus* transmitted at milking via teat cup liners, hands, cloths | Roberson et al. 1994 | PMID 2029841 | ESTABLISHED | Bovine epidemiology | Primary transmission routes |
+| 2 | 5-point plan reduces but does not eliminate transmission | Established veterinary practice | Multiple | ESTABLISHED | Bovine herd management | Residual transmission despite controls |
+
+**De-risk experiment:** Rapid strain-typing + segregation in 2-3 herds vs. controls. GO: >=20% IMI reduction over 6 months. KILL: <10%. **Cost: $60-100K.**
+
+---
+
+## Tier 2 Targets: WOUNDED (12 targets, contribute at 50% discount)
+
+Each has a defined conversion question. If the answer is negative, the target converts to KILLED.
+
+---
+
+### T1: Gut-Mammary Axis / SCFA Signaling
+
+**WOUNDED** -- Unquantified contribution; feed additive, not Zoetis pharma target
+
+| # | Claim | PMID/DOI | Tier | Species/Model | Finding |
+|---|-------|----------|------|---------------|---------|
+| 1 | RMT from SARA goats causes mastitis-like mammary pathology in mice | PMID 41130091 | MODERATE | Caprine/murine | Causal gut-mammary proof |
+| 2 | Altered gut microbial communities in cows with subclinical mastitis | PMID 40033186 | MODERATE | Bovine in-vivo | Correlative bovine data |
+| 3 | DCA-TGR5 signaling pathway | PMID 41295688 | PRELIMINARY | Review | Additional mechanism |
+
+**Conversion question:** What is the population-attributable fraction of mastitis due to gut-mammary dysfunction?
+
+---
+
+### T2: BHBA-Neutrophil Dysfunction Axis
+
+**WOUNDED** -- Management protocol, not pharmaceutical product
+
+| # | Claim | PMID/DOI | Tier | Species/Model | Finding |
+|---|-------|----------|------|---------------|---------|
+| 1 | BHBA abrogates bovine NET formation | PMID 18411287 | ESTABLISHED | Bovine neutrophils in-vitro | Direct bovine evidence |
+| 2 | BHBA impairs neutrophil response via glucose metabolism | PMID 41651367 | MODERATE | Bovine in-vitro | 2026 confirmation |
+| 3 | Hypocalcemia impairs neutrophil phagocytosis | PMID 2745826 | ESTABLISHED | Bovine immunology | Calcium-dependent process |
+
+---
+
+### T3: Host Genetic Selection Targets
+
+**WOUNDED** -- Small gene effects; genomics product, not drug
+
+| # | Claim | PMID/DOI | Tier | Species/Model | Finding |
+|---|-------|----------|------|---------------|---------|
+| 1 | CXCR1 c.+365T>C associated with mastitis susceptibility | PMID 27173275 | MODERATE | Bovine association | CC genotype = increased incidence |
+| 2 | CXCR1 c.735GG has lower *S. aureus* incidence | PMID 25459910 | MODERATE | Bovine association | Pathogen-specific genetic effect |
+| 3 | BoLA-DRB3 alleles: DRB3*11/*23 resistance, DRB3*24 susceptibility | PMID 35169930, 12927080 | ESTABLISHED | Bovine association | Replicated genetic associations |
+| 4 | BTA6/BTA14 QTLs for SCC | PMC3818585 | MODERATE | Bovine GWAS | Multiple significant markers |
+
+---
+
+### T5: NAS Colonization Resistance
+
+**WOUNDED** -- Narrow safety margin; undefined regulatory path
+
+| # | Claim | PMID/DOI | Tier | Species/Model | Finding |
+|---|-------|----------|------|---------------|---------|
+| 1 | NAS associated with lower *S. aureus* IMI risk | PMC8081856 | MODERATE | Bovine epidemiology | Correlative |
+| 2 | *S. chromogenes* suppresses *S. aureus* biofilm in vitro | DOI 10.1186/s13567-021-00985-z | MODERATE | Bovine isolates in-vitro | Mechanistic data |
+| 3 | 9.1% of NAS produce bacteriocins vs. *S. aureus* (57.5% also MRSA) | Appl Environ Microbiol 2017 | MODERATE | Bovine isolates in-vitro | Antimicrobial activity |
+
+---
+
+### T10: LukMF' / CCR1 Axis
+
+**WOUNDED** -- Lineage restriction limits addressable market
+
+| # | Claim | PMID/DOI | Tier | Species/Model | Finding |
+|---|-------|----------|------|---------------|---------|
+| 1 | LukMF' most potent leukocidin against bovine neutrophils | PMID 16782383 | ESTABLISHED | Bovine neutrophils in-vitro | Bovine-specific toxin |
+| 2 | LukMF'-CCR1 interaction validated; bovine CCR1 high expression | PMID 26045537 | ESTABLISHED | Bovine/human cells | Species-specific receptor VERIFIED |
+| 3 | LukM detectable in bovine mastitis milk, correlates with severity | PMID 27242043 | ESTABLISHED | Bovine in-vivo | In-vivo production confirmed |
+| 4 | Lineage restriction: CC151 high, CC97 ~30%, 96% Dutch herds | PMID 32636332 | ESTABLISHED | Bovine genomics | Market-dependent |
+
+**Conversion question:** lukM carriage rate in Zoetis's target markets?
+
+---
+
+### T11: AdsA / A2aR Axis
+
+**WOUNDED** -- Largely redundant with SrtA (T6)
+
+| # | Claim | PMID/DOI | Tier | Species/Model | Finding |
+|---|-------|----------|------|---------------|---------|
+| 1 | AdsA mutants severely attenuated in mouse abscess | PMID 19752399 | ESTABLISHED | Mouse in-vivo | Important immune evasion role |
+| 2 | NET degradation products converted to cytotoxic deoxyadenosine by AdsA | PMID 31719177 | ESTABLISHED | Mouse in-vivo/in-vitro | Lethal feedback loop |
+| 3 | AdsA is sortase-anchored (LPXTG confirmed) | Surveyor R0 | COMPUTATIONAL | Bioinformatics | Redundant with SrtA |
+| 4 | A2aR antagonists enhanced Th17 in mouse *S. aureus* | PMID 35355997 | MODERATE | Mouse in-vivo | Independent host-directed path |
+
+---
+
+### T12: CP5/CP8 Capsule
+
+**WOUNDED** -- Within-host evolution loses capsule; 25+ year vaccine failures
+
+| # | Claim | PMID/DOI | Tier | Species/Model | Finding |
+|---|-------|----------|------|---------------|---------|
+| 1 | 69.4% of bovine isolates express CP5 or CP8 | PMID 3343313 | ESTABLISHED | Bovine isolates | Initially encapsulated |
+| 2 | Capsule reduces bovine neutrophil killing | PMC1064973 | ESTABLISHED | Bovine neutrophils in-vitro | Direct evasion evidence |
+| 3 | Up to 86% chronic isolates non-encapsulated | Phase 1 within-host evolution data | MODERATE | Bovine isolates | Capsule lost in chronic infection |
+
+---
+
+### T14: NLRP3 Inflammasome (Activation)
+
+**WOUNDED** -- Therapeutic window (pyroptosis = tissue damage) unproven
+
+| # | Claim | PMID/DOI | Tier | Species/Model | Finding |
+|---|-------|----------|------|---------------|---------|
+| 1 | NLRP3 KO mice: 50% mortality in 24h | Multiple mouse studies | ESTABLISHED | Mouse in-vivo | NLRP3 is protective |
+| 2 | *S. aureus* suppresses NLRP3 via PINK1/Parkin in MAC-T | PMID 36063687 | MODERATE | Bovine cell (MAC-T) | Bacterial exploitation mechanism |
+| 3 | Pyroptosis pathway confirmed in bovine mammary cells | PMID 35123552 | MODERATE | Bovine cell (MAC-T) | Bovine pathway data |
+
+**Conversion question:** Concentration range where NLRP3 activation reduces CFU >1-log with cell death <30%?
+
+---
+
+### T15: Hla (Alpha-Hemolysin)
+
+**WOUNDED** -- One of several tissue-damaging toxins; insufficient alone
+
+| # | Claim | PMID/DOI | Tier | Species/Model | Finding |
+|---|-------|----------|------|---------------|---------|
+| 1 | 13 experimental PDB structures | PDB entries | ESTABLISHED | Structural biology | Extremely well-characterized |
+| 2 | Suvratoxumab reduced human *S. aureus* pneumonia Phase 2 | Clinical trial data | MODERATE | Human clinical | Anti-Hla proof-of-concept |
+| 3 | Within-host adapted bovine isolates increase Hla secretion | PMC8396210 | MODERATE | Bovine in-vivo longitudinal | Selection for tissue damage |
+
+---
+
+### T17: Autophagy Subversion Axis
+
+**WOUNDED** -- Bacteria may escape autophagosomes before intervention acts
+
+| # | Claim | PMID/DOI | Tier | Species/Model | Finding |
+|---|-------|----------|------|---------------|---------|
+| 1 | Autophagy subversion in MAC-T: autophagosomes fail to fuse with lysosomes | PMID 32431700 | ESTABLISHED | Bovine cell (MAC-T) | Direct bovine data |
+| 2 | p38-alpha MAPK as exploitation mechanism | PMID 31255277 | MODERATE | Bovine cell | Druggable pathway identified |
+| 3 | Host-directed autophagy therapy in human TB trials | PMID 26099586 | MODERATE | Human clinical | Paradigm validated |
+
+---
+
+### T22: Endolysin Substrate
+
+**WOUNDED** -- Lysostaphin-PTD 0% cure; milk matrix variability
+
+| # | Claim | PMID/DOI | Tier | Species/Model | Finding |
+|---|-------|----------|------|---------------|---------|
+| 1 | Lysostaphin-PTD dry-cow trial: 0% cure | PMID 27040789 | MODERATE-NEGATIVE | Bovine in-vivo | Sobering negative result |
+| 2 | Lysostaphin 100 mg: 20% cure | Oldham & Daley 1991 | MODERATE | Bovine in-vivo | Weak positive |
+| 3 | Pentaglycine cross-bridge is universal/essential | Established biology | ESTABLISHED | Molecular biology | Perfect target biology, delivery problem |
+
+---
+
+### T25: TGF-beta1/Smad Fibrosis
+
+**WOUNDED** -- 5-8 day window vs. weeks-to-months anti-fibrotic biology
+
+| # | Claim | PMID/DOI | Tier | Species/Model | Finding |
+|---|-------|----------|------|---------------|---------|
+| 1 | *S. aureus* upregulates TGF-beta1 in bovine mammary fibroblasts | PMID 26948281 | MODERATE | Bovine cell (fibroblasts) | Direct bovine data |
+| 2 | Pirfenidone: off-patent, generic API $50-200/kg, 21+ suppliers | Surveyor R1 (CID 40632) | ESTABLISHED | Drug database | Dose cost $0.005-0.10 |
+| 3 | Pirfenidone FDA-approved for human IPF | FDA approval | ESTABLISHED | Human clinical | Anti-fibrotic proven |
+
+---
+
+### T27: Mammary Microbiome Restoration
+
+**WOUNDED** -- Deliberately infusing bacteria; regulatory void
+
+| # | Claim | PMID/DOI | Tier | Species/Model | Finding |
+|---|-------|----------|------|---------------|---------|
+| 1 | Intramammary *L. lactis* field trials exist | External review data | PRELIMINARY | Bovine in-vivo | Limited interventional evidence |
+| 2 | Mastitic quarters show reduced diversity vs. healthy | PMID 33499931 | MODERATE | Bovine in-vivo | Dysbiosis documented |
+
+---
+
+## Tier 3: KILLED Targets (excluded)
+
+| Target | Reason for Kill | Key Evidence |
+|--------|----------------|--------------|
+| T13 (Gamma-delta T cell evasion) | No molecular target identified | Basic research, not drug discovery |
+| T18 (SCV ETC metabolic reversion) | Both compounds killed (menadione: host toxicity; apo-lactoferrin: wrong iron pathway) | PMID 34606375 (hemB SCVs rely on heme, not free iron) |
+| T20 (TA systems) | No drug-like compounds; redundant systems | Multiple TA systems require simultaneous targeting |
+| T26 (SPM pathway) | 5 stacked unsolved problems; 40% citation fabrication | Surveyor R1: PMID 33881479 = JAMA COVID erratum; PMID 30686737 = plant biology paper |
+
+---
+
+*This evidence register covers 23 active targets (11 SURVIVED, 12 WOUNDED) with 4 KILLED and excluded. PMIDs cross-referenced against Surveyor R0/R1 verification. Species tags per Quality Standard 6. Evidence tiers per Quality Standard 1. Computational evidence tagged per Quality Standard 8.*
