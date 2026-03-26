@@ -12,12 +12,20 @@ Write `phase-3-candidates.md` in the program directory. Read both prior document
 
 ## What to Propose
 
-For EVERY disease stage in the disease map, propose candidates in three categories:
+For EVERY disease stage in the disease map, propose candidates in four categories:
 
-### A. Known Approaches
+### A. What Has Actually Worked In Vivo (REQUIRED — search first)
+Before proposing anything from biology, search for empirical results in the target species. Launch agents to find:
+- Any compound/approach with positive in-vivo trial data in the target species (not just in-vitro)
+- Clinical trial results, field trials, pilot studies — even small n
+- Results from adjacent species if target-species data is absent
+
+This step catches modality-first discoveries that biology-first thinking misses. DPC3147 (47% bovine cure rate) and Kromker phage (81.3% cure) were found by asking "what worked?" not "what should work." List everything with positive in-vivo data, regardless of whether it maps cleanly to a disease stage.
+
+### B. Known Approaches
 Literature-supported targets with evidence. These are the obvious plays — validated mechanisms with existing compounds or clear biology. Cite PMIDs, note evidence tier, flag any 20-year-test concerns.
 
-### B. Non-Obvious Approaches
+### C. Non-Obvious Approaches
 Cross-disease analogies, emerging biology, repurposed mechanisms from other fields. These are the clever plays — things that work in related diseases or against similar pathogen strategies but haven't been tried in this specific context.
 
 Examples of where to look:
@@ -25,7 +33,7 @@ Examples of where to look:
 - Different pathogen with same evasion strategy (other intracellular pathogens for SCV-like persistence)
 - Different field entirely (oncology approaches to intracellular drug delivery, antimalarial approaches to persistence)
 
-### C. Novel Proposals (REQUIRED for gap stages)
+### D. Novel Proposals (REQUIRED for gap stages)
 First-principles designs for disease stages where nothing exists. This is where you earn your name. Use the biology from the disease map to identify intervention points that nobody has tried.
 
 For each novel proposal:
@@ -58,6 +66,12 @@ Don't repeat failures. Design around them.
 When you're done, check: does EVERY disease stage from the disease map have at least one candidate? If any stage has zero candidates, you're not done.
 
 This is your most important constraint. The downstream 70% test will fail if you leave gaps. Forge's job is to ensure no gap remains.
+
+## Mechanism-Level Granularity
+
+When proposing targets, be specific about the individual mechanism — not just the category. Do NOT propose "SCV metabolic reversion" as a single target. Instead, propose the specific mechanisms within that category: "AtpE/ATP synthase (tomatidine)", "ETC electron transport (menadione)", "hemin auxotrophy restoration." Each gets its own evaluation.
+
+This prevents downstream kills from being too blunt. If Reaper kills "SCV metabolic reversion" as a category, it may destroy a promising specific mechanism (AtpE) along with a dead one (menadione). Mechanism-level proposals let Reaper make mechanism-level kills.
 
 ## For Each Candidate
 

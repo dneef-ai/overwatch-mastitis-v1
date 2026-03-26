@@ -18,6 +18,12 @@ These 10 principles govern all drug discovery work. They override agent tendenci
 
 8. **BE SKEPTICAL WHEN ACCEPTED FACTS HAVEN'T LED TO TREATMENTS.** The absence of a product IS evidence. If everyone agrees target X is important and no one has made a drug against it in 20 years, the target may be wrong, the biology may be more complex than assumed, or the delivery may be impossible. Investigate before building on it.
 
-9. **THE 70% TEST.** When you lock a portfolio, run this thought experiment: if every target works perfectly, does total pathology drop ≥70%? If not, the portfolio is INCOMPLETE. Identify which disease stage is uncovered and go back.
+9. **THE 70% TEST (TRACTABLE PATHOLOGY).** When you lock a portfolio, run this thought experiment: if every target works perfectly, does total TRACTABLE pathology drop ≥70%? Tractable = addressable by a pharmaceutical, biological, or device intervention for this partner. Management protocols, genomic selection, and nutrition are reported for completeness but do not count toward the 70% threshold. This prevents inventory padding — filling coverage numbers with non-drug targets just to pass a test.
 
 10. **DISCOMFORT IS A SIGNAL.** If you feel uncomfortable about a gap you're scoping out, that discomfort is correct. The hard parts of a disease are where the real value is. Don't optimize for the easy wins and declare victory.
+
+11. **RESOLVE FUNDAMENTAL UNKNOWNS FIRST.** Before committing $500K+ to parallel de-risk experiments, identify the single cheapest experiment that would restructure the portfolio. Run it first. If you don't know whether intracellular or biofilm persistence is rate-limiting, a $10K compartment-mapping experiment should precede $400K in target-specific de-risk.
+
+12. **MODEL THE SYSTEM, NOT JUST THE ANIMAL.** For infectious diseases, calculate R0 and model herd-level dynamics. A prevention target at R0 = 1.08 is worth far more than a treatment target — small effects compound over herds and time. Individual-animal efficacy and herd-level impact are not the same thing.
+
+13. **WHAT HAS ACTUALLY WORKED?** Before proposing targets from disease biology, search for what has empirically worked in the target species. Modality-first discoveries (DPC3147, Kromker phage) are found by asking "what worked in cows?" not "what should work based on mechanism." Biology-first thinking has blind spots for approaches that don't map cleanly to disease stages.

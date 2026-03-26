@@ -25,13 +25,16 @@ Understand the full pathology. Map every stage from initial infection/exposure t
 4. Identify the RATE-LIMITING BARRIER — which stage most determines outcome?
 
 ### Output
-`phase-1-disease-map.md` — annotated disease model with every stage, evidence tiers, and identified rate-limiting barrier.
+`phase-1-disease-map.md` — annotated disease model with every stage, evidence tiers, identified rate-limiting barrier, R0 estimate, and portfolio-restructuring experiment (KE#1).
 
 ### Completion Criteria
 - Every stage from entry to chronic persistence is mapped
 - External models reviewed the disease map (cross-check.py --adversarial) and identified no missing major stages
 - At least one published review article cross-checked for completeness
 - Rate-limiting barrier explicitly named with evidence
+- R0 estimated with evidence tier (or modeled from incidence/duration data)
+- Prevention vs treatment leverage assessed based on R0
+- Portfolio-restructuring experiment (KE#1) identified — the single cheapest experiment that would restructure the downstream portfolio
 
 ### Common Failure Modes
 - Stopping at "infection → immune response → resolution or persistence" without mapping the persistence mechanisms in detail
@@ -80,12 +83,15 @@ Phase 3 runs as two sequential steps: Forge proposes candidates, then Surveyor c
 Propose treatment candidates for EVERY disease stage — including stages where nothing currently exists.
 
 #### What to Do
-1. For each disease stage from Phase 1:
-   a. Known approaches — literature-supported targets with evidence
-   b. Non-obvious approaches — cross-disease analogies, emerging biology, repurposed mechanisms from other fields
-   c. Novel proposals — if nothing exists for this stage, DESIGN something from first principles. Use the biology from Phase 1 to identify intervention points. Be creative, then be rigorous.
-2. Apply Standards 1-9 (evidence) to all proposals
-3. Apply Standards 10-17 (target evaluation) to all proposals
+1. **First: search for what has actually worked in vivo in the target species.** Launch agents to find any compound/approach with positive trial data, regardless of mechanism. This catches modality-first discoveries that biology-first thinking misses.
+2. For each disease stage from Phase 1:
+   a. Empirical hits — approaches with positive in-vivo data in the target species (Category A)
+   b. Known approaches — literature-supported targets with evidence (Category B)
+   c. Non-obvious approaches — cross-disease analogies, emerging biology, repurposed mechanisms from other fields (Category C)
+   d. Novel proposals — if nothing exists for this stage, DESIGN something from first principles. Use the biology from Phase 1 to identify intervention points. Be creative, then be rigorous. (Category D)
+3. Propose at mechanism-level granularity, not category-level (Standard 40). Each specific mechanism gets its own entry.
+4. Apply Standards 1-9 (evidence) to all proposals
+5. Apply Standards 10-17 (target evaluation) to all proposals
 
 #### Output
 `phase-3-candidates.md` — candidate table covering ALL disease stages. For each candidate: mechanism, evidence tier, species data, key risk, proposed de-risk experiment.
@@ -190,6 +196,8 @@ Apply these 10 kill tests to every candidate. Any single FAIL can kill a candida
 
 1. **The 20-Year Test** — Has this target/mechanism been known for >5 years with no commercial product? If yes, explain why. If there's no good reason for the absence, the target is probably harder than claimed.
 
+(Plus Kill Tests 11-12: Independent Replication Test and SCC/Clinical Endpoint Test — see `agents/reaper.md`)
+
 2. **The Species Test** — Is the evidence from the target species, or extrapolated? Mouse mastitis is not bovine mastitis. Tag every piece of evidence with its actual species/model.
 
 3. **The Matrix Test** — Has the compound/approach been tested in the real biological matrix (milk, rumen fluid, seawater — not broth)? If not, calculate what matrix effects would do (protein binding, pH, enzyme degradation).
@@ -236,21 +244,30 @@ For each candidate, deliver one of:
 
 Phase 5 runs as two sequential steps: first the 70% test (gatekeeper), then de-risk and deliver (output). Anvil does both.
 
+### Step 0: Portfolio-Restructuring Experiment Check
+
+Before running the 70% test, check: has Pathfinder's KE#1 been run? If not, flag it. The coverage estimates and target priorities that follow may change fundamentally based on its outcome.
+
+### Step 0.5: Strategic Prioritisation
+
+Force-rank the portfolio: "If you can fund only 3 experiments, which 3 and why?" Use R0 analysis, rate-limiting barrier identification, and information value. Present the top 3-5 as the Priority De-Risk Sequence. This prevents equal billing for load-bearing and marginal experiments.
+
 ### Step 1: The 70% Test (Gatekeeper)
 
 #### Goal
-Verify that the portfolio, if everything works, would reduce total pathology by ≥70%.
+Verify that the portfolio, if everything works, would reduce total TRACTABLE pathology by ≥70%.
 
 #### What to Do
-1. List every disease stage from Phase 1 with its contribution to overall pathology (rough % estimate with evidence tier)
-2. For each stage, list which portfolio candidate addresses it
+1. List every disease stage from Phase 1. Classify each as TRACTABLE (pharma/biologic/device intervention plausible for this partner) or NON-TRACTABLE (management, genomics, nutrition). Non-tractable stages are reported but do not count toward the 70% threshold.
+2. For each tractable stage, list which portfolio candidate addresses it
 3. For each candidate, estimate maximum pathology reduction if it works perfectly (with evidence tier and reasoning)
-4. Sum coverage across all stages
-5. If total < 70%:
+4. Use R0/herd dynamics (from Pathfinder) to weight prevention vs treatment targets
+5. Sum coverage across tractable stages
+6. If total < 70%:
    - Identify the uncovered stage(s)
    - Return to Phase 3 for those stages (Forge → Surveyor → Reaper → Anvil loop — maximum 3 loops)
    - Novel proposals will be required for stages with no existing approaches
-6. Repeat until coverage ≥ 70%
+7. Repeat until coverage ≥ 70%
 
 #### How to Estimate Pathology Contribution
 Use published data where available:

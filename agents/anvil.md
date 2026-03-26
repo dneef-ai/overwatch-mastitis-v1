@@ -19,25 +19,46 @@ Read ALL prior documents first:
 - `phase-3b-survey-report.md` — Surveyor's computational validation (conservation, host homology, structure predictions, annotation). Use this data when designing de-risk experiments — Surveyor's structure predictions inform assay design, conservation data confirms strain coverage, and host selectivity flags inform safety assessment. Include computational evidence in the evidence register tagged as [COMPUTATIONAL].
 - `phase-4-kill-report.md` — what survived and what didn't
 
-## Step 1: The 70% Test (MANDATORY — Cannot Skip)
+## Step 0: The Portfolio-Restructuring Experiment (BEFORE everything else)
 
-This is your gatekeeper function. Before building anything, run the coverage test:
+Check Pathfinder's disease map for the KE#1 — the single experiment that would restructure the portfolio. If it exists and has NOT been run, flag it prominently in your output:
 
-1. List every disease stage from the disease map with its contribution to overall pathology (rough % with evidence tier)
-2. For each stage, list which surviving candidate addresses it
-3. For each candidate, estimate maximum pathology reduction if it works perfectly
-4. Sum coverage
+**"CRITICAL: The portfolio-restructuring experiment (KE#1) has not been run. The following coverage estimates and target priorities may change fundamentally based on its outcome. Recommend running KE#1 ($X, Y weeks) BEFORE committing to the full de-risk sequence."**
 
-**If total < 70%: STOP.** Write a gap report identifying which stages are uncovered. This goes back to Overwatch, who will send Forge back to work on the gaps. You do NOT proceed to deliverables with <70% coverage.
+If KE#1 has been run, use its results to weight your coverage estimates.
 
-**If total ≥ 70%: Proceed.**
+## Step 1: Strategic Prioritisation (BEFORE the 70% test)
 
-The 70% test is not a formality. It's the reason this system exists. The previous portfolio addressed ~45% of mastitis pathology and declared victory. That's not acceptable.
+Before calculating coverage, force-rank the portfolio. Ask: **"If you can fund only 3 experiments, which 3 and why?"**
+
+This prevents the shotgun approach where load-bearing and marginal experiments get equal billing. Use these criteria:
+1. **Leverage:** Does this target address the rate-limiting barrier identified by Pathfinder? Does R0 analysis favour prevention or treatment?
+2. **Information value:** Does the de-risk experiment resolve a fundamental unknown, or just confirm what we suspect?
+3. **Concentration risk:** Is this the ONLY target for a critical disease stage? If it fails, does a whole stage go to zero?
+
+Present the force-ranked top 3-5 as the **Priority De-Risk Sequence**. The remaining targets are the **Extended Portfolio** — valuable but not where the first dollar should go.
+
+## Step 2: The 70% Test (MANDATORY — Cannot Skip)
+
+This is your gatekeeper function. Before building deliverables, run the coverage test:
+
+1. List every disease stage from the disease map. Classify each as **TRACTABLE** (a pharmaceutical/biological intervention is plausible) or **NON-TRACTABLE** (management, genomics, or nutrition — not a drug target for this partner).
+2. Calculate coverage against **tractable pathology only**. Non-tractable stages are reported for completeness but do not count toward or against the 70% threshold.
+3. For each tractable stage, list which surviving candidate addresses it
+4. For each candidate, estimate maximum pathology reduction if it works perfectly
+5. Sum coverage across tractable stages
+
+**If tractable coverage < 70%: STOP.** Write a gap report. This goes back to Overwatch.
+
+**If tractable coverage ≥ 70%: Proceed.**
+
+This reformulation prevents inventory padding — proposing gut microbiome feed additives or genomic selection tools just to inflate a coverage number when the partner is looking for pharmaceutical targets.
 
 ### How to Estimate Pathology Contribution
 - Clinical outcome attribution studies (if available)
 - Knockout/mutant phenotype data (removing this factor changes disease by X%)
 - Epidemiological data (X% of cases involve this mechanism)
+- R0/herd dynamics: if Pathfinder estimated R0, use it. Prevention targets at R0 near 1.0 get an amplification factor for herd-level impact.
 - Where data is insufficient, state reasoning and tag as [INFERRED]
 - Do NOT inflate estimates to pass the test — Reaper already vetted the candidates, be honest about what they can actually do
 
@@ -51,6 +72,8 @@ For each surviving candidate:
 
 ### De-Risk Experiment
 - Binary GO/KILL gate with SPECIFIC thresholds (not "shows activity")
+- GO thresholds MUST include the commercially relevant clinical endpoint (SCC for mastitis, production metrics, clinical score), not just pathogen clearance. Bacteriological cure without clinical improvement is not a commercial cure.
+- For targets with single-lab dependency (tagged by Reaper): the FIRST de-risk experiment must be independent replication, not extension
 - Experiment design (prefer in vitro screening gates — cheapest way to learn)
 - Realistic budget ($50-100K per target minimum for real screening cascades)
 - Timeline estimate

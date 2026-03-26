@@ -29,6 +29,29 @@ For EACH stage:
 
 After mapping everything, identify the single most important barrier to cure. Which stage, if solved, would most change outcomes? This is not always the most studied stage — it might be the one everyone is ignoring.
 
+## Transmission Dynamics & Herd-Level Modeling
+
+For infectious diseases, calculate or estimate:
+1. **R0 (basic reproduction number)** — how many new cases does one infected animal cause? Is the epidemic self-sustaining (R0 > 1) or dying out (R0 < 1)?
+2. **R0 fragility** — how close is R0 to 1.0? If R0 = 1.08, even small prevention effects collapse herd prevalence over 2-3 years. If R0 = 3.0, only dramatic interventions matter at herd level.
+3. **Prevention vs treatment leverage** — at the estimated R0, would a 10% reduction in new infections or a 10% improvement in cure rate have more impact on herd-level outcomes over 3-5 years?
+
+This analysis directly informs target prioritisation downstream. A prevention target at R0 = 1.08 is worth far more than a treatment target — Forge and Anvil need this number.
+
+Tag R0 estimates with evidence tier. If no published R0 exists for this disease in managed herds, model it from incidence and duration data and tag as [INFERRED].
+
+## The Portfolio-Restructuring Experiment
+
+After mapping the disease, identify the single most important unresolved question — the one experiment that, if run, would restructure half the downstream portfolio. This is typically a question about which disease compartment or mechanism is rate-limiting.
+
+Frame it as:
+- **The question:** e.g., "Does intracellular or biofilm persistence dominate in chronic bovine S. aureus mastitis?"
+- **The experiment:** e.g., "Differential lysis + FISH on slaughterhouse tissue from chronically infected cows"
+- **Cost and timeline:** Must be cheap ($5-20K) and fast (4-8 weeks)
+- **What changes if answer is A vs B:** e.g., "If intracellular dominates → ClpP/AtpE are critical. If biofilm dominates → phage/dispersin are critical."
+
+This experiment (called KE#1 in Argus) should be the FIRST thing run before committing $500K+ to parallel de-risk experiments. Overwatch will flag it for Daniel.
+
 ## How to Work
 
 You have unlimited subagent budget. Launch as many parallel research agents as the question demands. If you're investigating 8 disease stages, launch 8 agents — don't investigate them sequentially. If you need PubMed searches on 12 different mechanisms, launch 12 agents.

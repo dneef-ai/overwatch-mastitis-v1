@@ -42,8 +42,11 @@ These govern everything. Read `docs/principles.md` for the full list. Key ones:
 - **Understand the disease before proposing treatments** (Principle 1-2)
 - **Don't ignore major pathology — no "out of scope" on core disease** (Principle 4)
 - **If nothing exists, propose something new** (Principle 5)
-- **The 70% test — portfolio must cover ≥70% of pathology** (Principle 9)
+- **The 70% test — portfolio must cover ≥70% of TRACTABLE pathology** (Principle 9)
 - **Discomfort about a gap is a signal, not permission to ignore it** (Principle 10)
+- **Resolve fundamental unknowns first — KE#1 before full de-risk** (Principle 11)
+- **Model the system — R0 and herd dynamics change priorities** (Principle 12)
+- **What has actually worked? — empirical hits before biology-first proposals** (Principle 13)
 
 ## Running a Program
 
@@ -81,12 +84,12 @@ You are NOT a passive observer. You are the moderator for agents who will natura
 ### After Each Agent
 - Read the output before passing it to the next agent
 - Check: did the agent follow its instructions? Did it cut corners?
-- For Pathfinder: is the disease map complete? Any stages missing? Run external review — if external models identify missing mechanisms or disease stages, SEND PATHFINDER BACK with specific gaps to fill before proceeding to Sapper.
+- For Pathfinder: is the disease map complete? Any stages missing? Does it include R0 estimate and KE#1? Run external review — if external models identify missing mechanisms or disease stages, SEND PATHFINDER BACK with specific gaps to fill before proceeding to Sapper.
 - For Sapper: does EVERY treatment have a specific failure mechanism (not just "didn't work")?
-- For Forge: does EVERY disease stage have at least one candidate? If not, SEND IT BACK.
+- For Forge: does EVERY disease stage have at least one candidate? Did it search for empirical in-vivo hits first (Category A)? Are proposals at mechanism-level granularity (not category-level)? If not, SEND IT BACK.
 - For Surveyor: did every candidate get a verdict? Did it actually run BLAST or just describe what BLAST would show? Are BLAST parameters reported (database, e-value threshold)? If a Category C target has no structure prediction, is there a valid reason (e.g., AF3 submission pending)? Are there AF3 submissions pending that need Daniel's action?
-- For Reaper: were the kills evidence-based or just skepticism? Did it use Surveyor's data?
-- For Anvil: did the 70% test actually pass honestly? Check the math.
+- For Reaper: were the kills evidence-based or just skepticism? Did it use Surveyor's data? Did it tag single-lab dependencies (Kill Test 11)? Did it include SCC/clinical endpoints (Kill Test 12)? Are kills mechanism-level, not category-level?
+- For Anvil: did it flag KE#1? Did it do strategic prioritisation (top 3 experiments)? Did it classify stages as tractable vs non-tractable? Did the 70% test pass honestly against TRACTABLE pathology? Did de-risk GO thresholds include clinical endpoints?
 
 ### The 70% Enforcement Loop
 This is your most important function. When Anvil reports the coverage map:
@@ -106,9 +109,9 @@ This is your most important function. When Anvil reports the coverage map:
 ## Key Paths
 
 - Agent prompts: `agents/`
-- Quality standards: `docs/quality-standards.md` (35 standards)
+- Quality standards: `docs/quality-standards.md` (40 standards)
 - Workflow: `docs/workflow.md` (6 agents, 5 phases)
-- Principles: `docs/principles.md` (10 principles)
+- Principles: `docs/principles.md` (13 principles)
 - Tools: `tools/cross-check.py`, `tools/external-review-prompt.txt`
 - Programs: `programs/<name>/` (each program gets its own directory)
 - Argus prior work: `/Users/danielneef/Projects/Argus/` (v8, v9 program files)
@@ -117,7 +120,7 @@ This is your most important function. When Anvil reports the coverage map:
 
 ### Mastitis (ready to run)
 - Program dir: `programs/mastitis/`
-- Prior work: `/Users/danielneef/Projects/Argus/zoetis-mastitis-v8/`, `zoetis-mastitis-v9/`
+- Prior work: `/Users/danielneef/Projects/Argus/zoetis-mastitis-v8/`, `zoetis-mastitis-v9/`, `zoetis-mastitis-v12/`
 - Knowledge digest: `/Users/danielneef/Projects/Agteria/collab/shared/digests/mastitis-knowledge-digest.md`
 - Partner: Zoetis
 

@@ -269,4 +269,46 @@ Every program run must capture: what was killed, what was corrected, what new se
 
 ---
 
-*35 standards. Derived from Argus (19), Kestrel (23 with overlap), Daniel's 10 operating principles, and cross-model adversarial review across mastitis, liver abscess, and sea-lice programs. Last updated: 2026-03-24.*
+---
+
+## Lessons from Argus (36-40)
+
+These standards were derived from cross-referencing Argus v8/v9/v12 and Overwatch mastitis outputs. Each addresses a specific divergence where one system was right and the other wrong.
+
+### 36. Independent Replication Before Lead Status
+
+No target should be a portfolio PRIMARY based solely on single-lab findings. If all supporting data comes from one research group, the first de-risk experiment MUST be independent replication — not extension of the same lab's work. Single-lab targets can be in the portfolio but must be tagged with their dependency.
+
+**Example:** ZG-series ClpP activators (Yang CG lab, Shanghai) and tomatidine/AtpE (Malouin lab, Sherbrooke) are both single-lab findings. Both are promising. Neither should be a portfolio primary until independently replicated.
+
+### 37. SCC / Clinical Endpoint as Co-Primary
+
+For infectious disease programs, every de-risk GO threshold must include the commercially relevant clinical endpoint alongside the laboratory endpoint. Bacteriological cure without clinical improvement (SCC, production, clinical score) is not a commercial cure.
+
+**Example:** Kromker phage achieved 81.3% bacteriological cure but SCC did not improve. This should have been flagged as a critical gap, not celebrated as the strongest signal. GO threshold should be: ">60% bacteriological cure AND SCC <200K within 21 days."
+
+### 38. R0 / Transmission Dynamics Modeling
+
+For infectious disease programs, Pathfinder must estimate R0 in managed herds. This number fundamentally changes target prioritisation:
+- R0 near 1.0: prevention effects amplified at herd level; prevention targets are worth more than treatment targets
+- R0 >> 1.0: only dramatic interventions matter at herd level; treatment targets may be more impactful
+
+Anvil must use R0 when estimating the real-world impact of prevention vs treatment targets. Individual-animal efficacy and herd-level impact are not the same thing.
+
+### 39. Portfolio-Restructuring Experiment (KE#1) Before Full De-Risk
+
+Before committing to a full de-risk sequence ($500K+), identify and flag the single cheapest experiment that would restructure the portfolio. This is the experiment that resolves the most important fundamental unknown — typically "which disease compartment is rate-limiting?"
+
+**Example:** In vivo compartment mapping ($10K, 4-8 weeks) determines whether intracellular or biofilm persistence dominates in chronic mastitis. This one experiment would immediately promote or demote half the portfolio.
+
+KE#1 should be experiment #0 in the de-risk sequence, not experiment #8.
+
+### 40. Mechanism-Level Evaluation (Not Category-Level)
+
+Evaluate individual mechanisms within categories, not entire categories as units. When a disease stage has multiple proposed mechanisms (e.g., SCV reversion via AtpE, via menadione/ETC, via hemin supplementation), each mechanism gets its own evaluation and its own kill/survive verdict.
+
+Category-level kills ("SCV metabolic reversion is dead") can destroy promising specific mechanisms (AtpE) that happen to share a label with genuinely dead ones (menadione).
+
+---
+
+*40 standards. Derived from Argus (19), Kestrel (23 with overlap), Daniel's 13 operating principles, cross-model adversarial review across mastitis, liver abscess, and sea-lice programs, and Overwatch/Argus cross-reference analysis. Last updated: 2026-03-26.*
