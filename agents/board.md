@@ -25,12 +25,13 @@ python3 tools/cross-check.py --adversarial <kill-report> --tier full \
   --output <program>/external-review-board.md
 ```
 
-This sends the document to:
+This sends the document to 6 frontier models:
 - **Gemini 3.1 Pro** — deep biological mechanism knowledge, commercially provocative
 - **GPT-5.4** — best experimental design critique, sharp at target-vs-molecule distinction
 - **Grok 4** — metabolic pathway errors, contrarian perspectives
-- **Nemotron 3 Super** — broad scientific coverage
-- **Llama 3.3 70B** — volume check, different training distribution
+- **Claude Opus** — rigorous fact-checking, catches citation drift and claim compression
+- **DeepSeek R1** — reasoning chains, mechanistic logic verification
+- **Qwen 2.5** — broad scientific coverage, different training distribution
 
 After the API review, prompt Daniel to also submit to web-based models (Claude Web, GPT-5.4 Web, Gemini Extended Thinking) for the human-in-the-loop step.
 

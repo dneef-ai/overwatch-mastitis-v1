@@ -38,12 +38,12 @@ MODEL_TIERS = {
         "models": ["openrouter_gemini_pro", "openrouter_gpt54", "edison"],
     },
     "full": {
-        "description": "All 5 frontier models (Gemini 3.1 Pro, GPT-5.4, Grok 4, Nemotron 3 Super, Llama 70B)",
-        "models": ["openrouter_gemini_pro", "openrouter_gpt54", "openrouter_grok4", "openrouter_nemotron", "groq_llama"],
+        "description": "All 6 frontier models (Gemini 3.1 Pro, GPT-5.4, Grok 4, Claude Opus, DeepSeek R1, Qwen 2.5)",
+        "models": ["openrouter_gemini_pro", "openrouter_gpt54", "openrouter_grok4", "openrouter_claude_opus", "openrouter_deepseek_r1", "openrouter_qwen25"],
     },
     "board": {
-        "description": "Board review: 5 frontier + Edison (Gemini, GPT-5.4, Grok 4, Nemotron 3, Llama 70B, Edison PaperQA3)",
-        "models": ["openrouter_gemini_pro", "openrouter_gpt54", "openrouter_grok4", "openrouter_nemotron", "groq_llama", "edison"],
+        "description": "Board review: 6 frontier + Edison (Gemini, GPT-5.4, Grok 4, Opus, DeepSeek, Qwen, Edison PaperQA3)",
+        "models": ["openrouter_gemini_pro", "openrouter_gpt54", "openrouter_grok4", "openrouter_claude_opus", "openrouter_deepseek_r1", "openrouter_qwen25", "edison"],
     },
 }
 
@@ -278,10 +278,18 @@ def get_model_runner(model_id, keys):
         if not keys["openrouter"]:
             return None
         return lambda text, sp=None, mt=1000: query_openrouter(text, keys["openrouter"], "x-ai/grok-4", sp, mt)
-    elif model_id == "openrouter_nemotron":
+    elif model_id == "openrouter_claude_opus":
         if not keys["openrouter"]:
             return None
-        return lambda text, sp=None, mt=1000: query_openrouter(text, keys["openrouter"], "nvidia/nemotron-3-super", sp, mt)
+        return lambda text, sp=None, mt=1000: query_openrouter(text, keys["openrouter"], "anthropic/claude-opus-4-6", sp, mt)
+    elif model_id == "openrouter_deepseek_r1":
+        if not keys["openrouter"]:
+            return None
+        return lambda text, sp=None, mt=1000: query_openrouter(text, keys["openrouter"], "deepseek/deepseek-r1", sp, mt)
+    elif model_id == "openrouter_qwen25":
+        if not keys["openrouter"]:
+            return None
+        return lambda text, sp=None, mt=1000: query_openrouter(text, keys["openrouter"], "qwen/qwen-2.5-72b-instruct", sp, mt)
     elif model_id == "edison":
         if not keys["edison"]:
             return None
@@ -477,8 +485,8 @@ def main():
               free      Gemini Flash + Llama 70B (Groq) + OpenRouter free
               standard  Gemini 3.1 Pro (OR) + GPT-5.4 (OR) + Llama 70B (Groq)
               premium   Gemini 3.1 Pro (OR) + GPT-5.4 (OR) + Edison (PaperQA3)
-              full      All 5: Gemini 3.1 Pro + GPT-5.4 + Grok 4 + Nemotron 3 + Llama 70B
-              board     Full 5 + Edison (6 models for Board review)
+              full      All 6: Gemini Pro + GPT-5.4 + Grok 4 + Opus + DeepSeek R1 + Qwen 2.5
+              board     Full 6 + Edison (7 models for Board review)
         """),
     )
     group = parser.add_mutually_exclusive_group(required=True)
