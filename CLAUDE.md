@@ -18,23 +18,49 @@ Six specialist agents, each a full Claude Code process that can deploy its own s
 
 Agent prompts: `agents/pathfinder.md`, `agents/sapper.md`, `agents/forge.md`, `agents/surveyor.md`, `agents/reaper.md`, `agents/board.md`, `agents/anvil.md`
 
-## External Validation Panel
+## 6-Model External Panel (Every Phase)
 
-Two-step process after key phases (after Pathfinder, after Forge+Surveyor, and after Anvil):
+The external panel runs at EVERY phase, not just checkpoints. Six frontier models independently contribute at each step — Overwatch orchestrates the queries and feeds results to the next agent.
 
-**Step 1: API review** (automated)
-```bash
-python3 tools/cross-check.py --adversarial <document> --tier premium \
-  --system-prompt-file tools/external-review-prompt.txt --output <review.md>
+**Models:** Gemini 3.1 Pro, GPT-5.4, Grok 4, Claude Opus, DeepSeek R1, Qwen 2.5 (all via OpenRouter)
+
+**Phase-specific prompts:** `tools/phase-prompts.txt` — generative prompts (not adversarial) that ask models to independently contribute, not just critique.
+
+### The Pattern (every phase)
+
+```
+1. Agent N produces phase output
+2. Overwatch extracts the relevant prompt from tools/phase-prompts.txt
+3. Overwatch runs: python3 tools/cross-check.py --adversarial <phase-output> \
+     --tier full --system-prompt-file /tmp/phase-prompt.txt \
+     --output <program>/external-input-phase-N.md
+4. Overwatch reads all 6 responses
+5. Overwatch passes BOTH the phase output AND the 6-model responses to Agent N+1
 ```
 
-**Step 2: Web review** (human-assisted)
-Prompt Daniel to submit the document to:
+### What Each Agent Receives
+
+| Agent | Prior phase output | + External panel input |
+|-------|-------------------|----------------------|
+| **Pathfinder** | Disease name + prior work | (none — first agent) |
+| **Sapper** | Disease map | + 6 models' missing mechanisms, R0 estimates, rate-limiting step opinions |
+| **Forge** | Disease map + failure analysis | + 6 models' empirical hits, proposed targets, cross-disease analogies, priorities |
+| **Surveyor** | Forge candidates | (no panel — computational validation) |
+| **Reaper** | Candidates + survey report | + 6 models' proposed targets from Forge phase (so Reaper evaluates ALL targets — Forge's + external) |
+| **Board** | Kill report | + 6 models' wrong-kill/wrong-survival challenges |
+| **Anvil** | Board decision | + 6 models' coverage honesty check, top-3 experiments, commercial reality |
+
+### After Pathfinder (Special Case)
+Pathfinder is the first agent — it has no external input going in. But after Pathfinder produces the disease map, run the panel BEFORE proceeding to Sapper. If models identify missing disease mechanisms, send Pathfinder back to fill gaps before moving on.
+
+### Web Review (Human-Assisted — Key Phases Only)
+At major decision points (after Forge+Surveyor, after Board), also prompt Daniel to submit to web-based models for deeper analysis:
 - **Claude Web** — best at fact-checking specific claims
-- **GPT-5.4 Web** — best at nuanced judgment and target-vs-molecule distinction
+- **GPT-5.4 Web** — best at nuanced judgment
 - **Gemini Extended Thinking** — most comprehensive technical review
 
-Daniel pastes responses back. You integrate the feedback and pass it to the next agent.
+### Cost
+~$0.10-0.30 per phase x 6 phases = **under $2 per full program run.** Trivial vs the value of catching a missed target or wrong kill.
 
 ## The 10 Principles
 
@@ -61,13 +87,13 @@ These govern everything. Read `docs/principles.md` for the full list. Key ones:
 ### Manual (interactive — you control each step)
 Daniel tells you what to run. You launch agents one at a time:
 
-1. "Run Pathfinder on mastitis" → launch Pathfinder, review output (R0, KE#1), discuss with Daniel
-2. "Run Sapper" → launch Sapper, review output (target vs compound failures)
-3. "Run Forge" → launch Forge (Category A empirical hits first), discuss alternatives with Daniel
-3b. "Run Surveyor" → launch Surveyor, review computational findings, discuss flagged items with Daniel. If AF3 submissions needed, pause for Daniel to submit and return results.
-4. "Run Reaper" → launch Reaper (mechanism-level kills), review kills with Daniel
-4b. "Run Board" → launch Board (5-model external review + force-ranking + devil's advocate), discuss strategic priorities with Daniel
-5. "Run Anvil" → launch Anvil (tractable 70% test + strategic prioritisation from Board), check coverage, iterate if needed
+1. "Run Pathfinder on mastitis" → launch Pathfinder → run 6-model panel on disease map → review output (R0, KE#1) + external input with Daniel → if models found missing mechanisms, send Pathfinder back
+2. "Run Sapper" → pass disease map + 6-model input to Sapper → run 6-model panel on failure analysis → review with Daniel
+3. "Run Forge" → pass failure analysis + 6-model input (empirical hits, proposed targets) to Forge → discuss alternatives with Daniel
+3b. "Run Surveyor" → pass Forge candidates to Surveyor (no panel — computational) → review with Daniel. If AF3 submissions needed, pause.
+4. "Run Reaper" → pass candidates + survey + 6-model proposed targets to Reaper → run 6-model panel on kill report → review kills with Daniel
+4b. "Run Board" → pass kill report + 6-model challenges to Board → Board runs its own 6-model review + force-ranking + devil's advocate → discuss strategic priorities with Daniel
+5. "Run Anvil" → pass board decision + 6-model portfolio assessment to Anvil → check tractable 70% test, iterate if needed
 
 After Forge and Surveyor: run external review, discuss alternatives with Daniel.
 

@@ -1,8 +1,21 @@
 # Overwatch Drug Discovery Workflow
 
-This document defines the 6-agent, 5-phase workflow for Overwatch drug discovery programs.
+This document defines the 7-agent, 6-phase workflow for Overwatch drug discovery programs.
 Follow these phases in order. Do not skip phases. Do not start proposing
 treatments before you understand why current ones fail.
+
+## 6-Model External Panel (Runs at Every Phase)
+
+At every phase, Overwatch queries 6 frontier models (Gemini Pro, GPT-5.4, Grok 4, Claude Opus, DeepSeek R1, Qwen 2.5) with a phase-specific generative prompt. The models independently contribute — they don't just critique.
+
+Phase-specific prompts are in `tools/phase-prompts.txt`. The pattern:
+
+1. Agent produces phase output
+2. Overwatch sends output to 6 models with the phase-specific prompt
+3. Overwatch saves responses as `external-input-phase-N.md` in the program directory
+4. Overwatch passes BOTH the phase output AND the 6-model responses to the next agent
+
+This ensures every agent benefits from 7 perspectives (1 internal + 6 external) and catches blind spots from any single model's training distribution.
 
 ---
 
@@ -27,9 +40,19 @@ Understand the full pathology. Map every stage from initial infection/exposure t
 ### Output
 `phase-1-disease-map.md` — annotated disease model with every stage, evidence tiers, identified rate-limiting barrier, R0 estimate, and portfolio-restructuring experiment (KE#1).
 
+### 6-Model Panel (after Pathfinder)
+After Pathfinder produces the disease map, Overwatch runs:
+```bash
+python3 tools/cross-check.py --adversarial phase-1-disease-map.md --tier full \
+  --system-prompt-file /tmp/phase1-prompt.txt --output <program>/external-input-phase-1.md
+```
+(Extract the `===PHASE_1_PATHFINDER===` prompt block from `tools/phase-prompts.txt`)
+
+If models identify missing disease mechanisms or stages, SEND PATHFINDER BACK before proceeding.
+
 ### Completion Criteria
 - Every stage from entry to chronic persistence is mapped
-- External models reviewed the disease map (cross-check.py --adversarial) and identified no missing major stages
+- 6-model panel reviewed the disease map and no missing major stages remain
 - At least one published review article cross-checked for completeness
 - Rate-limiting barrier explicitly named with evidence
 - R0 estimated with evidence tier (or modeled from incidence/duration data)
@@ -60,11 +83,15 @@ For every current/historical treatment approach: why doesn't it work? What speci
 ### Output
 `phase-2-failure-analysis.md` — failure map with specific failure mechanisms for each approach and identified treatment gaps by disease stage.
 
+### 6-Model Panel (after Sapper)
+Overwatch sends failure analysis to 6 models with `===PHASE_2_SAPPER===` prompt. Models contribute missing failures, target-vs-compound distinctions, and in-vivo translation gaps. Responses saved as `external-input-phase-2.md`.
+
 ### Completion Criteria
 - At least 8 approaches analyzed
 - Each has a specific failure mechanism (not just "insufficient efficacy")
 - Treatment gaps mapped to disease stages
 - Rate-limiting barrier to cure explicitly named
+- 6-model panel input incorporated (missing failures added)
 
 ### Common Failure Modes
 - Listing treatments without explaining WHY they fail
@@ -96,10 +123,16 @@ Propose treatment candidates for EVERY disease stage — including stages where 
 #### Output
 `phase-3-candidates.md` — candidate table covering ALL disease stages. For each candidate: mechanism, evidence tier, species data, key risk, proposed de-risk experiment.
 
+### 6-Model Panel Input (before/during Forge)
+Forge receives the 6-model responses from Phase 2 (which include proposed targets, empirical hits, and cross-disease analogies). These are ADDITIONAL INPUT alongside the disease map and failure analysis. Forge must evaluate external model suggestions with the same rigour as its own proposals.
+
+After Forge produces candidates, Overwatch runs the panel again with `===PHASE_3_FORGE===` prompt. Responses saved as `external-input-phase-3.md`. Any novel targets proposed by models that Forge missed are added to the candidate list for Surveyor and Reaper to evaluate.
+
 #### Completion Criteria
 - Every disease stage has at least one candidate
 - Both obvious AND non-obvious approaches included
 - Novel proposals included for stages with no existing approaches
+- 6-model empirical hits and proposed targets evaluated and either incorporated or rejected with reasoning
 
 #### Common Failure Modes
 - Only proposing well-known targets with existing compounds
@@ -226,11 +259,15 @@ For each candidate, deliver one of:
 ### Output
 `phase-4-kill-report.md` — verdict for every candidate with evidence citations, specific failure mechanisms for KILLED verdicts, and unanswered questions for WOUNDED verdicts.
 
+### 6-Model Panel (after Reaper)
+Overwatch sends kill report to 6 models with `===PHASE_4_REAPER===` prompt. Models challenge wrong kills and wrong survivals, flag single-lab dependencies, and identify missing kill tests. Responses saved as `external-input-phase-4.md`. This feeds into the Board agent.
+
 ### Completion Criteria
 - Every candidate has a verdict
 - All KILLED verdicts cite specific evidence (not just skepticism)
 - All WOUNDED verdicts specify the exact experiment needed to resolve the concern
 - Surveyor's computational data was used to ground species, strain, and selectivity assessments
+- 6-model panel challenges incorporated or rebutted
 
 ### Common Failure Modes
 - Nihilistic kills based on absence of evidence rather than evidence of absence (flag as WOUNDED with specific experiment needed)
@@ -343,8 +380,11 @@ Design binary GO/KILL experiments for each candidate and produce partner-grade d
 #### Output
 Coverage map + evidence register + decision memo. Partner-grade — a senior R&D scientist at the target partner should be able to read it, verify citations, and make an investment decision.
 
+### 6-Model Panel (after Anvil)
+Overwatch sends decision memo to 6 models with `===PHASE_5_ANVIL===` prompt. Models assess coverage honesty, propose their top-3 experiments, flag commercial reality gaps, and identify missing portfolio positions. Responses saved as `external-input-phase-5.md`.
+
 #### Completion Criteria
-- Coverage map shows ≥70% total pathology addressed (Step 1 passed)
+- Coverage map shows ≥70% total TRACTABLE pathology addressed (Step 1 passed)
 - Every candidate has GO/KILL gate, experiment, budget, TPP
 - External models reviewed the final output
 - All citation PMIDs verified (Standard 4 + Standard 14)
