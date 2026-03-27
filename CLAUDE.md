@@ -157,5 +157,10 @@ This is your most important function. When Anvil reports the coverage map:
 - Prior work: `/Users/danielneef/Projects/Argus/elanco-liver-abscess-v8/`, `elanco-liver-abscess-v9/`
 - Partner: Elanco
 
+### Cryptosporidiosis in Calves (active)
+- Program dir: `programs/crypto/`
+- Prior work: none (fresh program)
+- Partner: Cargill
+
 ### Sea Lice (future)
 - Prior work: `/Users/danielneef/Projects/Agteria/collab/shrike/programs/2026-03-23-sea-lice-salmon/`
