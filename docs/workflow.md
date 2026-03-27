@@ -1,8 +1,17 @@
 # Overwatch Drug Discovery Workflow
 
-This document defines the 7-agent, 6-phase workflow for Overwatch drug discovery programs.
+This document defines the 9-agent, 7-phase workflow for Overwatch drug discovery programs.
 Follow these phases in order. Do not skip phases. Do not start proposing
 treatments before you understand why current ones fail.
+
+## Key Design Principles (from Argus cross-reference)
+
+1. **Multi-agent bottleneck consensus** — 4 independent frames converge on the disease bottleneck before any treatment is proposed. Prevents anchoring.
+2. **Dual-stream bias firewall** — Forge (literature-aware) and Vulcan (quarantined first-principles) run in parallel and never see each other's work. Merged at Surveyor.
+3. **Deep target decomposition** — For the primary target, ALL molecular intervention points are identified (transcription → secretion → activation → binding → mechanism). Each is a separate candidate.
+4. **Structure prediction + binder design** — Surveyor runs AF3 and designs antibody binders for top targets. Pipeline goes from target → structure → molecule.
+5. **Prediction log** — Every agent writes falsifiable predictions. Accumulated through pipeline.
+6. **Novel drug targets preferred** — Agteria is a drug discovery company. Novel molecular targets with clean IP beat feed additives at equivalent evidence levels.
 
 ## 6-Model External Panel (Runs at Every Phase)
 
@@ -66,6 +75,36 @@ If models identify missing disease mechanisms or stages, SEND PATHFINDER BACK be
 
 ---
 
+## Phase 1b: Bottleneck Consensus (Tribunal)
+
+### Goal
+Determine the disease bottleneck through multi-agent consensus — the single point where intervention has the highest leverage. Prevent anchoring by running 4 independent analytical frames.
+
+### What to Do
+1. Launch 4 parallel agents, each receiving ONLY the disease map + external panel:
+   - **Agent A (Unframed):** No constraints. Where does biology lead?
+   - **Agent B (Pathogen):** Everything through the pathogen's strategy. What tool is most essential?
+   - **Agent C (Host/Environment):** Why do some animals get disease and others don't?
+   - **Agent D (Martian):** Pure quantitative. Only numbers. No domain knowledge.
+2. Evaluator synthesizes: convergence map, central disagreement, bottleneck determination
+3. Write 5 falsifiable predictions to prediction log
+
+### Output
+`phase-1b-bottleneck-consensus.md` — convergence map, resolved disagreements, definitive bottleneck, Martian's contribution, predictions.
+
+### Completion Criteria
+- All 4 frames produced independent analyses (verified: no cross-contamination)
+- Convergence mapped with explicit agreement counts (4/4, 3/4, 2/4, 1/4)
+- Central disagreement identified and resolved with evidence
+- Bottleneck is SPECIFIC (a mechanism, not a category)
+- Martian contributed at least one non-obvious quantitative insight
+- 5 predictions in the prediction log
+
+### Why This Matters
+In Argus v15, this step found the "Gate 1 vs Gate 2" insight: barrier failure is ubiquitous (~80% of cattle leak), but only ~20% develop abscesses. The bottleneck is immune evasion (Gate 2), not barrier failure (Gate 1). This reframed the entire program away from feed additives toward leukotoxin neutralization. A single-agent Pathfinder would not have surfaced this distinction with the same rigor.
+
+---
+
 ## Phase 2: Treatment Failure Analysis (Sapper)
 
 ### Goal
@@ -100,24 +139,26 @@ Overwatch sends failure analysis to 6 models with `===PHASE_2_SAPPER===` prompt.
 
 ---
 
-## Phase 3: Propose Solutions (Forge) + Computational Validation (Surveyor)
+## Phase 3: Propose Solutions (Forge + Vulcan) + Computational Validation (Surveyor)
 
-Phase 3 runs as two sequential steps: Forge proposes candidates, then Surveyor computationally validates every target before external review. External review then sees computationally-grounded candidates.
+Phase 3 runs as three steps: Forge and Vulcan propose candidates in parallel (Forge is literature-aware; Vulcan is quarantined first-principles), then Surveyor merges, validates, predicts structures, and designs binders.
 
-### Phase 3a: Propose Solutions (Forge)
+### Phase 3a: Propose Solutions (Forge) — Literature-Aware Stream
 
 #### Goal
-Propose treatment candidates for EVERY disease stage — including stages where nothing currently exists.
+Propose treatment candidates for EVERY disease stage — including stages where nothing currently exists. **Novel drug/vaccine/biologic targets are preferred over feed additives.**
 
 #### What to Do
-1. **First: search for what has actually worked in vivo in the target species.** Launch agents to find any compound/approach with positive trial data, regardless of mechanism. This catches modality-first discoveries that biology-first thinking misses.
+1. **First: search for what has actually worked in vivo in the target species.** Launch agents to find any compound/approach with positive trial data, regardless of mechanism. This catches modality-first discoveries that biology-first thinking misses. Report these as Category A, but do NOT make them the portfolio backbone unless they represent a genuinely novel mechanism.
 2. For each disease stage from Phase 1:
    a. Empirical hits — approaches with positive in-vivo data in the target species (Category A)
    b. Known approaches — literature-supported targets with evidence (Category B)
    c. Non-obvious approaches — cross-disease analogies, emerging biology, repurposed mechanisms from other fields (Category C)
    d. Novel proposals — if nothing exists for this stage, DESIGN something from first principles. Use the biology from Phase 1 to identify intervention points. Be creative, then be rigorous. (Category D)
-3. Propose at mechanism-level granularity, not category-level (Standard 40). Each specific mechanism gets its own entry.
-4. Apply Standards 1-9 (evidence) to all proposals
+3. **For the primary target (from Tribunal bottleneck consensus): decompose ALL molecular intervention points.** Not just "anti-X vaccine" — identify every step in the target's lifecycle (transcription, translation, modification, secretion, activation, binding, mechanism of action) and propose a separate intervention at each.
+4. Propose at mechanism-level granularity, not category-level (Standard 40). Each specific mechanism gets its own entry.
+5. Apply Standards 1-9 (evidence) to all proposals
+6. Write 5 falsifiable predictions to the prediction log
 5. Apply Standards 10-17 (target evaluation) to all proposals
 
 #### Output
@@ -138,13 +179,53 @@ After Forge produces candidates, Overwatch runs the panel again with `===PHASE_3
 - Only proposing well-known targets with existing compounds
 - Scoping out hard disease stages as "intractable"
 - Failing to propose anything for stages where literature is silent
+- Making feed additives the portfolio backbone (apply the "why isn't the field doing this?" test)
+- Not decomposing the primary target into ALL molecular intervention points
 
 ---
 
-### Phase 3b: Computational Target Validation (Surveyor)
+### Phase 3-parallel: First-Principles Vulnerability Analysis (Vulcan) — QUARANTINED
 
 #### Goal
-Computationally validate every candidate from Forge: confirm identity, assess conservation across field-relevant strains, check host selectivity, verify annotation claims, and predict structure for novel targets. Answer: "Is this target real, unique, conserved, and structurally plausible?"
+Find intervention points that literature-based analysis misses by approaching the disease from pure biology with zero knowledge of what's been tried or what the partner wants.
+
+**Vulcan runs IN PARALLEL with Forge.** They never see each other's work. Merge happens at Surveyor.
+
+#### The Quarantine
+Vulcan receives ONLY `phase-1-disease-map.md`. It does NOT receive:
+- `phase-2-failure-analysis.md` (Sapper's output)
+- `phase-1b-bottleneck-consensus.md` (Tribunal's output — this could anchor)
+- External panel contributions
+- Partner context (who the partner is, what they want)
+- Prior Argus work
+
+This is architectural, not optional. The quarantine prevents anchoring on known approaches.
+
+#### What to Do
+1. For each major virulence factor, decompose ALL molecular intervention points (transcription → translation → modification → secretion → activation → binding → mechanism of action)
+2. Identify system-level vulnerabilities (feedback loops, metabolic dependencies, quorum sensing switches, obligate synergies)
+3. Write a kill-chain for each intervention point (the sequence of assumptions that must be true)
+4. Identify the weakest link in each kill-chain
+5. Write 5 falsifiable predictions to the prediction log
+
+#### Output
+`phase-3-vulcan.md` — intervention points with kill-chains, weakest links, magnitude estimates, and falsifiable predictions. Prioritize novel drug targets over feed additives.
+
+#### Why This Matters
+In Argus v15, the quarantined Stream B found LktB secretion arrest and LktC acyltransferase inhibition — genuinely novel targets that no literature-based analysis proposed. These are the kind of discoveries that create IP and differentiate Agteria from a literature review service.
+
+#### Completion Criteria
+- Every major virulence factor decomposed into ALL molecular intervention points
+- At least 2 genuinely novel intervention points (not in standard literature for this disease)
+- Kill-chains for every point with explicit assumptions
+- 5 predictions in prediction log
+
+---
+
+### Phase 3b: Computational Target Validation + Structure + Design (Surveyor)
+
+#### Goal
+Merge Forge + Vulcan candidates, computationally validate every target, predict structures for top targets, and design antibody binders where possible. Answer: "Is this target real, unique, conserved, structurally plausible, and designable?"
 
 Surveyor does not make kill decisions. It provides genomic, structural, and annotation data so that Reaper's kill tests are grounded in evidence rather than literature extrapolation.
 
@@ -425,10 +506,14 @@ Program outputs go in the program directory:
 
 Phase artifacts by name:
 - `phase-1-disease-map.md`
+- `phase-1b-bottleneck-consensus.md` (NEW — Tribunal)
 - `phase-2-failure-analysis.md`
-- `phase-3-candidates.md`
-- `phase-3b-survey-report.md`
+- `phase-3-candidates.md` (Forge — literature-aware stream)
+- `phase-3-vulcan.md` (NEW — Vulcan quarantined first-principles stream)
+- `phase-3b-survey-report.md` (now includes structure predictions + binder designs)
 - `phase-4-kill-report.md`
+- `phase-4b-board-decision.md`
 - `phase-5-coverage-map.md`
 - `phase-5-evidence-register.md`
 - `phase-5-decision-memo.md`
+- `prediction-log.md` (NEW — accumulated through all phases)
