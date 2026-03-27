@@ -240,6 +240,38 @@ For each candidate, deliver one of:
 
 ---
 
+## Phase 4b: Board Review & Strategic Prioritisation (Board)
+
+### Goal
+Run the kill report through a 5-model external review panel, synthesize feedback, perform devil's advocate inversions on all surviving targets, and force-rank the portfolio for Anvil.
+
+### What to Do
+1. Run `python3 tools/cross-check.py --adversarial <kill-report> --tier full --system-prompt-file tools/external-review-prompt.txt --output <program>/external-review-board.md`
+2. Prompt Daniel for web-based model reviews (Claude Web, GPT-5.4 Web, Gemini Extended Thinking)
+3. Synthesize all external feedback: which findings are corroborated by 2+ models?
+4. For each SURVIVED target: devil's advocate inversion (availability bias? compound contamination? partner already knows this?)
+5. Force-rank all surviving targets by leverage, information value, concentration risk, replication status
+6. Produce: Priority De-Risk Sequence (top 3), KE#1 recommendation, deferred targets list
+
+### Output
+`phase-4b-board-decision.md` — synthesized external review, force-ranked targets, priority de-risk sequence, board decision.
+
+### Completion Criteria
+- All 5 external models returned results (or errors documented)
+- External feedback synthesized with corroboration counts
+- Devil's advocate performed on every SURVIVED target
+- Force-ranking is genuinely ranked (no ties allowed for top 5)
+- KE#1 recommendation made
+- Priority De-Risk Sequence (top 3 experiments) defined
+
+### Common Failure Modes
+- Rubber-stamping Reaper's verdicts without independent strategic analysis
+- Ranking all targets as "equally important" to avoid hard choices
+- Ignoring external model feedback when it contradicts internal analysis
+- Letting compound availability bias the ranking (compound contamination)
+
+---
+
 ## Phase 5: Portfolio + 70% Test + Deliverables (Anvil)
 
 Phase 5 runs as two sequential steps: first the 70% test (gatekeeper), then de-risk and deliver (output). Anvil does both.

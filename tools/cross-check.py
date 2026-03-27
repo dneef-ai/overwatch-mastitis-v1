@@ -37,6 +37,14 @@ MODEL_TIERS = {
         "description": "Top 3: Gemini 3.1 Pro, GPT-5.4, Edison (PaperQA3)",
         "models": ["openrouter_gemini_pro", "openrouter_gpt54", "edison"],
     },
+    "full": {
+        "description": "All 5 frontier models (Gemini 3.1 Pro, GPT-5.4, Grok 4, Nemotron 3 Super, Llama 70B)",
+        "models": ["openrouter_gemini_pro", "openrouter_gpt54", "openrouter_grok4", "openrouter_nemotron", "groq_llama"],
+    },
+    "board": {
+        "description": "Board review: 5 frontier + Edison (Gemini, GPT-5.4, Grok 4, Nemotron 3, Llama 70B, Edison PaperQA3)",
+        "models": ["openrouter_gemini_pro", "openrouter_gpt54", "openrouter_grok4", "openrouter_nemotron", "groq_llama", "edison"],
+    },
 }
 
 # ---------------------------------------------------------------------------
@@ -266,6 +274,14 @@ def get_model_runner(model_id, keys):
         if not keys["openrouter"]:
             return None
         return lambda text, sp=None, mt=1000: query_openrouter(text, keys["openrouter"], "openai/gpt-5.4", sp, mt)
+    elif model_id == "openrouter_grok4":
+        if not keys["openrouter"]:
+            return None
+        return lambda text, sp=None, mt=1000: query_openrouter(text, keys["openrouter"], "x-ai/grok-4", sp, mt)
+    elif model_id == "openrouter_nemotron":
+        if not keys["openrouter"]:
+            return None
+        return lambda text, sp=None, mt=1000: query_openrouter(text, keys["openrouter"], "nvidia/nemotron-3-super", sp, mt)
     elif model_id == "edison":
         if not keys["edison"]:
             return None
@@ -461,6 +477,8 @@ def main():
               free      Gemini Flash + Llama 70B (Groq) + OpenRouter free
               standard  Gemini 3.1 Pro (OR) + GPT-5.4 (OR) + Llama 70B (Groq)
               premium   Gemini 3.1 Pro (OR) + GPT-5.4 (OR) + Edison (PaperQA3)
+              full      All 5: Gemini 3.1 Pro + GPT-5.4 + Grok 4 + Nemotron 3 + Llama 70B
+              board     Full 5 + Edison (6 models for Board review)
         """),
     )
     group = parser.add_mutually_exclusive_group(required=True)
@@ -468,7 +486,7 @@ def main():
     group.add_argument("--file", "-f", help="File with one claim per line")
     group.add_argument("--review", "-r", help="Review markdown file (auto-extracts claims)")
     group.add_argument("--adversarial", "-a", help="Full-document adversarial review")
-    parser.add_argument("--tier", "-t", choices=["free", "standard", "premium"],
+    parser.add_argument("--tier", "-t", choices=["free", "standard", "premium", "full", "board"],
                         default="standard", help="Model tier (default: standard)")
     parser.add_argument("--output", "-o", help="Output file for adversarial review")
     parser.add_argument("--system-prompt-file", help="Custom system prompt file (overrides built-in adversarial prompt)")

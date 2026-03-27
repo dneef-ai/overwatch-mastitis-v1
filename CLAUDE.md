@@ -8,14 +8,15 @@ Six specialist agents, each a full Claude Code process that can deploy its own s
 
 | Agent | Job | Input | Output |
 |-------|-----|-------|--------|
-| **Pathfinder** | Map the disease completely | Disease name + prior work | `phase-1-disease-map.md` |
-| **Sapper** | Explain why every treatment failed | Disease map | `phase-2-failure-analysis.md` |
-| **Forge** | Propose solutions for EVERY disease stage | Disease map + failure analysis | `phase-3-candidates.md` |
+| **Pathfinder** | Map the disease completely + R0 + KE#1 | Disease name + prior work | `phase-1-disease-map.md` |
+| **Sapper** | Explain why every treatment failed (target vs compound) | Disease map | `phase-2-failure-analysis.md` |
+| **Forge** | Propose solutions — empirical hits first, then biology | Disease map + failure analysis | `phase-3-candidates.md` |
 | **Surveyor** | Computationally validate targets | Forge candidates + disease map | `phase-3b-survey-report.md` |
-| **Reaper** | Kill everything that's weak | Candidates + survey report | `phase-4-kill-report.md` |
-| **Anvil** | Build portfolio, run 70% test, deliver | Everything above | Coverage map + evidence register + decision memo |
+| **Reaper** | Kill everything that's weak (mechanism-level) | Candidates + survey report | `phase-4-kill-report.md` |
+| **Board** | 5-model external review + strategic force-ranking | Kill report + all prior phases | `phase-4b-board-decision.md` |
+| **Anvil** | Build portfolio, run 70% test (tractable), deliver | Everything above + board decision | Coverage map + evidence register + decision memo |
 
-Agent prompts: `agents/pathfinder.md`, `agents/sapper.md`, `agents/forge.md`, `agents/surveyor.md`, `agents/reaper.md`, `agents/anvil.md`
+Agent prompts: `agents/pathfinder.md`, `agents/sapper.md`, `agents/forge.md`, `agents/surveyor.md`, `agents/reaper.md`, `agents/board.md`, `agents/anvil.md`
 
 ## External Validation Panel
 
@@ -60,12 +61,13 @@ These govern everything. Read `docs/principles.md` for the full list. Key ones:
 ### Manual (interactive — you control each step)
 Daniel tells you what to run. You launch agents one at a time:
 
-1. "Run Pathfinder on mastitis" → launch Pathfinder, review output, discuss with Daniel
-2. "Run Sapper" → launch Sapper, review output
-3. "Run Forge" → launch Forge, discuss alternatives with Daniel
+1. "Run Pathfinder on mastitis" → launch Pathfinder, review output (R0, KE#1), discuss with Daniel
+2. "Run Sapper" → launch Sapper, review output (target vs compound failures)
+3. "Run Forge" → launch Forge (Category A empirical hits first), discuss alternatives with Daniel
 3b. "Run Surveyor" → launch Surveyor, review computational findings, discuss flagged items with Daniel. If AF3 submissions needed, pause for Daniel to submit and return results.
-4. "Run Reaper" → launch Reaper (now has Surveyor's data), review kills with Daniel
-5. "Run Anvil" → launch Anvil, check 70% test, iterate if needed
+4. "Run Reaper" → launch Reaper (mechanism-level kills), review kills with Daniel
+4b. "Run Board" → launch Board (5-model external review + force-ranking + devil's advocate), discuss strategic priorities with Daniel
+5. "Run Anvil" → launch Anvil (tractable 70% test + strategic prioritisation from Board), check coverage, iterate if needed
 
 After Forge and Surveyor: run external review, discuss alternatives with Daniel.
 
@@ -89,7 +91,8 @@ You are NOT a passive observer. You are the moderator for agents who will natura
 - For Forge: does EVERY disease stage have at least one candidate? Did it search for empirical in-vivo hits first (Category A)? Are proposals at mechanism-level granularity (not category-level)? If not, SEND IT BACK.
 - For Surveyor: did every candidate get a verdict? Did it actually run BLAST or just describe what BLAST would show? Are BLAST parameters reported (database, e-value threshold)? If a Category C target has no structure prediction, is there a valid reason (e.g., AF3 submission pending)? Are there AF3 submissions pending that need Daniel's action?
 - For Reaper: were the kills evidence-based or just skepticism? Did it use Surveyor's data? Did it tag single-lab dependencies (Kill Test 11)? Did it include SCC/clinical endpoints (Kill Test 12)? Are kills mechanism-level, not category-level?
-- For Anvil: did it flag KE#1? Did it do strategic prioritisation (top 3 experiments)? Did it classify stages as tractable vs non-tractable? Did the 70% test pass honestly against TRACTABLE pathology? Did de-risk GO thresholds include clinical endpoints?
+- For Board: did it run all 5 external models? Did it synthesize feedback (corroboration counts)? Did it do the devil's advocate inversion for each SURVIVED target? Is the force-ranking genuinely ranked (not all-equal)? Did it flag compound contamination?
+- For Anvil: did it use Board's force-ranking? Did it flag KE#1? Did it classify stages as tractable vs non-tractable? Did the 70% test pass honestly against TRACTABLE pathology? Did de-risk GO thresholds include clinical endpoints?
 
 ### The 70% Enforcement Loop
 This is your most important function. When Anvil reports the coverage map:

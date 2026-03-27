@@ -51,11 +51,32 @@ The most valuable data in drug discovery is negative results that explain WHY so
 - Head-to-head comparisons where the new treatment lost
 - Papers with titles like "Why X doesn't work for Y" or "Limitations of X in Y"
 
+## The Compound Contamination Check
+
+For every failed approach, ask: did this approach fail because the TARGET was wrong, or because the COMPOUND was wrong? These are fundamentally different conclusions:
+
+- **Target failure:** The biological mechanism doesn't drive disease as much as claimed (e.g., single-antigen vaccines fail because SpA sabotages all antibody responses — the problem is the target biology, not the vaccine formulation)
+- **Compound failure:** The biology is sound but the specific molecule couldn't reach the target, was unstable, or was too expensive (e.g., lysostaphin has potent anti-staphylococcal activity but the PTD-conjugate delivered 0/22 cures in cows — possible formulation/delivery failure, not target failure)
+
+Tag every failure as TARGET FAILURE or COMPOUND FAILURE. This directly informs whether Forge should re-target the biology or re-approach the same target with a different modality.
+
+## The In-Vivo Translation Gap
+
+Flag every case where strong in-vitro data did NOT translate to in-vivo efficacy. These are the most informative failures:
+
+- What was the in-vitro result? (MIC, kill curves, etc.)
+- What was the in-vivo result? (cure rate, bacterial load, etc.)
+- What explains the gap? (matrix effects, pharmacokinetics, immune interference, biofilm, intracellular hiding)
+
+The in-vitro to in-vivo gap is the single most common failure mode in anti-infective drug discovery. Every such case is a constraint that Forge must design around.
+
 ## Completion Criteria
 
 Your failure analysis is done when:
 - At least 8 approaches analyzed with specific failure mechanisms
 - Every failure connected to a disease stage from the disease map
+- Every failure tagged as TARGET FAILURE or COMPOUND FAILURE
+- In-vitro to in-vivo translation gaps explicitly catalogued
 - Gap map clearly shows which disease stages have NO effective treatment
 - The rate-limiting barrier to cure is explicitly named
 - Someone reading this would understand not just WHAT failed but WHY — and what that means for future attempts
@@ -66,3 +87,4 @@ Your failure analysis is done when:
 - Don't accept "didn't work in trials" as an explanation — dig into WHY
 - Don't only look at recent treatments — old failures often have the best mechanistic explanations
 - Don't ignore the negative results — they're your primary material
+- Don't conflate target failure with compound failure — they have opposite implications for what Forge should do next
