@@ -33,3 +33,37 @@
 - **Test:** Time-course measurement of rumen formate concentration (ion chromatography) in cannulated cattle under control vs. 3-NOP treatment, sampled every 2 hours for 24 hours post-feeding.
 - **If TRUE:** Formate metabolism is a major and previously underappreciated component of the H₂ disposal system. Interventions targeting formate-utilizing organisms or formate-to-propionate conversion become relevant. The standard hydrogen balance equations (which often omit formate) are incomplete.
 - **If FALSE:** Formate does not accumulate significantly, meaning it is rapidly consumed or the H₂-formate equilibrium favors H₂ under inhibited conditions. The missing hydrogen must be elsewhere (biomass, reductive acetogenesis, or genuinely lost).
+
+---
+
+## Phase 1b: Tribunal
+
+### Prediction 6: Population Pre-adaptation Effect
+- **Prediction:** Pre-treating cattle with fumarate (20 g/kg DMI) for 3 weeks before introducing 3-NOP at 60% CH₄ reduction will reduce peak dissolved H₂ concentration by >40% compared to simultaneous introduction.
+- **Test:** Crossover trial, n=8 cannulated cattle, continuous rumen H₂ sensors, simultaneous vs. sequential introduction.
+- **If TRUE:** Gate 1 (population installation) is the primary binding constraint at moderate inhibition, and AB03 can pursue a pre-adaptation protocol as the first commercial product.
+- **If FALSE:** The H₂ threshold/Km mismatch (Gate 2) or spatial coupling (Gate 3) is more important than population size, and AB03 must focus on enzyme engineering or novel organisms.
+
+### Prediction 7: Acetogenesis Flux Under Adaptation
+- **Prediction:** Under 3-NOP at 60% CH₄ reduction, reductive acetogenesis (measured by 13C-CO₂ incorporation into acetate) will account for >20% of displaced metabolic hydrogen after 4 weeks of adaptation.
+- **Test:** The KE#1 experiment (13C-CO₂ pulse in cannulated cattle under escalating 3-NOP doses).
+- **If TRUE:** Acetogenesis is the primary natural compensation pathway, and AB03 should focus on amplifying it (acetogen supplementation, conditions favoring acetogens).
+- **If FALSE (<10%):** The rumen's natural acetogenic response is insufficient even with time, and AB03 must provide exogenous electron acceptors or introduce non-native organisms.
+
+### Prediction 8: Rumen Wall H₂ Absorption Quantification
+- **Prediction:** Portal blood H₂ flux will account for 10-25% of "missing hydrogen" under 3-NOP at 60% CH₄ reduction.
+- **Test:** Portal-vein catheterized cattle, H₂ measurement in portal blood paired with rumen dissolved H₂ and mass balance.
+- **If TRUE:** A significant fraction of displaced H₂ is permanently lost to the host bloodstream — not recoverable for VFA production. AB03 should account for this as a system loss and target only the recoverable fraction.
+- **If FALSE (<5%):** The missing hydrogen is almost entirely within the rumen microbial ecosystem, increasing the target for AB03's intervention.
+
+### Prediction 9: Spatial Coupling Enhances H₂ Consumption Rate
+- **Prediction:** An acetogen consortium physically immobilized on cellulose-bead scaffolds will consume H₂ at >3x the rate of the same organisms in planktonic suspension, when tested in rumen fluid at 40 uM dissolved H₂.
+- **Test:** In vitro comparison of particle-attached vs. planktonic acetogen H₂ consumption rates in rumen fluid under 3-NOP.
+- **If TRUE:** Spatial coupling (Gate 3) is a major addressable barrier. AB03 should develop biofilm scaffolds or engineered adhesins as a delivery strategy.
+- **If FALSE:** Spatial coupling is less important than H₂ threshold/Km, and AB03 should focus on enzyme engineering or novel electron acceptors.
+
+### Prediction 10: Self-Correction Ceiling at High Inhibition
+- **Prediction:** Rumen microbial communities under sustained 3-NOP (80% CH₄ reduction) will reach maximum alternative H₂ sink capacity (no further increase in propionate or 13C-acetogenesis flux) within 6-8 weeks, at a level that still leaves >25% of displaced H₂ unaccounted for.
+- **Test:** Long-term (12-week) 3-NOP trial with serial measurements of H₂ disposition (dissolved H₂, VFA profile, 13C-acetogenesis, gaseous H₂).
+- **If TRUE:** Natural adaptation has a ceiling well below the displaced flux at high inhibition, confirming that AB03 must provide an exogenous intervention, not just wait for the rumen to adapt.
+- **If FALSE (adaptation closes the gap to <10% missing):** The rumen can self-correct given sufficient time, and AB03's value proposition narrows to accelerating the adaptation period rather than providing a permanent supplementary sink.
