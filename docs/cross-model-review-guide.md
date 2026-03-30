@@ -161,32 +161,126 @@ The repo includes two built-in prompts:
 
 ---
 
-## How It's Used in Overwatch
+## Argus vs Overwatch: Two Levels of Integration
 
-In the Overwatch pipeline, the 6-model panel runs at **every phase** — not as a final check, but as a generative contributor throughout:
+The cross-model review has evolved through two generations. Understanding the difference matters because it shows where this is going.
+
+### Argus (v1): Adversarial Check After the Fact
+
+In Argus, cross-model review was bolted on **after** a review was complete. Daniel would finish an analysis, then run the panel to catch mistakes:
 
 ```
-Pathfinder (disease map)
-    └── 6 models contribute: missing mechanisms, R0, rate-limiting step
-Tribunal (bottleneck consensus)
-    └── informed by panel's disease insights
-Sapper (failure analysis)
-    └── 6 models contribute: missed failures, target-vs-compound distinction
-Forge (candidates) + Vulcan (quarantined first-principles)
-    └── 6 models contribute: empirical hits, proposed targets, analogies
-Surveyor (computational validation)
-    └── no panel (computational only)
-Reaper (adversarial kill)
-    └── 6 models challenge: wrong kills, wrong survivals, single-lab flags
-Board (strategic decision)
-    └── 6 models contribute: coverage honesty, top-3 experiments, commercial reality
-Anvil (portfolio + 70% test)
+Daniel writes review with Claude
+    → Panel checks the finished review for errors
+        → Daniel fixes what the panel found
+```
+
+This is how the mastitis v12 review worked. It caught real problems — GPT-5.4 found the FnBP blind spot, Gemini found SPMs — but the panel was **reactive**. It reviewed what Claude had already decided. The models were critics, not contributors.
+
+**Limitations of this approach:**
+- The panel only sees what Claude chose to include. If Claude never considered a target, the panel can only flag its absence — it can't contribute the full reasoning
+- Findings arrive at the end, when you've already committed to a direction
+- Each model gets the same generic adversarial prompt regardless of what phase of analysis you're in
+- Panel output is consumed once and discarded — it doesn't compound through subsequent analysis
+
+### Overwatch (v2): Generative Contributors at Every Phase
+
+Overwatch does something fundamentally different. The 6-model panel is not an after-the-fact check — it is **part of the pipeline itself**. Every phase has its own generative prompt that asks each model to **contribute independent thinking**, not just critique. And critically, every model's contributions are **fed forward** into all subsequent phases, compounding through the entire pipeline.
+
+This means a mechanism that Grok 4 identifies in Phase 1 can become a drug target that Forge proposes in Phase 3, that Surveyor validates computationally in Phase 3b, that Reaper tries to kill in Phase 4, and that the Board force-ranks in Phase 4b. The external models are not spectators — they are co-discoverers.
+
+**What this looks like in practice:**
+
+```
+Phase 1: Pathfinder maps the disease
+    └── 6 models independently contribute:
+        • Missing disease mechanisms (not critique — NEW mechanisms)
+        • R0 and transmission dynamics estimates
+        • The rate-limiting step they would prioritise
+        • The single best $5-20K experiment they would run
+    └── If models identify missing mechanisms → Pathfinder goes BACK
+        to fill gaps before proceeding
+
+Phase 1b: Tribunal reaches bottleneck consensus
+    └── receives disease map + ALL 6 models' mechanism contributions
+
+Phase 2: Sapper analyses why treatments fail
+    └── 6 models independently contribute:
+        • Treatment failures the agent missed
+        • Target-vs-compound distinction (was the biology wrong or the drug?)
+        • In-vivo translation gaps
+        • The constraint set any future treatment must satisfy
+    └── receives disease map + bottleneck + Phase 1 panel output
+
+Phase 3a: Forge proposes candidates
+    └── 6 models independently contribute:
+        • Empirical hits (what actually worked in vivo — not theory)
+        • Proposed targets not in the current analysis
+        • Cross-disease analogies from other species/indications
+        • Their top 3 priorities and why
+    └── receives everything above + Phase 2 panel output
+
+Phase 3-parallel: Vulcan (QUARANTINED — no panel, no literature, disease map only)
+
+Phase 3b: Surveyor validates computationally (no panel — data only)
+
+Phase 4: Reaper kills weak targets
+    └── 6 models independently challenge:
+        • Wrong kills (targets killed that should survive)
+        • Wrong survivals (targets surviving with fatal flaws)
+        • Single-lab dependencies
+        • Missing kill tests the agent didn't consider
+    └── receives all candidates + survey report + Phase 3 panel's proposed targets
+
+Phase 4b: Board forces strategic decision
+    └── 6 models independently contribute:
+        • Coverage honesty check (are estimates inflated?)
+        • The top 3 experiments they would fund
+        • Commercial reality (what would their company invest in?)
+        • What's missing from the portfolio
+    └── receives kill report + Phase 4 panel output
+    └── Board SYNTHESIZES: 2+ models agree = signal, 4+ = near-certain
+
+Phase 5: Anvil builds portfolio + 70% test
     └── 6 models validate: coverage estimates, portfolio gaps
+    └── receives board decision + Phase 4b panel output
 ```
 
-**Key principle:** Each agent receives BOTH the previous phase output AND the 6-model panel responses. The panel contributions are fed forward, not discarded.
+**The compounding effect is the key innovation.** In the crypto v2 run, GPT-5.4 contributed the purine salvage bottleneck in Phase 1 → Forge picked it up as a novel target class in Phase 3 → Surveyor ran BLAST validation → it survived Reaper's kill tests → the Board ranked it. That target would never have existed in an Argus-style after-the-fact check.
 
-### The Pattern
+### Phase-Specific Prompts (Not Generic Adversarial)
+
+Each phase uses a different prompt from `tools/phase-prompts.txt` that asks the models to think like a specific expert:
+
+| Phase | Persona | They contribute |
+|-------|---------|-----------------|
+| 1 (Pathfinder) | Disease biologist | Missing mechanisms, R0, rate-limiting step, best experiment |
+| 2 (Sapper) | Pharmacologist with 15 years of failure analysis | Missed failures, target-vs-compound, translation gaps, constraints |
+| 3 (Forge) | Drug discovery scientist, all modalities | Empirical hits, proposed targets, cross-disease analogies, priorities |
+| 4 (Reaper) | Skeptical reviewer | Wrong kills, wrong survivals, single-lab flags, missing tests |
+| 5 (Anvil) | Portfolio strategist at an animal health company | Coverage honesty, top-3 experiments, commercial reality, gaps |
+
+This is fundamentally different from sending the same adversarial prompt every time. A disease biologist thinks differently than a portfolio strategist. Overwatch gets both.
+
+### The Overwatch Enforcement Loop
+
+The panel also enables something Argus couldn't do: **automated iteration**. After Anvil runs the 70% coverage test, if the portfolio fails, Overwatch reads the coverage map itself, checks the math, and loops Forge → Surveyor → Reaper → Anvil up to 3 times — each time with fresh panel input — before escalating to Daniel. The mastitis v1 run went through multiple revision cycles (`phase-3-candidates-R1.md`, `R2.md`, `phase-4-kill-report-R1.md`, `R2.md`) with the panel contributing new targets and killing weak ones each round.
+
+### The Numbers
+
+| | Argus | Overwatch |
+|--|-------|-----------|
+| When panel runs | End of review | Every phase |
+| Prompt type | Generic adversarial | Phase-specific generative |
+| Panel role | Critic | Co-discoverer |
+| Output persistence | Consumed once | Fed forward through all phases |
+| Models per program | 2-3 (GPT + Gemini) | 6 (full frontier panel) |
+| Panel calls per program | 1-3 | 6-8 (one per phase) |
+| Iteration | Manual | Automated (up to 3 loops) |
+| Cost per program | ~$0.30-0.50 | ~$1.50-2.00 |
+| Targets discovered BY panel | 0 (critique only) | Multiple per program |
+
+### The Pattern (How to Run It)
 
 After each agent completes:
 
@@ -200,6 +294,20 @@ python3 tools/cross-check.py --adversarial programs/<name>/phase-N-output.md \
 # 2. Feed both the phase output AND panel responses to the next agent
 ```
 
+### Real Examples of Panel Impact
+
+**Crypto v2 (Cargill) — Panel as co-discoverer:**
+- Phase 1: Grok 4 contributed parasite-induced apoptosis inhibition (NF-kB/Bcl-2) and the autoinfection cycle via thin-walled oocysts. Gemini contributed tripartite host-parasite-microbiome interaction. GPT-5.4 contributed 10 distinct missing mechanisms including dense granule effector biology and crypt-cell infection.
+- Phase 4: 5/6 models flagged CpPDE1 as single-lab dependent → downgraded from SURVIVED to WOUNDED. 4 wrong kills identified where Reaper was too aggressive.
+- Board: Devil's advocate "Cargill already knows this" test applied to BKI (10 years of public conference data). CpPDE1 tested for compound contamination bias (serendipitous cross-reaction).
+
+**Mastitis (Zoetis) — Panel changing the portfolio:**
+- Board phase: GPT-5.4 identified that "zero bovine homolog for SrtA" was overstated. Gemini identified SPMs/resolvins as a completely missed tissue repair target class. These findings directly reshaped the v13 portfolio.
+- FnBP gate: GPT-5.4's challenge to the conservation analysis led to the target being killed in <24 hours — saving months and potentially hundreds of thousands in wet-lab validation.
+
+**Liver Abscess v2 (Elanco) — Panel confirming a strategic shift:**
+- Tribunal bottleneck consensus (4/4 agents + full panel) confirmed Gate 2 (leukotoxin immune evasion) as the bottleneck, not Gate 1 (barrier). This shifted the entire portfolio from feed-additive-centered (v1: MON+BX) to drug-target-centered (v2: leukotoxin lifecycle). LktC acyltransferase — first-in-class, not pursued by competitors — emerged as the #1 target.
+
 ### Interpreting Panel Results
 
 When synthesizing panel output (as the Board agent does):
@@ -208,20 +316,6 @@ When synthesizing panel output (as the Board agent does):
 - **4+ models agree** → near-certain, must address
 - **1 model flags something unique** → may be noise, but check if it's from that model's known strength area (e.g., GPT-5.4 on experimental design)
 - **All models miss something** → not evidence of absence; they share training data biases
-
-### Real Examples of Panel Impact
-
-**Crypto v2 (Cargill):** After Phase 4, the panel:
-- Flagged CpPDE1 as single-lab dependent (5/6 models) → downgraded from SURVIVED to WOUNDED
-- Challenged oocyst inactivation kill as using wrong evaluation lens (individual calf vs transmission control)
-- Identified 4 wrong kills where the Reaper agent was too aggressive
-
-**Mastitis (Zoetis):** After the Board phase:
-- GPT-5.4 identified that our "zero bovine homolog for SrtA" claim was overstated
-- Gemini identified SPMs/resolvins as a completely missed tissue repair target class
-- The FnBP conservation analysis was challenged → led to target being killed in <24 hours
-
-**Liver Abscess v2 (Elanco):** Tribunal bottleneck consensus (4/4 agents + panel) confirmed Gate 2 (leukotoxin immune evasion) as the bottleneck, shifting the entire portfolio from feed-additive-centered to drug-target-centered.
 
 ---
 
