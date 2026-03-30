@@ -40,3 +40,42 @@
 - **Test:** In vivo dairy cow study with 3-NOP at standard dose (60-80 mg/kg DM) +/- AB03-B candidate intervention. Primary endpoints: DMI, milk yield, VFA profile, dissolved H2. Duration: 28+ days to allow microbiome adaptation.
 - **If TRUE:** The bar for a commercially viable AB03-B product is achievable. A partial solution is sufficient. This dramatically expands the candidate space — even modest H2 sinks could work.
 - **If FALSE (need >50% gap closure for clinical benefit):** The bar is higher and fewer candidate approaches will qualify. The product must be highly effective, not just incrementally better than baseline.
+
+---
+
+## Phase 3: Forge
+
+### Prediction 6: Riboflavin (vitamin B2) at micromolar concentrations reduces dissolved H2 under methanogenesis inhibition
+
+- **Prediction:** Supplementing riboflavin at 10-100 uM in RUSITEC under 50% methanogenesis inhibition will reduce dissolved H2 by >20% and increase total VFA production by >10%, via catalytic electron shuttling from intracellular NADH to extracellular terminal acceptors. This effect will occur at doses 100-1000x lower than fumarate (catalytic, not stoichiometric).
+- **Test:** KE#1 RUSITEC with 3-NOP + graded riboflavin doses (0, 10, 50, 100, 500 uM). Measure dissolved H2, gaseous H2, full VFA profile, total VFA.
+- **If TRUE:** Opens a novel drug target class — small-molecule electron shuttles for RHAS. Riboflavin cost at 50 mg/cow/day is <$0.001/day, demolishing the stoichiometric cost barrier. The portfolio pivots to optimizing the shuttle (identity, dose, delivery) rather than finding cheap electron acceptors. This is the most portfolio-transforming outcome: RHAS becomes treatable with a vitamin supplement.
+- **If FALSE:** The NADH bottleneck requires a terminal electron acceptor (something to absorb the electrons), not just a shuttle (something to move them). The electrons have nowhere to go without a final sink. Portfolio remains focused on terminal electron acceptors (fumarate analogs, iron oxide, nitrate alternatives).
+
+### Prediction 7: Conductive biochar reduces dissolved H2 via DIET under RHAS conditions in RUSITEC
+
+- **Prediction:** Conductive biochar (high-temperature pyrolysis, >500°C) at 1-2% DM in RUSITEC with 3-NOP will reduce dissolved H2 by >15% and increase propionate molar proportion by >10% relative to 3-NOP alone. Low-temperature (non-conductive) biochar at the same dose will show no such effect, confirming the mechanism is electron conductivity (DIET), not adsorption.
+- **Test:** KE#1 RUSITEC with 3-NOP + high-temperature biochar vs low-temperature biochar vs control. Measure dissolved H2, propionate, total VFA, 16S sequencing for syntrophic partner enrichment (Geobacter-like taxa).
+- **If TRUE:** DIET operates in the rumen under RHAS conditions. This fundamentally changes the intervention strategy — electrons can bypass H2 entirely, eliminating the thermodynamic ceiling that defeated acetogens. Biochar at $0.30-1.00/kg and 50-200 g/cow/day = $0.02-0.20/day, within the cost target. Portfolio pivots to optimizing conductive materials for rumen DIET.
+- **If FALSE:** DIET does not operate meaningfully in the rumen's rapid-turnover, particle-flow environment. The stable syntrophic associations required for DIET may not form. Portfolio remains focused on H2-scavenging approaches (electron acceptors, shuttles, engineered microbes). This would narrow the candidate space significantly.
+
+### Prediction 8: The Maigaard (2024) phloroglucinol failure was a dosing protocol artifact, not a biological failure
+
+- **Prediction:** Continuous dietary supplementation of phloroglucinol (5-15 g/cow/day mixed into TMR) for 21+ days in dairy cows on 3-NOP will show H2 capture (increased acetate, decreased dissolved H2 and gaseous H2/kg DMI) consistent with Martinez-Fernandez et al. (2017), in contrast to the negative result of Maigaard et al. (2024) who used 7-day periods with twice-daily pulse-dosing through the rumen fistula.
+- **Test:** In vivo dairy cow trial: 3-NOP + continuous dietary phloroglucinol (21 days) vs 3-NOP alone. Monitor Coprococcus spp. abundance (16S), dissolved H2, gaseous H2, VFA profile.
+- **If TRUE:** Phloroglucinol is a viable, cheap, non-toxic RHAS treatment that was incorrectly dismissed due to a protocol artifact. It becomes a lead candidate for commercialization. The key variables are delivery method (dietary, not fistula) and adaptation time (21+ days, not 7 days).
+- **If FALSE (continuous dosing also fails):** The cattle in vivo environment genuinely does not support phloroglucinol metabolism at RHAS-relevant rates. The goat data (positive) and in vitro data (positive) do not translate to cattle. Phloroglucinol is deprioritized. The cattle rumen may lack sufficient Coprococcus density or the thermodynamic conditions for phloroglucinol reduction under RHAS.
+
+### Prediction 9: Iron(III) oxide at 200-500 g/cow/day will reduce dissolved H2 by >25% without toxicity
+
+- **Prediction:** Ferric hydroxide (Fe(OH)3) at 200-500 g/cow/day in RUSITEC under 50% methanogenesis inhibition will reduce dissolved H2 by >25%, increase propionate or acetate, and not adversely affect total VFA production or substrate disappearance. Accumulated Fe2+ will remain below toxic thresholds (<500 ppm in rumen fluid).
+- **Test:** RUSITEC with 3-NOP + graded Fe(OH)3 doses (0, 100, 200, 500 g equivalent per day). Measure dissolved H2, Fe2+, VFA profile, substrate disappearance, pH.
+- **If TRUE:** Iron reduction is a viable RHAS treatment pathway with commodity-level economics (iron oxide: $0.10-0.50/kg, so 300 g/day = $0.03-0.15/day). The thermodynamic superiority of iron reduction over methanogenesis (delta-G'0 ~ -230 vs -131 kJ/mol) means it can draw H2 lower than any biological pathway. Portfolio priority shifts to iron-based approaches, delivery optimization (particle size, coating for mat localization), and in vivo safety validation.
+- **If FALSE (no H2 reduction or toxicity):** Rumen iron-reducing bacteria may be too sparse to utilize the iron oxide at meaningful rates, or the rumen environment may not support iron reduction kinetics. Fe2+ toxicity may limit the approach. Iron reduction is deprioritized in favor of other novel electron acceptors.
+
+### Prediction 10: The optimal RHAS treatment is a combination, not a single compound
+
+- **Prediction:** In the KE#1 RUSITEC, the best-performing treatment arm will be a COMBINATION of approaches (e.g., electron shuttle + electron acceptor, or biochar + phloroglucinol, or iron oxide + fumarate) rather than any single intervention alone. Specifically, the combination will close >80% of the hydrogen recovery gap while no single intervention closes >50%.
+- **Test:** KE#1 RUSITEC combination arms. Compare H2 recovery gap closure for: (a) best single intervention, (b) best combination of 2 interventions, (c) all interventions combined.
+- **If TRUE:** RHAS requires a systems-level intervention, not a silver bullet. The product is a multi-component formulation — likely an electron shuttle (catalytic, trace dose) + a terminal electron acceptor (stoichiometric but at reduced dose because the shuttle improves efficiency) + optional delivery optimization (biochar for mat localization). This is good news for Agteria's IP position: a multi-component formulation is harder to replicate and has stronger patent claims than a single molecule.
+- **If FALSE (single intervention closes >80%):** The simplest development path wins. Prioritize the single best compound and optimize dose and delivery. Combination complexity is unnecessary.

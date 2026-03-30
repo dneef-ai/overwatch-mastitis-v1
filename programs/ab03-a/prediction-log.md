@@ -67,3 +67,37 @@
 - **Test:** Long-term (12-week) 3-NOP trial with serial measurements of H₂ disposition (dissolved H₂, VFA profile, 13C-acetogenesis, gaseous H₂).
 - **If TRUE:** Natural adaptation has a ceiling well below the displaced flux at high inhibition, confirming that AB03 must provide an exogenous intervention, not just wait for the rumen to adapt.
 - **If FALSE (adaptation closes the gap to <10% missing):** The rumen can self-correct given sufficient time, and AB03's value proposition narrows to accelerating the adaptation period rather than providing a permanent supplementary sink.
+
+---
+
+## Phase 3: Forge
+
+### Prediction 11: Adhesin-Displaying Acetogens Show Enhanced H₂ Consumption via Spatial Coupling
+- **Prediction:** *E. limosum* engineered to display the *M. ruminantium* M1 adhesin will consume H₂ at >3x the rate of wild-type *E. limosum* when co-cultured with *R. albus* in rumen fluid at 40 uM dissolved H₂ under 3-NOP, because physical attachment to the H₂ producer eliminates diffusion limitation.
+- **Test:** Co-culture assay: adhesin-displaying *E. limosum* + *R. albus* vs. wild-type *E. limosum* + *R. albus* in rumen fluid microcosms under 3-NOP. Measure H₂ consumption rate, acetate production from 13C-CO₂, and physical attachment by microscopy.
+- **If TRUE:** Spatial coupling (Gate 3) is a major and engineering-addressable barrier. The adhesin-displaying acetogen becomes the lead candidate for AB03. Combine with HDCR engineering (Prediction 12) for a strain addressing Gates 2 + 3.
+- **If FALSE (<1.5x improvement):** Spatial coupling is not the primary barrier at 40 uM H₂ — the per-cell enzyme capacity (Gate 2) or population size (Gate 1) dominates. AB03 should deprioritize adhesin engineering and focus on HDCR transplant or population expansion strategies.
+
+### Prediction 12: T. kivui HDCR Expression Lowers Acetogen H₂ Threshold by >5-Fold
+- **Prediction:** *E. limosum* expressing the *T. kivui* HDCR (hydrogen-dependent CO₂ reductase, kcat = 2,654 s⁻¹) in place of its native HDCR will initiate autotrophic growth on H₂ + CO₂ at headspace H₂ concentrations <40 ppm (vs. wild-type threshold of ~200-8,000 ppm), because the 95x faster entry enzyme allows the organism to scavenge H₂ at concentrations closer to the methanogen range.
+- **Test:** Growth assay: engineered vs. wild-type *E. limosum* in defined mineral medium with H₂/CO₂ headspace at decreasing H₂ concentrations (5,000 ppm → 500 → 200 → 100 → 50 → 25 ppm). Measure OD, acetate production, and H₂ consumption at each concentration.
+- **If TRUE:** Gate 2 (H₂ threshold mismatch) is directly solvable by enzyme engineering. The HDCR-transplanted acetogen becomes the core of AB03's engineered biology platform. Proceed to combine with adhesin display (Prediction 11) and rumen adaptation.
+- **If FALSE (threshold drops <2-fold):** The H₂ threshold is not determined solely by HDCR kinetics — other downstream WLP enzymes (formate-THF ligase, CODH/ACS) or energy conservation (Rnf, ATP synthase) set the true threshold. AB03 must identify and engineer the actual rate-limiting step, requiring a systematic bottleneck analysis of the WLP.
+
+### Prediction 13: Quinone Redox Mediators Improve NAD⁺/NADH Ratio in Rumen Fluid Under Methanogenesis Inhibition
+- **Prediction:** Addition of 1,4-dihydroxy-2-naphthoic acid (DHNA, 5 uM) to rumen fluid under 3-NOP will increase the NAD⁺/NADH ratio by >50% (from ~1.5 to >2.25), decrease dissolved H₂ by >20%, and increase total VFA production by >10% within 6 hours, because DHNA enables extracellular electron transfer that bypasses the H₂ intermediate for NADH reoxidation.
+- **Test:** In vitro batch culture: rumen fluid + 3-NOP + DHNA vs. rumen fluid + 3-NOP alone. Measure NAD⁺/NADH ratio (enzymatic cycling assay), dissolved H₂ (microsensor), VFA profile, and total VFA at 0, 2, 6, 12, 24 hours.
+- **If TRUE:** The NADH reoxidation bottleneck is directly addressable by catalytic redox mediators without requiring biological engineering. This is a fundamentally new intervention paradigm. DHNA is cheap, stable, and could be formulated as a daily feed additive at catalytic (not stoichiometric) doses. Proceed to in vivo dose-finding.
+- **If FALSE (no change in NAD⁺/NADH or H₂):** Rumen cellulolytic bacteria cannot perform EET via exogenous quinones, or the electron flow through EET is too small relative to the H₂ flux. The quinone shuttle concept is invalid for this system, and AB03 must rely exclusively on biological H₂ consumers.
+
+### Prediction 14: Ca. Faecousia Can Be Cultivated Using Genome-Guided Media Design
+- **Prediction:** Using nutritional requirements predicted from the *Ca.* Faecousia metagenome-assembled genome (amino acid auxotrophies, cofactor requirements, etc.), dilution-to-extinction cultivation in modified rumen fluid media under elevated H₂ + 3-NOP will yield a viable *Ca.* Faecousia culture (pure or defined consortium) within 6 months.
+- **Test:** Genome-informed cultivation attempt: (1) reconstruct complete genome from Pope et al. 2025 MAG data, (2) predict nutritional requirements via pathway gap analysis, (3) design custom media, (4) dilution-to-extinction in anaerobic plates under H₂/CO₂ atmosphere + 3-NOP. Screen by 16S and metagenomics.
+- **If TRUE:** The single most enabling result for AB03. A cultivated *Ca.* Faecousia strain becomes the foundation for DFM development, genetic characterization of its H₂ threshold, and potential engineering. This organism is already selected for rumen survival and H₂ consumption under inhibition — it IS the natural solution the rumen is producing.
+- **If FALSE:** *Ca.* Faecousia has cultivation-refractory dependencies (obligate syntrophy, unknown growth factors, phage requirement, etc.). AB03 must pursue engineering of cultivable acetogens (*E. limosum*, *Blautia*) rather than the natural responder. The program loses its strongest biological lead but retains the engineering path.
+
+### Prediction 15: Pre-Adaptation Protocol Reduces Peak Dissolved H₂ by >40%
+- **Prediction:** Cattle pre-treated with low-dose fumarate (2% DM) + acetogen consortium DFM for 3 weeks before 3-NOP introduction (60% CH₄ reduction target) will show peak dissolved H₂ <30 uM, vs. >45 uM in cattle receiving 3-NOP without pre-adaptation, during the first 7 days of inhibitor treatment.
+- **Test:** Crossover design, n=8 cannulated cattle with continuous rumen H₂ sensors. Group A: 3 weeks pre-adaptation → 3-NOP. Group B: simultaneous 3-NOP + fumarate + DFM. Group C: 3-NOP alone. Measure dissolved H₂ continuously for 4 weeks, plus VFA profiles and microbial community (16S) at days 0, 7, 14, 21, 28.
+- **If TRUE:** Gate 1 (population installation) is the primary binding constraint during the critical initial period. The pre-adaptation protocol becomes AB03's first product — a commercially actionable "rumen priming" regimen that requires no engineering, no GMOs, and uses existing feed ingredients. This is the fastest path to revenue.
+- **If FALSE (<20% difference in peak H₂):** Population size is not the binding constraint even during early adaptation. Gates 2 (threshold) and/or 3 (spatial coupling) dominate. AB03 must focus on the engineering candidates (5.2, 2.1) rather than the population expansion strategy. The pre-adaptation protocol has minimal commercial value.
