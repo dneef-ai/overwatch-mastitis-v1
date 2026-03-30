@@ -38,3 +38,42 @@
 - **Test:** RUSITEC experiment with 3-NOP at 50% CH4 inhibition. Four arms: (a) control, (b) oxamate at 1 mM (PFL-AE activator proxy), (c) fumarate at 5 mg/g DM (sub-stoichiometric), (d) sodium tungstate at 50 uM (HDCR metalation enhancer). Primary endpoint: total VFA production. Secondary: dissolved H2, VFA profile, hydrogen recovery.
 - **If TRUE:** NADH reoxidation is confirmed as the highest-leverage drug target zone, validating the portfolio's primary strategy. All three Zone 1 targets (Rnf, Rex, PFL-AE) move to lead optimization.
 - **If FALSE (Zone 2 or 3 wins):** The bottleneck is downstream of NADH reoxidation, and the propionogenesis or acetogenesis zones should be reprioritized. This would contradict the Tribunal's bottleneck determination and require revisiting the mechanistic model.
+
+---
+
+## Phase 3b: Surveyor
+
+### Prediction S-1: Fumarate Reductase Activator Screens Will Fail
+
+- **Prediction:** High-throughput screening of a diverse compound library (>10,000 compounds) against purified W. succinogenes FrdABCD will identify zero allosteric activators (compounds that increase Vmax >1.5x) despite the enzyme having excellent structural coverage (2.2 A crystal structures, multiple crystal forms).
+- **Test:** Run HTS with Vmax readout for fumarate reduction; counter-screen for selectivity vs bovine SDH.
+- **If TRUE:** Confirms that enzyme activators for this target class are not achievable with conventional screening. Redirects effort to fumarate supply (PEPC activation) or pathway engineering. ChEMBL data showing only inhibitors (nafuredin IC50 2.4 nM, pyrvinium 500 nM) supports this prediction — the binding site architecture favors inhibition.
+- **If FALSE:** Opens the most direct route to RHAS treatment. Fumarate reductase activation becomes the lead program. This would be surprising and transformative.
+
+### Prediction S-2: Phosphomycin Increases Propionate in Rumen Fluid
+
+- **Prediction:** Phosphomycin (50-500 uM) added to rumen fluid in vitro under 3-NOP-mediated methanogenesis inhibition will increase propionate production by >20% and decrease dissolved H2 by >15%, validating PEPC as a druggable upstream bottleneck for propionogenesis.
+- **Test:** In vitro rumen incubation with phosphomycin dose-response curve + 3-NOP at 50% methane inhibition. Primary endpoint: propionate concentration. Secondary: dissolved H2, total VFA, acetate:propionate ratio.
+- **If TRUE:** PEPC activation via phosphomycin scaffold is the fastest path to a lead candidate. No host selectivity concern (mammals lack PEPC). Immediate lead optimization of phosphomycin analogs for rumen stability.
+- **If FALSE:** PEPC is not rate-limiting for propionogenesis under RHAS; fumarate reductase Vmax or population size is the actual bottleneck. Computational finding of phosphomycin as activator is correct but target is not rate-limiting.
+
+### Prediction S-3: Oxythiamine Shifts Electron Carrier from H2 to Formate
+
+- **Prediction:** Oxythiamine (100 uM, PFOR inhibitor via TPP competition) added to rumen fluid under 3-NOP will increase formate concentration >5-fold and decrease dissolved H2 by >25%, with total VFA production maintained within 10% of control.
+- **Test:** In vitro rumen incubation with oxythiamine + 3-NOP. Measure dissolved H2, formate, total VFA, individual VFA profiles.
+- **If TRUE:** PFOR inhibition successfully redirects electron flow from H2 to formate without fermentation penalty. The TPP-[4Fe-4S] selectivity handle (unique to PFOR, absent from bovine PDH) enables selective drug design. Vulcan's V11 moves to development.
+- **If FALSE:** PFOR inhibition causes unacceptable fermentation disruption (oxythiamine hits other TPP enzymes), or formate is rapidly consumed without benefiting H2 disposal.
+
+### Prediction S-4: N-Oxide Antiprotozoals Reduce H2 While Maintaining VFA
+
+- **Prediction:** The top N-oxide antiprotozoal compound (from the MDPI Metabolites 2019 screen) at its effective antiprotozoal concentration will reduce protozoal counts by >80%, decrease H2 production by >15%, and total VFA production will not decrease (may increase due to bacterial expansion filling the niche).
+- **Test:** Rumen simulation (RUSITEC or batch) with N-oxide lead compound vs. monensin positive control vs. untreated control. Measure protozoal counts, H2, CH4, total VFA, individual VFA, microbial protein.
+- **If TRUE:** Selective defaunation is a viable standalone RHAS intervention. The most immediately actionable target in the portfolio.
+- **If FALSE:** Protozoal contribution to VFA/fiber degradation is more important than the H2 production benefit, or N-oxide selectivity is insufficient.
+
+### Prediction S-5: Rex Regulon in Rumen Firmicutes Includes Propionogenesis Genes
+
+- **Prediction:** Rex-regulated genes in R. albus or C. ruminicola include fumarate reductase (frdABCD) operon or other propionogenesis-related genes, meaning Rex antagonism would simultaneously derepress NADH disposal AND propionogenesis.
+- **Test:** ChIP-seq or RNA-seq of rex-knockout vs. wild-type rumen Firmicute under elevated NADH/NAD+. Map all derepressed genes.
+- **If TRUE:** Rex antagonism becomes a dual-mechanism target (derepresses both NADH disposal AND propionogenesis). Adjusted score increases to 75+. One of the most important findings for the portfolio.
+- **If FALSE:** Rex regulon is limited to ethanol/lactate pathways. Derepression may produce undesirable fermentation products. Rex score remains at 68 but utility is narrower.
