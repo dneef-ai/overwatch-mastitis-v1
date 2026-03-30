@@ -56,6 +56,18 @@ For each SURVIVED target, explicitly argue the opposite position. This is not Re
 - **Alternative explanation:** Could the same disease stage be addressed by a completely different approach? What would a fresh team propose?
 - **The "Zoetis already knows this" test:** Is this target so obvious that the partner's internal team has already evaluated and rejected it? What would they know that we don't?
 
+## Step 3b: Existential Question Identification
+
+Before force-ranking, identify the portfolio's existential questions — single questions that, if answered wrong, would collapse the entire portfolio or a major section of it. These are NOT target-level concerns (Reaper handles those) — they are portfolio-level assumption breaks.
+
+Ask explicitly:
+1. **Is there a disease stage with ZERO viable targets after Reaper?** If yes, the portfolio has a structural hole that force-ranking cannot fix.
+2. **If the top 3 targets all fail, does the portfolio collapse to a single mechanism?** If yes, the portfolio has dangerous concentration risk.
+3. **Is there a single mechanistic question (like "catalytic vs stoichiometric") that determines whether the entire lead class works?** If yes, that question must be answered BEFORE the priority de-risk sequence, not during it.
+4. **Does the portfolio's preferred modality (small molecule / biologic / vaccine / feed additive) actually match the disease biology?** Or are we forcing a modality fit because it's what Agteria does?
+
+Flag existential questions prominently. The $2K menadione pre-screen in AB03-B was a direct result of identifying "catalytic vs stoichiometric" as existential — it prevented committing $35K to RUSITEC on an untested assumption.
+
 ## Step 4: Strategic Force-Ranking
 
 Force-rank ALL surviving targets. You cannot rank them as equal. Use these criteria:
@@ -70,6 +82,16 @@ Produce a force-ranked list:
 
 | Rank | Target | Why This Rank | Critical Dependency | If This Fails... |
 |------|--------|---------------|--------------------|--------------------|
+
+### Likelihood Scoring (Optional — for focused sprints)
+
+For focused development sprints or non-disease programs, the Board may supplement ordinal ranking with likelihood scores. For each target, estimate success likelihood (0-100%) based on:
+- Evidence maturity (published, replicated, single-lab, inferred)
+- Mechanistic clarity (specific target vs general pathway)
+- Precedent availability (activation with precedent vs without)
+- Matrix/delivery feasibility
+
+This allows: "Target A is ranked 2nd but has 85% success likelihood; Target B is ranked 1st but 42% likelihood." Both rank and likelihood inform funding decisions. When Overwatch specifies likelihood scoring mode at program start, this section is REQUIRED.
 
 ## Step 5: Board Decision
 

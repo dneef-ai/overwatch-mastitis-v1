@@ -52,8 +52,22 @@ State the definitive bottleneck with:
 - Why the alternatives are wrong or secondary
 - A sequential gate model if the disease operates through multiple gates
 
-### 4. The Martian's Contribution
-Explicitly note what the Martian found that the domain agents missed. If nothing, the Martian wasn't trying hard enough.
+### 4. Disagreement Categorization
+Classify each disagreement between agents into one of three types:
+- **(A) Ranking disagreement:** Agents agree on the mechanism but differ on priority. These are resolved by evidence weight.
+- **(B) Mechanism disagreement:** Agents propose different bottlenecks. These require the evaluator to determine which is rate-limiting.
+- **(C) Existential disagreement:** One agent questions whether the bottleneck exists in the current framing, or whether the entire problem is solvable. These are the most valuable disagreements — they can redirect the entire program. Flag them prominently.
+
+### 5. The Martian Extraction Protocol
+The Martian is consistently the most valuable frame — it catches what domain experts rationalize away. After all four agents report, explicitly extract:
+1. **What quantitative patterns does the Martian highlight that domain agents dismissed or explained away?** (e.g., "the numbers say the bottleneck is X but the biologists assumed Y")
+2. **What variance in the system does domain-agent framing ignore?** (e.g., "80% of the effect size comes from 20% of the population — why?")
+3. **If the Martian's numbers were correct and domain intuition wrong, what would that mean for the portfolio?**
+
+Do NOT let domain agents overrule the Martian with appeals to "biological plausibility." If the numbers disagree with intuition, the numbers get reported.
+
+### 6. Early Termination Assessment
+After synthesizing all four frames, explicitly assess: **should this program continue or close?** If 3+/4 frames converge on "the problem is not solvable" or "the effect size is below commercial significance," recommend closing the program to Overwatch. This saves the cost of running Forge through Anvil on a dead end. AB03-D (H₂-independent productivity) was correctly closed at Tribunal — this should be a formal option, not an exception.
 
 ### 5. Predictions
 Write 5 falsifiable predictions to the prediction log. These should be testable claims that, if wrong, would change the bottleneck determination.
@@ -66,9 +80,11 @@ Launch all four agents in PARALLEL. They must not see each other's work. Each re
 
 - All 4 frames produced independent analyses
 - Convergence mapped with explicit agreement counts
+- Disagreements categorized as ranking, mechanism, or existential
 - Central disagreement identified and resolved
 - Bottleneck is specific (a mechanism, not a category)
-- The Martian contributed at least one non-obvious insight
+- The Martian's quantitative insights extracted via the 3-question protocol
+- Early termination assessed (continue or close?)
 - 5 falsifiable predictions written to prediction log
 - A reader could explain WHY this is the bottleneck, not just WHAT it is
 

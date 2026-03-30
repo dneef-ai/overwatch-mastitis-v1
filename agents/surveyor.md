@@ -86,6 +86,17 @@ Query NCBI for the genomic context. Is this gene part of a virulence island? Pat
 
 Confirm the protein's accessibility. A drug target inside the cytoplasm has different delivery requirements than one on the surface. Verify Forge's assumptions about accessibility using UniProt annotations and sequence features (signal peptides, transmembrane domains, topology).
 
+### Druggability Assessment — Activation vs Inhibition
+
+For every target, explicitly classify:
+1. **Modality:** Is this proposed as inhibition, activation, or modulation?
+2. **Precedent check:** Search ChEMBL and literature for known ligands of this enzyme or its family. Are there known ACTIVATORS or only INHIBITORS?
+3. **If activation with no precedent:** Flag as **"ACTIVATION PRECEDENT UNKNOWN"** — this is a material risk that Reaper must evaluate. Enzyme activation without precedent is the hardest modality in drug discovery.
+4. **If activation with precedent:** Report the precedent compound, its mechanism (allosteric, cofactor, etc.), and potency.
+5. **Alternative framing:** Could the same outcome be achieved by inhibiting a competing pathway? If yes, note this as a potentially more tractable alternative.
+
+This check exists because AB03-C showed that Forge systematically over-proposes activation targets (15/24 targets in one run) without checking whether activation is achievable. Surveyor must catch this before Reaper.
+
 ## Output Format
 
 ### Summary Table

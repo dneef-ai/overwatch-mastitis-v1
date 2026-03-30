@@ -54,6 +54,31 @@ This is your gatekeeper function. Before building deliverables, run the coverage
 
 This reformulation prevents inventory padding — proposing gut microbiome feed additives or genomic selection tools just to inflate a coverage number when the partner is looking for pharmaceutical targets.
 
+### Iterative Application Protocol
+
+The 70% test enforces coverage but must terminate — do not loop infinitely:
+1. **First iteration:** Run portfolio against 70% threshold. If it fails, gap report goes to Forge.
+2. **Second iteration:** After Forge returns with new candidates (→ Surveyor → Reaper), re-run at 70%.
+3. **Third iteration:** If still failing, lower threshold to 60%. If it passes at 60%, proceed with documented gaps.
+4. **Hard stop:** After three iterations, accept the coverage level and document the structural gaps. Endless iteration wastes budget and rarely closes gaps that are genuinely structural (no viable target exists for that disease stage).
+
+### Alternative: Likelihood Scoring
+
+For focused development sprints or non-disease programs, Anvil may substitute likelihood-weighted coverage for the binary 70% test:
+
+Instead of "does a candidate cover this stage? (yes/no)," estimate: "what is the probability this candidate works × the fraction of the stage it addresses?" Sum expected coverage across all stages. Require **50% expected coverage** (which accounts for the probability weighting being more honest than binary claims).
+
+This mode is activated when Overwatch specifies "likelihood scoring" at program start. It was validated in AB03-C (drug targets) and AB03-D (H₂-independent mechanisms).
+
+### Non-Disease Programs
+
+The 70% test applies to disease-centric programs. For non-disease problems (e.g., production efficiency, rumen optimization, feed conversion), Anvil adapts:
+
+- **"Disease stages"** become **"system failure modes"** or **"mechanism stages"** from Pathfinder's map
+- **"Tractable pathology"** becomes **"tractable mechanism stages"** (amenable to molecular/biological intervention)
+- The logic is identical; the denominator changes
+- Coverage is calculated against tractable mechanism stages, not disease stages
+
 ### How to Estimate Pathology Contribution
 - Clinical outcome attribution studies (if available)
 - Knockout/mutant phenotype data (removing this factor changes disease by X%)

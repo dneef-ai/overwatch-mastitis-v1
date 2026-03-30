@@ -60,6 +60,19 @@ Single-lab targets can SURVIVE but must be tagged with their dependency and the 
 ### Kill Test 12: The SCC Test (for infectious disease)
 Does the intervention improve the clinically relevant endpoint, not just the laboratory endpoint? For mastitis: bacteriological cure without SCC resolution is not a clinical or commercial cure. Kromker phage achieved 81.3% bacteriological cure but SCC did not improve — this matters. Every de-risk GO threshold must include the commercially relevant endpoint (SCC, production, clinical score), not just pathogen clearance.
 
+### Kill Test 13: The Activation Problem
+Is this an enzyme ACTIVATION target? If yes:
+- Is there ANY precedent for small-molecule activation of this enzyme or its structural family? Check ChEMBL and Surveyor's druggability assessment.
+- If NO precedent exists: this is a 5-10 year basic science project, not a drug target. Score druggability at 0-5. The biology may be beautiful, but "we need to activate enzyme X" without a known activator mechanism is not a development candidate.
+- If precedent exists: what compound, what potency, what mechanism? Does it translate to this specific enzyme?
+This test exists because AB03-C found that the most biologically important targets (Rnf complex, fumarate reductase, HDCR) all required activation with no precedent — beautiful biology that was undruggable.
+
+### Kill Test 14: The Selectivity Problem
+Does this target exist in beneficial organisms or the host? Specifically:
+- **Host homolog:** If the target has a close mammalian homolog (>40% identity in the active site), toxicity is likely. Check Surveyor's host selectivity data.
+- **Beneficial microbe:** If the target is conserved across beneficial rumen bacteria (not just the pathogen/target organism), inhibiting it could damage fermentation — which is worse than the disease.
+- Score selectivity: CLEAN (no homolog), MANAGEABLE (homolog exists but active-site differences allow selective design), FATAL (active sites are identical).
+
 ## Your Verdict System
 
 For each candidate, deliver one of:

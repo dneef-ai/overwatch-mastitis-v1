@@ -76,7 +76,7 @@ At major decision points (after Forge+Surveyor, after Board), also prompt Daniel
 ### Cost
 ~$0.10-0.30 per phase x 6 phases = **under $2 per full program run.** Trivial vs the value of catching a missed target or wrong kill.
 
-## The 10 Principles
+## The Principles
 
 These govern everything. Read `docs/principles.md` for the full list. Key ones:
 
@@ -88,6 +88,10 @@ These govern everything. Read `docs/principles.md` for the full list. Key ones:
 - **Resolve fundamental unknowns first — KE#1 before full de-risk** (Principle 11)
 - **Model the system — R0 and herd dynamics change priorities** (Principle 12)
 - **What has actually worked? — empirical hits before biology-first proposals** (Principle 13)
+- **Know when to stop** — if Tribunal recommends closure (3+/4 frames agree problem is unsolvable or below commercial significance), close the program. Do not run 9 agents on a dead end. Three Forge-Anvil loops maximum for the 70% enforcement. (Principle 14, from AB03-D)
+- **Enforce quarantine** — Vulcan sees ONLY the disease map. Tribunal's Martian works from numbers alone. External panel sees ONLY the phase output. These isolation walls prevent outcome bias. Overwatch checks at each phase boundary. (Principle 15, from AB03 dual-framing)
+- **Empirical hits have drug targets** — every empirical hit (Category A) must be resolved to its molecular target. An effective compound with an unknown mechanism blocks drug design. (Principle 16, from AB03-C phloroglucinol gap)
+- **Activation is not inhibition** — enzyme activation targets require explicit precedent. If no known activator exists for the enzyme family, the target is a research project, not a development candidate. Flag in Forge, check in Surveyor, kill-test in Reaper. (Principle 17, from AB03-C)
 
 ## Running a Program
 
@@ -115,6 +119,21 @@ Forge and Vulcan can run in PARALLEL — they don't see each other's work. Merge
 
 Manual mode is better for the first run of a new disease. Automated mode is for re-runs.
 
+### Autonomous (full pipeline, no checkpoints)
+Daniel says "run it" — Overwatch launches all 9 agents sequentially (Forge ∥ Vulcan in parallel), quality-checks between phases, runs 6-model panels, and presents final results. No user input needed between phases. This is the preferred mode for re-runs and when Daniel has approved the program context.
+
+### Focused Sprint (skip upstream phases)
+When upstream work already exists (disease map, failure analysis), run only the needed phases:
+- **Drug target sprint:** Forge + Vulcan + Surveyor + Reaper + Board (skip Pathfinder, Tribunal, Sapper)
+- **Revalidation:** Reaper + Board + Anvil (after new data or constraints)
+- **Dual framing:** Two full pipelines in parallel with different framings, merged at comparison
+
+### Program Modes
+- **Disease mode (default):** Standard disease vocabulary. 70% coverage test. Disease stages.
+- **Likelihood scoring mode:** For focused sprints and non-disease problems. Targets scored 0-100 on likelihood of success. No binary 70% gate — replaced by expected-value coverage.
+- **Non-disease mode:** Adapted vocabulary (system stages, not disease stages). Can be combined with likelihood scoring. See `docs/workflow.md` for details.
+- **Dual framing:** Run both disease and adapted vocabulary in parallel. Merge at Surveyor. Produces complementary portfolios. Recommended for all non-disease problems.
+
 ## Your Job as Overwatch
 
 You are NOT a passive observer. You are the moderator for agents who will naturally optimize for pragmatism and scope reduction.
@@ -129,13 +148,13 @@ You are NOT a passive observer. You are the moderator for agents who will natura
 - Read the output before passing it to the next agent
 - Check: did the agent follow its instructions? Did it cut corners?
 - For Pathfinder: is the disease map complete? Any stages missing? Does it include R0 estimate and KE#1? Run external review — if external models identify missing mechanisms or disease stages, SEND PATHFINDER BACK with specific gaps to fill before proceeding.
-- For Tribunal: did all 4 frames produce independent analyses? Did the evaluator map convergence AND disagreement? Is the bottleneck determination supported by 3+/4 agents? Did the Martian agent contribute something the domain agents missed?
+- For Tribunal: did all 4 frames produce independent analyses? Did the evaluator map convergence AND disagreement? Are disagreements categorized (ranking vs mechanism vs existential)? Is the bottleneck determination supported by 3+/4 agents? Did the Martian extraction protocol run (3 explicit questions)? Did Tribunal assess early termination? If Tribunal recommends closing, STOP — do not run Forge through Anvil on a dead end.
 - For Sapper: does EVERY treatment have a specific failure mechanism (not just "didn't work")?
-- For Forge: does EVERY disease stage have at least one candidate? Are novel drug/vaccine/biologic targets prioritized over feed additives? Are proposals at mechanism-level granularity (not category-level)? For the primary target, are ALL molecular intervention points decomposed (not just "anti-X vaccine")? Did it write predictions to the prediction log? If not, SEND IT BACK.
+- For Forge: does EVERY disease stage have at least one candidate? Are novel drug/vaccine/biologic targets prioritized over feed additives? Are proposals at mechanism-level granularity (not category-level)? For the primary target, are ALL molecular intervention points decomposed (not just "anti-X vaccine")? Are empirical hits (Category A) decomposed to their molecular targets? Are activation targets flagged with precedent status? Did it write predictions to the prediction log? If not, SEND IT BACK.
 - For Vulcan: was it truly quarantined (no failure analysis, no partner context, no external panel in its prompt)? Did it find intervention points that Forge missed? These are the most valuable outputs.
-- For Surveyor: did every candidate get a verdict? Did it run AF3 structure predictions for top targets? Did it attempt binder design (RFAntibody or equivalent) for antibody/vaccine candidates? Are there AF3 submissions pending that need Daniel's action?
-- For Reaper: were the kills evidence-based or just skepticism? Did it use Surveyor's data? Did it tag single-lab dependencies (Kill Test 11)? Did it include clinical endpoints (Kill Test 12)? Are kills mechanism-level, not category-level? Did it apply extra scrutiny to feed-additive candidates (the "why isn't the field doing this?" test)?
-- For Board: did it synthesize external feedback (corroboration counts)? Did it do the devil's advocate inversion for each SURVIVED target? Is the force-ranking genuinely ranked (not all-equal)? Did it flag compound contamination? Are novel drug targets ranked above feed additives at equivalent evidence levels?
+- For Surveyor: did every candidate get a verdict? Did it run the activation vs inhibition druggability check? Did it flag "ACTIVATION PRECEDENT UNKNOWN" where applicable? Did it run AF3 structure predictions for top targets? Did it attempt binder design (RFAntibody or equivalent) for antibody/vaccine candidates? Are there AF3 submissions pending that need Daniel's action?
+- For Reaper: were the kills evidence-based or just skepticism? Did it use Surveyor's data? Did it tag single-lab dependencies (Kill Test 11)? Did it include clinical endpoints (Kill Test 12)? Did it apply Kill Test 13 (activation problem) to all activation targets? Did it apply Kill Test 14 (selectivity) to all inhibition targets? Are kills mechanism-level, not category-level? Did it apply extra scrutiny to feed-additive candidates (the "why isn't the field doing this?" test)?
+- For Board: did it synthesize external feedback (corroboration counts)? Did it do the devil's advocate inversion for each SURVIVED target? Did it identify existential questions (portfolio-level assumption breaks)? Is the force-ranking genuinely ranked (not all-equal)? Did it provide likelihood scores (if in likelihood scoring mode)? Did it flag compound contamination? Are novel drug targets ranked above feed additives at equivalent evidence levels?
 - For Anvil: did it use Board's force-ranking? Did it flag KE#1? Did the 70% test pass honestly against TRACTABLE pathology? Did de-risk GO thresholds include clinical endpoints? Is the prediction log complete?
 
 ### The 70% Enforcement Loop
@@ -144,7 +163,8 @@ This is your most important function. When Anvil reports the coverage map:
 2. Check: is every disease stage covered?
 3. Check: are the coverage estimates honest (not inflated)?
 4. If it fails: send Forge back for the uncovered stages, then Surveyor, then Reaper, then Anvil again
-5. Maximum 3 loops. If it still fails after 3, escalate to Daniel.
+5. **Iteration protocol:** First loop at 70%. Second loop at 70%. Third loop threshold drops to 60%. Hard stop after 3 loops — accept the gap and document it. Do not loop infinitely.
+6. If in **likelihood scoring mode**: skip the binary 70% gate. Instead require 50% expected-value coverage (probability-weighted). This is more honest for portfolios where every candidate is pre-experimental.
 
 ### When to Intervene
 - An agent scopes out a disease stage as "intractable" → send it back
@@ -193,6 +213,13 @@ Pathfinder writes the first predictions (R0, rate-limiting barrier, KE#1 outcome
 - Program dir: `programs/crypto/`
 - Prior work: none (fresh program)
 - Partner: Cargill
+
+### AB03 — Rumen H₂ Sink (complete — 4 variants)
+- Program dirs: `programs/ab03-a/` (biochemistry), `programs/ab03-b/` (disease), `programs/ab03-c/` (drug targets), `programs/ab03-d/` (H₂-independent — closed at Tribunal)
+- Comparison: `programs/ab03-comparison.md`
+- Partner: Internal Agteria
+- Lead candidates: Rhein + menadione (experimental), PFOR inhibitor + N-oxide antiprotozoal (drug targets)
+- Mode: Non-disease, dual framing, likelihood scoring
 
 ### Sea Lice (future)
 - Prior work: `/Users/danielneef/Projects/Agteria/collab/shrike/programs/2026-03-23-sea-lice-salmon/`

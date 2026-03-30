@@ -4,7 +4,7 @@ This document defines the 9-agent, 7-phase workflow for Overwatch drug discovery
 Follow these phases in order. Do not skip phases. Do not start proposing
 treatments before you understand why current ones fail.
 
-## Key Design Principles (from Argus cross-reference)
+## Key Design Principles (from Argus cross-reference + AB03 learnings)
 
 1. **Multi-agent bottleneck consensus** — 4 independent frames converge on the disease bottleneck before any treatment is proposed. Prevents anchoring.
 2. **Dual-stream bias firewall** — Forge (literature-aware) and Vulcan (quarantined first-principles) run in parallel and never see each other's work. Merged at Surveyor.
@@ -12,6 +12,23 @@ treatments before you understand why current ones fail.
 4. **Structure prediction + binder design** — Surveyor runs AF3 and designs antibody binders for top targets. Pipeline goes from target → structure → molecule.
 5. **Prediction log** — Every agent writes falsifiable predictions. Accumulated through pipeline.
 6. **Novel drug targets preferred** — Agteria is a drug discovery company. Novel molecular targets with clean IP beat feed additives at equivalent evidence levels.
+7. **Empirical hit → drug target decomposition** — Every empirical hit (Category A) must be resolved to its molecular target. An effective compound with an unknown target blocks downstream drug design. (Added from AB03 learnings.)
+8. **Activation reality check** — Enzyme activation targets require explicit precedent verification. Activation without precedent is a 5-10 year project, not a development candidate. Forge flags, Surveyor checks, Reaper kills. (Added from AB03-C.)
+9. **Early termination** — Tribunal can recommend closing a program if 3+/4 frames agree the problem is unsolvable or below commercial significance. Do not run 9 agents on a dead end. (Added from AB03-D.)
+10. **Quarantine enforcement** — Vulcan sees ONLY the disease map. Tribunal's Martian sees ONLY numbers. The external panel sees ONLY the phase output. These isolation walls are enforced by Overwatch at each phase boundary.
+
+## Non-Disease Programs
+
+The pipeline supports both disease-centric and outcome-centric programs. For non-disease problems (e.g., rumen optimization, feed efficiency, production resilience):
+
+- **Pathfinder** maps system failure modes (not disease stages)
+- **Tribunal** identifies the rate-limiting failure (not disease bottleneck)
+- **Sapper** analyzes why prior interventions failed (not treatment failures)
+- **Forge/Vulcan** propose interventions (not drug targets against a pathogen)
+- **Anvil** enforces outcome coverage (not disease stage coverage)
+- The pipeline logic is identical; the vocabulary and denominator adapt.
+
+For non-disease problems, consider **dual framing** (run both adapted vocabulary and disease-analogy framing, merge at Surveyor). AB03 showed this produces complementary portfolios: disease framing is more commercially actionable, adapted framing produces deeper molecular targets. Cost of dual framing: ~$4 in API calls.
 
 ## 6-Model External Panel (Runs at Every Phase)
 

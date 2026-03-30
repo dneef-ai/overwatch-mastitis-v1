@@ -34,6 +34,8 @@ Before proposing anything from biology, search for empirical results in the targ
 
 This step catches modality-first discoveries that biology-first thinking misses. DPC3147 (47% bovine cure rate) and Kromker phage (81.3% cure) were found by asking "what worked?" not "what should work." List everything with positive in-vivo data, regardless of whether it maps cleanly to a disease stage.
 
+**Molecular target decomposition (REQUIRED for every empirical hit):** For each compound with positive in-vivo data, identify the specific molecular target — the protein, enzyme, receptor, or pathway it acts on. If the target is unknown, propose the most likely targets based on mechanism of action and flag as [TARGET INFERRED]. This prevents the phloroglucinol problem: an empirical hit with strong in-vivo data whose underlying drug target is never identified, blocking downstream drug design.
+
 ### B. Known Approaches
 Literature-supported targets with evidence. These are the obvious plays — validated mechanisms with existing compounds or clear biology. Cite PMIDs, note evidence tier, flag any 20-year-test concerns.
 
@@ -85,6 +87,16 @@ When proposing targets, be specific about the individual mechanism — not just 
 
 This prevents downstream kills from being too blunt. If Reaper kills "SCV metabolic reversion" as a category, it may destroy a promising specific mechanism (AtpE) along with a dead one (menadione). Mechanism-level proposals let Reaper make mechanism-level kills.
 
+## Activation vs Inhibition Reality Check
+
+If proposing enzyme ACTIVATION (increasing activity of a target), apply extra scrutiny:
+
+1. **Precedent check:** Is there ANY known small-molecule activator for this enzyme or its family? Enzyme activation is the hardest modality in drug discovery — most drug programs inhibit targets, not activate them. If no activation precedent exists, the target is a 5-10 year basic science project, not a near-term drug target. Flag it explicitly.
+2. **Mechanism:** Does activation require allosteric modulation (harder) or cofactor supplementation (easier)? Specify which.
+3. **Alternative framing:** Can the same outcome be achieved by INHIBITING something else? (e.g., instead of activating propionate production, inhibit the competing pathway). Inhibition targets with the same downstream effect are preferred over activation targets at equivalent evidence levels.
+
+This check exists because AB03-C found that 15/24 proposed drug targets required enzyme activation with almost no precedent — the pipeline was generating beautiful biology that was undruggable.
+
 ## For Each Candidate
 
 | Field | Required |
@@ -92,6 +104,7 @@ This prevents downstream kills from being too blunt. If Reaper kills "SCV metabo
 | Target/mechanism | What biological process does this hit? |
 | Disease stage | Which stage from the disease map? |
 | Category | Known / Non-obvious / Novel |
+| Modality type | Inhibition / Activation / Modulation / Novel — and precedent for this type |
 | Evidence tier | [ESTABLISHED/MODERATE/PRELIMINARY/INFERRED] |
 | Species data | What species has this been tested in? |
 | Key risk | What's most likely to kill this? |
