@@ -79,3 +79,105 @@
 - **Test:** KE#1 RUSITEC combination arms. Compare H2 recovery gap closure for: (a) best single intervention, (b) best combination of 2 interventions, (c) all interventions combined.
 - **If TRUE:** RHAS requires a systems-level intervention, not a silver bullet. The product is a multi-component formulation — likely an electron shuttle (catalytic, trace dose) + a terminal electron acceptor (stoichiometric but at reduced dose because the shuttle improves efficiency) + optional delivery optimization (biochar for mat localization). This is good news for Agteria's IP position: a multi-component formulation is harder to replicate and has stronger patent claims than a single molecule.
 - **If FALSE (single intervention closes >80%):** The simplest development path wins. Prioritize the single best compound and optimize dose and delivery. Combination complexity is unnecessary.
+
+---
+
+## Phase 4: Reaper
+
+### Prediction 11 (R-1): Menadione Is Not a Catalytic Shuttle
+- **Prediction:** In RUSITEC under 50% methanogenesis inhibition, menadione (200 mg/day equiv.) will increase propionate molar percentage by 1-3 points but will NOT decrease dissolved H2 by >10%, because menadione is metabolized as vitamin K (consumed), not recycled as an electron shuttle.
+- **Test:** RUSITEC dose-response with menadione + 3-NOP. Measure BOTH propionate AND dissolved H2.
+- **If TRUE:** Menadione is a propionate precursor/stimulant, not an H2 disposal mechanism. Reclassify as symptomatic treatment. The electron shuttle hypothesis for quinones in the rumen is refuted.
+- **If FALSE:** Menadione genuinely shuttles electrons and reduces dissolved H2. The entire redox mediator class is validated. This becomes the lead program.
+
+### Prediction 12 (R-2): Riboflavin Is Absorbed as Vitamin, Not Shuttled
+- **Prediction:** Riboflavin at 5-500 uM in RUSITEC under 50% methanogenesis inhibition will show <5% reduction in dissolved H2 because it is absorbed into microbial vitamin pools within hours, not available for sustained electron shuttling.
+- **Test:** RUSITEC time-course of riboflavin disappearance (HPLC) + dissolved H2 measurement.
+- **If TRUE:** Riboflavin electron shuttling is not functional in the rumen. The rapid disappearance is vitamin absorption, not shuttle function.
+- **If FALSE:** Riboflavin persists long enough to shuttle electrons and measurably reduces H2. Extremely cheap RHAS treatment identified.
+
+### Prediction 13 (R-3): Biochar DIET Does Not Operate in the Rumen
+- **Prediction:** Conductive biochar (>600C) will NOT reduce dissolved H2 significantly more than non-conductive biochar (<400C) in RUSITEC under 50% methanogenesis inhibition, because rumen bacteria lack the extracellular electron transfer machinery for DIET.
+- **Test:** RUSITEC conductivity control: high-temp vs. low-temp biochar at same mass loading + 3-NOP.
+- **If TRUE:** DIET is not operational in the rumen. All DIET candidates (2.1, 2.2, S4.1) are dead. Focus on soluble approaches.
+- **If FALSE:** DIET works in the rumen. Transformative finding. Biochar becomes the cheapest possible RHAS treatment.
+
+### Prediction 14 (R-4): Phloroglucinol Fails Under 3-NOP Even with Adaptation
+- **Prediction:** Continuous phloroglucinol supplementation in RUSITEC under 3-NOP (not chloroform) for 21 days will NOT replicate the H2-capture effect seen by Martinez-Fernandez (2017) with chloroform, because the phloroglucinol effect depends on chloroform-specific microbial community changes.
+- **Test:** RUSITEC with 3-NOP + continuous phloroglucinol (6 mM) for 21 days. Measure H2, Coprococcus abundance (phlB qPCR), VFA.
+- **If TRUE:** Phloroglucinol is chloroform-specific, not a general RHAS treatment. Kill.
+- **If FALSE:** The adaptation hypothesis is confirmed and phloroglucinol works with 3-NOP. Advance to in vivo.
+
+### Prediction 15 (R-5): Iron(III) Oxide Is Spatially Mismatched
+- **Prediction:** Fe(OH)3 at 10-50 g/L in batch culture (well-mixed) will reduce dissolved H2 by >20%, but Fe(OH)3 at the same effective concentration in RUSITEC (with fiber mat/spatial structure) will reduce dissolved H2 by <10%, because insoluble Fe(OH)3 particles sediment away from mat-localized fermentation sites.
+- **Test:** Compare batch culture (well-mixed) vs. RUSITEC (structured) results for Fe(OH)3 + 3-NOP.
+- **If TRUE:** Iron reduction works in principle but fails in the spatially structured rumen. Delivery to the fiber mat is required (particle sizing, feed particle attachment).
+- **If FALSE:** Fe(OH)3 works even in structured systems. The spatial mismatch concern is overblown. Advance.
+
+---
+
+## Phase 4b: Board
+
+### Prediction 16 (B-1): Menadione Is an Intracellular Respiratory Chain Amplifier, Not an Extracellular Shuttle
+- **Prediction:** Menadione's propionate-increasing effect (if it replicates) operates through augmenting the intracellular menaquinone pool in propionogenic bacteria, increasing flux through membrane-bound fumarate reductase. It does NOT function as an extracellular free-swimming electron shuttle.
+- **Test:** In RUSITEC, measure menadione/menaquinol distribution: if >80% is in the microbial pellet (cell-associated) and <20% in the supernatant (free-swimming), the mechanism is intracellular.
+- **If TRUE:** Menadione works but through a different mechanism than Forge/Vulcan proposed. Riboflavin (hydrophilic, cannot cross membranes) fails. Lipophilic quinones (menadione, lawsone) are the correct molecular class. The IP story shifts to "menaquinone pool augmentation for RHAS."
+- **If FALSE:** Free-swimming shuttle function is confirmed. Both menadione and riboflavin may work. The IP story is broader.
+
+### Prediction 17 (B-2): The Bai Propionate Effect Does Not Replicate Under RHAS Conditions
+- **Prediction:** The propionate molar % increase seen by Bai et al. (2022) at 200 mg/day menadione in normal dairy cows will NOT replicate under 50% methanogenesis inhibition in RUSITEC, because the NADH/NAD+ ratio under RHAS is too high for the menaquinone pool augmentation to overcome.
+- **Test:** RUSITEC Experiment 1 (Arm 2: 200 mg menadione + 3-NOP).
+- **If TRUE:** Menadione works only under non-RHAS conditions. It is a rumen modulator, not an RHAS treatment. The redox mediator class needs higher doses or different compounds.
+- **If FALSE:** The propionate effect persists under RHAS. Advance menadione to in vivo RHAS trial.
+
+### Prediction 18 (B-3): Phloroglucinol Requires >14 Days Adaptation Under 3-NOP
+- **Prediction:** In RUSITEC with 3-NOP + continuous phloroglucinol, H2 reduction will become detectable only after day 10-14, correlating with phlB gene enrichment. Before day 10, no effect.
+- **Test:** RUSITEC Experiment 2, with time-course sampling.
+- **If TRUE:** The adaptation hypothesis is confirmed. Maigaard's 7-day protocol was too short. The product requires a 14-21 day loading phase.
+- **If FALSE:** If no effect even at day 21, phloroglucinol fails under 3-NOP regardless of adaptation time. Kill.
+
+### Prediction 19 (B-4): Biochar DIET Is Absent From the Rumen
+- **Prediction:** Conductive biochar (>600C) and non-conductive biochar (<400C) will produce indistinguishable H2 and VFA results in RUSITEC under 3-NOP, because rumen fermentative bacteria lack extracellular electron transfer machinery for DIET.
+- **Test:** RUSITEC Experiment 3.
+- **If TRUE:** DIET does not operate in the rumen. Kill 2.1, 2.2, S4.1 permanently.
+- **If FALSE:** DIET operates in the rumen — the first demonstration ever. This is a publishable finding and a potential paradigm shift.
+
+### Prediction 20 (B-5): The Hydrogen Recovery Gap Is Partly Formate
+- **Prediction:** Formate concentration in RUSITEC under 50% methanogenesis inhibition will be 2-5x higher than uninhibited controls, accounting for 5-15% of the hydrogen recovery gap.
+- **Test:** Add formate measurement to any KE#1 RUSITEC arm (zero additional cost).
+- **If TRUE:** The formate trap candidates (7.1, S2.1) become viable. The hydrogen recovery gap is partly a measurement gap.
+- **If FALSE:** Formate is a minor intermediate. The hydrogen recovery gap remains unexplained by known metabolites.
+
+---
+
+## Phase 5: Anvil
+
+### Prediction 21: The KE#1 batch culture pre-screen will confirm menadione propionate shift
+- **Prediction:** In batch culture with rumen fluid from 3-NOP-treated donors + menadione (200 mg equivalent), propionate molar % will increase by >3 percentage points vs 3-NOP-only control within 48 hours, replicating the Bai (2022) finding under RHAS conditions.
+- **Test:** Batch culture pre-screen ($2K, 48 hours).
+- **If TRUE:** Proceed to RUSITEC. The Bai finding is robust and translates to RHAS conditions in vitro. The menadione investment ($15-20K) is justified.
+- **If FALSE:** The Bai finding does not replicate even in the most favorable conditions (batch culture, no spatial structure, short-term). Either the Bai result is a statistical artifact or menadione does not work under RHAS. Reassess before RUSITEC: screen riboflavin, lawsone, and menadione at 10x dose. If all quinones fail in batch, the redox mediator class is dead and the portfolio restructures.
+
+### Prediction 22: At least 2 of 4 priority RUSITEC candidates will show >15% H2 reduction
+- **Prediction:** Of the four priority RUSITEC candidates (menadione, phloroglucinol, biochar, riboflavin-if-included), at least 2 will demonstrate >15% reduction in dissolved H2 under 50% methanogenesis inhibition in RUSITEC, confirming that multiple mechanistic approaches to RHAS are viable.
+- **Test:** Priority De-Risk Sequence RUSITEC results (all experiments, 8-10 weeks).
+- **If TRUE:** The portfolio has redundancy and the 70% coverage test becomes achievable upon re-run. Multiple development paths are available. Agteria can choose the strongest IP/cost/safety profile for advancement.
+- **If FALSE (0-1 candidates show >15% H2 reduction):** The portfolio is thinner than expected. If only 1 candidate works, it becomes the sole development path (concentration risk). If 0 candidates work, the portfolio requires fundamental restructuring — back to Forge with the RUSITEC negative data as input. The NADH reoxidation bottleneck may require approaches not yet in the portfolio (e.g., enzymatic cofactor recycling, novel electron acceptors outside the current candidate set).
+
+### Prediction 23: The 70% coverage test will pass on re-run after RUSITEC validation
+- **Prediction:** After the Priority De-Risk Sequence RUSITEC results are incorporated, re-running the 70% coverage test with validated efficacy data (not just thermodynamic projections) will produce tractable pathology coverage of >70%, because: (a) R0 = 1.0 means even partial H2 reduction cascades through the whole syndrome, (b) the FT curve steepness amplifies modest improvements, and (c) Stage 5-6 coverage is automatically achieved if Stages 2-4 are covered.
+- **Test:** Re-run Anvil Phase 5 coverage map with RUSITEC quantitative data replacing [INFERRED] estimates.
+- **If TRUE:** The program advances to in vivo with a validated portfolio. The 70% threshold reflects the R0 = 1.0 property — partial solutions genuinely work for RHAS.
+- **If FALSE:** Even with validated candidates, the sum total coverage remains below 70%. This means either: (a) individual candidate efficacy is lower than projected, (b) disease stages are more independent than the cascade model suggests, or (c) the 70% threshold is inappropriate for a thermodynamic syndrome (the test was designed for infectious diseases). Escalate to Daniel for recalibration.
+
+### Prediction 24: The EFSA opinion (June 2026) will validate the RHAS disease model
+- **Prediction:** The EFSA scientific opinion on Bovaer safety (due June 30, 2026) will identify altered rumen fermentation parameters (elevated H2, shifted VFA, reduced propionate) as the probable mechanism underlying Danish farm adverse event reports, rather than direct toxicity of 3-NOP or its metabolites. This will validate RHAS as a real clinical entity and AB03-B's market need.
+- **Test:** Read EFSA opinion upon publication.
+- **If TRUE:** AB03-B market case is validated externally by the EU's highest food safety authority. The disease is real. The urgency for treatment is regulatory. Commercial positioning Option B (regulatory compliance product) becomes dominant.
+- **If FALSE (EFSA attributes effects to 3-NOP direct toxicity or confounders):** RHAS as framed by Pathfinder may be incorrect, or RHAS is real but not the cause of the Danish reports. AB03-B's market case weakens from "universal side effect requiring treatment" to "theoretical concern requiring further study." Does not kill the program (RHAS biology is established regardless of EFSA), but reduces commercial urgency.
+
+### Prediction 25: The optimal AB03-B product is a menadione-based co-formulation with 3-NOP
+- **Prediction:** If menadione's RHAS efficacy is confirmed in RUSITEC and in vivo, the commercially optimal product form will be a co-formulation of menadione (or derivative) with 3-NOP — sold as a single product that reduces methane AND prevents RHAS simultaneously. This captures maximum value and simplifies farm-level implementation.
+- **Test:** Commercial feasibility analysis after in vivo RHAS data. Compatibility testing of menadione + 3-NOP in feed premix.
+- **If TRUE:** Agteria's business model is a partnership with DSM-Firmenich (Bovaer manufacturer) or a standalone co-formulation product. The IP position is "method of co-administering menaquinone precursor with MCR inhibitor for RHAS prevention" — a strong use-patent.
+- **If FALSE:** Chemical incompatibility, regulatory barriers to co-formulation, or DSM-Firmenich's unwillingness to modify Bovaer formulation. AB03-B is sold as a separate feed additive, reducing convenience but still viable.

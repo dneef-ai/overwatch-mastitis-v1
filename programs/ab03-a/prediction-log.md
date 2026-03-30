@@ -101,3 +101,105 @@
 - **Test:** Crossover design, n=8 cannulated cattle with continuous rumen H₂ sensors. Group A: 3 weeks pre-adaptation → 3-NOP. Group B: simultaneous 3-NOP + fumarate + DFM. Group C: 3-NOP alone. Measure dissolved H₂ continuously for 4 weeks, plus VFA profiles and microbial community (16S) at days 0, 7, 14, 21, 28.
 - **If TRUE:** Gate 1 (population installation) is the primary binding constraint during the critical initial period. The pre-adaptation protocol becomes AB03's first product — a commercially actionable "rumen priming" regimen that requires no engineering, no GMOs, and uses existing feed ingredients. This is the fastest path to revenue.
 - **If FALSE (<20% difference in peak H₂):** Population size is not the binding constraint even during early adaptation. Gates 2 (threshold) and/or 3 (spatial coupling) dominate. AB03 must focus on the engineering candidates (5.2, 2.1) rather than the population expansion strategy. The pre-adaptation protocol has minimal commercial value.
+
+---
+
+## Phase 4: Reaper
+
+### Prediction R1: HDCR Activity at 39C
+- **Prediction:** *T. kivui* HDCR expressed in *E. limosum* will retain >15% of its thermophilic-optimum kcat (i.e., >400 s⁻¹) at 39C, providing >14x improvement over native *E. limosum* HDCR.
+- **Test:** Express *T. kivui* HDCR in *E. limosum*; measure CO₂ reduction activity at 39C and 66C; compare kcat.
+- **If TRUE:** The HDCR transplant strategy is validated as providing meaningful enzyme improvement even with temperature derating.
+- **If FALSE (<5% activity, <130 s⁻¹ at 39C):** Directed evolution for mesophilic adaptation is required before the HDCR provides benefit. Timeline extends 6-12 months.
+
+### Prediction R2: Adhesin Function in Bacterial Host
+- **Prediction:** The Mru_1499 AdLP-D1 domain (aa 19-198), displayed on the surface of *E. limosum* via sortase-mediated anchoring, will bind *R. albus* in co-culture at >50% of the binding efficiency of native *M. ruminantium* Mru_1499.
+- **Test:** Co-sedimentation assay: adhesin-displaying *E. limosum* + *R. albus* vs control *E. limosum* + *R. albus*; quantify co-sedimentation by microscopy and qPCR.
+- **If TRUE:** Heterologous adhesin expression in bacteria retains binding function. Proceed with full adhesin + HDCR combination strain.
+- **If FALSE (<10% binding efficiency):** The archaeal adhesin requires post-translational modifications absent in bacteria. Pivot to synthetic adhesin alternatives (lectin-based, designed binding proteins).
+
+### Prediction R3: DFM Persistence Under 3-NOP
+- **Prediction:** *E. limosum* dosed at 10¹⁰ CFU/day to rumen-fistulated cattle under 3-NOP will NOT persist at detectable levels (>10⁴ CFU/mL rumen fluid) beyond 5 days after cessation of dosing, regardless of adhesin expression.
+- **Test:** qPCR with strain-specific primers: track over 21 days (7 days dosing + 14 days washout) under continuous 3-NOP.
+- **If TRUE (washout <5 days):** DFMs require continuous daily dosing for the foreseeable future. Product form must assume daily dosing. Adhesin expression may extend persistence but not to self-sustaining levels.
+- **If FALSE (persistence >14 days):** Self-sustaining colonization is achievable under 3-NOP selection pressure. Product form could be periodic dosing (weekly or monthly). This would be a landmark result.
+
+### Prediction R4: Pre-Adaptation Population Expansion In Vivo
+- **Prediction:** 3 weeks of fumarate at 2% DM in dairy cattle will NOT increase *Prevotella* or *Selenomonas* relative abundance by >2-fold (by 16S) compared to baseline, because the in vitro population expansion does not translate to the in vivo rumen.
+- **Test:** 16S profiling at baseline, week 2, and week 3 of fumarate supplementation; compare to control animals.
+- **If TRUE:** Fumarate bridge does not work in vivo. Eliminate 4.2 from portfolio.
+- **If FALSE (>2-fold expansion):** Fumarate bridge has a genuine population-expanding effect in vivo. Proceed with the full pre-adaptation protocol (9.1).
+
+### Prediction R5: Redox Mediator Cycling in Rumen Fluid
+- **Prediction:** DHNA at 10 uM in 3-NOP-treated rumen fluid will be reduced by rumen bacteria (detectable by UV-Vis spectroscopy) within 1 hour, but the reduced form will NOT be reoxidized (no return to oxidized spectrum), because rumen bacteria lack the EET machinery to complete the catalytic cycle.
+- **Test:** Batch rumen fluid + 3-NOP + DHNA (10 uM); UV-Vis at 0, 0.5, 1, 2, 4, 8, 24h; simultaneously measure dissolved H₂ and VFA.
+- **If TRUE (reduction but no reoxidation):** The mediator concept fails in the rumen. DHNA is consumed, not recycled. Eliminate 8.1 from portfolio.
+- **If FALSE (cycling observed):** The mediator concept works. DHNA is catalytically recycled in rumen fluid. Proceed to dose optimization and in vivo.
+
+---
+
+## Phase 4b: Board
+
+### Prediction B1: HDCR CO₂ Reduction Direction at 39C
+- **Prediction:** *T. kivui* HDCR expressed in *E. limosum* will have a CO₂ reduction kcat at 39C of 200-800 s⁻¹ (8-30% of thermophilic optimum), providing 7-28x improvement over native *E. limosum* HDCR.
+- **Test:** Experiment 1 of the Priority De-Risk Sequence.
+- **If TRUE:** The HDCR transplant strategy is validated. Proceed to in vivo DFM testing.
+- **If FALSE (<100 s⁻¹):** Directed evolution for mesophilic adaptation is required (adds 6-12 months) OR pivot to alternative chassis (*S. ovata*, which may natively have low threshold without needing HDCR transplant).
+
+### Prediction B2: Redox Mediator Catalytic Cycling
+- **Prediction:** DHNA at 10 uM will complete at least one full redox cycle (oxidized → reduced → reoxidized) in 3-NOP-treated rumen fluid within 4 hours, AND this cycling will decrease dissolved H₂ by >10%.
+- **Test:** Experiment 2 of the Priority De-Risk Sequence.
+- **If TRUE:** A non-GMO feed additive for H₂ management is viable. This becomes the fastest-to-market AB03-A product. Massive strategic implications.
+- **If FALSE (reduction only, no reoxidation):** Rumen bacteria lack EET machinery to complete the cycle. The mediator concept is dead in the rumen context. Eliminate 8.1 permanently.
+
+### Prediction B3: *Ca.* Faecousia Cultivability
+- **Prediction:** *Ca.* Faecousia will grow in a defined consortium of <5 species (not pure culture) within 12 months, with the consortium stable through >10 serial transfers.
+- **Test:** Experiment 3 of the Priority De-Risk Sequence.
+- **If TRUE:** The organism becomes the program's primary biological asset. Immediately characterize H₂ threshold, specific H₂ consumption rate, and WLP enzyme kinetics. If H₂ threshold is <100 ppm, *Ca.* Faecousia may render HDCR transplant unnecessary.
+- **If FALSE (no growth in any condition after 12 months):** Commit fully to the *E. limosum* engineering path (5.2). *Ca.* Faecousia remains a metagenomic curiosity.
+
+### Prediction B4: *E. limosum* Rumen Persistence
+- **Prediction:** *E. limosum* dosed at 10¹⁰ CFU/day under 3-NOP will NOT persist at >10⁴ CFU/mL beyond 5 days after cessation of dosing.
+- **Test:** Should be added to the first in vivo trial once Experiment 1 passes its GO threshold.
+- **If TRUE:** Daily DFM dosing is required (economically viable at ~$0.10-0.30/head/day based on Lactipro precedent). Product form: daily feed additive.
+- **If FALSE (persistence >14 days):** Self-sustaining colonization under 3-NOP selection pressure. Transformative result. Product form: periodic dosing.
+
+### Prediction B5: *M. elsdenii* as Alternative Chassis
+- **Prediction:** *M. elsdenii* (Lactipro strain) engineered with overexpressed fumarate reductase (frdABCD from *W. succinogenes*) will produce >2x propionate per cell compared to wild-type in rumen fluid under elevated H₂.
+- **Test:** If Experiment 1 fails or *E. limosum* persistence is negative, this becomes the pivot experiment.
+- **If TRUE:** *M. elsdenii* becomes the lead chassis — it solves persistence (commercial DFM precedent), regulatory timeline (existing product framework), and H₂ consumption (engineered propionogenesis).
+- **If FALSE:** Propionogenesis enhancement in *M. elsdenii* is not achievable with current tools. Remain on acetogen path.
+
+---
+
+## Phase 5: Anvil
+
+### Prediction A1: Multi-Sink Portfolio Captures >30% of Displaced H₂ at Bovaer Dose
+- **Prediction:** The AB03-A multi-sink portfolio (engineered acetogen DFM + redox mediator + safe-dose nitrate + natural adaptation), when tested in RUSITEC under 3-NOP at 30% CH₄ reduction, will capture >30% of displaced H₂ beyond what the unamended control captures through natural compensation.
+- **Test:** Factorial RUSITEC experiment: 3-NOP alone vs. 3-NOP + top-3 components (individually and combined). Measure dissolved H₂, total VFA, VFA profile, and H₂ mass balance over 14 days.
+- **If TRUE:** The multi-sink strategy is validated. The portfolio provides meaningful H₂ disposal at the commercially relevant inhibition level. Proceed to in vivo combination trial.
+- **If FALSE (<15% additional capture):** Individual components are too weak even in combination at the RUSITEC level. The portfolio needs restructuring — either more potent individual components (higher HDCR expression, better DFM persistence) or a fundamentally different approach (cell-free enzyme delivery, Board Finding #12).
+
+### Prediction A2: Redox Mediator Product Is Faster to Market Than Engineered DFM
+- **Prediction:** If Experiment 2 (DHNA/riboflavin cycling) passes its GO threshold, the redox mediator feed additive will reach regulatory-ready status (safety + efficacy dossier) at least 3 years before the engineered DFM (5.2 HDCR transplant), because non-GMO novel feed additive regulatory pathways are 2-4 years vs. 5-10 years for GMO livestock organisms.
+- **Test:** Track both product development timelines. The prediction is structural (regulatory pathway length), not biological.
+- **If TRUE:** The redox mediator becomes AB03-A's lead commercial product. The engineered DFM is the follow-on with higher efficacy but longer timeline. Two-product commercial strategy.
+- **If FALSE (redox mediator fails GO threshold, or regulatory delays):** Engineered DFM is the only product path. Timeline extends to 5-10 years. Focus all resources on DFM development.
+
+### Prediction A3: DSM Files Patent on Acetogen + 3-NOP Combination
+- **Prediction:** Within 24 months, DSM/Firmenich (Bovaer manufacturer) or a major competitor will file a patent application covering the combination of acetogenic DFMs with methanogenesis inhibitors for methane reduction + productivity maintenance in ruminants.
+- **Test:** Patent landscape monitoring (freedom-to-operate search every 6 months).
+- **If TRUE:** Agteria's freedom to operate narrows. The engineered organism IP (specific HDCR-transplanted strain, adhesin-displaying variant) becomes the critical differentiator. Composition-of-matter patents on the specific engineered strains are essential. File provisional patents on HDCR-transplanted *E. limosum* and *Ca.* Faecousia (if cultivated) as early as possible.
+- **If FALSE (no competitive filing within 24 months):** The field is slower to recognize the opportunity than expected. Agteria has a wider freedom-to-operate window. Accelerate patent filings but without emergency urgency.
+
+### Prediction A4: KE#1 Will Show Acetogenesis at 10-20% of Displaced H₂ (Moderate Natural Compensation)
+- **Prediction:** The KE#1 ¹³C-CO₂ pulse experiment will show reductive acetogenesis accounts for 10-20% of displaced H₂ after 4 weeks of 3-NOP at 60% CH₄ reduction — meaningful but insufficient as a standalone compensation mechanism.
+- **Test:** KE#1 experiment (Experiment parallel in Priority De-Risk Sequence).
+- **If TRUE:** Confirms the multi-sink strategy: natural acetogenesis contributes but does not solve the problem alone. AB03 amplifies the natural response (DFM, engineering) and supplements with additional sinks (redox mediators, propionogenesis enhancement, safe-dose nitrate). The program's strategic direction is validated.
+- **If FALSE (>25% — strong natural compensation):** The rumen self-corrects better than expected at moderate inhibition. AB03's value proposition narrows to: (a) accelerating the adaptation period (first 1-4 weeks), and (b) enabling higher inhibition doses. Pivot from "install a new pathway" to "accelerate and amplify the natural pathway."
+
+### Prediction A5: Coverage Drops Below 70% If Both Priority Experiments 1 and 2 Fail
+- **Prediction:** If HDCR activity at 39C is <30 s⁻¹ (Experiment 1 KILL) AND DHNA cycling does not occur (Experiment 2 KILL), the portfolio loses Stage 5 (primary) and Stage 8 (sole candidate) coverage, dropping tractable stage coverage below 70%.
+- **Test:** Outcome of Priority Experiments 1 and 2.
+- **If TRUE:** Portfolio restructuring required. Contingency path: *Sporomusa ovata* rumen viability test ($2-5K) → if viable, *S. ovata* replaces *E. limosum* + HDCR as acetogen chassis. *M. elsdenii* engineering (Prediction B5) becomes the propionogenesis track. *Ca.* Faecousia cultivation (if Experiment 3 succeeds) becomes the program's sole surviving biological lead.
+- **If FALSE (at least one experiment passes):** Portfolio maintains 70%+ coverage. Proceed with the successful track(s).
