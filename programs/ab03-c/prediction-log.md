@@ -77,3 +77,74 @@
 - **Test:** ChIP-seq or RNA-seq of rex-knockout vs. wild-type rumen Firmicute under elevated NADH/NAD+. Map all derepressed genes.
 - **If TRUE:** Rex antagonism becomes a dual-mechanism target (derepresses both NADH disposal AND propionogenesis). Adjusted score increases to 75+. One of the most important findings for the portfolio.
 - **If FALSE:** Rex regulon is limited to ethanol/lactate pathways. Derepression may produce undesirable fermentation products. Rex score remains at 68 but utility is narrower.
+
+---
+
+## Phase 4: Reaper
+
+### Prediction R-1: Fumarate Reductase HTS Will Yield Zero Activators
+
+- **Prediction:** A screen of >10,000 diverse compounds against purified W. succinogenes FrdABCD will identify zero allosteric activators (Vmax increase >1.5x).
+- **Test:** Run HTS with Vmax readout.
+- **If TRUE:** FrdABCD activator is dead. Redirects portfolio to PEPC/upstream substrate supply.
+- **If FALSE:** FrdABCD activator becomes the #1 target in the portfolio.
+
+### Prediction R-2: PFOR Inhibition Will Reduce H2 Less Than Predicted
+
+- **Prediction:** Oxythiamine (100 uM) in rumen fluid under 3-NOP will reduce dissolved H2 by <15% (not the 25% predicted by Surveyor S-3), because many rumen bacteria either lack functional PFL or have limited PFL capacity.
+- **Test:** In vitro rumen incubation with oxythiamine + 3-NOP. Measure H2, formate, VFA.
+- **If TRUE:** PFOR inhibition is a supporting strategy, not a primary one. Need combination.
+- **If FALSE:** PFOR inhibition is transformative. V11 becomes lead program.
+
+### Prediction R-3: N-Oxide Antiprotozoals Will Impair Fiber Digestion
+
+- **Prediction:** An N-oxide compound that reduces protozoal counts by >80% will also reduce NDF digestibility by >10%, offsetting the H2 reduction benefit.
+- **Test:** Rumen simulation with N-oxide vs. control. Measure NDF digestibility alongside H2 and VFA.
+- **If TRUE:** Partial defaunation (50-70% reduction) becomes the strategy. Full defaunation is off the table.
+- **If FALSE:** Full defaunation is viable. V12 becomes lead monotherapy candidate.
+
+### Prediction R-4: Phosphomycin Will Kill Rumen Bacteria Before Activating PEPC
+
+- **Prediction:** In rumen fluid, phosphomycin at concentrations needed for PEPC activation (50-500 uM) will reduce bacterial viability by >50% via MurA inhibition, negating any propionogenesis benefit.
+- **Test:** Phosphomycin dose-response in rumen fluid: measure bacterial CFU and propionate simultaneously.
+- **If TRUE:** Phosphomycin scaffold must be modified to remove MurA activity. PEPC-selective analog is mandatory.
+- **If FALSE:** Phosphomycin has a therapeutic window for PEPC activation in the rumen. Fast-track to in vivo.
+
+### Prediction R-5: Rex Regulon in Rumen Firmicutes Does NOT Include frdABCD
+
+- **Prediction:** The Rex regulon in R. albus or C. ruminicola does NOT include fumarate reductase genes. It is dominated by ethanol dehydrogenase and lactate dehydrogenase genes.
+- **Test:** RNA-seq of rex-knockout vs. wild-type rumen Firmicute under elevated NADH/NAD+.
+- **If TRUE:** Rex antagonism would primarily increase ethanol and lactate -- potentially causing ruminal acidosis. Rex is KILLED.
+- **If FALSE:** Rex antagonism derepresses propionogenesis. Rex advances to development candidate.
+
+---
+
+## Phase 4b: Board
+
+### Prediction B-1: PFOR Inhibition Will Be the Highest-Information Experiment in the Portfolio
+
+- **Prediction:** The PFOR branch-point validation (Experiment 1) will produce the largest portfolio-restructuring decision of any single experiment. Either it validates the entire source-reduction strategy (GO) or it kills the highest-ranked target and forces a pivot to sink-enhancement (KILL).
+- **Test:** Compare the number of portfolio decisions changed by Experiment 1 vs. Experiments 2 and 3.
+- **If TRUE:** The Board's prioritization was correct.
+- **If FALSE:** One of the other experiments produced a bigger surprise -- likely the Rex regulon (Experiment 3) being unexpectedly favorable.
+
+### Prediction B-2: Ecological Compensation Will Reduce All In Vitro Effect Sizes by 15-30%
+
+- **Prediction:** When any AB03-C intervention (PFOR inhibitor, N-oxide, PEPC activator) is tested in mixed rumen fluid (not pure culture), the observed H2 reduction will be 15-30% smaller than predicted from mechanism alone, due to community-level compensatory shifts in H2-producing populations.
+- **Test:** Compare H2 reduction in pure-culture vs. mixed-rumen-fluid for oxythiamine and N-oxide compounds.
+- **If TRUE:** The 20% ecological discount applied by the Board was appropriate. All single-target effect magnitude estimates should be further reduced.
+- **If FALSE:** The rumen community does not compensate as rapidly as expected. Effect sizes are closer to mechanism-level predictions. This would be optimistic for the portfolio.
+
+### Prediction B-3: The Rex Regulon Will Be Dominated by LDH, Not Propionogenesis Genes
+
+- **Prediction:** RNA-seq of rex-knockout in R. albus will show >3-fold upregulation of ldh (lactate dehydrogenase) and adhE (alcohol dehydrogenase), but <1.5-fold change in frdABCD, fum, or mdh (propionogenesis genes). Rex antagonism would increase lactate production, not propionate.
+- **Test:** Experiment 3 (Rex regulon characterization).
+- **If TRUE:** Rex is killed. The most druggable target in the portfolio is biologically useless for RHAS.
+- **If FALSE (regulon includes propionogenesis):** Rex immediately becomes the #1 drug target in the portfolio -- a druggable transcription factor that upregulates the most valuable H2 sink. This would be the most portfolio-transforming outcome of any single experiment.
+
+### Prediction B-4: Phloroglucinol Reductase Will Be the Best Drug Target in AB03-C v2
+
+- **Prediction:** When the phloroglucinol reductase is identified and characterized from rumen bacteria, it will score >70/100 on the AB03-C rubric because it combines (a) the strongest empirical validation of any target (50.6% H2 reduction in vivo), (b) a likely inhibitor/activator pocket on a soluble reductase, and (c) a direct mechanism for both H2 and formate disposal.
+- **Test:** Formal Forge proposal for phloroglucinol reductase in AB03-C v2.
+- **If TRUE:** The entire AB03-C pipeline should have started with reverse-engineering phloroglucinol.
+- **If FALSE:** The phloroglucinol mechanism is too distributed or the reductase is not druggable.
